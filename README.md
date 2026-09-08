@@ -74,5 +74,37 @@ Para algo que conviene no pasar por alto.
 :::
 ```
 
-Las imágenes van en `assets/<carpeta-del-articulo>/` y se enlazan con su ruta
-relativa desde ahí.
+## Imágenes
+
+Van **dentro de la carpeta del artículo**, en `assets/`, y se publican con él en
+el mismo commit. No hay que desplegar la web para añadir o corregir una captura.
+
+```
+posts/2026-09-15-mi-articulo/
+├── es.md
+├── en.md
+└── assets/
+    ├── 01-pantalla-inicial.png
+    └── 02-formulario.png
+```
+
+Se enlazan con **ruta absoluta**, usando el nombre de la carpeta del artículo:
+
+```markdown
+![Lo que se ve en la captura](/blog/media/2026-09-15-mi-articulo/01-pantalla-inicial.png)
+```
+
+**Las imágenes son las mismas en todos los idiomas** — hay una sola carpeta
+`assets/` por artículo, no una por idioma. Las capturas de producto se hacen una
+vez, con la interfaz en inglés, y valen para las seis versiones. Lo que sí
+cambia por idioma es el texto alternativo, que va en el `![...]`.
+
+| Regla | Por qué |
+|---|---|
+| Formatos: `png`, `jpg`, `jpeg`, `webp`, `avif`, `gif` | SVG no, porque es XML ejecutable y esto es un repo abierto |
+| Nombre en minúsculas, sin espacios ni carpetas dentro de `assets/` | Acaba en una URL, y macOS y Linux no tratan igual las mayúsculas |
+| Máximo **3 MB** por imagen | El blog entero vive en memoria del proceso de la web |
+| Numéralas (`01-`, `02-`…) | Salen ordenadas en la carpeta, que es como se revisan |
+
+Una imagen que incumpla algo de esto **no se publica**, y el motivo aparece en el
+Admin (*Blog*) junto a los artículos descartados.

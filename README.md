@@ -45,6 +45,7 @@ Aquí el artículo, en markdown normal.
 | `date` | sí | Fecha de publicación (`AAAA-MM-DD`) |
 | `updated` | no | Última revisión |
 | `tags` | no | Etiquetas para el filtro de la portada |
+| `version` | no | Solo en notas de versión (`v0.14`). Pinta el distintivo de versión en el artículo |
 | `cover` | no | Imagen de portada, ruta dentro de `assets/` |
 | `draft` | no | `true` = no se publica |
 

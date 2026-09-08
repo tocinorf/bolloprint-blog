@@ -2,6 +2,7 @@
 slug: nouveautes-v0-14-une-url-par-langue
 title: "Nouveautés v0.14 : chaque langue a désormais sa propre adresse"
 description: BolloPrint.com parlait six langues mais Google n'en voyait qu'une. C'est corrigé — et cela a débloqué 174 pages du manuel au passage.
+version: v0.14
 date: 2026-09-04
 updated: 2026-09-04
 tags: [nouveautes]

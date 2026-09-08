@@ -2,6 +2,7 @@
 slug: whats-new-v0-14-a-url-for-every-language
 title: "What's new in v0.14: every language now has its own address"
 description: BolloPrint.com spoke six languages but Google only saw one. That's fixed — and it unlocked 174 pages of the user manual along the way.
+version: v0.14
 date: 2026-09-04
 updated: 2026-09-04
 tags: [news]

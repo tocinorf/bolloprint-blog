@@ -22,7 +22,7 @@ quieres es cámara y poder pausar o cancelar desde BolloPrint, lo tuyo es el
 agente local — está en el [otro tutorial](/blog/conectar-impresoras-red-local-agente-bolloprint).
 :::
 
-![Placeholder — Settings → Printers, sección Bambu Lab sin cuenta conectada](/blog/media/2026-09-08-impresoras-por-la-nube/01-settings-printers-bambu-vacio.png)
+![Settings → Printers, sección Bambu Lab sin cuenta conectada](/blog/media/2026-09-08-impresoras-por-la-nube/01-settings-printers-bambu-vacio.png)
 
 ## Antes de empezar: cinco minutos de comprobaciones
 
@@ -71,7 +71,7 @@ el principio:
 | **Local agent** | Desplegar el agente para conectar por red local. Otro tutorial. |
 | **Printer management** | La lista de **todas** tus máquinas, vengan por donde vengan. |
 
-![Placeholder — los tres bloques de Settings → Printers](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-bloques.png)
+![los tres bloques de Settings → Printers](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-bloques.png)
 
 ## Paso 2 — Escribe tu email y tu contraseña de Bambu
 
@@ -85,7 +85,7 @@ Y pulsa **Connect with BambuLab**.
 En nuestro ejemplo: `taller@ejemplo.com` y su contraseña. El botón cambia a
 `Connecting…` un par de segundos.
 
-![Placeholder — formulario con email y contraseña rellenos](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![formulario con email y contraseña rellenos](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
 :::info
 La contraseña **se queda solo en tu navegador**, en esta sesión, hasta que
@@ -100,7 +100,7 @@ Bambu te manda un correo con un **código de 6 dígitos**. Remitente habitual:
 En la misma pantalla aparece ahora **Step 2 — Email Code**. Escribe o pega los
 seis dígitos en **Verification Code (6 digits)** y pulsa **Verify and connect**.
 
-![Placeholder — campo del código de 6 dígitos y botón Verify and connect](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
+![campo del código de 6 dígitos y botón Verify and connect](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
 
 Tres cosas que te ahorran un segundo intento:
 
@@ -113,7 +113,7 @@ Tres cosas que te ahorran un segundo intento:
 
 Cuando lo acepta, verás **Account verified and connected**.
 
-![Placeholder — «Account verified and connected»](/blog/media/2026-09-08-impresoras-por-la-nube/05-cuenta-verificada.png)
+![«Account verified and connected»](/blog/media/2026-09-08-impresoras-por-la-nube/05-cuenta-verificada.png)
 
 ## Paso 4 — Tus impresoras ya están ahí
 
@@ -123,7 +123,7 @@ máquinas de esa cuenta aparecen solas en **Printer management**.
 En nuestro ejemplo aparecen las tres: `A1 - Taller`, `A1 mini` y `P1S`, cada una
 con su número de serie y su estado.
 
-![Placeholder — Printer management con las tres impresoras recién aparecidas](/blog/media/2026-09-08-impresoras-por-la-nube/06-printer-management.png)
+![Printer management con las tres impresoras recién aparecidas](/blog/media/2026-09-08-impresoras-por-la-nube/06-printer-management.png)
 
 ### El contador de impresoras activas
 
@@ -149,7 +149,7 @@ De cada máquina:
 - El **historial completo**: cada impresión, con su duración, su material y su
   resultado. Sin apuntar nada a mano.
 
-![Placeholder — tarjeta de una P1S imprimiendo, con progreso y temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/07-tarjeta-impresora.png)
+![tarjeta de una P1S imprimiendo, con progreso y temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/07-tarjeta-impresora.png)
 
 ## Qué NO vas a poder hacer por esta vía
 

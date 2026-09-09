@@ -5,7 +5,7 @@ description: Prusa, Elegoo, Klipper, FlashForge y Bambu con cámara y mandos. De
 date: 2026-09-08
 updated: 2026-09-08
 tags: [tutoriales]
-draft: true
+draft: false
 ---
 
 Por red local, BolloPrint habla con tus impresoras **directamente en tu taller**,
@@ -21,7 +21,7 @@ tres marcas distintas: una **Prusa MK4S**, una **Elegoo Saturn 4 Ultra**, una
 **QIDI Q1 Pro** (que por dentro es Klipper) y una **Bambu Lab P1S** que ya
 teníamos conectada por la nube.
 
-![Placeholder — Settings → Printers, bloque Local agent sin agentes](/blog/media/2026-09-08-impresoras-red-local-agente/01-local-agent-vacio.png)
+![Settings → Printers, bloque Local agent sin agentes](/blog/media/2026-09-08-impresoras-red-local-agente/01-local-agent-vacio.png)
 
 ## Antes de empezar
 
@@ -63,7 +63,7 @@ En nuestro ejemplo: `Taller planta baja`.
 
 Pulsa **Create and generate code**.
 
-![Placeholder — New agent con el nombre escrito y el botón Create and generate code](/blog/media/2026-09-08-impresoras-red-local-agente/02-new-agent.png)
+![New agent con el nombre escrito y el botón Create and generate code](/blog/media/2026-09-08-impresoras-red-local-agente/02-new-agent.png)
 
 ## Paso 2 — Copia el código de conexión
 
@@ -74,7 +74,7 @@ No caduca, pero no lo volvemos a mostrar. Si lo pierdes no pasa nada grave: usa
 **Rotate code** y vuelve a desplegar con el nuevo.
 :::
 
-![Placeholder — modal con el código del agente y el aviso de que se muestra una vez](/blog/media/2026-09-08-impresoras-red-local-agente/03-codigo-agente.png)
+![modal con el código del agente y el aviso de que se muestra una vez](/blog/media/2026-09-08-impresoras-red-local-agente/03-codigo-agente.png)
 
 ## Paso 3 — Despliega el agente en tu equipo
 
@@ -87,7 +87,7 @@ En la pantalla va **la versión del agente que toca en cada momento**. El ejempl
 de aquí abajo es para que veas la pinta que tiene, no para pegarlo tal cual.
 :::
 
-![Placeholder — las tres pestañas de How to deploy it, con Docker Compose activa](/blog/media/2026-09-08-impresoras-red-local-agente/04-deploy-snippets.png)
+![las tres pestañas de How to deploy it, con Docker Compose activa](/blog/media/2026-09-08-impresoras-red-local-agente/04-deploy-snippets.png)
 
 ### Docker Compose
 
@@ -167,7 +167,7 @@ ese valor fijo, cada reprogramación parecería una instalación nueva.
 En menos de un minuto, en la misma pantalla de BolloPrint, la tarjeta del agente
 pasa a **Online**.
 
-![Placeholder — tarjeta del agente en estado Online](/blog/media/2026-09-08-impresoras-red-local-agente/05-agente-online.png)
+![tarjeta del agente en estado Online](/blog/media/2026-09-08-impresoras-red-local-agente/05-agente-online.png)
 
 Si no aparece, mira su registro en el equipo donde corre:
 
@@ -192,7 +192,7 @@ En nuestro ejemplo aparecen tres: la Prusa MK4S, la Saturn 4 Ultra y la QIDI.
 Algunas tarjetas avisan de que **will ask for the access code**: esa te va a
 pedir la contraseña al añadirla.
 
-![Placeholder — Found on the network con tres impresoras detectadas](/blog/media/2026-09-08-impresoras-red-local-agente/06-found-on-network.png)
+![Found on the network con tres impresoras detectadas](/blog/media/2026-09-08-impresoras-red-local-agente/06-found-on-network.png)
 
 :::info
 Si acabas de encender una impresora y no quieres esperar los 15 minutos, hay un
@@ -228,7 +228,7 @@ Pulsa **Add printer** y rellena:
 **El número de serie no lo tecleas tú**: el agente lo averigua solo. Verás
 `Looking for the printer…` y, en cuanto la máquina responde, entra en la lista.
 
-![Placeholder — formulario Add printer by IP con los campos rellenos](/blog/media/2026-09-08-impresoras-red-local-agente/07-add-printer-ip.png)
+![formulario Add printer by IP con los campos rellenos](/blog/media/2026-09-08-impresoras-red-local-agente/07-add-printer-ip.png)
 
 :::info 💡 Resérvale la IP en el router
 Si el router le cambia la dirección a la impresora, la volvemos a buscar sola,
@@ -328,7 +328,7 @@ ofrece **Move it to the agent**, y eso:
 - a cambio, deja de estar conectada por la nube — que es justo lo que quieres,
   porque por el agente ganas cámara y mandos.
 
-![Placeholder — aviso «This printer is already connected» con el botón Move it to the agent](/blog/media/2026-09-08-impresoras-red-local-agente/08-mover-al-agente.png)
+![aviso «This printer is already connected» con el botón Move it to the agent](/blog/media/2026-09-08-impresoras-red-local-agente/08-mover-al-agente.png)
 
 :::warning ⚠️ Si no la unificas, son dos impresoras
 Para BolloPrint serían dos máquinas distintas y ocuparían **dos plazas** de tu
@@ -381,7 +381,7 @@ vuelve a desplegar el agente con el nuevo. El código anterior sigue valiendo
 | **It answers but refuses the connection** | Código de acceso equivocado, o modo LAN desactivado en la impresora. |
 | **Not visible** | El problema no es de la impresora: es su agente, que no responde. La máquina puede estar perfectamente. |
 
-![Placeholder — tarjeta del agente con Link to each printer y varios estados](/blog/media/2026-09-08-impresoras-red-local-agente/09-estados-impresoras.png)
+![tarjeta del agente con Link to each printer y varios estados](/blog/media/2026-09-08-impresoras-red-local-agente/09-estados-impresoras.png)
 
 ## Lo que ganas, en concreto
 

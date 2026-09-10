@@ -5,7 +5,7 @@ description: Si ya tienes un NAS en el taller, deja de buscar dónde meter el ag
 date: 2026-09-10
 updated: 2026-09-10
 tags: [tutoriales]
-draft: false
+draft: true
 ---
 
 Si tienes un Synology en el taller, ya tienes dónde meter el agente. Está

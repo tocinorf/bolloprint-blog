@@ -5,7 +5,7 @@ description: Paso a paso, en cinco minutos y sin instalar nada. Incluye los dos 
 date: 2026-09-08
 updated: 2026-09-08
 tags: [tutoriales]
-draft: false
+draft: true
 ---
 
 Si tienes impresoras **Bambu Lab** y quieres verlas dentro de BolloPrint —qué

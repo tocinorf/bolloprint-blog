@@ -6,7 +6,7 @@ version: v0.14
 date: 2026-09-04
 updated: 2026-09-04
 tags: [news]
-draft: false
+draft: true
 ---
 
 Until this release, `bolloprint.com/pricing` served all six languages at **the

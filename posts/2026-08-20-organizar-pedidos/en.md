@@ -5,7 +5,7 @@ description: When you go from three printers to fifteen, the notebook stops work
 date: 2026-08-20
 updated: 2026-08-20
 tags: [tutorials]
-draft: false
+draft: true
 ---
 
 Almost every workshop starts the same way: a notebook, a spreadsheet and a good

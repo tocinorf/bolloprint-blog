@@ -5,7 +5,7 @@ description: Cuando pasas de tres impresoras a quince, el cuaderno deja de valer
 date: 2026-08-20
 updated: 2026-08-20
 tags: [tutoriales]
-draft: false
+draft: true
 ---
 
 Casi todos los talleres empiezan igual: un cuaderno, una hoja de cálculo y buena

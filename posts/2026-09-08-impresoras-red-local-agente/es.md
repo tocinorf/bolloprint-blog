@@ -5,7 +5,7 @@ description: Prusa, Elegoo, Klipper, FlashForge y Bambu con cámara y mandos. De
 date: 2026-09-08
 updated: 2026-09-08
 tags: [tutoriales]
-draft: false
+draft: true
 ---
 
 Por red local, BolloPrint habla con tus impresoras **directamente en tu taller**,

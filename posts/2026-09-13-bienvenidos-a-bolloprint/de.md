@@ -1,5 +1,5 @@
 ---
-slug: willkommen-bei-bolloprint-3d-druck-verwaltung
+slug: welcome-to-bolloprint-3d-printing-management
 title: "Willkommen bei BolloPrint: warum es uns gibt und was wir hier machen"
 description: Entstanden sind wir aus einem eigenen Problem – einer 3D-Druck-Werkstatt, die in Zetteln, manuellen Etsy-Uploads und verlorenen .stl-Dateien unterging. Das haben wir gebaut, und das findest du in diesem Blog.
 date: 2026-09-13
@@ -65,8 +65,8 @@ mitnehmen:
 1. **Tutorials und Funktionshäppchen:** Wir erklären Teile der App und Tricks,
    mit denen du im Alltag das Beste aus ihr herausholst.
 2. **Transparente Entwicklung:** Wir erzählen euch, woran wir arbeiten und was
-   als Nächstes kommt (etwa die integrierte Rechnungsstellung mit Verifactu, dem
-   spanischen E-Rechnungssystem).
+   als Nächstes kommt (etwa die E-Rechnung: Wir starten mit
+   Verifactu für Spanien).
 3. **Praktische Leitfäden:** Tipps zu Verwaltung und Rentabilität, um Margen zu
    berechnen, Bestellungen zu organisieren und die Werkstatt zu strukturieren,
    ohne verrückt zu werden.

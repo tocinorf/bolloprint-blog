@@ -61,8 +61,8 @@ come here, it's to take something useful back to the workshop:
 1. **Tutorials and feature bites:** we'll explain parts of the app and tricks to
    get the most out of it day to day.
 2. **Transparent development:** we'll tell you what we're working on and what's
-   launching next (like invoicing integrated with Verifactu, Spain's e-invoicing
-   system).
+   launching next (like e-invoicing — we'll start with
+   Verifactu for Spain).
 3. **Practical guides:** management and profitability tips to work out margins,
    organise orders and structure your workshop without losing your mind.
 4. **Real cases:** things that work in other workshops and that you can apply to

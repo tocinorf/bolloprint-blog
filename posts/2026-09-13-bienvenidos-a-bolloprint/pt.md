@@ -1,5 +1,5 @@
 ---
-slug: bem-vindos-ao-bolloprint-gestao-impressao-3d
+slug: welcome-to-bolloprint-3d-printing-management
 title: "Bem-vindos ao BolloPrint: porque nascemos e o que fazemos aqui"
 description: Nascemos de um problema nosso — uma oficina de impressão 3D afogada em papelinhos, carregamentos manuais no Etsy e ficheiros .stl perdidos. Eis o que construímos e o que vais encontrar neste blog.
 date: 2026-09-13
@@ -62,8 +62,8 @@ encher chouriços. Se entras aqui é para levares algo útil para a oficina:
 1. **Tutoriais e pílulas de funcionalidades:** vamos explicar partes da
    aplicação e truques para tirares o máximo partido dela no dia a dia.
 2. **Desenvolvimento transparente:** vamos contar-vos em que estamos a trabalhar
-   e os próximos lançamentos (como a faturação integrada com o Verifactu, o
-   sistema espanhol de faturação eletrónica).
+   e os próximos lançamentos (como a faturação eletrónica: vamos
+   começar pelo Verifactu para Espanha).
 3. **Guias práticos:** conselhos de gestão e rentabilidade para calcular
    margens, organizar encomendas e estruturar a oficina sem enlouquecer.
 4. **Casos reais:** coisas que funcionam noutras oficinas e que podes aplicar à

@@ -18,14 +18,23 @@ posts/2026-09-15-mi-articulo/
 ```
 
 El nombre de la carpeta es solo un identificador interno: **no** aparece en la
-URL. Lo que sale en la URL es el `slug`, y es distinto en cada idioma a
-propósito, porque la palabra clave dentro de la dirección ayuda a posicionar.
+URL. Lo que sale en la URL es el `slug`, y es **el mismo en los seis idiomas, en
+inglés**: lo único que cambia entre versiones es el prefijo de idioma.
+
+```
+/blog/order-management-3d-print-farm          ← inglés, sin prefijo
+/es/blog/order-management-3d-print-farm
+/fr/blog/order-management-3d-print-farm
+```
+
+Así cada artículo se reconoce por su dirección en cualquier idioma y es fácil
+llevar el orden.
 
 Cada fichero empieza con su cabecera:
 
 ```markdown
 ---
-slug: organizar-pedidos-granja-impresion-3d
+slug: order-management-3d-print-farm
 title: Cómo organizar los pedidos de una granja de impresión 3D
 description: Una o dos frases. Es lo que se ve en Google y en la portada del blog.
 date: 2026-08-20
@@ -39,7 +48,7 @@ Aquí el artículo, en markdown normal.
 
 | Campo | Obligatorio | Qué es |
 |---|---|---|
-| `slug` | sí | Lo que va en la URL. Minúsculas, números y guiones. **Distinto por idioma.** |
+| `slug` | sí | Lo que va en la URL. Minúsculas, números y guiones, en inglés. **El mismo en todos los idiomas.** |
 | `title` | sí | Título del artículo |
 | `description` | sí | Resumen de una o dos frases |
 | `date` | sí | Fecha de publicación (`AAAA-MM-DD`) |

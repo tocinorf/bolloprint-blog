@@ -2,9 +2,10 @@
 
 Contenido del blog de [bolloprint.com/blog](https://bolloprint.com/blog).
 
-**Publicar es hacer commit aquí.** No hay que desplegar la web: se entera sola en
-unos minutos. Si tienes prisa, en el Admin (*Blog → Forzar reescaneo*) lo aplicas
-al momento.
+**Publicar es hacer commit aquí.** No hay que desplegar la web: cada máquina de la
+web revisa este repo **cada 15 minutos** por su cuenta, así que un artículo o una
+imagen aparece como mucho 15 minutos después del push. No hay botón para
+acelerarlo: el Admin no tiene sección de blog.
 
 ## Escribir un artículo
 
@@ -63,11 +64,14 @@ Aquí el artículo, en markdown normal.
 - **El `slug` no se cambia** una vez publicado. Si cambia, quien tuviera el
   enlace deja de llegar y se pierde el posicionamiento del artículo.
 - **Dos artículos no pueden compartir `slug` en el mismo idioma.** Si pasa, la
-  web descarta uno y lo avisa en el Admin.
+  web descarta uno y lo avisa en Sentry.
 - **Un artículo sin versión en inglés** solo existirá en los idiomas que tenga.
   Es válido, pero pierdes la dirección sin prefijo.
-- Si publicas y no aparece, míralo en el Admin (*Blog*): los artículos
-  descartados salen ahí con el motivo.
+- Si publicas y a los 15 minutos no aparece, míralo en **Sentry** (proyecto de la
+  web): cada artículo descartado llega como aviso `Blog: artículo descartado —
+  <ruta>` con el motivo, y si la web no pudo descargar el repo, como `Blog: no se
+  pudo actualizar`. Ojo: un `draft: true` olvidado **no** avisa (un borrador no es
+  un error), así que revisa eso primero.
 
 ## Formato
 
@@ -115,5 +119,5 @@ cambia por idioma es el texto alternativo, que va en el `![...]`.
 | Máximo **3 MB** por imagen | El blog entero vive en memoria del proceso de la web |
 | Numéralas (`01-`, `02-`…) | Salen ordenadas en la carpeta, que es como se revisan |
 
-Una imagen que incumpla algo de esto **no se publica**, y el motivo aparece en el
-Admin (*Blog*) junto a los artículos descartados.
+Una imagen que incumpla algo de esto **no se publica**, y el motivo llega a Sentry
+igual que el de los artículos descartados.

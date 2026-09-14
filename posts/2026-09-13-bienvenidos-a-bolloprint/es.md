@@ -52,7 +52,7 @@ empieza a pedir más horas de las que tiene el día:
   qué tienes en el almacén (filamentos, resinas, imanes, llaveros, alcohol
   isopropílico…).
 
-![Catálogo global de filamentos filtrado por fabricante, con color, tipo de material, especificación y SKU de cada bobina](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-catalogo-filamentos.png)
+![Inventario de filamentos con el stock, el peso, el coste unitario y el coste por kilo de cada bobina](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-inventario-filamentos.png)
 
 ## ¿Y para qué este blog?
 

@@ -54,7 +54,7 @@ laboratorio inizia a chiedere più ore di quante ne abbia la giornata:
   esattamente cosa hai in magazzino (filamenti, resine, magneti, portachiavi,
   alcol isopropilico…).
 
-![Catalogo globale dei filamenti filtrato per produttore, con colore, tipo di materiale, specifica e SKU di ogni bobina](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-catalogo-filamentos.png)
+![Inventario dei filamenti con scorte, peso, costo unitario e costo al chilo di ogni bobina](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-inventario-filamentos.png)
 
 ## E a cosa serve questo blog?
 

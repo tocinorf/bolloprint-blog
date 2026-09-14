@@ -52,7 +52,7 @@ oficina começa a pedir mais horas do que o dia tem:
   exatamente o que tens em armazém (filamentos, resinas, ímanes, porta-chaves,
   álcool isopropílico…).
 
-![Catálogo global de filamentos filtrado por fabricante, com a cor, o tipo de material, a especificação e o SKU de cada bobina](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-catalogo-filamentos.png)
+![Inventário de filamentos com o stock, o peso, o custo unitário e o custo por quilo de cada bobina](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-inventario-filamentos.png)
 
 ## E para que serve este blog?
 

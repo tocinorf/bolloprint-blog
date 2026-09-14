@@ -53,7 +53,7 @@ l'atelier réclame plus d'heures que n'en compte la journée :
   savez exactement ce que vous avez en réserve (filaments, résines, aimants,
   porte-clés, alcool isopropylique…).
 
-![Catalogue mondial de filaments filtré par fabricant, avec la couleur, le type de matériau, la spécification et la référence de chaque bobine](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-catalogo-filamentos.png)
+![Inventaire des filaments avec le stock, le poids, le coût unitaire et le coût au kilo de chaque bobine](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-inventario-filamentos.png)
 
 ## Et à quoi sert ce blog ?
 

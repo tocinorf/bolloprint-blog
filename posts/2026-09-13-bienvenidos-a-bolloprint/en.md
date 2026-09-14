@@ -51,7 +51,7 @@ for more hours than the day has:
 - **Inventory control:** you won't overbuy materials when you know exactly what's
   in stock (filaments, resins, magnets, keyrings, isopropyl alcohol…).
 
-![Global filament catalogue filtered by manufacturer, with the colour, material type, spec and SKU of each spool](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-catalogo-filamentos.png)
+![Filament inventory with the stock, weight, unit cost and cost per kg of each spool](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-inventario-filamentos.png)
 
 ## So what's this blog for?
 

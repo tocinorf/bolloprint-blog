@@ -54,7 +54,7 @@ Werkstatt mehr Stunden verlangt, als der Tag hat:
   im Lager ist (Filamente, Harze, Magnete, Schlüsselanhänger,
   Isopropylalkohol…).
 
-![Globaler Filamentkatalog nach Hersteller gefiltert, mit Farbe, Materialtyp, Spezifikation und SKU jeder Spule](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-catalogo-filamentos.png)
+![Filamentbestand mit Lagermenge, Gewicht, Stückkosten und Kosten pro Kilo jeder Spule](/blog/media/2026-09-13-bienvenidos-a-bolloprint/03-inventario-filamentos.png)
 
 ## Und wozu dieser Blog?
 

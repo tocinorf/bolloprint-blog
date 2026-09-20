@@ -5,7 +5,7 @@ description: Te registras, entras al panel… ¿y ahora qué? El asistente de co
 date: 2026-09-20
 updated: 2026-09-20
 tags: [tutoriales]
-draft: true
+draft: false
 ---
 
 «Vale, ya me he creado la cuenta... ¿y ahora cómo configuro esto?»

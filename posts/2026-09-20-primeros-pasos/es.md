@@ -36,7 +36,7 @@ Y una vez que lo tienes configurado... ¡ya tienes tu taller en BolloPrint!
 
 ¡Pero tranquilidad! No vas a tener que andar adivinando qué hace cada botón. La aplicación inicia automáticamente un tour guiado e interactivo que te lleva de la mano en cada módulo explicándote dónde está cada cosa y cómo usarla.
 
-![La primera ventana del recorrido guiado, sobre el panel principal](/blog/media/2026-09-20-primeros-pasos/03-recorrido-guiado.png)
+![La primera ventana del recorrido guiado, sobre el panel principal](/blog/media/2026-09-20-primeros-pasos/03-recorrido-guiado.png "60%")
 
 ¿Que prefieres explorar a tu aire y verlo más tarde? Lo cierras en un clic y lo vuelves a lanzar cuando quieras desde el botón Iniciar tutorial.
 

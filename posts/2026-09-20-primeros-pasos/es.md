@@ -1,6 +1,6 @@
 ---
 slug: getting-started-with-bolloprint
-title: Tus primeros quince minutos en BolloPrint
+title: Tus primeros minutos en BolloPrint
 description: Te registras, entras al panel… ¿y ahora qué? El asistente de configuración inicial y el recorrido guiado, paso a paso, para que no tengas que adivinar nada.
 date: 2026-09-20
 updated: 2026-09-20

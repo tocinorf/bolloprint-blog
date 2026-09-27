@@ -45,6 +45,8 @@ Und wenn unterwegs irgendeine Frage auftaucht oder du Hilfe beim Einrichten dein
 
 Wir wünschen dir richtig gute Verkäufe auf Etsy.
 
+![Bollo, das Maskottchen von BolloPrint, mit einer Etsy-Marke am Halsband](/blog/media/2026-09-27-vender-en-etsy/03-bollo-etsy.webp)
+
 ## Verwandte Dokumentation
 
 - [Auf Etsy verkaufen](/help/vender-en-etsy) — die vollständige Referenz zur Integration

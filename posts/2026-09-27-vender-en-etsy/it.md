@@ -45,6 +45,8 @@ E se durante il percorso ti viene qualsiasi dubbio o ti serve aiuto per configur
 
 Che quelle vendite su Etsy vadano a meraviglia.
 
+![Bollo, la mascotte di BolloPrint, con una medaglietta Etsy al collare](/blog/media/2026-09-27-vender-en-etsy/03-bollo-etsy.webp)
+
 ## Documentazione correlata
 
 - [Vendere su Etsy](/help/vender-en-etsy) — il riferimento completo dell'integrazione

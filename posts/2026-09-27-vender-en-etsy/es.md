@@ -45,6 +45,8 @@ Y si te surge cualquier duda durante el proceso o necesitas ayuda para configura
 
 Que vaya muy bien con esas ventas en Etsy.
 
+![Bollo, la mascota de BolloPrint, con una chapa de Etsy en el collar](/blog/media/2026-09-27-vender-en-etsy/03-bollo-etsy.webp)
+
 ## Documentación relacionada
 
 - [Vender en Etsy](/help/vender-en-etsy) — la referencia completa de la integración

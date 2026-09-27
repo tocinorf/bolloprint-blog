@@ -45,6 +45,8 @@ And if any question comes up along the way, or you need help setting your store 
 
 Here's hoping those Etsy sales go brilliantly.
 
+![Bollo, the BolloPrint mascot, with an Etsy tag on the collar](/blog/media/2026-09-27-vender-en-etsy/03-bollo-etsy.webp)
+
 ## Related documentation
 
 - [Selling on Etsy](/help/vender-en-etsy) — the full reference for the integration

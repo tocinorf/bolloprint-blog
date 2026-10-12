@@ -65,7 +65,7 @@ Open **Bambu Cloud**.
 The ones for your Bambu Lab account — that email, not another one of yours — and
 click **Connect to Bambu Lab**.
 
-![The Bambu Cloud form with the email and password filled in](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![The Bambu Cloud form, with the account email typed in and the password still to go](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
 :::info 💡 Your password isn't stored
 It stays **only in your browser**, and only until you've finished verifying.

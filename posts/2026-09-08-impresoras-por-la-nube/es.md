@@ -64,7 +64,7 @@ Abre **Bambu Cloud**.
 Los de tu cuenta de Bambu Lab —ese email, no otro tuyo— y pulsa **Conectar con
 Bambu Lab**.
 
-![El formulario de Bambu Cloud con el email y la contraseña rellenos](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![El formulario de Bambu Cloud, con el email de la cuenta escrito y la contraseña por poner](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
 :::info 💡 Tu contraseña no se guarda
 Se queda **solo en tu navegador**, y solo hasta que termines de verificar.

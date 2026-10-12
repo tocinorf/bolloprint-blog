@@ -65,7 +65,7 @@ Geh zu **Einstellungen → Drucker**. Dort siehst du drei Reiter:
 Die von deinem Bambu-Lab-Konto — genau diese E-Mail, keine andere von dir — und
 klick auf **Mit Bambu Lab verbinden**.
 
-![Das Bambu-Cloud-Formular mit ausgefüllter E-Mail und Passwort](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![Das Bambu-Cloud-Formular, mit eingetragener E-Mail-Adresse; das Passwort fehlt noch](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
 :::info 💡 Dein Passwort wird nicht gespeichert
 Es bleibt **nur in deinem Browser**, und auch nur, bis du die Bestätigung

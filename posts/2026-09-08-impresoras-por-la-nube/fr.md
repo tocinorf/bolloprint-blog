@@ -55,7 +55,7 @@ Ouvrez **Bambu Cloud**.
 
 Ceux de votre compte Bambu Lab — cet e-mail-là, pas un autre des vôtres — puis cliquez sur **Se connecter à BambuLab**.
 
-![Le formulaire Bambu Cloud avec l'e-mail et le mot de passe remplis](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![Le formulaire Bambu Cloud, avec l'e-mail du compte saisi et le mot de passe encore à saisir](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
 :::info 💡 Votre mot de passe n'est pas enregistré
 Il reste **uniquement dans votre navigateur**, et seulement jusqu'à la fin de la vérification.

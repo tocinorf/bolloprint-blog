@@ -126,7 +126,7 @@ già con sé tutto il resto:
 Quando l'hai stampato, segni la riga come **stampata**, e l'ordine prosegue il
 suo percorso in Produzione.
 
-![Un ordine con due righe, il supporto bianco e il pack, e sotto i pezzi da stampare per evaderlo](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
+![Un ordine con due righe, il supporto bianco e il pack, e accanto i pezzi da stampare per evaderlo](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
 
 Ecco cosa ti fanno risparmiare le quattro cose: non annoti il costo di ogni
 ordine, non cerchi l'STL in una cartella e non ricalcoli il margine a mano.

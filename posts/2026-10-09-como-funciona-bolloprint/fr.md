@@ -91,7 +91,7 @@ Et comme cette Variante sait de quelles Pièces elle est faite, la ligne de comm
 
 Une fois l'impression faite, vous marquez la ligne comme **imprimée**, et la commande poursuit son chemin dans Production.
 
-![Une commande avec deux lignes, le support blanc et le pack, et en dessous les pièces à imprimer pour l'honorer](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
+![Une commande avec deux lignes, le support blanc et le pack, et à côté les pièces à imprimer pour l'honorer](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
 
 Voilà ce que les quatre éléments vous épargnent : vous ne notez pas le coût de chaque commande, vous ne cherchez pas le STL dans un dossier et vous ne recalculez pas la marge à la main. Vous l'avez préparé une fois, et chaque commande en hérite.
 

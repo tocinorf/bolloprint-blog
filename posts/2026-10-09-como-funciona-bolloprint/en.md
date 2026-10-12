@@ -125,7 +125,7 @@ brings everything else with it:
 Once it's printed, you mark the line as **printed**, and the order carries on its
 way through Production.
 
-![An order with two lines, the white stand and the pack, and underneath the pieces that need printing to fulfil it](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
+![An order with two lines, the white stand and the pack, and beside it the pieces that need printing to fulfil it](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
 
 That's what the four things save you: you don't note down the cost of every order,
 you don't hunt for the STL in a folder and you don't recalculate the margin by hand.

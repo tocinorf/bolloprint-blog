@@ -126,7 +126,7 @@ o resto:
 Quando já a tiveres impressa, marcas a linha com **Marcar como impresso**, e a
 encomenda segue o seu caminho pela Produção.
 
-![Uma encomenda com duas linhas, o suporte branco e o pack, e por baixo as peças que é preciso imprimir para a servir](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
+![Uma encomenda com duas linhas, o suporte branco e o pack, e ao lado as peças que é preciso imprimir para a servir](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
 
 É isto que as quatro coisas te poupam: não apontas o custo de cada encomenda, não
 procuras o STL numa pasta e não recalculas a margem à mão. Preparaste-o uma vez, e

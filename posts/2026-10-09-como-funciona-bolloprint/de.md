@@ -130,7 +130,7 @@ Bestellposition schon alles andere mit:
 Wenn alles gedruckt ist, markierst du die Position als **gedruckt**, und die
 Bestellung geht ihren Weg weiter durch die Produktion.
 
-![Eine Bestellung mit zwei Positionen, dem weißen Halter und dem Set, und darunter die Teile, die gedruckt werden müssen, um sie auszuliefern](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
+![Eine Bestellung mit zwei Positionen, dem weißen Halter und dem Set, und daneben die Teile, die gedruckt werden müssen, um sie auszuliefern](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
 
 Das ersparen dir die vier Dinge: Du schreibst nicht bei jeder Bestellung die Kosten
 auf, suchst die STL nicht in irgendeinem Ordner und rechnest die Marge nicht von

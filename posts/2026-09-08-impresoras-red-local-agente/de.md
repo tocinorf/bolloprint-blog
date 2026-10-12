@@ -205,7 +205,7 @@ hast, sagen wir dir genau, was du mit jedem tun musst.
 
 Viel Freude damit, deine ganze Flotte im Blick zu haben, wo immer du bist.
 
-![Bollo, das Maskottchen von BolloPrint, mit Werkstattbrille vor einer Farm arbeitender 3D-Drucker](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
+![Bollo, das Maskottchen von BolloPrint, mit Werkstattbrille vor einer Farm arbeitender 3D-Drucker](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp "60%")
 
 ## Verwandte Dokumentation
 

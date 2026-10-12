@@ -197,7 +197,7 @@ we'll tell you exactly what to do with each one.
 
 Enjoy having your whole fleet in view, wherever you are.
 
-![Bollo, the BolloPrint mascot, with workshop goggles, in front of a farm of 3D printers at work](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
+![Bollo, the BolloPrint mascot, with workshop goggles, in front of a farm of 3D printers at work](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp "60%")
 
 ## Related documentation
 

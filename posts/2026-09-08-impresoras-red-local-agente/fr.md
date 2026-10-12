@@ -145,7 +145,7 @@ Quand vous le rallumez, l'agent revient tout seul. Il se met aussi à jour tout 
 
 Profitez de tout votre parc sous les yeux, où que vous soyez.
 
-![Bollo, la mascotte de BolloPrint, avec des lunettes d'atelier, devant une ferme d'imprimantes 3D en plein travail](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
+![Bollo, la mascotte de BolloPrint, avec des lunettes d'atelier, devant une ferme d'imprimantes 3D en plein travail](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp "60%")
 
 ## Documentation associée
 

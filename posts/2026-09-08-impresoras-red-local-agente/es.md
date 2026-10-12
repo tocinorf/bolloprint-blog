@@ -193,7 +193,7 @@ te decimos exactamente qué hacer con cada una.
 
 Que disfrutes de tener toda tu flota a la vista, estés donde estés.
 
-![Bollo, la mascota de BolloPrint, con gafas de taller, delante de una granja de impresoras 3D trabajando](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
+![Bollo, la mascota de BolloPrint, con gafas de taller, delante de una granja de impresoras 3D trabajando](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp "60%")
 
 ## Documentación relacionada
 

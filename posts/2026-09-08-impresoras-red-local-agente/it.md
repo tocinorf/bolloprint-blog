@@ -197,7 +197,7 @@ diciamo esattamente cosa fare con ognuna.
 
 Buon lavoro con tutto il tuo parco macchine sotto controllo, ovunque tu sia.
 
-![Bollo, la mascotte di BolloPrint, con gli occhialini da officina, davanti a una farm di stampanti 3D al lavoro](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
+![Bollo, la mascotte di BolloPrint, con gli occhialini da officina, davanti a una farm di stampanti 3D al lavoro](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp "60%")
 
 ## Documentazione correlata
 

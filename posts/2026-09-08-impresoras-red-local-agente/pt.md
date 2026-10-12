@@ -195,7 +195,7 @@ dizemos-te exatamente o que fazer com cada uma.
 
 Bom trabalho com toda a tua frota à vista, estejas onde estiveres.
 
-![O Bollo, a mascote do BolloPrint, com óculos de oficina, em frente a uma quinta de impressoras 3D a trabalhar](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
+![O Bollo, a mascote do BolloPrint, com óculos de oficina, em frente a uma quinta de impressoras 3D a trabalhar](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp "60%")
 
 ## Documentação relacionada
 

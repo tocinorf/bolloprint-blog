@@ -6,7 +6,6 @@ date: 2026-09-08
 updated: 2026-10-12
 tags: [tutorials]
 cover: 01-portada.webp
-draft: true
 ---
 
 If you have several Bambu printers running, you probably know the routine: to

@@ -6,7 +6,6 @@ date: 2026-09-08
 updated: 2026-10-12
 tags: [tutoriales]
 cover: 01-portada.webp
-draft: true
 ---
 
 Si tienes varias Bambu trabajando, seguramente conoces la rutina: para saber cómo

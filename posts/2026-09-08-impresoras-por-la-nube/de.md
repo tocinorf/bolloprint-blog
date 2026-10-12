@@ -6,7 +6,6 @@ date: 2026-09-08
 updated: 2026-10-12
 tags: [anleitungen]
 cover: 01-portada.webp
-draft: true
 ---
 
 Wenn bei dir mehrere Bambu laufen, kennst du wahrscheinlich die Routine: Um zu

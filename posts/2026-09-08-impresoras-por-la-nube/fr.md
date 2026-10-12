@@ -6,7 +6,6 @@ date: 2026-09-08
 updated: 2026-10-12
 tags: [tutoriels]
 cover: 01-portada.webp
-draft: true
 ---
 
 Si vous avez plusieurs Bambu en service, vous connaissez sans doute la routine : pour savoir où elles en sont, vous allez voir l'écran de chacune. La première a-t-elle terminé ? Reste-t-il du matériau dans la deuxième ? Combien d'heures avez-vous imprimées ce mois-ci ?

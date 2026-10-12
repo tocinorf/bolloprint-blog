@@ -1,7 +1,7 @@
 ---
 slug: connect-bambu-lab-printers-cloud
 title: "Connect your Bambu Lab printers to BolloPrint in five minutes"
-description: Nothing to install. You connect your Bambu account and your machines show up on their own, with what they're printing and their whole history.
+description: Nothing to install. You connect your Bambu Lab account, confirm a code and your printers show up on their own, with what they're printing and their whole history.
 date: 2026-09-08
 updated: 2026-10-12
 tags: [tutorials]
@@ -9,61 +9,66 @@ cover: 01-portada.webp
 draft: true
 ---
 
-You've got three Bambus running and, to see how they're getting on, you get up
-and look at each one's screen. Has the first one finished? Has the second still
-got material? How many hours have you printed this month?
+If you have several Bambu printers running, you probably know the routine: to
+see how they're getting on, you walk over to each one and look at its screen. Has
+the first one finished? Has the second still got material? How many hours have
+you printed this month?
 
-There's a way to see it all from a single screen, and **there's nothing to
-install**. You connect your Bambu Lab account to BolloPrint and your machines show
-up on their own. Five minutes.
+You can have all of that on a single screen, and **there's nothing to install**.
+You connect your Bambu Lab account to BolloPrint and your printers show up on
+their own. It takes about five minutes.
 
 ::animation{id="bambu-cloud"}
 
-## Here's what you'll get
+## What you'll see for each printer
 
-For every printer, live and without touching a thing:
+Live, and without touching a thing:
 
 - whether it's switched on and connected;
-- what it's printing, the **percentage** and how long it has left;
+- what it's printing, the **percentage** done and how long it has left;
 - the nozzle and bed temperatures;
 - the **materials** loaded, tray by tray, if you have an AMS;
 - the machine's own alerts.
 
-And on top of that, the thing that really makes a difference at the end of the
-month: **every print gets logged**, with its duration, its material and its cost.
-Without writing anything down by hand.
+And the part you'll notice most at the end of the month: **every print gets
+logged**, with its duration, its material and its cost. You don't have to write
+anything down.
 
 ![A printer's card while it's printing, with the progress and the temperatures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## What you need
 
-- To sign in to BolloPrint as an **Owner** or **Admin**. With any other role, this
-  screen won't show up.
-- Your **Bambu Lab** account, with its **email and password**.
-- Access to that account's **email**: Bambu is going to send you a code.
+Before you start, have these three things to hand:
 
-:::warning ⚠️ If you sign in to Bambu with Google, Apple or Facebook, this won't work for you
-BolloPrint needs your Bambu account's **email and password**. If you've never set
-a password because you always click "Continue with Google", create one first on
-the Bambu Lab website and come back here with it.
+- Access to BolloPrint as an **Owner** or **Admin**. With any other role, this
+  screen doesn't appear.
+- The **email and password** for your Bambu Lab account.
+- That account's **inbox** open: Bambu will send you a code.
+
+:::warning ⚠️ If you sign in to Bambu with Google, Apple or Facebook
+BolloPrint needs the account's **email and password**. If you've never set a
+password because you always use "Continue with Google", create one first on the
+Bambu Lab website and then come back.
 :::
 
 ## Open the printers screen
 
-Go to **Settings → Printers**. You'll see three tabs:
+Everything is done from one place: **Settings → Printers**. There you'll see
+three tabs:
 
-- **Printers** — the list of all your machines, however they're connected.
-- **Local agent** — for connecting over your network. That's [another tutorial](/blog/connect-printers-local-network-agent).
-- **Bambu Cloud** — the one we're interested in today.
+- **Printers**: the list of all your machines, however they're connected.
+- **Local agent**: for connecting them over your own network. We explain it in
+  [another article](/blog/connect-printers-local-network-agent).
+- **Bambu Cloud**: the one you need now.
 
 Open **Bambu Cloud**.
 
 ![The Settings → Printers screen with its three tabs](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Type in your Bambu email and password
+## Enter your Bambu email and password
 
-The ones for your Bambu Lab account — that email, not another one of yours — and
-click **Connect to Bambu Lab**.
+Use the ones for your Bambu Lab account (that email, not another one of yours)
+and click **Connect to Bambu Lab**.
 
 ![The Bambu Cloud form, with the account email typed in and the password still to go](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
@@ -71,100 +76,115 @@ click **Connect to Bambu Lab**.
 It stays **only in your browser**, and only until you've finished verifying.
 :::
 
-## Enter the code you get by email
+## Confirm the code from the email
 
-Bambu sends you a **6-digit code** from `noreply@bambulab.com`. **Check your spam
-too** — it ends up there more often than it should.
-
-Type the six digits on the same screen and click **Verify and connect**.
+Bambu will send you a **6-digit code** from `noreply@bambulab.com`. If you can't
+see it, **check your spam folder**: it often ends up there. Enter it on the same
+screen and click **Verify and connect**.
 
 ![The 6-digit code field and the Verify and connect button](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
 
-Two details that will save you a second attempt: **the code expires in about 5
-minutes** — if you take longer, click **Resend code** — and **paste it in whole,
-just as it arrives**: if it comes with spaces or dashes, they get cleaned up on
-their own.
+Two details will save you a second attempt:
+
+- The code **expires in about 5 minutes**. If it runs out, click **Resend code**.
+- You can **paste it exactly as it arrives**: any spaces or dashes are removed
+  automatically.
 
 Once it's accepted, you'll see **Account verified and connected**.
 
-## There they are
+## Your printers are already in
 
-You don't have to add the printers one by one. **Every machine on that account
-shows up on its own** in the **Printers** tab, each with its name and serial
-number.
+You don't have to add them one by one: **every printer on that account shows up
+on its own** in the **Printers** tab, each with its name and serial number.
 
 ![The printer list with the Bambu machines that have just appeared](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas.png)
 
-At the top there's a counter like `3 / 6 active`: the printers your plan includes.
-With the switch on each row you turn on and off whichever ones you like. One that's
-switched off doesn't count towards the limit, but **stays on the list with its
-whole history**.
+At the top you'll see a counter like `3 / 6 active`: these are the printers your
+plan includes. Use the switch on each row to activate or deactivate whichever
+ones you like. A deactivated printer doesn't count towards the limit, but **keeps
+its whole history**. And if you connect an entire fleet and there aren't enough
+places for all of them, the ones that don't fit come in deactivated instead of
+going over your plan's limit.
 
-And if you connect a whole fleet and there aren't enough places for all of them,
-the extra ones come in **deactivated** instead of breaking your plan.
+## What you can't do through the cloud
 
-## What you WON'T be able to do this way
-
-Better to know now than to spend half an hour hunting for the button:
+It's worth knowing this from the start, so you don't go looking for options that
+don't exist:
 
 - **It's read-only.** Through the cloud you can't pause, resume or cancel from
-  BolloPrint: Bambu only accepts those commands over your local network, and with
-  the printer in a special mode. We cover that at the end.
-- **There's no camera.** It doesn't come through the cloud. What does come through
-  is the job's slicer image, which is the preview, not what's actually happening
-  inside.
-- **It depends on the internet twice over:** yours and Bambu's. If either one goes
-  down, the printer shows as disconnected even if it's printing perfectly.
-- **The session expires every now and then** and you have to connect the account
+  BolloPrint: Bambu only accepts those commands over your local network, with the
+  printer in a specific mode. We cover that at the end.
+- **There's no camera.** You do see the job's slicer image, which is a preview,
+  not what's happening inside the machine.
+- **It depends on two internet connections**, yours and Bambu's. If either one
+  fails, the printer shows as disconnected even when it's printing normally.
+- **The session expires from time to time** and you have to connect the account
   again. We'll let you know on screen.
 
-And one that applies to every route: **BolloPrint doesn't send jobs to print**.
-You still send the file from your slicer. What we do is read what the machine is
-doing and log it.
+And one thing that applies to every connection method: **BolloPrint doesn't send
+jobs to print**. You still send the file from your slicer; BolloPrint reads what
+the machine is doing and logs it.
 
-## If you can't connect
+## Common problems
 
-| What you see | What it usually is |
-|---|---|
-| "Incorrect Bambu Lab account or password" and you're sure it's the right one | **This is the issue that wastes the most time.** If you've just created that password and have never used it, the account has its email verification pending and Bambu doesn't tell you. Sign in **once** on the Bambu website with those credentials, complete whatever it asks for, and come back. |
-| "Incorrect Bambu Lab account or password" and you sign in to Bambu with Google or Apple | That route doesn't work here. Create a password on the Bambu website. |
-| "There's no Bambu Lab account with that email" | The email isn't the one on the Bambu account. Check which one you sign in with on their app. |
-| It mentions two-step verification | You need to turn it off in Bambu to be able to connect the account. |
-| The code doesn't arrive | Check your spam and click **Resend code**. |
-| It won't accept the code | It has probably expired. Ask for another one and paste it in whole. |
+### Why does Bambu say the password is incorrect when it's the right one?
 
-## Want more? Try the local agent
+This is the most common problem. **"Incorrect Bambu Lab account or password"**
+almost always appears with a newly created password that hasn't been used yet:
+the account's email is still pending verification and Bambu doesn't say so. Sign
+in **once** on the Bambu website with that email and password, complete whatever
+it asks for and try again.
 
-The cloud shows you everything, but it doesn't let you touch anything, and it only
-exists for Bambu Lab. If you want more, what you need is the **local agent**: a
-small program on a computer in your workshop that talks to the printers over your
-own network. One is enough for the whole fleet, and it gives you:
+### What if I sign in to Bambu with Google or Apple?
+
+That route doesn't work here. Create a password on the Bambu Lab website and use
+the email with that password.
+
+### Why does it say there's no account with that email?
+
+If you see **"There's no Bambu Lab account with that email"**, the email isn't
+the one on your Bambu account. Check which one you use to sign in to their app.
+
+### What if it asks for two-step verification?
+
+You'll need to turn it off in your Bambu account to be able to connect it.
+
+### What if the code doesn't arrive or isn't accepted?
+
+If it doesn't arrive, check your spam folder and click **Resend code**. If it
+isn't accepted, it has most likely expired: request another one and paste it in
+whole.
+
+## If you need more: the local agent
+
+The cloud shows you all the information, but it doesn't let you act on the
+printers, and it only exists for Bambu Lab. If you need more, the option is the
+**local agent**: a small program you install on a computer in your workshop that
+talks to the printers over your own network. One is enough for the whole fleet,
+and it gives you:
 
 - **almost every brand**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
   Voron…;
-- **camera**, live while you're watching it, and with a final photo saved for every
-  print;
+- **camera**, live and with a final photo saved for every print;
 - **pause, resume and cancel** from BolloPrint, without walking over to the
   machine;
-- and it **copes with internet outages**: it keeps reading your printers and tells
-  you everything once the connection is back.
+- **resilience to internet outages**: it keeps reading your printers and sends
+  everything once the connection is back.
 
 :::info 💡 To send commands to a Bambu
 The printer has to be in **LAN Mode** and in **Developer Mode**. Both are turned on
 from its screen.
 :::
 
-You'll find it step by step in the next tutorial:
-[connecting your printers over your local network](/blog/connect-printers-local-network-agent).
+We explain it step by step in
+[connecting your printers over your own network](/blog/connect-printers-local-network-agent).
 
-:::info 💡 Any questions?
-Write to us from the [contact page](/contact) or open a thread on
+If you have any questions, write to us from the [contact page](/contact) or on
 [our Discord](/help/soporte-por-discord).
-:::
 
 ## Related documentation
 
-- [Connecting printers](/help/conectar-impresoras) — the two routes and which one suits you
-- [Cloud printers](/help/impresoras-por-la-nube) — the full reference for this screen
-- [Compatible printers](/help/impresoras-compatibles) — look up your model here
-- [Connection types](/help/tipos-de-conexion) — what each printer family allows
+- [Connecting printers](/help/conectar-impresoras): the two ways to do it and which one suits you
+- [Cloud printers](/help/impresoras-por-la-nube): the full reference for this screen
+- [Compatible printers](/help/impresoras-compatibles): look up your model here
+- [Connection types](/help/tipos-de-conexion): what each type of printer allows

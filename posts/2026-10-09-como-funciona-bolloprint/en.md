@@ -9,23 +9,20 @@ cover: 01-el-mapa.webp
 draft: true
 ---
 
-An order comes in: **two phone stands, in white**.
+An order comes in: **two phone stands, in white**. Before you do anything,
+BolloPrint already knows **what it costs you** to make them, **what you make** from
+selling them and **where the files are** to print them.
 
-And before you lift a finger, BolloPrint already knows three things: **what it costs
-you** to make them, **what you make** from selling them and **where the files are**
-to print them.
-
-How does it know? Because behind that order line there are four things you set up
-just once: a **Design**, a **Piece**, a **Variant** and a **Product**. They're the
-four words you'll see most in BolloPrint. Here we explain what each one is, why
-there are four and not one, and how they end up in an order.
+It knows because behind that order line there are four things you set up just once:
+a **Design**, a **Piece**, a **Variant** and a **Product**. They're the four words
+you'll see most in BolloPrint. Here you'll see what each one is, why there are four
+and not one, and how they end up in an order.
 
 ::animation{id="how-it-works"}
 
 ## Four questions, four things
 
-The easiest way not to mix them up is to think about the question each one
-answers:
+To keep them apart, think about the question each one answers:
 
 | | Answers… | What it holds |
 |---|---|---|
@@ -44,10 +41,10 @@ Let's set up the stand from the order, in the same order you'd do it yourself.
 Design: the model and nothing else. You haven't decided yet what you're going to
 print it in, so it has no cost.
 
-**2. The Pieces.** Now you decide how you make it. You want it in **black PLA** and
-in **white PETG**: those are two Pieces of the same Design. Each one has its own
-material, weight and print time, so each one has **its own cost**, and BolloPrint
-works it out automatically.
+**2. The Pieces.** Now you decide how you make it: in **black PLA** and in **white
+PETG**. Those are two Pieces of the same Design. Each one has its own material,
+weight and print time, so each one has **its own cost**, and BolloPrint works it out
+automatically.
 
 ![The detail of the stand's design, with its two pieces underneath: black PLA and white PETG](/blog/media/2026-10-09-como-funciona-bolloprint/02-diseno-y-piezas.png)
 
@@ -58,8 +55,8 @@ they belong to.
 
 **3. The Variants.** Now you decide what you sell it for. You create the Variant
 "Black PLA" at **€12.90** and the Variant "White PETG" at **€15.90**. Each one knows
-which Piece it's made from, so it knows what it costs, and with the price it works
-out **the margin** by itself.
+which Piece it's made from and therefore what it costs; with the price, it works out
+**the margin** by itself.
 
 **4. The Product.** Finally, what the customer sees: the Product "Adjustable phone
 stand", with its name, its photos and its description. Inside it go the two
@@ -70,79 +67,76 @@ Etsy for example.
 
 ## Why four and not one record?
 
-It's the question everyone asks, and the answer is simple: **each of the four
-things changes for a different reason.**
+Because **each of the four things changes for a different reason**:
 
-- The **Design** changes when you fix the model.
+- The **Design**, when you fix the model.
 - The **Piece**, when you switch material or your cost per hour goes up.
 - The **Variant**, when you change the price.
 - The **Product**, when you change the photos or the description.
 
-If everything lived in a single record, fixing the STL would mean changing it in
-every colour you sell. Kept separate, you fix it once, in the Design, and it applies
-to everything that hangs off it.
+With a single record, fixing the STL would mean changing it in every colour you
+sell. Kept separate, you fix it once, in the Design, and it applies to everything
+that hangs off it.
 
-If it helps to think of it this way: the Design is the recipe, the Piece is the
-cooked dish and the Variant is what appears on the menu, with its price.
+Put another way: the Design is the recipe, the Piece is the cooked dish and the
+Variant is what appears on the menu, with its price.
 
 ### The proof: a pack
 
-Imagine you also sell a **cable organiser**, and you come up with a pack: the
-black stand and the organiser together, for €19.90.
+Imagine you also sell a **cable organiser** and you come up with a pack: the black
+stand and the organiser together, for €19.90.
 
 You don't have to set up anything new. You create an "Office pack" Variant with
-**two Pieces inside**: the black stand one and the organiser one. BolloPrint adds
-up what they both cost and, with the price, gives you the pack's margin.
+**two Pieces inside**: the black stand one and the organiser one. BolloPrint adds up
+what they both cost and, with the price, gives you the pack's margin.
 
 ![The Office pack variant, made of two pieces; and the black stand piece, used both by the standalone variant and by the pack](/blog/media/2026-10-09-como-funciona-bolloprint/04-variante-de-dos-piezas.webp)
 
-Notice what's just happened: **the black stand Piece is now used by two
-Variants**, the standalone one and the pack. If PLA goes up tomorrow, you change
-that Piece just once, and BolloPrint tells you which Variants use it so you can
-review their price. That's exactly why Piece and Variant are different things.
+Now **the black stand Piece is used by two Variants**: the standalone one and the
+pack. If PLA goes up tomorrow, you change that Piece just once and BolloPrint tells
+you which Variants use it so you can review their price. That's why Piece and
+Variant are different things.
 
-And it works just the same for selling several of the same thing: a "Pack x3" is a
-Variant with the same Piece three times.
+The same works for selling several of the same item: a "Pack x3" is a Variant with
+the same Piece three times.
 
 ![The Pieces in this variant block, with the pack's two pieces](/blog/media/2026-10-09-como-funciona-bolloprint/05-piezas-de-la-variante.png)
 
 ## The order closes the circle
 
-Let's go back to the order from the start.
+Let's go back to the order from the start. When you create an order, what you add
+**is a Variant**: you search for "stand", pick "White PETG", enter 2 units and the
+price fills itself in.
 
-When you create an order, what you add **is a Variant**: you search for "stand",
-pick "White PETG", enter 2 units, and the price fills itself in.
-
-And since that Variant knows which Pieces it's made of, the order line already
-brings everything else with it:
+Since that Variant knows which Pieces it's made of, the order line already brings
+everything else with it:
 
 - **what it costs and what it makes you**, because the Pieces have a cost and the
   Variant has a price;
 - **the material, the colour and the weight**, which come from its Pieces;
-- and **the files to print**: from the line, the **Designs** option takes you to the
-  3D models for each Piece.
+- **the files to print**: from the line, the **Designs** option takes you to the 3D
+  models for each Piece.
 
-Once it's printed, you mark the line as **printed**, and the order carries on its
-way through Production.
+Once it's printed, you mark the line as **printed** and the order carries on its way
+through Production.
 
 ![An order with two lines, the white stand and the pack, and beside it the pieces that need printing to fulfil it](/blog/media/2026-10-09-como-funciona-bolloprint/06-del-pedido-a-la-impresora.webp)
 
 That's what the four things save you: you don't note down the cost of every order,
 you don't hunt for the STL in a folder and you don't recalculate the margin by hand.
-You set it up once, and every order inherits it.
+You set it up once and every order inherits it.
 
 ![The lines of an order, with the menu open on the Designs option](/blog/media/2026-10-09-como-funciona-bolloprint/07-lineas-del-pedido.png)
 
 ## All this every time? No
 
-If it seems like a lot of work for a single stand, don't worry: that's what **Quick
-create** is for. You give it the STL, the material, the colour and the price in a
-single form, and BolloPrint creates the Design, the Piece, the Variant and the
-Product in one go.
+For a single stand it can seem like a lot of work, and that's what **Quick create**
+is for. You give it the STL, the material, the colour and the price in a single
+form, and BolloPrint creates the Design, the Piece, the Variant and the Product in
+one go.
 
-The best part is that the result is exactly the same as if you'd done it step by
-step. So the day you want to add another colour or put together a pack, everything
-is already in place.
+The result is exactly the same as if you'd done it step by step. The day you want to
+add another colour or put together a pack, everything will already be in place.
 
 ![The Quick create form, with the file, the material, the colour and the price](/blog/media/2026-10-09-como-funciona-bolloprint/08-creacion-express.png)
 
@@ -154,10 +148,10 @@ set it up.
 
 ## Related documentation
 
-- [Catalogue](/help/catalogo) — the four levels, in the reference
-- [Designs](/help/disenos) — files, photos and tags
-- [Pieces](/help/piezas) — the material and how the cost is calculated
-- [Products and Variants](/help/productos-y-variantes) — the price, the margin and the pieces in each variant
-- [Orders](/help/pedidos) — from sale to delivery
-- [Quick create](/help/creacion-express) — all four in one go
+- [Catalogue](/help/catalogo): the four levels, in the reference
+- [Designs](/help/disenos): files, photos and tags
+- [Pieces](/help/piezas): the material and how the cost is calculated
+- [Products and Variants](/help/productos-y-variantes): the price, the margin and the pieces in each variant
+- [Orders](/help/pedidos): from sale to delivery
+- [Quick create](/help/creacion-express): all four in one go
 - [What a printed piece really costs you](/blog/calculate-your-3d-printing-costs) — where the cost of each Piece comes from

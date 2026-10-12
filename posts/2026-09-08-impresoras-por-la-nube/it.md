@@ -1,7 +1,7 @@
 ---
 slug: connect-bambu-lab-printers-cloud
 title: "Collega le tue stampanti Bambu Lab a BolloPrint in cinque minuti"
-description: Senza installare niente. Colleghi il tuo account Bambu e le tue macchine compaiono da sole, con quello che stanno stampando e tutto il loro storico.
+description: Senza installare niente. Colleghi il tuo account Bambu Lab, confermi un codice e le tue stampanti compaiono da sole, con quello che stanno stampando e tutto il loro storico.
 date: 2026-09-08
 updated: 2026-10-12
 tags: [tutorial]
@@ -9,52 +9,55 @@ cover: 01-portada.webp
 draft: true
 ---
 
-Hai tre Bambu al lavoro e, per sapere come stanno andando, ti alzi e guardi lo
-schermo di ognuna. La prima avrà finito? Alla seconda resta materiale? Quante
-ore hai stampato questo mese?
+Se hai diverse Bambu al lavoro, probabilmente conosci la routine: per sapere
+come stanno andando, vai da ognuna e guardi il suo schermo. La prima ha finito?
+Alla seconda resta materiale? Quante ore hai stampato questo mese?
 
-C'è un modo per vedere tutto da un solo schermo, e **non bisogna installare
-niente**. Colleghi il tuo account Bambu Lab a BolloPrint e le tue macchine
-compaiono da sole. Cinque minuti.
+Puoi avere tutto questo in un'unica schermata e **senza installare niente**.
+Colleghi il tuo account Bambu Lab a BolloPrint e le tue stampanti compaiono da
+sole. Bastano circa cinque minuti.
 
 ::animation{id="bambu-cloud"}
 
-## Ecco cosa avrai
+## Cosa vedrai di ogni stampante
 
-Di ogni stampante, in diretta e senza toccare niente:
+In tempo reale e senza toccare niente:
 
 - se è accesa e collegata;
-- cosa sta stampando, la **percentuale** e quanto le manca;
+- cosa sta stampando, la **percentuale** raggiunta e quanto le manca;
 - le temperature di ugello e piano;
 - i **materiali** caricati, vassoio per vassoio, se hai l'AMS;
 - gli avvisi della macchina stessa.
 
-E in più, quello che fa davvero la differenza a fine mese: **ogni stampa viene
-registrata**, con la sua durata, il suo materiale e il suo costo. Senza annotare
-niente a mano.
+E quello che si nota di più a fine mese: **ogni stampa viene registrata**, con la
+sua durata, il suo materiale e il suo costo. Non devi annotare niente.
 
 ![La scheda di una stampante in stampa, con l'avanzamento e le temperature](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## Cosa ti serve
 
-- Entrare in BolloPrint come **Proprietario** o **Admin**. Con un altro ruolo
-  questa schermata non ti compare.
-- Il tuo account **Bambu Lab**, con la sua **email e la sua password**.
-- Poter aprire l'**email** di quell'account: Bambu ti manderà un codice.
+Prima di iniziare, tieni a portata di mano queste tre cose:
 
-:::warning ⚠️ Se entri in Bambu con Google, Apple o Facebook, questo non ti funzionerà
-BolloPrint ha bisogno dell'**email e della password** del tuo account Bambu. Se
-non hai mai impostato una password perché premi sempre «Continua con Google»,
-creala prima sul sito di Bambu Lab e torna qui con quella.
+- L'accesso a BolloPrint come **Proprietario** o **Admin**. Con un altro ruolo
+  questa schermata non compare.
+- L'**email e la password** del tuo account Bambu Lab.
+- La **casella email** di quell'account aperta: Bambu ti manderà un codice.
+
+:::warning ⚠️ Se entri in Bambu con Google, Apple o Facebook
+BolloPrint ha bisogno dell'**email e della password** dell'account. Se non hai
+mai impostato una password perché usi sempre «Continua con Google», creala prima
+sul sito di Bambu Lab e poi torna qui.
 :::
 
 ## Apri la schermata delle stampanti
 
-Vai su **Impostazioni → Stampanti**. Vedrai tre schede:
+Tutto si fa da un unico punto: **Impostazioni → Stampanti**. Lì vedrai tre
+schede:
 
-- **Stampanti** — l'elenco di tutte le tue macchine, da qualunque via arrivino.
-- **Agente locale** — per collegarle tramite la tua rete. Quello è [un altro tutorial](/blog/connect-printers-local-network-agent).
-- **Bambu Cloud** — quella che ci interessa oggi.
+- **Stampanti**: l'elenco di tutte le tue macchine, da qualunque via arrivino.
+- **Agente locale**: per collegarle tramite la tua rete. Lo spieghiamo in
+  [un altro articolo](/blog/connect-printers-local-network-agent).
+- **Bambu Cloud**: quella che ti serve adesso.
 
 Apri **Bambu Cloud**.
 
@@ -62,108 +65,123 @@ Apri **Bambu Cloud**.
 
 ## Scrivi l'email e la password di Bambu
 
-Quelle del tuo account Bambu Lab —quell'email, non un'altra tua— e premi
+Usa quelle del tuo account Bambu Lab (quell'email, non un'altra tua) e premi
 **Connetti con BambuLab**.
 
 ![Il modulo di Bambu Cloud, con l'email dell'account inserita e la password ancora da scrivere](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
 
 :::info 💡 La tua password non viene salvata
-Resta **solo nel tuo browser**, e solo finché non finisci di verificare.
+Resta **solo nel tuo browser**, e solo finché non finisci la verifica.
 :::
 
-## Inserisci il codice che ti arriva per email
+## Conferma il codice dell'email
 
-Bambu ti manda un **codice di 6 cifre** da `noreply@bambulab.com`. **Guarda
-anche nello spam**: ci finisce più spesso di quanto dovrebbe.
-
-Scrivi le sei cifre nella stessa schermata e premi **Verifica e connetti**.
+Bambu ti manderà un **codice di 6 cifre** da `noreply@bambulab.com`. Se non lo
+vedi, **controlla la cartella dello spam**: spesso finisce lì. Inseriscilo nella
+stessa schermata e premi **Verifica e connetti**.
 
 ![Il campo del codice di 6 cifre e il pulsante Verifica e connetti](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
 
-Due dettagli che ti risparmiano un secondo tentativo: **il codice scade in circa
-5 minuti** —se ci metti troppo, premi **Rinvia codice**— e **incollalo intero
-così com'è**: se ha spazi o trattini, vengono ripuliti da soli.
+Due dettagli ti risparmiano un secondo tentativo:
+
+- Il codice **scade in circa 5 minuti**. Se è scaduto, premi **Rinvia codice**.
+- Puoi **incollarlo così come arriva**: spazi e trattini vengono rimossi
+  automaticamente.
 
 Quando lo accetta, vedrai **Account verificato e connesso**.
 
-## Eccole lì
+## Le tue stampanti sono già dentro
 
-Non c'è bisogno di registrare le stampanti una a una. **Tutte le macchine di
-quell'account compaiono da sole** nella scheda **Stampanti**, ognuna con il suo
-nome e il suo numero di serie.
+Non serve registrarle una a una: **tutte le stampanti di quell'account compaiono
+da sole** nella scheda **Stampanti**, ognuna con il suo nome e il suo numero di
+serie.
 
 ![L'elenco delle stampanti con le macchine Bambu appena comparse](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas.png)
 
-In alto c'è un contatore come `3 / 6 attive`: le stampanti incluse nel tuo
-piano. Con l'interruttore di ogni riga accendi e spegni quelle che vuoi. Una
-spenta non conta per il limite, ma **resta nell'elenco con tutto il suo
-storico**.
+In alto vedrai un contatore come `3 / 6 attive`: sono le stampanti incluse nel
+tuo piano. Con l'interruttore di ogni riga attivi o disattivi quelle che vuoi.
+Una stampante disattivata non conta per il limite, ma **conserva tutto il suo
+storico**. E se colleghi un intero parco macchine e non ci sono posti per tutte,
+quelle che non ci stanno entrano disattivate invece di superare il limite del tuo piano.
 
-E se colleghi un intero parco macchine e non ci sono posti per tutte, quelle in
-più entrano **disattivate** invece di sforare il tuo piano.
+## Cosa non puoi fare tramite il cloud
 
-## Cosa NON potrai fare da qui
+Conviene saperlo fin dall'inizio, per non cercare opzioni che non esistono:
 
-Meglio saperlo ora che cercare il pulsante per mezz'ora:
-
-- **È in sola lettura.** Dal cloud non si può mettere in pausa, riprendere né
-  annullare da BolloPrint: Bambu accetta questi comandi solo dalla tua rete
-  locale, e con la stampante in una modalità speciale. Lo vediamo alla fine.
-- **Non c'è la telecamera.** Dal cloud non arriva. Arriva invece l'immagine del
-  laminato del lavoro, che è l'anteprima, non quello che sta succedendo dentro.
-- **Dipende da internet due volte:** dal tuo e da quello di Bambu. Se uno dei
-  due viene meno, la stampante appare scollegata anche se sta stampando
-  perfettamente.
+- **È in sola lettura.** Tramite il cloud non puoi mettere in pausa, riprendere
+  né annullare da BolloPrint: Bambu accetta questi comandi solo dalla tua rete
+  locale e con la stampante in una modalità specifica. Lo vediamo alla fine.
+- **Non c'è la telecamera.** Vedi però l'immagine di slicing del lavoro, che è
+  un'anteprima, non quello che succede dentro la macchina.
+- **Dipende da due connessioni internet**, la tua e quella di Bambu. Se una delle
+  due cade, la stampante risulta scollegata anche se sta stampando normalmente.
 - **La sessione scade ogni tanto** e bisogna ricollegare l'account. Te lo
   segnaliamo sullo schermo.
 
-E una che vale per tutte le vie: **BolloPrint non manda lavori in stampa**. Il
-file continui a inviarlo dal tuo slicer. Quello che facciamo è leggere cosa fa
-la macchina e registrarlo.
+E una cosa che vale per qualsiasi tipo di connessione: **BolloPrint non manda
+lavori in stampa**. Il file continui a inviarlo dal tuo slicer; BolloPrint legge
+cosa fa la macchina e lo registra.
 
-## Se non riesci a collegarti
+## Problemi frequenti
 
-| Quello che vedi | Cos'è di solito |
-|---|---|
-| «Account o password di Bambu Lab errati» e sei sicuro che sia quella giusta | **È l'errore che fa perdere più tempo.** Se hai appena creato quella password e non l'hai mai usata, l'account ha l'email ancora da verificare e Bambu non te lo dice. Entra **una volta** sul sito di Bambu con quelle credenziali, completa quello che ti chiede e torna. |
-| «Account o password di Bambu Lab errati» ed entri in Bambu con Google o Apple | Quella via qui non serve. Crea una password sul sito di Bambu. |
-| «Non esiste alcun account Bambu Lab con questa email» | L'email non è quella dell'account Bambu. Controlla con quale entri nella sua app. |
-| Ti parla di verifica in due passaggi | Devi disattivarla in Bambu per poter collegare l'account. |
-| Il codice non arriva | Guarda nello spam e premi **Rinvia codice**. |
-| Il codice non viene accettato | Sarà scaduto. Chiedine un altro e incollalo intero. |
+### Perché Bambu dice che la password è errata se è quella giusta?
 
-## Vuoi di più? Prova l'agente locale
+È il problema più comune. Il messaggio **«Account o password di Bambu Lab
+errati»** compare quasi sempre con una password appena creata e mai usata:
+l'account ha l'email ancora da verificare e Bambu non lo segnala. Entra **una
+volta** sul sito di Bambu con quell'email e quella password, completa quello che
+ti chiede e riprova.
 
-Il cloud ti mostra tutto, ma non ti lascia toccare niente, ed esiste solo per
-Bambu Lab. Se vuoi di più, quello che fa per te è l'**agente locale**: un
-piccolo programma su un computer del tuo laboratorio che parla con le stampanti
-tramite la tua rete. Ne basta uno per tutto il parco macchine, e ti dà:
+### E se entri in Bambu con Google o Apple?
+
+Per quella via non si può. Crea una password sul sito di Bambu Lab e usa l'email
+con quella password.
+
+### Perché dice che non esiste un account con quell'email?
+
+Se compare **«Non esiste alcun account Bambu Lab con questa email»**, l'email non
+è quella del tuo account Bambu. Controlla con quale entri nella sua app.
+
+### Cosa faccio se mi chiede la verifica in due passaggi?
+
+Dovrai disattivarla nel tuo account Bambu per poterlo collegare.
+
+### Cosa faccio se il codice non arriva o non viene accettato?
+
+Se non arriva, controlla la cartella dello spam e premi **Rinvia codice**. Se non
+viene accettato, molto probabilmente è scaduto: chiedine un altro e incollalo
+intero.
+
+## Se ti serve di più: l'agente locale
+
+Il cloud ti mostra tutte le informazioni, ma non ti permette di intervenire sulle
+stampanti, ed esiste solo per Bambu Lab. Se ti serve di più, l'opzione è
+l'**agente locale**: un piccolo programma che installi su un computer del tuo
+laboratorio e che comunica con le stampanti tramite la tua rete. Ne basta uno per
+tutto il parco macchine, e ti offre:
 
 - **quasi tutte le marche**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
   Voron…;
-- la **telecamera**, in diretta mentre la guardi e con una foto finale salvata a
-  ogni stampa;
+- la **telecamera**, in diretta e con una foto finale salvata a ogni stampa;
 - **mettere in pausa, riprendere e annullare** da BolloPrint, senza andare fino
   alla macchina;
-- e **resiste ai cali di internet**: continua a leggere le tue stampanti e ti
-  racconta tutto quando torna la linea.
+- **resistenza alle interruzioni di internet**: continua a leggere le tue
+  stampanti e invia tutto quando torna la connessione.
 
 :::info 💡 Per mandare comandi a una Bambu
 La stampante deve essere in **Modalità LAN** e in **Modalità sviluppatore**.
 Entrambe si attivano dal suo schermo.
 :::
 
-Lo trovi passo passo nel prossimo tutorial:
-[collegare le tue stampanti tramite la rete locale](/blog/connect-printers-local-network-agent).
+Lo spieghiamo passo passo in
+[collegare le tue stampanti tramite la tua rete](/blog/connect-printers-local-network-agent).
 
-:::info 💡 Dubbi?
-Scrivici dalla [pagina dei contatti](/contact) o apri un thread sul
+Per qualsiasi dubbio, scrivici dalla [pagina dei contatti](/contact) o sul
 [nostro Discord](/help/soporte-por-discord).
-:::
 
 ## Documentazione correlata
 
-- [Collegare le stampanti](/help/conectar-impresoras) — le due vie e quale ti conviene
-- [Stampanti tramite cloud](/help/impresoras-por-la-nube) — il riferimento completo di questa schermata
-- [Stampanti compatibili](/help/impresoras-compatibles) — cerca qui il tuo modello
-- [Tipi di connessione](/help/tipos-de-conexion) — cosa permette ogni famiglia di stampanti
+- [Collegare le stampanti](/help/conectar-impresoras): i due modi per farlo e quale ti conviene
+- [Stampanti tramite cloud](/help/impresoras-por-la-nube): il riferimento completo di questa schermata
+- [Stampanti compatibili](/help/impresoras-compatibles): cerca qui il tuo modello
+- [Tipi di connessione](/help/tipos-de-conexion): cosa permette ogni tipo di stampante

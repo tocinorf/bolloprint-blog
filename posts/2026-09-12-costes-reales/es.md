@@ -1,7 +1,7 @@
 ---
 slug: calculate-your-3d-printing-costs
-title: "Qué cuesta de verdad una pieza impresa (y cómo calcularlo sin volverte loco)"
-description: Esa pieza de 1,60 € de filamento te cuesta 9,36 €. Te enseñamos a repartir los gastos de tu taller entre tus horas de impresión y a que BolloPrint lo aplique solo a cada pieza.
+title: "Qué cuesta de verdad una pieza impresa (y cómo calcularlo sin complicaciones)"
+description: Esa pieza de 1,60 € de filamento te cuesta 9,36 €. Te enseñamos a repartir los gastos de tu taller entre tus horas de impresión para que BolloPrint lo aplique solo a cada pieza.
 date: 2026-09-12
 updated: 2026-10-12
 tags: [tutoriales]
@@ -11,12 +11,12 @@ draft: true
 
 Una pieza de 6 horas y 80 gramos de PLA. ¿Cuánto te cuesta?
 
-Si has pensado «80 gramos a 20 € el kilo, **1,60 €**», has calculado lo que
-cuesta el **material**. Que en un taller normal es **una parte pequeña** de lo
-que realmente te cuesta esa pieza.
+Si has pensado «80 gramos a 20 € el kilo, **1,60 €**», has calculado solo el
+**material**. En un taller normal, eso es **una parte pequeña** de lo que
+realmente te cuesta la pieza.
 
-La cuenta completa, en un taller de tres impresoras y con la pieza pintada y
-embalada, sale así:
+En un taller de tres impresoras, con la pieza pintada y embalada, la cuenta
+completa es esta:
 
 | | |
 |---|---|
@@ -26,58 +26,58 @@ embalada, sale así:
 | Costes extra (embalaje) | 0,60 € |
 | **Coste real de la pieza** | **9,36 €** |
 
-**Casi seis veces más.** Y la diferencia no es un redondeo: es el alquiler, la luz,
-las impresoras que se van gastando, la gestoría y las piezas que salen mal. Todo
-eso lo estás pagando. La pregunta es si lo estás cobrando.
+**Casi seis veces más.** La diferencia no es un redondeo: es el alquiler, la luz,
+el desgaste de las impresoras, la gestoría y las piezas que salen mal. Todo eso
+lo pagas; la cuestión es si lo estás cobrando.
 
-Esto va de arreglar eso. Y la buena noticia es que **se configura una vez** y
-luego se aplica solo a cada pieza que crees.
+Aquí verás cómo llevar esos gastos al coste de cada pieza. **Se configura una
+vez** y después se aplica solo a cada pieza que crees.
 
 ::animation{id="part-cost"}
 
 ## De dónde sale ese 5,16 €
 
-De una idea sencilla: coges **todo lo que te cuesta el taller al mes**, lo
-divides entre **las horas que de verdad imprimes**, y así sabes lo que te cuesta
-**una hora de impresora**. Luego multiplicas por las horas de la pieza.
+La idea es sencilla: sumas **todo lo que te cuesta el taller al mes** y lo
+divides entre **las horas que de verdad imprimes**. Así obtienes lo que te cuesta
+**una hora de impresora**, y solo queda multiplicarlo por las horas de la pieza.
 
-En el ejemplo de arriba:
+Con los números del ejemplo:
 
-> Tres impresoras, diez horas al día, veinticinco días al mes → **750 horas**.
->
-> Entre alquiler, gestoría, software y la amortización de las máquinas se le van
-> unos **516 € al mes**. Repartido: 0,69 € la hora. Con la luz, el **coste base**
-> queda en **0,72 €**.
->
-> Más un 5 % de mantenimiento, un 10 % de tasa de fallo y un 5 % de imprevistos:
-> **0,86 € la hora**. Por seis horas, 5,16 €.
+- **Horas:** tres impresoras, diez horas al día, veinticinco días al mes →
+  **750 horas**.
+- **Gastos:** entre alquiler, gestoría, software y la amortización de las
+  máquinas se van unos **516 € al mes**. Repartido: 0,69 € la hora. Con la luz,
+  el **coste base** queda en **0,72 €**.
+- **Recargos:** un 5 % de mantenimiento, un 10 % de tasa de fallo y un 5 % de
+  imprevistos lo llevan a **0,86 € la hora**. Por seis horas, 5,16 €.
 
-Eso es exactamente lo que calcula la sección **Costes** de BolloPrint, en
+Esa es exactamente la cuenta que hace la sección **Costes** de BolloPrint, en
 **Configuración → Costes**. Solo la ven el **Propietario** y los **Admins**.
 
 ![La sección Costes dentro de Configuración](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
 ## Las horas que imprimes de verdad
 
-Este es el número que más gente calcula mal, y el que más cambia el resultado.
-Está en **Coste horas → Horas de impresión**, y son tres campos:
+Empieza por las horas: es el número que más gente calcula mal y el que más
+cambia el resultado. Está en **Coste horas → Horas de impresión**, y son tres
+campos:
 
 **Impresoras × Horas al día × Días al mes**
 
-El único consejo que importa: **no pongas el máximo teórico, pon lo que pasa de
-verdad**. Si tienes tres impresoras pero de media trabajan ocho horas al día,
-son ocho. No veinticuatro.
+Pon **lo que pasa de verdad, no el máximo teórico**. Si tienes tres impresoras
+pero de media trabajan ocho horas al día, son ocho. No veinticuatro.
 
-Es tentador poner el número grande, porque cuanto más alto, más barata sale la
-hora. Pero si inflas las horas te mientes a ti mismo: esos gastos los pagas
-igual, y lo que no repartas entre las piezas te lo comes tú a fin de mes.
+Es tentador poner un número alto, porque cuanto más alto, más barata sale la
+hora. Pero los gastos los pagas igual, y lo que no repartas entre las piezas lo
+pagas tú a fin de mes.
 
 ![La pestaña de Horas de impresión, con los tres campos y el resultado](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
 ## Lo que te cuesta el taller
 
-En **Coste base** vas metiendo tus gastos. BolloPrint los ordena por tipo y te
-pide de cada uno solo lo que necesita:
+Con las horas definidas, toca anotar los gastos. En **Coste base** los vas
+añadiendo; BolloPrint los ordena por tipo y de cada uno te pide solo lo que
+necesita:
 
 | Tipo | Qué le pones |
 |---|---|
@@ -87,8 +87,8 @@ pide de cada uno solo lo que necesita:
 | **Nóminas** | El sueldo y cuánta gente |
 | **Electricidad** | Los kW que consume una impresora y lo que te cobran el kWh |
 
-No hace falta que sea exacto al céntimo. Vale mucho más un número razonable hoy
-que el número perfecto el año que viene.
+No hace falta que sea exacto al céntimo: vale más un número razonable hoy que el
+número perfecto el año que viene.
 
 :::warning ⚠️ No metas el mismo gasto dos veces
 Los importes **al mes** describen **todo el taller**: el alquiler se pone una
@@ -97,28 +97,28 @@ describen **una sola impresora**: ahí pon el consumo de una máquina media, no 
 de toda la nave.
 :::
 
-Abajo del todo tienes la cuenta hecha, que es la del principio:
+Abajo del todo tienes la cuenta hecha, la misma del principio:
 
 > **gastos del mes ÷ tus horas de impresión = lo que te cuesta una hora «en limpio»**
 
-Eso es el **coste base por hora**. En el ejemplo de arriba, 0,72 €.
+Ese es el **coste base por hora**: 0,72 € en el ejemplo.
 
 ![Los gastos del taller en Coste base, agrupados por tipo, y la cuenta que da 0,72 € la hora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
 
 ## Lo que sabes que va a pasar
 
-El coste base deja fuera cosas que ocurren y no tienen factura fija: se rompen
-boquillas, y **alguna pieza sale mal y hay que repetirla**.
+El coste base deja fuera lo que ocurre sin una factura fija: se rompen boquillas,
+y **alguna pieza sale mal y hay que repetirla**.
 
-Para eso está **Coste total**: unos porcentajes sobre el coste base.
-Mantenimiento, tasa de fallo e imprevistos.
+Para eso está **Coste total**, que suma unos porcentajes al coste base:
+mantenimiento, tasa de fallo e imprevistos.
 
-La tasa de fallo es la importante, y la que más gente se salta. Si de cada diez
-piezas una se va a la basura, **las nueve buenas están pagando la mala**. Si no
-lo metes aquí, lo pagas tú.
+La tasa de fallo es la más importante, y la que más gente se salta. Si de cada
+diez piezas una acaba en la basura, **las nueve buenas están pagando la mala**.
+Si no la incluyes aquí, la pagas tú.
 
-El resultado es tu **coste total por hora** — 0,86 € en el ejemplo. Ese es tu
-número de verdad, y es el que se aplica a cada pieza.
+El resultado es tu **coste total por hora**: 0,86 € en el ejemplo. Ese es tu
+número real, y es el que se aplica a cada pieza.
 
 :::info 💡 El margen de beneficio no va aquí
 Aquí solo van **costes**. Cuánto quieres ganar se decide después, en el producto,
@@ -129,11 +129,11 @@ porque es una decisión comercial.
 
 ## El material y los extras
 
-La parte fácil, en **Valores por defecto**:
+Queda la parte más sencilla, en **Valores por defecto**:
 
 - **El precio de cada material**, por kilo. Es **por tipo**, no por familia: el
   PLA y el TPU no cuestan lo mismo.
-- **Los acabados**: cuánto recargas si va postprocesada o pintada.
+- **Los acabados**: cuánto recargas si la pieza va postprocesada o pintada.
 - **Los costes extra**: embalaje, tornillería, imanes, insertos, mano de obra.
   De cada uno eliges si se cobra **por unidad** o **por placa**.
 - **Los márgenes**: el que quieres por defecto, y desde qué porcentaje te
@@ -148,43 +148,42 @@ de una bobina dada de alta con su coste real, usamos ese.
 
 ## Y así llega a tu pieza
 
-Los cuatro pasos acaban en un solo número: **lo que te cuesta una hora de
-impresora**. A partir de ahí, cada pieza es una suma:
+Los cuatro pasos anteriores acaban en un solo número: **lo que te cuesta una hora
+de impresora**. A partir de ahí, cada pieza es una suma:
 
 > sus **horas × tu coste por hora**
 > **+** el **material** que lleva
 > **+** el **acabado**, si va postprocesada o pintada
 > **+** los **costes extra** que le añadas
 
-Hay un detalle que conviene entender, porque explica por qué conviene llenar la
-cama: **la cuenta se hace por placa, no por pieza**. BolloPrint calcula lo que
-cuesta la placa entera y lo **reparte entre las piezas que salen de ella**. Por
-eso, de los costes extra, los que marcas **por placa** se cobran una sola vez —la
-imprimas de una en una o de veinte en veinte— mientras que los de **por unidad**
-se cobran en cada pieza.
+Conviene entender un detalle, porque explica por qué compensa llenar la cama:
+**la cuenta se hace por placa, no por pieza**. BolloPrint calcula lo que cuesta
+la placa entera y lo **reparte entre las piezas que salen de ella**. Por eso, de
+los costes extra, los que marcas **por placa** se cobran una sola vez —imprimas
+las piezas de una en una o de veinte en veinte— y los de **por unidad** se cobran
+en cada pieza.
 
-Y cada pieza **guarda el coste por hora con el que se calculó**. No es un
-descuido: es lo que hace que el coste de lo que imprimiste el año pasado siga
-siendo el de entonces, y es la razón de que exista el botón **Recalcular**,
-que verás un poco más abajo.
+Además, cada pieza **guarda el coste por hora con el que se calculó**. Es
+intencionado: así el coste de lo que imprimiste el año pasado sigue siendo el de
+entonces. Por eso existe el botón **Recalcular**, que verás un poco más abajo.
 
 ## Ahora ya tienes tu número
 
-En **Costes → Resumen**, el bloque **Ejemplo** coge una placa de muestra y te
-enseña la cuenta entera **con tus valores**: cuánto es material, cuánto
-impresión, cuánto acabado, y cuánto sale la pieza.
+Para ver el resultado, ve a **Costes → Resumen**. El bloque **Ejemplo** coge una
+placa de muestra y te enseña la cuenta entera **con tus valores**: cuánto es
+material, cuánto impresión, cuánto acabado y cuánto sale la pieza.
 
 ![El bloque de Ejemplo con el desglose completo de una pieza](/blog/media/2026-09-12-costes-reales/04-ejemplo-coste.png)
 
 ## Cuando cambien tus gastos
 
-Te sube la luz, compras otra impresora, cambias de local. Tocas los números y…
-**las piezas que ya tenías no cambian solas**. Es a propósito: cada pieza guarda
-el coste con el que se calculó, y no querrías que se reescribiera el de todo lo
-que hiciste el año pasado.
+Tus números no serán siempre los mismos: sube la luz, compras otra impresora o
+cambias de local. Al actualizarlos, **las piezas que ya tenías no cambian
+solas**. Es a propósito: cada pieza guarda el coste con el que se calculó, y no
+querrías que se reescribiera el de todo lo que hiciste el año pasado.
 
 Cuando quieras aplicarlo a todo, en **Resumen** tienes un contador de piezas
-**por recalcular** y un botón **Recalcular**. Tú decides cuándo.
+**por recalcular** y el botón **Recalcular**. Tú decides cuándo.
 
 :::info 💡 No te toca los precios de venta
 Recalcular actualiza el **coste** y el precio *sugerido*. El que tú hayas puesto a
@@ -193,29 +192,30 @@ mano se queda. Lo que vas a ver moverse es el indicador de **margen**.
 
 ## ¿Me compro otra impresora?
 
-Esa es **la** pregunta, y ahora puedes responderla con números. En **Comparador
-de granja** mueves las impresoras, las horas o los días y ves qué le pasaría a tu
-coste por hora. No cambia nada de tu configuración: solo simula.
+Con tus costes configurados, puedes responder a esta pregunta con números. En
+**Comparador de granja** cambias las impresoras, las horas o los días y ves qué
+le pasaría a tu coste por hora. Solo simula: no cambia nada de tu configuración.
 
-Hay algo que enseña muy bien: **la curva deja de bajar**. Pasar de una impresora
-a cinco divide el coste por hora casi entre cinco. Pasar de veinte a cien apenas
-lo mueve, porque hay gastos —como la luz— que se pagan en cada hora impresa y no
-se reparten entre nadie.
+Lo que mejor enseña es que **la curva deja de bajar**. Pasar de una impresora a
+cinco divide el coste por hora casi entre cinco. Pasar de veinte a cien apenas lo
+mueve, porque hay gastos —como la luz— que se pagan en cada hora impresa y no se
+reparten entre nadie.
 
 ![El comparador de granja, con la curva del coste por hora](/blog/media/2026-09-12-costes-reales/05-comparador.png)
 
-Son cuatro pantallas y un rato una tarde. A cambio, cada pieza que crees llevará
-su coste real puesto, y sabrás si estás ganando dinero sin hacer la cuenta a mano.
+Configurarlo son cuatro pantallas y un rato de una tarde. A cambio, cada pieza
+que crees llevará su coste real, y sabrás si estás ganando dinero sin hacer la
+cuenta a mano.
 
 :::info 💡 ¿Te ayudamos con tus números?
 Si no sabes por dónde empezar, escríbenos desde la [página de contacto](/contact)
-o pásate por [nuestro Discord](/help/soporte-por-discord). Lo hemos hecho ya unas
-cuantas veces.
+o en [nuestro Discord](/help/soporte-por-discord). Ya lo hemos hecho unas cuantas
+veces.
 :::
 
 ## Documentación relacionada
 
-- [Costes](/help/costes) — la referencia completa de la sección
-- [Piezas](/help/piezas) — cómo se calcula el coste de cada pieza
-- [Productos y Variantes](/help/productos-y-variantes) — del coste al precio de venta
-- [Inventario](/help/inventario) — para que el material salga de su coste real
+- [Costes](/help/costes): la referencia completa de la sección
+- [Piezas](/help/piezas): cómo se calcula el coste de cada pieza
+- [Productos y Variantes](/help/productos-y-variantes): del coste al precio de venta
+- [Inventario](/help/inventario): para que el material salga de su coste real

@@ -101,7 +101,7 @@ Arriba verás un contador del tipo `3 / 6 activas`: son las impresoras que inclu
 tu plan. Con el interruptor de cada fila activas o desactivas las que quieras. Una
 desactivada no cuenta para el límite, pero **conserva todo su historial**. Y si
 conectas una flota entera y no hay plazas para todas, las que no caben entran
-desactivadas en vez de romperte el plan.
+desactivadas en lugar de superar el límite de tu plan.
 
 ## Qué no puedes hacer por la nube
 
@@ -132,21 +132,21 @@ usado: la cuenta tiene el correo pendiente de verificar y Bambu no lo indica.
 Entra **una vez** en la web de Bambu con ese email y esa contraseña, completa lo
 que te pida y vuelve a intentarlo.
 
-### Entro en Bambu con Google o Apple y no me deja conectar
+### ¿Y si entro en Bambu con Google o Apple?
 
 Por esa vía no se puede. Crea una contraseña en la web de Bambu Lab y usa el
 email y esa contraseña.
 
-### Me dice que no existe una cuenta con ese correo
+### ¿Por qué dice que no existe una cuenta con ese correo?
 
 Si aparece **«No existe una cuenta de Bambu Lab con ese correo»**, el email no es
 el de tu cuenta de Bambu. Comprueba con cuál entras en su aplicación.
 
-### Me pide verificación en dos pasos
+### ¿Qué hago si me pide verificación en dos pasos?
 
 Tendrás que desactivarla en tu cuenta de Bambu para poder conectarla.
 
-### No me llega el código o no lo acepta
+### ¿Qué hago si el código no llega o no lo acepta?
 
 Si no llega, revisa la carpeta de spam y pulsa **Reenviar código**. Si no lo
 acepta, lo más probable es que haya caducado: pide otro y pégalo completo.

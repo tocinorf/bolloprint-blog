@@ -1,5 +1,5 @@
 ---
-slug: instalar-agente-bolloprint-synology-container-manager
+slug: install-bolloprint-agent-synology
 title: Montar el agente de BolloPrint en un Synology
 description: Si ya tienes un NAS en el taller, deja de buscar dónde meter el agente. Veinte minutos por la interfaz de DSM, sin escribir un solo comando y sin tocar el router.
 date: 2026-09-10
@@ -19,7 +19,7 @@ minutos, y la mitad es esperar a que descargue.
 :::info
 Esto va solo del **despliegue en Synology**. Qué es el agente, qué marcas admite
 y cómo das de alta cada impresora está en el
-[tutorial de red local](/blog/conectar-impresoras-red-local-agente-bolloprint) —
+[tutorial de red local](/blog/connect-printers-local-network-agent) —
 cuando termines aquí, sigue por ahí.
 :::
 
@@ -228,7 +228,7 @@ buena: significa que el circuito entero funciona.
 
 Con el agente en verde tienes media faena. Falta darle las impresoras: las que
 aparecen solas, las que hay que meter por IP y lo que pide cada marca está todo
-en el [tutorial de red local](/blog/conectar-impresoras-red-local-agente-bolloprint).
+en el [tutorial de red local](/blog/connect-printers-local-network-agent).
 
 A partir de ahí te puedes olvidar. El contenedor vuelve solo cada vez que
 reinicies el NAS y no pide mantenimiento. Lo único que harás de vez en cuando es

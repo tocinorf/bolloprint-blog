@@ -45,7 +45,7 @@ C'est exactement ce que calcule la section **Coûts** de BolloPrint, dans **Para
 
 ![La section Coûts dans les Paramètres](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
-## Étape 1 — Les heures où vous imprimez vraiment
+## Les heures où vous imprimez vraiment
 
 C'est le chiffre que le plus de gens calculent mal, et celui qui change le plus le résultat. Il se trouve dans **Coût horaire → Heures d'impression**, et ce sont trois champs :
 
@@ -57,7 +57,7 @@ C'est tentant de mettre le gros chiffre, parce que plus il est élevé, moins l'
 
 ![L'onglet Heures d'impression, avec les trois champs et le résultat](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
-## Étape 2 — Ce que vous coûte l'atelier
+## Ce que vous coûte l'atelier
 
 Dans **Coût de base**, vous saisissez vos dépenses. BolloPrint les classe par type et ne vous demande pour chacune que ce dont il a besoin :
 
@@ -81,7 +81,9 @@ Tout en bas, vous avez le calcul tout fait, celui du début :
 
 C'est le **coût de base par heure**. Dans l'exemple ci-dessus, 0,72 €.
 
-## Étape 3 — Ce qui arrive forcément
+![Les dépenses de l’atelier dans Coût de base, regroupées par type, et le calcul qui donne 0,72 € de l’heure](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+
+## Ce qui arrive forcément
 
 Le coût de base laisse de côté des choses qui arrivent et qui n'ont pas de facture fixe : des buses cassent, et **de temps en temps une pièce rate et il faut la réimprimer**.
 
@@ -95,7 +97,9 @@ Le résultat est votre **coût total par heure** — 0,86 € dans l'exemple. C'
 Ici, il n'y a que des **coûts**. Ce que vous voulez gagner se décide ensuite, dans le produit, parce que c'est une décision commerciale.
 :::
 
-## Étape 4 — Le matériau et les extras
+![Les majorations d’entretien, de taux d’échec et d’imprévus sur le coût de base, jusqu’à 0,86 € de l’heure](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+
+## Le matériau et les extras
 
 La partie facile, dans **Valeurs par défaut** :
 
@@ -107,6 +111,8 @@ La partie facile, dans **Valeurs par défaut** :
 :::info 💡 Si le matériau est dans l'inventaire, c'est l'inventaire qui l'emporte
 Ces prix sont des références, pour quand il n'y a rien derrière. Si la pièce sort d'une bobine enregistrée avec son coût réel, c'est ce coût-là que nous utilisons.
 :::
+
+![Valeurs par défaut : les marges avec leurs alertes de couleur et le prix de chaque matériau au kilo](/blog/media/2026-09-12-costes-reales/03d-valores-por-defecto.png)
 
 ## Et voilà comment ça arrive jusqu'à votre pièce
 

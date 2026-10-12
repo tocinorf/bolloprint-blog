@@ -48,7 +48,7 @@ definiste uma palavra-passe porque carregas sempre em «Continuar com Google»,
 cria-a primeiro no site da Bambu Lab e volta aqui com ela.
 :::
 
-## Passo 1 — Abre o ecrã das impressoras
+## Abre o ecrã das impressoras
 
 Vai a **Configurações → Impressoras**. Vais ver três separadores:
 
@@ -60,7 +60,7 @@ Abre **Bambu Cloud**.
 
 ![O ecrã Configurações → Impressoras com os seus três separadores](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Passo 2 — Escreve o teu email e a tua palavra-passe da Bambu
+## Escreve o teu email e a tua palavra-passe da Bambu
 
 Os da tua conta Bambu Lab — esse email, não outro teu — e carrega em **Ligar à
 BambuLab**.
@@ -71,7 +71,7 @@ BambuLab**.
 Fica **só no teu navegador**, e só até acabares de verificar.
 :::
 
-## Passo 3 — Introduz o código que te chega por email
+## Introduz o código que te chega por email
 
 A Bambu envia-te um **código de 6 dígitos** a partir de `noreply@bambulab.com`.
 **Vê também no spam**: vai lá parar mais vezes do que devia.
@@ -86,7 +86,7 @@ inteiro, tal como vier**: se trouxer espaços ou hífenes, são limpos sozinhos.
 
 Quando for aceite, vais ver **Conta verificada e ligada**.
 
-## Passo 4 — Já lá estão
+## Já lá estão
 
 Não é preciso registar as impressoras uma a uma. **Todas as máquinas dessa conta
 aparecem sozinhas** no separador **Impressoras**, cada uma com o seu nome e o seu

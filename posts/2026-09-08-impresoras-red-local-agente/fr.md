@@ -25,7 +25,7 @@ Sur **n'importe quel ordinateur de l'atelier que vous n'éteignez pas** : un NA
 
 Encore mieux s'il est **sur le même réseau que les imprimantes**, car il les trouve alors tout seul. Sinon, vous les ajoutez à la main et elles fonctionnent exactement pareil.
 
-## Étape 1 — Créez-le dans BolloPrint
+## Créez-le dans BolloPrint
 
 Allez dans **Paramètres → Imprimantes**, ouvrez l'onglet **Agent local** et cliquez sur **Nouvel agent**.
 
@@ -33,7 +33,7 @@ Donnez-lui un nom qui vous parlera encore dans six mois. Un conseil : **nommez-
 
 ![L'onglet Agent local, avec le bouton Nouvel agent](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
 
-## Étape 2 — Copiez le manifeste
+## Copiez le manifeste
 
 Lors de la création, BolloPrint vous montre un **manifeste** : un texte où tout ce qui vous concerne — les clés de votre agent et la version à utiliser — est **déjà écrit**. Il n'y a rien à remplacer ni à remplir.
 
@@ -45,7 +45,7 @@ Choisissez le format que vous utilisez (**Docker Compose** est le format habitue
 Les clés n'expirent pas, mais nous ne les affichons plus. Si vous perdez le manifeste, rien de grave : ouvrez l'agent et utilisez **Régénérer les clés** pour en obtenir un nouveau.
 :::
 
-## Étape 3 — Collez-le là où vous allez le lancer
+## Collez-le là où vous allez le lancer
 
 Cette fois, cela se passe sur votre ordinateur, pas dans BolloPrint. Tout dépend de l'endroit où vous l'installez :
 
@@ -58,10 +58,10 @@ Cette fois, cela se passe sur votre ordinateur, pas dans BolloPrint. Tout dépen
 Vous utilisez **Portainer** ? Collez le même manifeste dans une stack et déployez.
 
 :::info 💡 Sur Windows et Mac, les imprimantes ne sont pas découvertes automatiquement
-Là, Docker tourne dans une machine virtuelle, qui ne voit pas les annonces que les imprimantes envoient sur votre réseau. L'agent fonctionne de la même façon, mais c'est vous qui ajoutez les imprimantes, comme à l'étape 6.
+Là, Docker tourne dans une machine virtuelle, qui ne voit pas les annonces que les imprimantes envoient sur votre réseau. L'agent fonctionne de la même façon, mais c'est vous qui ajoutez les imprimantes, comme expliqué plus bas.
 :::
 
-## Étape 4 — Vérifiez qu'il est en ligne
+## Vérifiez qu'il est en ligne
 
 Revenez dans BolloPrint. En moins d'une minute, l'agent passe à **En ligne**.
 
@@ -69,7 +69,7 @@ Revenez dans BolloPrint. En moins d'une minute, l'agent passe à **En ligne**.
 
 S'il n'apparaît pas, c'est presque toujours l'une de ces trois causes : le manifeste **collé à moitié**, l'ordinateur **sans internet**, ou un **pare-feu** qui bloque la sortie.
 
-## Étape 5 — Vos imprimantes apparaissent toutes seules
+## Vos imprimantes apparaissent toutes seules
 
 L'agent **cherche les imprimantes sur votre réseau** de lui-même, toutes les 15 minutes. Celles qu'il trouve apparaissent dans une liste avec leur marque et leur modèle, et c'est vous qui décidez :
 
@@ -82,7 +82,7 @@ Si vous venez d'allumer une machine et ne voulez pas attendre, il y a un bouton 
 
 Certaines vous demanderont un **mot de passe** au moment de les ajouter. Cela dépend de la marque, et on y vient dans un instant.
 
-## Étape 6 — Si l'une n'apparaît pas, ajoutez-la vous-même
+## Si l'une n'apparaît pas, ajoutez-la vous-même
 
 Qu'une imprimante n'apparaisse pas toute seule est **normal** dans deux cas :
 

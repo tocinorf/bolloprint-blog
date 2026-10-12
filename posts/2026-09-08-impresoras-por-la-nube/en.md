@@ -48,7 +48,7 @@ a password because you always click "Continue with Google", create one first on
 the Bambu Lab website and come back here with it.
 :::
 
-## Step 1 — Open the printers screen
+## Open the printers screen
 
 Go to **Settings → Printers**. You'll see three tabs:
 
@@ -60,7 +60,7 @@ Open **Bambu Cloud**.
 
 ![The Settings → Printers screen with its three tabs](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Step 2 — Type in your Bambu email and password
+## Type in your Bambu email and password
 
 The ones for your Bambu Lab account — that email, not another one of yours — and
 click **Connect to Bambu Lab**.
@@ -71,7 +71,7 @@ click **Connect to Bambu Lab**.
 It stays **only in your browser**, and only until you've finished verifying.
 :::
 
-## Step 3 — Enter the code you get by email
+## Enter the code you get by email
 
 Bambu sends you a **6-digit code** from `noreply@bambulab.com`. **Check your spam
 too** — it ends up there more often than it should.
@@ -87,7 +87,7 @@ their own.
 
 Once it's accepted, you'll see **Account verified and connected**.
 
-## Step 4 — There they are
+## There they are
 
 You don't have to add the printers one by one. **Every machine on that account
 shows up on its own** in the **Printers** tab, each with its name and serial

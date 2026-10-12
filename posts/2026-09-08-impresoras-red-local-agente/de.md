@@ -34,7 +34,7 @@ Noch besser, wenn er **im selben Netzwerk wie die Drucker** steht, denn dann fin
 er sie von selbst. Wenn das nicht geht, fügst du sie von Hand hinzu, und sie
 funktionieren genauso.
 
-## Schritt 1 — Leg ihn in BolloPrint an
+## Leg ihn in BolloPrint an
 
 Geh zu **Einstellungen → Drucker**, öffne den Reiter **Lokaler Agent** und klick
 auf **Neuer Agent**.
@@ -45,7 +45,7 @@ Gib ihm einen Namen, der dir auch in sechs Monaten noch etwas sagt. Ein Tipp:
 
 ![Der Reiter Lokaler Agent mit dem Button Neuer Agent](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
 
-## Schritt 2 — Kopier die Vorlage
+## Kopier die Vorlage
 
 Beim Anlegen zeigt dir BolloPrint eine **Vorlage**: einen Text, in dem schon alles
 steht, was zu dir gehört — die Schlüssel deines Agenten und die passende
@@ -62,7 +62,7 @@ die Vorlage verlierst, ist das nicht schlimm: Du öffnest den Agenten und erzeug
 mit **Schlüssel neu erzeugen** eine neue.
 :::
 
-## Schritt 3 — Füg sie dort ein, wo er laufen soll
+## Füg sie dort ein, wo er laufen soll
 
 Das passiert jetzt auf deinem Rechner, nicht in BolloPrint. Es hängt davon ab, wo
 du ihn hinstellst:
@@ -84,10 +84,10 @@ Du nutzt **Portainer**? Füg dieselbe Vorlage in einen Stack ein und stell sie b
 :::info 💡 Auf Windows und Mac werden die Drucker nicht von selbst gefunden
 Docker läuft dort in einer virtuellen Maschine, die die Meldungen nicht sieht, die
 die Drucker in dein Netzwerk schicken. Der Agent funktioniert genauso, aber die
-Drucker fügst du selbst hinzu, wie in Schritt 6.
+Drucker fügst du selbst hinzu, wie weiter unten erklärt.
 :::
 
-## Schritt 4 — Prüf, ob er online ist
+## Prüf, ob er online ist
 
 Geh zurück zu BolloPrint. In weniger als einer Minute springt der Agent auf
 **Online**.
@@ -98,7 +98,7 @@ Wenn er nicht auftaucht, liegt es fast immer an einem von drei Dingen: Die Vorla
 wurde **nur halb eingefügt**, der Rechner hat **kein Internet**, oder eine
 **Firewall** blockiert den ausgehenden Verkehr.
 
-## Schritt 5 — Deine Drucker erscheinen von selbst
+## Deine Drucker erscheinen von selbst
 
 Der Agent **sucht von allein alle 15 Minuten nach Druckern in deinem Netzwerk**.
 Die, die er findet, erscheinen in einer Liste mit Marke und Modell, und du
@@ -115,7 +115,7 @@ den Button **Jetzt suchen**.
 Manche fragen beim Hinzufügen nach einem **Passwort**. Das hängt von der Marke ab,
 und dazu kommen wir gleich.
 
-## Schritt 6 — Wenn einer nicht auftaucht, fügst du ihn selbst hinzu
+## Wenn einer nicht auftaucht, fügst du ihn selbst hinzu
 
 Dass ein Drucker nicht von selbst erscheint, ist in zwei Fällen **normal**:
 

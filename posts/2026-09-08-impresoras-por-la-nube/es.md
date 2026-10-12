@@ -49,7 +49,7 @@ creado una contraseña porque siempre usas «Continuar con Google», créala pri
 en la web de Bambu Lab y vuelve después.
 :::
 
-## Paso 1 — Abre la pantalla de impresoras
+## Abre la pantalla de impresoras
 
 Todo se hace desde un mismo sitio: **Configuración → Impresoras**. Ahí verás tres
 pestañas:
@@ -63,7 +63,7 @@ Abre **Bambu Cloud**.
 
 ![La pantalla Configuración → Impresoras con sus tres pestañas](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Paso 2 — Escribe el email y la contraseña de Bambu
+## Escribe el email y la contraseña de Bambu
 
 Usa los de tu cuenta de Bambu Lab (ese email, no otro tuyo) y pulsa **Conectar
 con Bambu Lab**.
@@ -74,7 +74,7 @@ con Bambu Lab**.
 Se queda **solo en tu navegador**, y únicamente hasta que terminas la verificación.
 :::
 
-## Paso 3 — Confirma el código del correo
+## Confirma el código del correo
 
 Bambu te enviará un **código de 6 dígitos** desde `noreply@bambulab.com`. Si no
 lo ves, **revisa la carpeta de spam**: suele acabar ahí. Escríbelo en la misma
@@ -89,7 +89,7 @@ Dos detalles te ahorran un segundo intento:
 
 Cuando lo acepta, verás **Cuenta verificada y conectada**.
 
-## Paso 4 — Tus impresoras ya están dentro
+## Tus impresoras ya están dentro
 
 No hace falta darlas de alta una a una: **todas las impresoras de esa cuenta
 aparecen solas** en la pestaña **Impresoras**, cada una con su nombre y su número

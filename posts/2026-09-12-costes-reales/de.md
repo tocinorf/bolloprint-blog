@@ -59,7 +59,7 @@ Genau das berechnet der Bereich **Kosten** in BolloPrint, unter
 
 ![Der Bereich Kosten in den Einstellungen](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
-## Schritt 1 — Die Stunden, die du wirklich druckst
+## Die Stunden, die du wirklich druckst
 
 Das ist die Zahl, die die meisten falsch berechnen, und die, die das Ergebnis am
 stärksten verändert. Sie steht unter **Stundenkosten → Druckstunden**, und es sind
@@ -78,7 +78,7 @@ Monatsende selbst.
 
 ![Der Reiter Druckstunden mit den drei Feldern und dem Ergebnis](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
-## Schritt 2 — Was dich die Werkstatt kostet
+## Was dich die Werkstatt kostet
 
 Unter **Basiskosten** trägst du nach und nach deine Ausgaben ein. BolloPrint
 sortiert sie nach Typ und fragt bei jedem nur nach dem, was es braucht:
@@ -107,7 +107,9 @@ Ganz unten steht die fertige Rechnung, die vom Anfang:
 
 Das sind die **Basiskosten pro Stunde**. Im Beispiel oben 0,72 €.
 
-## Schritt 3 — Was sowieso passiert
+![Die Ausgaben der Werkstatt unter Basiskosten, nach Art gruppiert, und die Rechnung, die 0,72 € pro Stunde ergibt](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+
+## Was sowieso passiert
 
 Die Basiskosten lassen Dinge außen vor, die passieren, aber keine feste Rechnung
 haben: Düsen gehen kaputt, und **manches Teil geht schief und muss neu gedruckt
@@ -128,7 +130,9 @@ Hier stehen nur **Kosten**. Wie viel du verdienen willst, entscheidest du späte
 im Produkt, denn das ist eine kaufmännische Entscheidung.
 :::
 
-## Schritt 4 — Material und Extras
+![Die Zuschläge für Wartung, Fehlerquote und Puffer auf die Basiskosten, bis 0,86 € pro Stunde](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+
+## Material und Extras
 
 Der einfache Teil, unter **Standardwerte**:
 
@@ -147,6 +151,8 @@ Diese Preise sind Richtwerte für den Fall, dass nichts dahintersteht. Wenn das
 Teil von einer Rolle kommt, die mit ihren echten Kosten angelegt ist, verwenden wir
 diese.
 :::
+
+![Standardwerte: die Margen mit ihren Farbwarnungen und der Preis jedes Materials pro Kilo](/blog/media/2026-09-12-costes-reales/03d-valores-por-defecto.png)
 
 ## Und so landet es bei deinem Teil
 

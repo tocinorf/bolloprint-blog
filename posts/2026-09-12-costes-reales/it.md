@@ -57,7 +57,7 @@ Nell'esempio qui sopra:
 
 ![La sezione Costi dentro Impostazioni](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
-## Passaggio 1 — Le ore in cui stampi davvero
+## Le ore in cui stampi davvero
 
 Questo è il numero che più persone calcolano male, e quello che cambia di più il
 risultato. Si trova in **Costo orario → Ore di stampa**, e sono tre campi:
@@ -74,7 +74,7 @@ che non ripartisci tra i pezzi te lo mangi tu a fine mese.
 
 ![La scheda Ore di stampa, con i tre campi e il risultato](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
-## Passaggio 2 — Quanto ti costa il laboratorio
+## Quanto ti costa il laboratorio
 
 In **Costo base** inserisci le tue spese. BolloPrint le ordina per tipo e di
 ognuna ti chiede solo quello che serve:
@@ -103,7 +103,9 @@ In fondo trovi il conto già fatto, che è quello dell'inizio:
 
 Questo è il **costo base orario**. Nell'esempio qui sopra, 0,72 €.
 
-## Passaggio 3 — Quello che sai che succederà
+![Le spese del laboratorio in Costo base, raggruppate per tipo, e il conto che dà 0,72 € l’ora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+
+## Quello che sai che succederà
 
 Il costo base lascia fuori cose che capitano e non hanno una fattura fissa: si
 rompono ugelli, e **qualche pezzo viene male e va ristampato**.
@@ -123,7 +125,9 @@ Qui vanno solo i **costi**. Quanto vuoi guadagnare si decide dopo, nel prodotto,
 perché è una decisione commerciale.
 :::
 
-## Passaggio 4 — Il materiale e gli extra
+![Le maggiorazioni di manutenzione, tasso di fallimento e imprevisti sul costo base, fino a 0,86 € l’ora](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+
+## Il materiale e gli extra
 
 La parte facile, in **Valori predefiniti**:
 
@@ -139,6 +143,8 @@ La parte facile, in **Valori predefiniti**:
 Questi prezzi sono di riferimento, per quando dietro non c'è niente. Se il pezzo
 esce da una bobina registrata con il suo costo reale, usiamo quello.
 :::
+
+![Valori predefiniti: i margini con i loro avvisi di colore e il prezzo di ogni materiale al chilo](/blog/media/2026-09-12-costes-reales/03d-valores-por-defecto.png)
 
 ## Ed ecco come arriva al tuo pezzo
 

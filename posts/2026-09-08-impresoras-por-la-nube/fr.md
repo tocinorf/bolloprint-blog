@@ -39,7 +39,7 @@ Et en plus, ce qui change vraiment la donne en fin de mois : **chaque impressio
 BolloPrint a besoin de l'**e-mail et du mot de passe** de votre compte Bambu. Si vous n'avez jamais défini de mot de passe parce que vous cliquez toujours sur « Continuer avec Google », créez-en un d'abord sur le site de Bambu Lab et revenez ici avec.
 :::
 
-## Étape 1 — Ouvrez l'écran des imprimantes
+## Ouvrez l'écran des imprimantes
 
 Allez dans **Paramètres → Imprimantes**. Vous verrez trois onglets :
 
@@ -51,7 +51,7 @@ Ouvrez **Bambu Cloud**.
 
 ![L'écran Paramètres → Imprimantes avec ses trois onglets](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Étape 2 — Saisissez votre e-mail et votre mot de passe Bambu
+## Saisissez votre e-mail et votre mot de passe Bambu
 
 Ceux de votre compte Bambu Lab — cet e-mail-là, pas un autre des vôtres — puis cliquez sur **Se connecter à BambuLab**.
 
@@ -61,7 +61,7 @@ Ceux de votre compte Bambu Lab — cet e-mail-là, pas un autre des vôtres — 
 Il reste **uniquement dans votre navigateur**, et seulement jusqu'à la fin de la vérification.
 :::
 
-## Étape 3 — Saisissez le code reçu par e-mail
+## Saisissez le code reçu par e-mail
 
 Bambu vous envoie un **code à 6 chiffres** depuis `noreply@bambulab.com`. **Regardez aussi dans les spams** : il y atterrit plus souvent qu'il ne le devrait.
 
@@ -73,7 +73,7 @@ Deux détails qui vous éviteront une deuxième tentative : **le code expire au
 
 Une fois le code accepté, vous verrez **Compte vérifié et connecté**.
 
-## Étape 4 — Elles sont déjà là
+## Elles sont déjà là
 
 Pas besoin d'enregistrer les imprimantes une par une. **Toutes les machines de ce compte apparaissent toutes seules** dans l'onglet **Imprimantes**, chacune avec son nom et son numéro de série.
 

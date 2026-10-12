@@ -34,7 +34,7 @@ Melhor ainda se estiver **na mesma rede que as impressoras**, porque assim
 encontra-as sozinho. Se não puder ser, adiciona-las à mão e funcionam exatamente
 igual.
 
-## Passo 1 — Cria-o no BolloPrint
+## Cria-o no BolloPrint
 
 Vai a **Configurações → Impressoras**, abre o separador **Agente local** e carrega
 em **Novo agente**.
@@ -45,7 +45,7 @@ servem; «Agente 1», não.
 
 ![O separador Agente local, com o botão Novo agente](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
 
-## Passo 2 — Copia o manifesto
+## Copia o manifesto
 
 Ao criá-lo, o BolloPrint mostra-te um **manifesto**: um texto que já traz lá
 dentro tudo o que é teu — as chaves do teu agente e a versão certa — **já
@@ -62,7 +62,7 @@ não é nada de grave: abres o agente e usas **Regenerar chaves** para obteres u
 novo.
 :::
 
-## Passo 3 — Cola-o onde o vais arrancar
+## Cola-o onde o vais arrancar
 
 Isto já é no teu computador, não no BolloPrint. Depende de onde o puseres:
 
@@ -83,10 +83,10 @@ Usas o **Portainer**? Colas o mesmo manifesto numa stack e fazes deploy.
 :::info 💡 Em Windows e Mac, as impressoras não são encontradas sozinhas
 Aí o Docker corre dentro de uma máquina virtual, que não vê os anúncios que as
 impressoras enviam para a tua rede. O agente funciona igual, mas as impressoras
-adiciona-las tu, como no passo 6.
+adiciona-las tu, como se explica mais abaixo.
 :::
 
-## Passo 4 — Confirma que está online
+## Confirma que está online
 
 Volta ao BolloPrint. Em menos de um minuto, o agente passa a **Online**.
 
@@ -95,7 +95,7 @@ Volta ao BolloPrint. Em menos de um minuto, o agente passa a **Online**.
 Se não aparecer, é quase sempre uma destas três coisas: o manifesto **colado só
 em parte**, o computador **sem internet**, ou uma **firewall** a bloquear a saída.
 
-## Passo 5 — As tuas impressoras aparecem sozinhas
+## As tuas impressoras aparecem sozinhas
 
 O agente **procura impressoras na tua rede** por conta própria, a cada 15
 minutos. As que encontra aparecem numa lista com a sua marca e o seu modelo, e tu
@@ -112,7 +112,7 @@ agora**.
 Algumas vão pedir-te uma **palavra-passe** ao adicioná-las. Depende da marca, e
 vemos isso já a seguir.
 
-## Passo 6 — Se alguma não aparecer, adiciona-la tu
+## Se alguma não aparecer, adiciona-la tu
 
 É **normal** uma impressora não aparecer sozinha em dois casos:
 

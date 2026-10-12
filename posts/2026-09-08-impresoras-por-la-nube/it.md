@@ -48,7 +48,7 @@ non hai mai impostato una password perché premi sempre «Continua con Google»,
 creala prima sul sito di Bambu Lab e torna qui con quella.
 :::
 
-## Passaggio 1 — Apri la schermata delle stampanti
+## Apri la schermata delle stampanti
 
 Vai su **Impostazioni → Stampanti**. Vedrai tre schede:
 
@@ -60,7 +60,7 @@ Apri **Bambu Cloud**.
 
 ![La schermata Impostazioni → Stampanti con le sue tre schede](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Passaggio 2 — Scrivi l'email e la password di Bambu
+## Scrivi l'email e la password di Bambu
 
 Quelle del tuo account Bambu Lab —quell'email, non un'altra tua— e premi
 **Connetti con BambuLab**.
@@ -71,7 +71,7 @@ Quelle del tuo account Bambu Lab —quell'email, non un'altra tua— e premi
 Resta **solo nel tuo browser**, e solo finché non finisci di verificare.
 :::
 
-## Passaggio 3 — Inserisci il codice che ti arriva per email
+## Inserisci il codice che ti arriva per email
 
 Bambu ti manda un **codice di 6 cifre** da `noreply@bambulab.com`. **Guarda
 anche nello spam**: ci finisce più spesso di quanto dovrebbe.
@@ -86,7 +86,7 @@ così com'è**: se ha spazi o trattini, vengono ripuliti da soli.
 
 Quando lo accetta, vedrai **Account verificato e connesso**.
 
-## Passaggio 4 — Eccole lì
+## Eccole lì
 
 Non c'è bisogno di registrare le stampanti una a una. **Tutte le macchine di
 quell'account compaiono da sole** nella scheda **Stampanti**, ognuna con il suo

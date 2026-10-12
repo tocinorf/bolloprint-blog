@@ -57,7 +57,7 @@ Eso es exactamente lo que calcula la sección **Costes** de BolloPrint, en
 
 ![La sección Costes dentro de Configuración](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
-## Paso 1 — Las horas que imprimes de verdad
+## Las horas que imprimes de verdad
 
 Este es el número que más gente calcula mal, y el que más cambia el resultado.
 Está en **Coste horas → Horas de impresión**, y son tres campos:
@@ -74,7 +74,7 @@ igual, y lo que no repartas entre las piezas te lo comes tú a fin de mes.
 
 ![La pestaña de Horas de impresión, con los tres campos y el resultado](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
-## Paso 2 — Lo que te cuesta el taller
+## Lo que te cuesta el taller
 
 En **Coste base** vas metiendo tus gastos. BolloPrint los ordena por tipo y te
 pide de cada uno solo lo que necesita:
@@ -103,7 +103,9 @@ Abajo del todo tienes la cuenta hecha, que es la del principio:
 
 Eso es el **coste base por hora**. En el ejemplo de arriba, 0,72 €.
 
-## Paso 3 — Lo que sabes que va a pasar
+![Los gastos del taller en Coste base, agrupados por tipo, y la cuenta que da 0,72 € la hora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+
+## Lo que sabes que va a pasar
 
 El coste base deja fuera cosas que ocurren y no tienen factura fija: se rompen
 boquillas, y **alguna pieza sale mal y hay que repetirla**.
@@ -123,7 +125,9 @@ Aquí solo van **costes**. Cuánto quieres ganar se decide después, en el produ
 porque es una decisión comercial.
 :::
 
-## Paso 4 — El material y los extras
+![Los recargos de mantenimiento, tasa de fallo e imprevistos sobre el coste base, hasta 0,86 € la hora](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+
+## El material y los extras
 
 La parte fácil, en **Valores por defecto**:
 
@@ -139,6 +143,8 @@ La parte fácil, en **Valores por defecto**:
 Estos precios son de referencia, para cuando no hay nada detrás. Si la pieza sale
 de una bobina dada de alta con su coste real, usamos ese.
 :::
+
+![Valores por defecto: los márgenes con sus avisos de color y el precio de cada material por kilo](/blog/media/2026-09-12-costes-reales/03d-valores-por-defecto.png)
 
 ## Y así llega a tu pieza
 

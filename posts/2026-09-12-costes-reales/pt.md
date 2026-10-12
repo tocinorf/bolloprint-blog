@@ -57,7 +57,7 @@ No exemplo acima:
 
 ![A secção Custos dentro das Configurações](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
-## Passo 1 — As horas em que imprimes de verdade
+## As horas em que imprimes de verdade
 
 Este é o número que mais gente calcula mal, e o que mais muda o resultado.
 Está em **Custo por hora → Horas de impressão**, e são três campos:
@@ -75,7 +75,7 @@ do mês.
 
 ![O separador Horas de impressão, com os três campos e o resultado](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
-## Passo 2 — O que te custa a oficina
+## O que te custa a oficina
 
 Em **Custo base** vais pondo as tuas despesas. O BolloPrint ordena-as por tipo e
 pede-te de cada uma só o que precisa:
@@ -104,7 +104,9 @@ Lá em baixo tens a conta feita, que é a do início:
 
 Isso é o **custo base por hora**. No exemplo acima, 0,72 €.
 
-## Passo 3 — O que sabes que vai acontecer
+![As despesas da oficina em Custo base, agrupadas por tipo, e a conta que dá 0,72 € por hora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+
+## O que sabes que vai acontecer
 
 O custo base deixa de fora coisas que acontecem e não têm fatura fixa: partem-se
 bicos, e **alguma peça sai mal e tem de ser repetida**.
@@ -124,7 +126,9 @@ Aqui só vão **custos**. Quanto queres ganhar decide-se depois, no produto, por
 é uma decisão comercial.
 :::
 
-## Passo 4 — O material e os extras
+![Os acréscimos de manutenção, taxa de falhas e imprevistos sobre o custo base, até 0,86 € por hora](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+
+## O material e os extras
 
 A parte fácil, em **Valores por omissão**:
 
@@ -140,6 +144,8 @@ A parte fácil, em **Valores por omissão**:
 Estes preços são de referência, para quando não há nada por trás. Se a peça sair
 de uma bobina registada com o seu custo real, usamos esse.
 :::
+
+![Valores por omissão: as margens com os avisos de cor e o preço de cada material por quilo](/blog/media/2026-09-12-costes-reales/03d-valores-por-defecto.png)
 
 ## E é assim que chega à tua peça
 

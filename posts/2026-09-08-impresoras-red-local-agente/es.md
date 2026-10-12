@@ -32,7 +32,7 @@ encendido** y que tenga **Docker**.
 Mejor aún si está **en la misma red que las impresoras**, porque así las
 encuentra él solo. Si no puede, las añades a mano y funcionan exactamente igual.
 
-## Paso 1 — Créalo en BolloPrint
+## Créalo en BolloPrint
 
 Ve a **Configuración → Impresoras**, abre la pestaña **Agente local** y pulsa
 **Nuevo agente**.
@@ -43,7 +43,7 @@ no.
 
 ![La pestaña Agente local, con el botón de Nuevo agente](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
 
-## Paso 2 — Copia la plantilla
+## Copia la plantilla
 
 Al crearlo, BolloPrint te enseña una **plantilla**: un texto que ya lleva dentro
 todo lo tuyo —las claves de tu agente y la versión que toca— **ya escrito**. No
@@ -58,7 +58,7 @@ Las claves no caducan, pero no las volvemos a mostrar. Si pierdes la plantilla n
 pasa nada grave: abres el agente y usas **Regenerar claves** para sacar una nueva.
 :::
 
-## Paso 3 — Pégala donde lo vayas a arrancar
+## Pégala donde lo vayas a arrancar
 
 Esto ya es en tu equipo, no en BolloPrint. Depende de dónde lo pongas:
 
@@ -79,10 +79,10 @@ guarda la plantilla como `docker-compose.yml` y, desde esa carpeta,
 :::info 💡 En Windows y Mac, las impresoras no se descubren solas
 Ahí Docker corre dentro de una máquina virtual, que no ve los avisos que las
 impresoras mandan a tu red. El agente funciona igual, pero las impresoras las
-añades tú, como en el paso 6.
+añades tú, como se explica más abajo.
 :::
 
-## Paso 4 — Comprueba que está en línea
+## Comprueba que está en línea
 
 Vuelve a BolloPrint. En menos de un minuto, el agente pasa a **En línea**.
 
@@ -91,7 +91,7 @@ Vuelve a BolloPrint. En menos de un minuto, el agente pasa a **En línea**.
 Si no aparece, casi siempre es una de estas tres: la plantilla **pegada a medias**,
 el equipo **sin internet**, o un **cortafuegos** bloqueando la salida.
 
-## Paso 5 — Tus impresoras aparecen solas
+## Tus impresoras aparecen solas
 
 El agente **busca impresoras en tu red** por su cuenta, cada 15 minutos. Las que
 encuentra salen en una lista con su marca y su modelo, y tú decides:
@@ -107,7 +107,7 @@ ahora**.
 Algunas te van a pedir una **contraseña** al añadirlas. Depende de la marca, y lo
 vemos en un momento.
 
-## Paso 6 — Si alguna no aparece, la añades tú
+## Si alguna no aparece, la añades tú
 
 Que una impresora no salga sola es **normal** en dos casos:
 

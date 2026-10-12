@@ -32,7 +32,7 @@ to have **Docker**.
 Even better if it's **on the same network as the printers**, because then it finds
 them by itself. If it can't be, you add them by hand and they work exactly the same.
 
-## Step 1 — Create it in BolloPrint
+## Create it in BolloPrint
 
 Go to **Settings → Printers**, open the **Local agent** tab and click
 **New agent**.
@@ -43,7 +43,7 @@ doesn't.
 
 ![The Local agent tab, with the New agent button](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
 
-## Step 2 — Copy the manifest
+## Copy the manifest
 
 When you create it, BolloPrint shows you a **manifest**: a piece of text that
 already has everything of yours inside — your agent's keys and the right version —
@@ -58,7 +58,7 @@ The keys don't expire, but we won't show them again. If you lose the manifest it
 nothing serious: you open the agent and use **Regenerate keys** to get a new one.
 :::
 
-## Step 3 — Paste it wherever you're going to run it
+## Paste it wherever you're going to run it
 
 This part happens on your computer, not in BolloPrint. It depends on where you put
 it:
@@ -80,10 +80,10 @@ Do you use **Portainer**? Paste the same manifest into a stack and deploy.
 :::info 💡 On Windows and Mac, printers aren't discovered on their own
 There, Docker runs inside a virtual machine, which can't see the announcements
 printers send out on your network. The agent works just the same, but you add the
-printers yourself, as in step 6.
+printers yourself, as explained further down.
 :::
 
-## Step 4 — Check that it's online
+## Check that it's online
 
 Go back to BolloPrint. In less than a minute, the agent switches to **Online**.
 
@@ -93,7 +93,7 @@ If it doesn't show up, it's almost always one of these three: the manifest was
 **only half pasted**, the computer has **no internet**, or a **firewall** is
 blocking outgoing traffic.
 
-## Step 5 — Your printers show up on their own
+## Your printers show up on their own
 
 The agent **looks for printers on your network** by itself, every 15 minutes. The
 ones it finds appear in a list with their brand and model, and you decide:
@@ -109,7 +109,7 @@ now** button.
 Some will ask you for a **password** when you add them. It depends on the brand,
 and we'll get to that in a moment.
 
-## Step 6 — If one doesn't show up, add it yourself
+## If one doesn't show up, add it yourself
 
 It's **normal** for a printer not to appear on its own in two cases:
 

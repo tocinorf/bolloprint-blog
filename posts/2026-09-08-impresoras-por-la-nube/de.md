@@ -48,7 +48,7 @@ nie ein Passwort vergeben hast, weil du immer auf „Mit Google fortfahren“ kl
 leg es zuerst auf der Website von Bambu Lab an und komm damit hierher zurück.
 :::
 
-## Schritt 1 — Öffne den Druckerbildschirm
+## Öffne den Druckerbildschirm
 
 Geh zu **Einstellungen → Drucker**. Dort siehst du drei Reiter:
 
@@ -60,7 +60,7 @@ Geh zu **Einstellungen → Drucker**. Dort siehst du drei Reiter:
 
 ![Der Bildschirm Einstellungen → Drucker mit seinen drei Reitern](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
 
-## Schritt 2 — Gib deine Bambu-E-Mail und dein Passwort ein
+## Gib deine Bambu-E-Mail und dein Passwort ein
 
 Die von deinem Bambu-Lab-Konto — genau diese E-Mail, keine andere von dir — und
 klick auf **Mit Bambu Lab verbinden**.
@@ -72,7 +72,7 @@ Es bleibt **nur in deinem Browser**, und auch nur, bis du die Bestätigung
 abgeschlossen hast.
 :::
 
-## Schritt 3 — Gib den Code aus der E-Mail ein
+## Gib den Code aus der E-Mail ein
 
 Bambu schickt dir einen **6-stelligen Code** von `noreply@bambulab.com`. **Sieh
 auch im Spam nach**, da landet er öfter, als er sollte.
@@ -89,7 +89,7 @@ automatisch entfernt.
 
 Sobald er angenommen ist, siehst du **Konto verifiziert und verbunden**.
 
-## Schritt 4 — Da sind sie schon
+## Da sind sie schon
 
 Du musst die Drucker nicht einzeln anlegen. **Alle Maschinen dieses Kontos
 erscheinen von selbst** im Reiter **Drucker**, jede mit ihrem Namen und ihrer

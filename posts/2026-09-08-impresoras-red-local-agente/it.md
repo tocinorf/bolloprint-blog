@@ -34,7 +34,7 @@ acceso** e che abbia **Docker**.
 Ancora meglio se è **nella stessa rete delle stampanti**, perché così le trova
 da solo. Se non ci riesce, le aggiungi a mano e funzionano esattamente uguale.
 
-## Passaggio 1 — Crealo in BolloPrint
+## Crealo in BolloPrint
 
 Vai su **Impostazioni → Stampanti**, apri la scheda **Agente locale** e premi
 **Nuovo agente**.
@@ -45,7 +45,7 @@ base a dove si trova, non a cosa è**. «Piano terra» o «Capannone 2» vanno b
 
 ![La scheda Agente locale, con il pulsante Nuovo agente](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
 
-## Passaggio 2 — Copia il modello
+## Copia il modello
 
 Quando lo crei, BolloPrint ti mostra un **modello**: un testo che contiene già
 tutto quello che è tuo —le chiavi del tuo agente e la versione giusta— **già
@@ -62,7 +62,7 @@ succede niente di grave: apri l'agente e usi **Rigenera le chiavi** per
 ottenerne uno nuovo.
 :::
 
-## Passaggio 3 — Incollalo dove lo farai girare
+## Incollalo dove lo farai girare
 
 Questo ormai si fa sul tuo computer, non in BolloPrint. Dipende da dove lo metti:
 
@@ -83,10 +83,10 @@ Usi **Portainer**? Incolli lo stesso modello in uno stack e fai il deploy.
 :::info 💡 Su Windows e Mac, le stampanti non vengono trovate da sole
 Lì Docker gira dentro una macchina virtuale, che non vede gli annunci che le
 stampanti mandano alla tua rete. L'agente funziona uguale, ma le stampanti le
-aggiungi tu, come nel passaggio 6.
+aggiungi tu, come spiegato più sotto.
 :::
 
-## Passaggio 4 — Controlla che sia online
+## Controlla che sia online
 
 Torna in BolloPrint. In meno di un minuto, l'agente passa a **Online**.
 
@@ -96,7 +96,7 @@ Se non compare, quasi sempre è una di queste tre: il modello **incollato a
 metà**, il computer **senza internet**, oppure un **firewall** che blocca
 l'uscita.
 
-## Passaggio 5 — Le tue stampanti compaiono da sole
+## Le tue stampanti compaiono da sole
 
 L'agente **cerca le stampanti nella tua rete** per conto suo, ogni 15 minuti.
 Quelle che trova escono in un elenco con la loro marca e il loro modello, e
@@ -113,7 +113,7 @@ ora**.
 Alcune ti chiederanno una **password** quando le aggiungi. Dipende dalla marca,
 e lo vediamo tra un attimo.
 
-## Passaggio 6 — Se qualcuna non compare, la aggiungi tu
+## Se qualcuna non compare, la aggiungi tu
 
 Che una stampante non compaia da sola è **normale** in due casi:
 

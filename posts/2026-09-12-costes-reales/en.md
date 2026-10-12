@@ -58,7 +58,7 @@ That's exactly what BolloPrint's **Costs** section works out, in
 
 ![The Costs section inside Settings](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
-## Step 1 — The hours you really print
+## The hours you really print
 
 This is the number most people get wrong, and the one that changes the result the
 most. It's in **Hourly cost → Print hours**, and it's three fields:
@@ -76,7 +76,7 @@ own pocket at the end of the month.
 
 ![The Print hours tab, with the three fields and the result](/blog/media/2026-09-12-costes-reales/03-horas-impresion.png)
 
-## Step 2 — What the workshop costs you
+## What the workshop costs you
 
 In **Base cost** you enter your expenses. BolloPrint sorts them by type and only
 asks you for what it needs for each one:
@@ -104,7 +104,9 @@ Right at the bottom you have the sum worked out, which is the one from the start
 
 That's the **base cost per hour**. In the example above, €0.72.
 
-## Step 3 — What you know is going to happen
+![The workshop’s expenses in Base cost, grouped by type, and the sum that gives €0.72 an hour](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+
+## What you know is going to happen
 
 The base cost leaves out things that do happen but don't come with a fixed bill:
 nozzles break, and **some pieces come out wrong and have to be reprinted**.
@@ -124,7 +126,9 @@ Only **costs** go here. How much you want to earn is decided later, on the produ
 because it's a business decision.
 :::
 
-## Step 4 — Material and extras
+![The maintenance, failure-rate and contingency surcharges on the base cost, up to €0.86 an hour](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+
+## Material and extras
 
 The easy part, in **Default values**:
 
@@ -140,6 +144,8 @@ The easy part, in **Default values**:
 These prices are a reference, for when there's nothing behind them. If the piece
 comes from a spool you've registered with its real cost, we use that one.
 :::
+
+![Default values: the margins with their colour warnings and the price of each material per kilo](/blog/media/2026-09-12-costes-reales/03d-valores-por-defecto.png)
 
 ## And this is how it reaches your piece
 

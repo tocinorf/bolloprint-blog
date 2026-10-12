@@ -120,7 +120,7 @@ Que una impresora no salga sola es **normal** en dos casos:
 con mandos si esa máquina los tiene. Pulsas **Añadir por IP** y pones el tipo de
 impresora, su dirección en tu red y, si la pide, su contraseña.
 
-![El formulario de añadir una impresora por su IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png)
+![El formulario de añadir una impresora por su IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
 
 :::info 💡 Resérvale la IP en el router
 Si el router le cambia la dirección a una impresora, la volvemos a buscar sola,

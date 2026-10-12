@@ -32,7 +32,7 @@ De cada impresora, en vivo y sin tocar nada:
 Y además, lo que de verdad cambia las cosas a fin de mes: **cada impresión queda
 registrada**, con su duración, su material y su coste. Sin apuntar nada a mano.
 
-![La ficha de una impresora imprimiendo, con el progreso y las temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png)
+![La ficha de una impresora imprimiendo, con el progreso y las temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## Lo que necesitas
 

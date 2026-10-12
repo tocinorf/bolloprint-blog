@@ -33,7 +33,7 @@ E, além disso, o que realmente faz a diferença ao fim do mês: **cada impress�
 fica registada**, com a sua duração, o seu material e o seu custo. Sem apontar
 nada à mão.
 
-![A ficha de uma impressora a imprimir, com o progresso e as temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png)
+![A ficha de uma impressora a imprimir, com o progresso e as temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## O que precisas
 

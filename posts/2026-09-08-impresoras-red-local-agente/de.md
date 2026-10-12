@@ -129,7 +129,7 @@ genauso, mit Kamera und Steuerung, wenn die Maschine das hat. Du klickst auf **P
 IP hinzufügen** und gibst die Art des Druckers ein, seine Adresse in deinem
 Netzwerk und, falls er eins verlangt, sein Passwort.
 
-![Das Formular zum Hinzufügen eines Druckers über seine IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png)
+![Das Formular zum Hinzufügen eines Druckers über seine IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
 
 :::info 💡 Reservier ihm die IP im Router
 Wenn der Router einem Drucker eine neue Adresse gibt, suchen wir ihn von selbst

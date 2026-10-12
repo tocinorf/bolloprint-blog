@@ -127,7 +127,7 @@ telecamera e comandi se quella macchina li ha. Premi **Aggiungi per IP** e
 indichi il tipo di stampante, il suo indirizzo nella tua rete e, se la chiede,
 la sua password.
 
-![Il modulo per aggiungere una stampante tramite il suo IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png)
+![Il modulo per aggiungere una stampante tramite il suo IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
 
 :::info 💡 Riservale l'IP nel router
 Se il router cambia l'indirizzo a una stampante, la ritroviamo da soli, ma per

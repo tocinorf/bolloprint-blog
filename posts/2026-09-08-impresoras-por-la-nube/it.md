@@ -33,7 +33,7 @@ E in più, quello che fa davvero la differenza a fine mese: **ogni stampa viene
 registrata**, con la sua durata, il suo materiale e il suo costo. Senza annotare
 niente a mano.
 
-![La scheda di una stampante in stampa, con l'avanzamento e le temperature](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png)
+![La scheda di una stampante in stampa, con l'avanzamento e le temperature](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## Cosa ti serve
 

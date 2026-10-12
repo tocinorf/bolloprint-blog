@@ -33,7 +33,7 @@ And on top of that, the thing that really makes a difference at the end of the
 month: **every print gets logged**, with its duration, its material and its cost.
 Without writing anything down by hand.
 
-![A printer's card while it's printing, with the progress and the temperatures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png)
+![A printer's card while it's printing, with the progress and the temperatures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## What you need
 

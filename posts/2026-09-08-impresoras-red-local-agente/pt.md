@@ -126,7 +126,7 @@ câmara e com comandos, se essa máquina os tiver. Carregas em **Adicionar por I
 e indicas o tipo de impressora, o seu endereço na tua rede e, se a pedir, a sua
 palavra-passe.
 
-![O formulário para adicionar uma impressora pelo seu IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png)
+![O formulário para adicionar uma impressora pelo seu IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
 
 :::info 💡 Reserva-lhe o IP no router
 Se o router mudar o endereço de uma impressora, voltamos a encontrá-la sozinhos,

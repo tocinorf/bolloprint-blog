@@ -123,7 +123,7 @@ the same, with camera and with controls if that machine has them. Click **Add by
 IP** and enter the type of printer, its address on your network and, if it asks for
 one, its password.
 
-![The form for adding a printer by its IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png)
+![The form for adding a printer by its IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
 
 :::info 💡 Reserve its IP in the router
 If the router changes a printer's address, we find it again on our own, but it'll be

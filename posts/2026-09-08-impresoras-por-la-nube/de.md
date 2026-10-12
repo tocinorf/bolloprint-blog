@@ -33,7 +33,7 @@ Und dazu das, was am Monatsende wirklich den Unterschied macht: **Jeder Druck
 wird protokolliert**, mit Dauer, Material und Kosten. Ohne dass du etwas von Hand
 aufschreibst.
 
-![Die Detailseite eines Druckers, der gerade druckt, mit Fortschritt und Temperaturen](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png)
+![Die Detailseite eines Druckers, der gerade druckt, mit Fortschritt und Temperaturen](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## Was du brauchst
 

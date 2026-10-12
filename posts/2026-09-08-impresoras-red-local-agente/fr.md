@@ -91,7 +91,7 @@ Qu'une imprimante n'apparaisse pas toute seule est **normal** dans deux cas :
 
 **Vous n'y perdez rien.** Vous l'ajoutez vous-même et elle fonctionne exactement pareil, avec la caméra et les commandes si cette machine en dispose. Cliquez sur **Ajouter par IP** et indiquez le type d'imprimante, son adresse sur votre réseau et, si elle en demande un, son mot de passe.
 
-![Le formulaire pour ajouter une imprimante par son IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png)
+![Le formulaire pour ajouter une imprimante par son IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
 
 :::info 💡 Réservez-lui son IP dans la box
 Si la box change l'adresse d'une imprimante, nous la retrouvons automatiquement, mais elle sera hors ligne un moment. Lui réserver son adresse évite ce trou. C'est un réglage de la box, pas de BolloPrint.

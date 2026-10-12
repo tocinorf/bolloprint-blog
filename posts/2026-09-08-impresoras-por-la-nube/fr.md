@@ -27,7 +27,7 @@ Pour chaque imprimante, en direct et sans rien toucher :
 
 Et en plus, ce qui change vraiment la donne en fin de mois : **chaque impression est enregistrée**, avec sa durée, son matériau et son coût. Sans rien noter à la main.
 
-![La fiche d'une imprimante en cours d'impression, avec la progression et les températures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png)
+![La fiche d'une imprimante en cours d'impression, avec la progression et les températures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
 
 ## Ce dont vous avez besoin
 

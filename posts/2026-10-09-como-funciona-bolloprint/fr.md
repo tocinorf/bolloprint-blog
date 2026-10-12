@@ -48,7 +48,7 @@ C'est pourquoi il n'y a pas de liste de Pièces à part : vous les trouvez à l
 
 **4. Le Produit.** Enfin, ce que voit le client : le Produit « Support téléphone réglable », avec son nom, ses photos et sa description. Il contient les deux Variantes, comme les options de couleur de n'importe quelle boutique en ligne. C'est ce que vous publiez, par exemple, sur Etsy.
 
-![Le produit Support téléphone réglable, avec ses deux variantes, chacune avec son prix et sa marge](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
+![Les variantes du support en onglets, avec celle en PETG blanc ouverte : son coût, sa marge, son prix et la pièce dont elle est faite](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
 
 ## Pourquoi quatre et pas une seule fiche ?
 

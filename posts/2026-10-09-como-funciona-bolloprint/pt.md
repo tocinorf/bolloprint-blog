@@ -67,7 +67,7 @@ ajustável», com o seu nome, as suas fotos e a sua descrição. Lá dentro vão
 Variantes, como as opções de cor de qualquer loja online. É o que publicas, por
 exemplo, no Etsy.
 
-![O produto Suporte de telemóvel ajustável, com as suas duas variantes, cada uma com o seu preço e a sua margem](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
+![As variantes do suporte em separadores, com a de PETG branco aberta: o custo, a margem, o preço e a peça de que é feita](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
 
 ## Porquê quatro e não uma só ficha?
 

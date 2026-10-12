@@ -68,7 +68,7 @@ kostet, und mit dem Preis berechnet sie **die Marge** automatisch.
 beiden Varianten, wie die Farboptionen in jedem Onlineshop. Das ist es, was du zum
 Beispiel auf Etsy veröffentlichst.
 
-![Das Produkt Verstellbarer Handyhalter mit seinen zwei Varianten, jede mit Preis und Marge](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
+![Die Varianten des Halters als Tabs, die Variante in weißem PETG geöffnet: Kosten, Marge, Preis und das Teil, aus dem sie besteht](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
 
 ## Warum vier und nicht ein Datensatz?
 

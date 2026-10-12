@@ -66,7 +66,7 @@ móvil ajustable», con su nombre, sus fotos y su descripción. Dentro van las d
 Variantes, como las opciones de color de cualquier tienda online. Es lo que
 publicas, por ejemplo, en Etsy.
 
-![El producto Soporte para móvil ajustable, con sus dos variantes, cada una con su precio y su margen](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
+![Las variantes del soporte en pestañas, con la de PETG blanco abierta: su coste, su margen, su precio y la pieza de la que está hecha](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
 
 ## ¿Por qué cuatro y no una ficha?
 

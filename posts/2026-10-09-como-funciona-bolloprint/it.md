@@ -66,7 +66,7 @@ telefono regolabile», con il suo nome, le sue foto e la sua descrizione. Dentro
 ci sono le due Varianti, come le opzioni di colore di qualsiasi negozio online.
 È quello che pubblichi, per esempio, su Etsy.
 
-![Il prodotto Supporto telefono regolabile, con le sue due varianti, ognuna con il suo prezzo e il suo margine](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
+![Le varianti del supporto in schede, con quella in PETG bianco aperta: costo, margine, prezzo e il pezzo di cui è fatta](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
 
 ## Perché quattro e non una sola scheda?
 

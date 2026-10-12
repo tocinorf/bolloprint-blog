@@ -66,7 +66,7 @@ stand", with its name, its photos and its description. Inside it go the two
 Variants, like the colour options in any online shop. It's what you publish, on
 Etsy for example.
 
-![The Adjustable phone stand product, with its two variants, each with its price and margin](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
+![The stand’s variants as tabs, with the White PETG one open: its cost, margin, price and the piece it is made of](/blog/media/2026-10-09-como-funciona-bolloprint/03-producto-y-variantes.png)
 
 ## Why four and not one record?
 

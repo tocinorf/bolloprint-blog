@@ -115,7 +115,7 @@ Le cloud vous montre tout, mais ne vous laisse toucher à rien, et il n'existe q
 - et **il résiste aux coupures d'internet** : il continue de lire vos imprimantes et vous raconte tout au retour.
 
 :::info 💡 Pour envoyer des ordres à une Bambu
-L'imprimante doit être en **Mode LAN** et en **Mode développeur**. Les deux s'activent sur son écran. Attention : en Mode LAN, Bambu la déconnecte de son cloud ; à partir de là, BolloPrint la voit donc via l'agent. C'est toujours **la même imprimante**, avec son nom et tout son historique, et elle n'occupe **qu'une seule place** dans votre forfait.
+L'imprimante doit être en **Mode LAN** et en **Mode développeur**. Les deux s'activent sur son écran.
 :::
 
 Vous avez tout, pas à pas, dans le tutoriel suivant : [connecter vos imprimantes via le réseau local](/blog/connect-printers-local-network-agent).

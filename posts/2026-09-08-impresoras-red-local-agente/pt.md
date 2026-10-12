@@ -159,26 +159,6 @@ Vê em [impressoras compatíveis](/help/impresoras-compatibles). E se tiver
 mesmo que a marca não apareça em nenhuma lista.
 :::
 
-## Se já tinhas Bambu pela nuvem, não as dupliques
-
-Quando o agente encontra na tua rede uma máquina que **já tinhas ligada pela
-nuvem**, o BolloPrint deteta-o e diz-te: *«É "P1S-02", que já tens pela Bambu
-Cloud»*. O botão é **Ligar também por LAN**.
-
-Carrega nele, e não a vais ter duas vezes:
-
-- Continua a ser **uma só impressora**, com o seu número, o seu nome e todo o seu
-  histórico.
-- Ocupa **um só lugar** do teu plano.
-- E ganha a **câmara**, que é o que não tinhas pela nuvem.
-
-![O aviso de que essa impressora já está na Bambu Cloud, com o botão de ligar também por LAN](/blog/media/2026-09-08-impresoras-red-local-agente/07-tambien-por-lan.png)
-
-:::warning ⚠️ O Modo LAN desliga a nuvem da Bambu
-Ao ativá-lo, a impressora deixa de falar com a nuvem da Bambu Lab. A partir daí,
-o BolloPrint vê-a pelo agente.
-:::
-
 ## O que ganhas, em concreto
 
 - **Quase todas as marcas.** Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,

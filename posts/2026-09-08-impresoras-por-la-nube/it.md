@@ -150,10 +150,7 @@ tramite la tua rete. Ne basta uno per tutto il parco macchine, e ti dà:
 
 :::info 💡 Per mandare comandi a una Bambu
 La stampante deve essere in **Modalità LAN** e in **Modalità sviluppatore**.
-Entrambe si attivano dal suo schermo. Attenzione: con la Modalità LAN, Bambu la
-scollega dal suo cloud, quindi da quel momento BolloPrint la vede tramite
-l'agente. Resta comunque **la stessa stampante**, con il suo nome e tutto il suo
-storico, e occupa **un solo posto** nel tuo piano.
+Entrambe si attivano dal suo schermo.
 :::
 
 Lo trovi passo passo nel prossimo tutorial:

@@ -155,10 +155,7 @@ er bietet dir:
 
 :::info 💡 Um einem Bambu Befehle zu schicken
 Der Drucker muss im **LAN-Modus** und im **Entwicklermodus** sein. Beides schaltest
-du an seinem Display ein. Achtung: Im LAN-Modus trennt Bambu ihn von seiner Cloud,
-ab dann sieht BolloPrint ihn über den Agenten. Es bleibt **derselbe Drucker**, mit
-seinem Namen und seinem ganzen Verlauf, und er belegt **nur einen Platz** in
-deinem Plan.
+du an seinem Display ein.
 :::
 
 Schritt für Schritt findest du das in der nächsten Anleitung:

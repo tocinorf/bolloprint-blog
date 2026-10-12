@@ -163,27 +163,6 @@ Schau unter [kompatible Drucker](/help/impresoras-compatibles). Und wenn darin
 auch wenn die Marke auf keiner Liste steht.
 :::
 
-## Wenn du Bambu schon über die Cloud hattest, leg sie nicht doppelt an
-
-Wenn der Agent in deinem Netzwerk eine Maschine findet, die **du schon über die
-Cloud verbunden hattest**, erkennt BolloPrint das und sagt es dir: *„Das ist
-‚P1S-02‘, den du schon über Bambu Cloud hast“*. Der Button heißt **Auch per LAN
-verbinden**.
-
-Klick darauf, und du hast ihn nicht zweimal:
-
-- Es bleibt **ein einziger Drucker**, mit seiner Nummer, seinem Namen und seinem
-  ganzen Verlauf.
-- Er belegt **nur einen Platz** in deinem Plan.
-- Und er bekommt die **Kamera** dazu, die du über die Cloud nicht hattest.
-
-![Der Hinweis, dass dieser Drucker schon in Bambu Cloud ist, mit dem Button Auch per LAN verbinden](/blog/media/2026-09-08-impresoras-red-local-agente/07-tambien-por-lan.png)
-
-:::warning ⚠️ Der LAN-Modus trennt die Bambu-Cloud
-Sobald du ihn einschaltest, spricht der Drucker nicht mehr mit der Cloud von Bambu
-Lab. Ab dann sieht BolloPrint ihn über den Agenten.
-:::
-
 ## Was du konkret davon hast
 
 - **Fast alle Marken.** Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,

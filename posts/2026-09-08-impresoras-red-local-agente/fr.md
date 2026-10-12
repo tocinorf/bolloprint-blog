@@ -118,22 +118,6 @@ Chaque fois que vous activez ou désactivez le Mode LAN, Bambu **génère un nou
 Consultez les [imprimantes compatibles](/help/impresoras-compatibles). Et si elle tourne sous **Klipper** — n'importe quelle machine montée par vous-même ou modifiée —, elle est prise en charge, même si la marque n'apparaît sur aucune liste.
 :::
 
-## Si vous aviez déjà des Bambu via le cloud, ne les dupliquez pas
-
-Quand l'agent trouve sur votre réseau une machine que **vous aviez déjà connectée via le cloud**, BolloPrint le détecte et vous le dit : *« C'est « P1S-02 », que vous avez déjà via Bambu Cloud »*. Le bouton est **Connecter aussi en LAN**.
-
-Cliquez dessus, et vous ne l'aurez pas en double :
-
-- Elle reste **une seule imprimante**, avec son numéro, son nom et tout son historique.
-- Elle n'occupe **qu'une seule place** dans votre forfait.
-- Et elle gagne la **caméra**, que vous n'aviez pas via le cloud.
-
-![L'avertissement indiquant que cette imprimante est déjà dans Bambu Cloud, avec le bouton Connecter aussi en LAN](/blog/media/2026-09-08-impresoras-red-local-agente/07-tambien-por-lan.png)
-
-:::warning ⚠️ Le Mode LAN déconnecte le cloud de Bambu
-Quand vous l'activez, l'imprimante cesse de communiquer avec le cloud de Bambu Lab. À partir de là, BolloPrint la voit via l'agent.
-:::
-
 ## Ce que vous y gagnez, concrètement
 
 - **Presque toutes les marques.** Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge, Voron… Le cloud ne vous donne pas ça : il n'existe que pour Bambu Lab.

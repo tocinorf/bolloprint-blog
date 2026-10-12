@@ -147,10 +147,7 @@ para toda la flota, y te da:
 
 :::info 💡 Para mandar órdenes a una Bambu
 La impresora tiene que estar en **Modo LAN** y en **Modo desarrollador**. Los dos
-se activan en su pantalla. Ojo: con el Modo LAN, Bambu la desconecta de su nube,
-así que a partir de ahí BolloPrint la ve por el agente. Sigue siendo **la misma
-impresora**, con su nombre y todo su historial, y ocupa **una sola plaza** de tu
-plan.
+se activan en su pantalla.
 :::
 
 Lo tienes paso a paso en el siguiente tutorial:

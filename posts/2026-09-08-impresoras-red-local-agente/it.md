@@ -161,26 +161,6 @@ Guarda tra le [stampanti compatibili](/help/impresoras-compatibles). E se ha
 stesso, anche se la marca non compare in nessun elenco.
 :::
 
-## Se avevi già le Bambu via cloud, non duplicarle
-
-Quando l'agente trova nella tua rete una macchina che **avevi già collegato via
-cloud**, BolloPrint se ne accorge e te lo dice: *«È "P1S-02", che hai già tramite
-Bambu Cloud»*. Il pulsante è **Collega anche via LAN**.
-
-Premilo, e non la avrai due volte:
-
-- Resta **una sola stampante**, con il suo numero, il suo nome e tutto il suo
-  storico.
-- Occupa **un solo posto** nel tuo piano.
-- E guadagna la **telecamera**, che è quello che via cloud non avevi.
-
-![L'avviso che quella stampante è già in Bambu Cloud, con il pulsante per collegarla anche via LAN](/blog/media/2026-09-08-impresoras-red-local-agente/07-tambien-por-lan.png)
-
-:::warning ⚠️ La Modalità LAN scollega il cloud di Bambu
-Quando la attivi, la stampante smette di parlare con il cloud di Bambu Lab. Da
-quel momento, BolloPrint la vede tramite l'agente.
-:::
-
 ## Cosa ci guadagni, in concreto
 
 - **Quasi tutte le marche.** Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,

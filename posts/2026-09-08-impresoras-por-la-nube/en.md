@@ -151,10 +151,7 @@ own network. One is enough for the whole fleet, and it gives you:
 
 :::info 💡 To send commands to a Bambu
 The printer has to be in **LAN Mode** and in **Developer Mode**. Both are turned on
-from its screen. Bear in mind: with LAN Mode, Bambu disconnects it from its cloud,
-so from then on BolloPrint sees it through the agent. It's still **the same
-printer**, with its name and its whole history, and it takes up **just one place**
-in your plan.
+from its screen.
 :::
 
 You'll find it step by step in the next tutorial:

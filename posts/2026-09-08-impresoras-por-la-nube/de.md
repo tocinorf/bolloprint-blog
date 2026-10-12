@@ -189,6 +189,10 @@ Schritt für Schritt erklären wir das in
 Wenn du Fragen hast, schreib uns über die [Kontaktseite](/contact) oder in
 [unserem Discord](/help/soporte-por-discord).
 
+Viel Freude mit all deinen Druckern auf einem einzigen Bildschirm.
+
+![Bollo, das Maskottchen von BolloPrint, mit Werkstattbrille, träumt von einem 3D-Drucker](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+
 ## Verwandte Dokumentation
 
 - [Drucker verbinden](/help/conectar-impresoras): die zwei Wege und welcher zu dir passt

@@ -177,6 +177,10 @@ Lo explicamos paso a paso en
 Si tienes cualquier duda, escríbenos desde la [página de contacto](/contact) o en
 [nuestro Discord](/help/soporte-por-discord).
 
+Que disfrutes de tener todas tus impresoras en una sola pantalla.
+
+![Bollo, la mascota de BolloPrint, con gafas de taller, soñando con una impresora 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+
 ## Documentación relacionada
 
 - [Conectar impresoras](/help/conectar-impresoras): las dos formas de hacerlo y cuál te conviene

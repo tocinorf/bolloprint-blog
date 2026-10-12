@@ -134,6 +134,10 @@ Nous l'expliquons pas à pas dans [connecter vos imprimantes via votre propre r�
 
 Pour toute question, écrivez-nous depuis la [page de contact](/contact) ou sur [notre Discord](/help/soporte-por-discord).
 
+Profitez de toutes vos imprimantes réunies sur un seul écran.
+
+![Bollo, la mascotte de BolloPrint, avec des lunettes d'atelier, rêvant d'une imprimante 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+
 ## Documentation associée
 
 - [Connecter des imprimantes](/help/conectar-impresoras) : les deux façons de le faire et celle qui vous convient

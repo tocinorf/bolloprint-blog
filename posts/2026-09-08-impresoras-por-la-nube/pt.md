@@ -179,6 +179,10 @@ Explicamos tudo passo a passo em
 Se tiveres alguma dúvida, escreve-nos a partir da [página de contacto](/contact)
 ou no [nosso Discord](/help/soporte-por-discord).
 
+Bom trabalho com todas as tuas impressoras num só ecrã.
+
+![O Bollo, a mascote do BolloPrint, com óculos de oficina, a sonhar com uma impressora 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+
 ## Documentação relacionada
 
 - [Ligar impressoras](/help/conectar-impresoras): as duas formas de o fazer e qual te convém

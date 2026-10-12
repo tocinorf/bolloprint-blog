@@ -179,6 +179,10 @@ Lo spieghiamo passo passo in
 Per qualsiasi dubbio, scrivici dalla [pagina dei contatti](/contact) o sul
 [nostro Discord](/help/soporte-por-discord).
 
+Buon lavoro con tutte le tue stampanti su un solo schermo.
+
+![Bollo, la mascotte di BolloPrint, con gli occhialini da officina, sogna una stampante 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+
 ## Documentazione correlata
 
 - [Collegare le stampanti](/help/conectar-impresoras): i due modi per farlo e quale ti conviene

@@ -2,11 +2,9 @@
 slug: connect-printers-local-network-agent
 title: "Connect your printers over your own network: the local agent, step by step"
 description: Prusa, Elegoo, Klipper, FlashForge, Bambu… A small agent on a computer in your workshop, your whole fleet inside BolloPrint, and no need to touch the router.
-date: 2026-09-08
-updated: 2026-10-12
+date: 2026-10-12
 tags: [tutorials]
 cover: 01-portada.webp
-draft: true
 ---
 
 Your printers are in the workshop, but you aren't always. And to know whether one
@@ -196,6 +194,10 @@ Write to us from the [contact page](/contact) or open a thread on
 [our Discord](/help/soporte-por-discord). If you tell us which printers you have,
 we'll tell you exactly what to do with each one.
 :::
+
+Enjoy having your whole fleet in view, wherever you are.
+
+![Bollo, the BolloPrint mascot, with workshop goggles, in front of a farm of 3D printers at work](/blog/media/2026-09-08-impresoras-red-local-agente/07-bollo.webp)
 
 ## Related documentation
 

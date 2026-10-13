@@ -134,7 +134,7 @@ Pour toute question, écrivez-nous depuis la [page de contact](/contact) ou sur 
 
 Profitez de toutes vos imprimantes réunies sur un seul écran.
 
-![Bollo, la mascotte de BolloPrint, avec des lunettes d'atelier, rêvant d'une imprimante 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+![Bollo, la mascotte de BolloPrint, avec des lunettes d'atelier, rêvant d'une imprimante 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp "60%")
 
 ## Documentation associée
 

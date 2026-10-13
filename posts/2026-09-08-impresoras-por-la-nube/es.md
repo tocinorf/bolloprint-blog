@@ -177,7 +177,7 @@ Si tienes cualquier duda, escríbenos desde la [página de contacto](/contact) o
 
 Que disfrutes de tener todas tus impresoras en una sola pantalla.
 
-![Bollo, la mascota de BolloPrint, con gafas de taller, soñando con una impresora 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+![Bollo, la mascota de BolloPrint, con gafas de taller, soñando con una impresora 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp "60%")
 
 ## Documentación relacionada
 

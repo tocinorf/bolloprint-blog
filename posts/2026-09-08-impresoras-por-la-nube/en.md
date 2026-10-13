@@ -182,7 +182,7 @@ If you have any questions, write to us from the [contact page](/contact) or on
 
 Enjoy having all your printers on a single screen.
 
-![Bollo, the BolloPrint mascot, with workshop goggles, dreaming of a 3D printer](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+![Bollo, the BolloPrint mascot, with workshop goggles, dreaming of a 3D printer](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp "60%")
 
 ## Related documentation
 

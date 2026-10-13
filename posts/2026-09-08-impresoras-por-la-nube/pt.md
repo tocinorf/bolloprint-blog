@@ -179,7 +179,7 @@ ou no [nosso Discord](/help/soporte-por-discord).
 
 Bom trabalho com todas as tuas impressoras num só ecrã.
 
-![O Bollo, a mascote do BolloPrint, com óculos de oficina, a sonhar com uma impressora 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+![O Bollo, a mascote do BolloPrint, com óculos de oficina, a sonhar com uma impressora 3D](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp "60%")
 
 ## Documentação relacionada
 

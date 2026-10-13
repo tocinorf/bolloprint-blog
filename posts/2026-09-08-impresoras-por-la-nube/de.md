@@ -189,7 +189,7 @@ Wenn du Fragen hast, schreib uns über die [Kontaktseite](/contact) oder in
 
 Viel Freude mit all deinen Druckern auf einem einzigen Bildschirm.
 
-![Bollo, das Maskottchen von BolloPrint, mit Werkstattbrille, träumt von einem 3D-Drucker](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp)
+![Bollo, das Maskottchen von BolloPrint, mit Werkstattbrille, träumt von einem 3D-Drucker](/blog/media/2026-09-08-impresoras-por-la-nube/07-bollo.webp "60%")
 
 ## Verwandte Dokumentation
 

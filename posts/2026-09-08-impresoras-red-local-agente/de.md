@@ -1,8 +1,9 @@
 ---
 slug: connect-printers-local-network-agent
 title: "Verbinde deine Drucker über dein eigenes Netzwerk: der lokale Agent, Schritt für Schritt"
-description: Prusa, Elegoo, Klipper, FlashForge, Bambu … Ein kleiner Agent auf einem Rechner in der Werkstatt, deine ganze Flotte in BolloPrint, und am Router änderst du nichts.
+description: Bambu Lab, Prusa, Elegoo, Anycubic, FlashForge, Snapmaker, Klipper … Ein kleiner Agent auf einem Rechner in der Werkstatt, deine ganze Flotte in BolloPrint, und am Router änderst du nichts.
 date: 2026-10-12
+updated: 2026-10-14
 tags: [anleitungen]
 cover: 01-portada.webp
 ---
@@ -18,6 +19,7 @@ und BolloPrint mitteilt, was er sieht.
 - **Du änderst nichts am Router**: keine offenen Ports, keine feste IP, keine Firewall.
 - **Er ist sehr leicht**: Jeder Rechner, der bei dir sowieso läuft, reicht ihm.
 - **Einer genügt für die ganze Flotte**, egal wie groß sie ist.
+- **Er aktualisiert sich selbst**: Kommt eine neue Version heraus, installiert er sie von allein.
 
 ::animation{id="local-agent"}
 
@@ -33,47 +35,50 @@ funktionieren genauso.
 
 ## Leg den Agenten in BolloPrint an
 
-Du beginnst in BolloPrint. Geh zu **Einstellungen → Drucker**, öffne den Reiter
-**Lokaler Agent** und klick auf **Neuer Agent**.
+Du beginnst in BolloPrint. Geh zu **Einstellungen → Drucker**. Dort siehst du drei
+Reiter: **Drucker** (alle deine Maschinen, egal wie sie verbunden sind), **Lokaler
+Agent** und **Bambu Cloud**. Öffne **Lokaler Agent** und klick auf **Neuer Agent**.
 
 Gib ihm einen Namen, der dir auch in sechs Monaten noch etwas sagt: **Benenn ihn
 danach, wo er steht, nicht danach, was er ist.** „Erdgeschoss“ oder „Halle 2“
-passen; „Agent 1“ nicht.
+passen; „Agent 1“ nicht. Dann klick auf **Agent anlegen**.
 
-![Der Reiter Lokaler Agent mit dem Button Neuer Agent](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
+![Der Reiter Lokaler Agent mit zwei Agenten online und dem Button Neuer Agent](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente-de.png)
 
-## Kopier die Vorlage
+## Kopier das Manifest
 
-Beim Anlegen zeigt dir BolloPrint eine **Vorlage**: einen Text, in dem alles, was
+Beim Anlegen zeigt dir BolloPrint ein **Manifest**: einen Text, in dem alles, was
 zu dir gehört, **bereits eingetragen** ist, die Schlüssel deines Agenten und die
 passende Version. Es gibt nichts zu ersetzen oder auszufüllen.
 
-Wähl das Format, das du nutzt (**Docker Compose** ist der Normalfall), und klick
-auf **Kopieren**.
+Wähl das Format, das du nutzt (**Docker Compose** ist der Normalfall), klick auf
+**Kopieren** und, sobald du es sicher abgelegt hast, auf **Speichern**.
 
-![Die Bereitstellungsvorlage mit dem Button zum Kopieren](/blog/media/2026-09-08-impresoras-red-local-agente/03-plantilla.png)
+![Das Bereitstellungs-Manifest des neuen Agenten mit dem Button Kopieren](/blog/media/2026-09-08-impresoras-red-local-agente/03-plantilla-de.png "75%")
 
-:::warning 🔐 Kopier sie jetzt: Sie wird nur einmal angezeigt
-Die Schlüssel laufen nicht ab, aber wir zeigen sie dir nicht noch einmal. Wenn du
-die Vorlage verlierst, öffne den Agenten und erzeug mit **Schlüssel neu erzeugen**
-eine neue.
+:::warning 🔐 Kopier es jetzt: Die Schlüssel werden nur einmal angezeigt
+Wir speichern sie nicht, deshalb können wir sie dir nicht noch einmal zeigen. Wenn
+du das Manifest verlierst, ist das kein Drama: Öffne den Agenten mit
+**Bearbeiten** (in seinem **⋮**-Menü), geh zum Reiter **Bereitstellung** und klick
+auf **Schlüssel neu erzeugen**. Hat er sich noch nie verbunden, wird nichts
+unterbrochen.
 :::
 
-## Füg die Vorlage auf deinem Rechner ein
+## Füg das Manifest auf deinem Rechner ein
 
 Das passiert auf deinem Rechner, nicht in BolloPrint, und hängt davon ab, wo du
 ihn installierst:
 
 - **Synology-NAS**: Installier **Container Manager** aus dem **Paket-Zentrum**,
-  geh zu **Projekt → Erstellen**, füg die Vorlage ein und erstell das Projekt.
+  geh zu **Projekt → Erstellen**, füg das Manifest ein und erstell das Projekt.
   Ohne einen einzigen Befehl.
-- **Windows oder Mac**: Installier **Docker Desktop**, speicher die Vorlage in
+- **Windows oder Mac**: Installier **Docker Desktop**, speicher das Manifest in
   einem Ordner als `docker-compose.yml` und führ in diesem Ordner
   `docker compose up -d` aus.
 - **Linux**: Installier **Docker** mit dem Paketmanager deiner Distribution,
-  speicher die Vorlage als `docker-compose.yml` und führ dort
+  speicher das Manifest als `docker-compose.yml` und führ dort
   `docker compose up -d` aus.
-- **Portainer**: Füg dieselbe Vorlage in einen Stack ein und stell ihn bereit.
+- **Portainer**: Füg dasselbe Manifest in einen Stack ein und stell ihn bereit.
 
 :::info 💡 Auf Windows und Mac werden die Drucker nicht von selbst gefunden
 Docker läuft dort in einer virtuellen Maschine, die die Meldungen nicht sieht, die
@@ -81,31 +86,47 @@ die Drucker in dein Netzwerk schicken. Der Agent funktioniert genauso, aber die
 Drucker fügst du selbst hinzu, wie weiter unten erklärt.
 :::
 
+## Du hängst fest? Klick auf „Installieren“
+
+Solange sich der Agent kein einziges Mal verbunden hat, steht in seiner Zeile
+**Nicht installiert**. Das ist kein Fehler: Es ist nichts ausgefallen, er muss nur
+noch installiert werden.
+
+In derselben Zeile hast du den Button **Installieren**. Klickst du ihn an, klappen
+die Schritte auf, die du gerade gelesen hast, in Kurzform, mit einem Link zur
+**Hilfe**, einem zu diesem **Blogartikel** und einem Button, um uns auf **Discord**
+zu fragen. Hast du das Manifest nicht aufbewahrt, bringt dich Schritt 3 direkt
+dorthin, wo du ein neues erzeugst.
+
+![Ein noch nicht installierter Agent mit aufgeklapptem Installieren-Bereich: die drei Schritte, die Hilfe und Discord](/blog/media/2026-09-08-impresoras-red-local-agente/04-instalar-de.png)
+
 ## Prüf, ob er online ist
 
 Geh zurück zu BolloPrint: In weniger als einer Minute springt der Agent auf
-**Online**.
+**Online**, mit dem Namen des Rechners, auf dem er läuft, und seiner Version.
 
-![Der Agent im Status Online](/blog/media/2026-09-08-impresoras-red-local-agente/04-agente-online.png)
+![Der Agent im Status Online](/blog/media/2026-09-08-impresoras-red-local-agente/05-en-linea-de.png)
 
-Wenn nicht, liegt es fast immer an einer von drei Ursachen: Die Vorlage wurde
+Wenn nicht, liegt es fast immer an einer von drei Ursachen: Das Manifest wurde
 **nur halb eingefügt**, der Rechner hat **kein Internet**, oder eine **Firewall**
-blockiert den ausgehenden Verkehr.
+blockiert den ausgehenden Verkehr. Wenn du sehen willst, was der Agent selbst
+meldet, öffne ihn mit **Bearbeiten**: Der Reiter **Status** zeigt die Details.
 
 ## Deine Drucker erscheinen von selbst
 
 Ab dann **sucht der Agent von allein alle 15 Minuten nach Druckern in deinem
-Netzwerk**. Die, die er findet, erscheinen in einer Liste mit Marke und Modell,
-und du entscheidest:
+Netzwerk**. Findet er einen, bekommst du über den Reitern einen Hinweis und siehst
+ihn unten unter **Drucker im lokalen Netzwerk**, mit Marke und Modell. Du
+entscheidest:
 
 - **Hinzufügen**: Du nimmst ihn auf, und er beginnt zu melden.
 - **Ignorieren**: Er gehört nicht dir, oder du willst ihn hier nicht haben.
 
-![Die im Netzwerk gefundenen Drucker mit den Buttons zum Hinzufügen und Ignorieren](/blog/media/2026-09-08-impresoras-red-local-agente/05-encontradas.png)
+![Ein vom Agenten gefundener Drucker mit den Buttons Ignorieren und Hinzufügen, darüber Jetzt suchen und Per IP hinzufügen](/blog/media/2026-09-08-impresoras-red-local-agente/06-encontradas-de.png)
 
 Wenn du gerade eine Maschine eingeschaltet hast und nicht warten willst, klick auf
-**Jetzt suchen**. Manche Marken fragen beim Hinzufügen nach einem **Passwort**;
-dazu weiter unten mehr.
+**Jetzt suchen**. Wird ein Drucker nach einem Code fragen, sagt dir das seine Zeile
+schon vorher („fragt nach dem Zugangscode“), damit du ihn griffbereit hast.
 
 ## Wenn einer nicht auftaucht, füg ihn selbst hinzu
 
@@ -118,10 +139,50 @@ Dass ein Drucker nicht von selbst erscheint, ist in zwei Fällen **normal**:
 
 Dir entgeht dadurch nichts: Du fügst ihn selbst hinzu, und er funktioniert
 genauso, mit Kamera und Steuerung, wenn die Maschine das hat. Klick auf **Per IP
-hinzufügen** und gib die Art des Druckers ein, seine Adresse in deinem Netzwerk
-und, falls er eins verlangt, sein Passwort.
+hinzufügen**. Das geht in drei Schritten.
 
-![Das Formular zum Hinzufügen eines Druckers über seine IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
+### 1. Wähl die Marke
+
+Wähl die Marke deines Druckers. Die, die noch getestet werden, tragen das Etikett
+**Beta**. Wenn du nicht sicher bist, ob dein Modell unterstützt wird, findest du
+unten **Kompatible Drucker ansehen**; und wenn dein Drucker fehlt, sag es uns auf
+Discord.
+
+![Der erste Schritt von Drucker per IP hinzufügen: die Marken, die du verbinden kannst](/blog/media/2026-09-08-impresoras-red-local-agente/08-anadir-marca-de.png)
+
+### 2. Gib seine Angaben ein
+
+Nur das Nötigste:
+
+- **Welcher Agent verbindet ihn?**, wenn du mehr als einen hast. Du kannst nur
+  einen wählen, der online ist.
+- **IP des Druckers**. Du findest sie auf dem Display des Druckers (Einstellungen
+  → Netzwerk) oder in deinem Router.
+- **Den Code des Druckers**, wenn diese Marke einen verlangt. Das Feld heißt so,
+  wie der Hersteller ihn nennt: bei einem Bambu **LAN-Zugangscode**.
+- **Name**, wenn du ihm einen eigenen geben willst. Das ist optional.
+
+**Modell und Seriennummer tippst du nicht ein**: Die fragt der Agent beim Drucker
+ab. Pflichtfelder haben ein **rotes Sternchen** und sind rot umrandet, solange sie
+leer sind. Ganz unten sagt dir der Kasten **Denk daran**, was du bei dieser Marke
+vor dem Verbinden vorbereiten musst.
+
+![Der zweite Schritt: der Agent, die IP, der verpflichtende LAN-Zugangscode und der Kasten Denk daran](/blog/media/2026-09-08-impresoras-red-local-agente/09-anadir-datos-de.png)
+
+### 3. Verbinde ihn
+
+Klick auf **Verbinden**, und du siehst, wie es vorangeht: Der Agent bekommt die
+Anfrage, sucht den Drucker unter dieser Adresse und verbindet sich. Am Ende steht
+da **„Verbunden. Er steht jetzt in deiner Druckerliste.“**
+
+![Der dritte Schritt: der Drucker ist verbunden und steht schon in der Liste](/blog/media/2026-09-08-impresoras-red-local-agente/10-anadir-conexion-de.png)
+
+Wenn etwas schiefgeht, sagen wir es dir **in klaren Worten**: was gerade passiert
+und was du prüfen solltest (unter dieser IP antwortet nichts, der Drucker lehnt
+den Code ab …). Mit **Zurück** korrigierst du die Angabe und versuchst es noch
+einmal. Die Originalmeldung des Druckers liegt eingeklappt unter **Technische
+Details anzeigen**: Wenn du uns schreibst, kopier uns die mit, dann finden wir die
+Ursache schneller.
 
 :::info 💡 Reservier ihm die IP im Router
 Wenn der Router einem Drucker eine neue Adresse gibt, suchen wir ihn von selbst
@@ -131,22 +192,27 @@ du diese Lücke. Das ist eine Einstellung im Router, nicht in BolloPrint.
 
 ## Was jede Marke von dir will
 
-Hier entstehen die meisten Fragen. Kurz zusammengefasst:
+Hier entstehen die meisten Fragen. Es ist dasselbe, woran dich Schritt 2 erinnert,
+kurz zusammengefasst:
 
 | Marke | Was du an der Maschine tun musst | Kamera | Kannst du pausieren und abbrechen? |
 |---|---|---|---|
-| **Bambu Lab** | Den **LAN-Modus** am Display einschalten und den **Zugangscode** verwenden, den er dir anzeigt | Ja | Ja, wenn du zusätzlich den **Entwicklermodus** einschaltest |
-| **Prusa** (MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Das **Passwort** verwenden, das der Drucker selbst anzeigt | Noch nicht | Ja |
-| **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1 …) | Meist nichts: Er verbindet sich in der Regel ohne Passwort | Ja, wenn dein Klipper eine Webcam hat | Ja |
-| **Elegoo-Harzdrucker** (Mars, Saturn, Jupiter) | Nichts, er fragt nach keinem Passwort | Bei den Modellen, die eine haben | Ja |
-| **Elegoo Centauri Carbon 2** | Nur, wenn du am Display einen Code festgelegt hast | Ja | Noch nicht |
-| **FlashForge** (Adventurer 5M, 5M Pro, AD5X, Creator 5) | **LAN Only** einschalten und den Code vom Display verwenden | Ja | Noch nicht |
+| **Bambu Lab** | Den **LAN-Modus** am Display einschalten (Einstellungen → Netzwerk) und den **LAN-Zugangscode** verwenden, den er dir anzeigt | Ja | Ja, wenn du zusätzlich den **Entwicklermodus** einschaltest |
+| **Prusa** (Beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | **PrusaLink** einschalten und das **Passwort** verwenden, das er anzeigt (nicht das von Prusa Connect) | Noch nicht | Ja |
+| **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) und **andere Resindrucker (ChituBox)** | Nichts, sie fragen nach keinem Passwort | Bei den Modellen, die eine haben | Ja |
+| **Elegoo Centauri Carbon 2** | Nichts; nur wenn du am Display einen Code festgelegt hast, gib ihn ein | Ja | Noch nicht |
+| **Anycubic** (Beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Den **LAN-Modus** einschalten (Einstellungen → Netzwerk). Dann nutzt der Drucker die Cloud und die App von Anycubic nicht mehr | Noch nicht | Noch nicht |
+| **FlashForge** (Beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | **LAN Only** einschalten und den Prüfcode aus seinem Netzwerkmenü verwenden | Ja | Noch nicht |
+| **Snapmaker** (U1) | Nichts | Ja | Ja |
+| **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1 …) | Meist nichts: nur wenn du in Moonraker einen API-Schlüssel gesetzt hast | Ja, wenn dein Klipper eine Webcam hat | Ja |
 
 :::warning ⚠️ Bambu Lab: Der Zugangscode ändert sich
-Jedes Mal, wenn du den LAN-Modus ein- oder ausschaltest, **erzeugt Bambu einen
-neuen Code**. Wenn ein Bambu, der gut lief, plötzlich keine Verbindung mehr
-bekommt, ist das in neun von zehn Fällen der Grund: Schau noch einmal auf den Code
-am Display und aktualisier ihn in BolloPrint.
+Jedes Mal, wenn du den LAN-Modus oder den Entwicklermodus ein- oder ausschaltest,
+**erzeugt Bambu einen neuen Code**. Wenn ein Bambu, der gut lief, plötzlich keine
+Verbindung mehr bekommt, ist das in neun von zehn Fällen der Grund: Schau noch
+einmal auf den Code am Display und aktualisier ihn in BolloPrint. Und denk daran:
+Der **Entwicklermodus** trennt ihn von Bambu Cloud, ab dann siehst du ihn nur noch
+über den Agenten.
 :::
 
 :::info 💡 Dein Modell steht nicht in der Tabelle?
@@ -159,8 +225,9 @@ unterstützt, auch wenn die Marke auf keiner Liste steht.
 
 Mit dem laufenden Agenten bekommst du:
 
-- **Fast alle Marken**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
-  Voron … Die Cloud bietet das nicht, denn es gibt sie nur für Bambu Lab.
+- **Fast alle Marken**: Bambu Lab, Prusa, Elegoo, Anycubic, FlashForge,
+  Snapmaker und alles, was mit Klipper läuft. Die Cloud bietet das nicht, denn es
+  gibt sie nur für Bambu Lab.
 - **Kamera**: live, solange du die Seite offen hast, ein Foto, wann du willst, und
   ein Abschlussfoto im Verlauf jedes Drucks. Das ist keine Videoüberwachung: Es
   wird nichts aufgezeichnet.
@@ -189,13 +256,21 @@ einem ganz normalen Heimrouter.
 ### Brauche ich einen Agenten pro Drucker?
 
 Nein. **Einer allein schafft die ganze Flotte.** Mehrere lohnen sich nur, wenn du
-zwei Standorte oder zwei getrennte Netzwerke hast.
+zwei Standorte oder zwei getrennte Netzwerke hast. Dann fragt dich **Per IP
+hinzufügen**, welcher den Drucker verbindet.
 
 ### Was passiert, wenn ich den Rechner ausschalte oder eine neue Version herauskommt?
 
 Beim Einschalten ist der Agent von selbst wieder da. Er aktualisiert sich auch
 selbst: Wenn eine neue Version herauskommt, lädt er sie herunter und startet damit
-neu. Du musst nur etwas tun, wenn wir dir auf dem Bildschirm Bescheid geben.
+neu, ohne dass du das Manifest anfassen musst. Du musst nur etwas tun, wenn wir dir
+auf dem Bildschirm Bescheid geben.
+
+### Warum kann ich nicht auf „Per IP hinzufügen“ klicken?
+
+Weil keiner deiner Agenten verbunden ist, und das steht auch unter dem Button.
+Hast du ihn noch nicht installiert, nutz **Installieren** in seiner Zeile; lief er
+schon, prüf, ob der Rechner eingeschaltet ist und Internet hat.
 
 :::info 💡 Brauchst du Hilfe?
 Schreib uns über die [Kontaktseite](/contact) oder eröffne einen Thread in

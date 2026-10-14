@@ -1,8 +1,9 @@
 ---
 slug: connect-printers-local-network-agent
 title: "Liga as tuas impressoras pela tua própria rede: o agente local, passo a passo"
-description: Prusa, Elegoo, Klipper, FlashForge, Bambu… Um agente pequeno num computador da oficina, toda a tua frota dentro do BolloPrint e sem mexer no router.
+description: Bambu Lab, Prusa, Elegoo, Anycubic, FlashForge, Snapmaker, Klipper… Um agente pequeno num computador da oficina, toda a tua frota dentro do BolloPrint e sem mexer no router.
 date: 2026-10-12
+updated: 2026-10-14
 tags: [tutoriais]
 cover: 01-portada.webp
 ---
@@ -18,6 +19,7 @@ BolloPrint o que vê.
 - **Não mexes no router**: nada de portas abertas, nem IP fixo, nem firewall.
 - **É muito leve**: serve-lhe qualquer computador que já tenhas ligado.
 - **Basta um para toda a frota**, seja qual for o tamanho.
+- **Atualiza-se sozinho**: quando sai uma versão nova, é ele que a instala.
 
 ::animation{id="local-agent"}
 
@@ -32,14 +34,16 @@ encontra-as sozinho. Se não for possível, adiciona-las à mão e funcionam igu
 
 ## Cria o agente no BolloPrint
 
-Começa no BolloPrint. Vai a **Configurações → Impressoras**, abre o separador
-**Agente local** e carrega em **Novo agente**.
+Começa no BolloPrint. Vai a **Configurações → Impressoras**. Vais ver três
+separadores: **Impressoras** (todas as tuas máquinas, venham por onde vierem),
+**Agente local** e **Bambu Cloud**. Abre **Agente local** e carrega em **Novo
+agente**.
 
 Dá-lhe um nome que ainda te diga alguma coisa daqui a seis meses: **dá-lhe o nome
 do sítio onde está, não do que é**. «Rés do chão» ou «Pavilhão 2» servem;
-«Agente 1», não.
+«Agente 1», não. Depois carrega em **Criar agente**.
 
-![O separador Agente local, com o botão Novo agente](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente.png)
+![O separador Agente local, com dois agentes online e o botão Novo agente](/blog/media/2026-09-08-impresoras-red-local-agente/02-nuevo-agente-pt.png)
 
 ## Copia o manifesto
 
@@ -47,14 +51,16 @@ Ao criá-lo, o BolloPrint mostra-te um **manifesto**: um texto que já traz
 **escrito** tudo o que é teu, as chaves do teu agente e a versão certa. Não há
 nada para substituir nem para preencher.
 
-Escolhe o formato que usas (**Docker Compose** é o habitual) e carrega em
-**Copiar**.
+Escolhe o formato que usas (**Docker Compose** é o habitual), carrega em
+**Copiar** e, quando o tiveres guardado num sítio seguro, em **Guardar**.
 
-![O manifesto de instalação, com o botão de copiar](/blog/media/2026-09-08-impresoras-red-local-agente/03-plantilla.png)
+![O manifesto de instalação do novo agente, com o botão Copiar](/blog/media/2026-09-08-impresoras-red-local-agente/03-plantilla-pt.png "75%")
 
-:::warning 🔐 Copia-o agora: só é mostrado uma vez
-As chaves não expiram, mas não voltamos a mostrá-las. Se perderes o manifesto,
-abre o agente e usa **Regenerar chaves** para obteres um novo.
+:::warning 🔐 Copia-o agora: as chaves só são mostradas uma vez
+Não as guardamos, por isso não te podemos voltar a mostrá-las. Se perderes o
+manifesto, não há problema: abre o agente com **Editar** (no menu **⋮** dele), vai
+ao separador **Instalação** e carrega em **Regenerar chaves**. Se ainda nunca se
+ligou, não se corta nada.
 :::
 
 ## Cola o manifesto no teu computador
@@ -78,29 +84,45 @@ impressoras enviam para a tua rede. O agente funciona igual, mas as impressoras
 adiciona-las tu, como se explica mais abaixo.
 :::
 
+## Ficaste preso? Carrega em «Instalar»
+
+Enquanto o agente não se tiver ligado pelo menos uma vez, a linha dele diz **Por
+instalar**. Não é um erro: não caiu nada, só falta instalá-lo.
+
+Nessa mesma linha tens o botão **Instalar**. Ao carregares nele, abrem-se os
+passos que acabaste de ler, em resumo, com uma ligação para a **Ajuda**, outra
+para este **Artigo do blog** e um botão para nos perguntares no **Discord**. Se
+não guardaste o manifesto, o passo 3 leva-te diretamente a gerar um novo.
+
+![Um agente por instalar com o painel Instalar aberto: os três passos, a ajuda e o Discord](/blog/media/2026-09-08-impresoras-red-local-agente/04-instalar-pt.png)
+
 ## Confirma que está online
 
-Volta ao BolloPrint: em menos de um minuto, o agente passa a **Online**.
+Volta ao BolloPrint: em menos de um minuto, o agente passa a **Online**, com o
+nome do computador onde corre e a versão que tem.
 
-![O agente no estado Online](/blog/media/2026-09-08-impresoras-red-local-agente/04-agente-online.png)
+![O agente no estado Online](/blog/media/2026-09-08-impresoras-red-local-agente/05-en-linea-pt.png)
 
 Se não passar, é quase sempre por uma de três causas: o manifesto **colado só em
-parte**, o computador **sem internet** ou uma **firewall** a bloquear a saída.
+parte**, o computador **sem internet** ou uma **firewall** a bloquear a saída. Se
+quiseres ver o que o próprio agente reporta, abre-o com **Editar**: o separador
+**Estado** dá-te os detalhes.
 
 ## As tuas impressoras aparecem sozinhas
 
 A partir daí, o agente **procura impressoras na tua rede** por conta própria a
-cada 15 minutos. As que encontra aparecem numa lista com a sua marca e o seu
-modelo, e tu decides:
+cada 15 minutos. Quando encontra alguma, avisa-te por cima dos separadores e
+vê-la no fim de **Impressoras na rede local**, com a sua marca e o seu modelo. Tu
+decides:
 
 - **Adicionar**: registas a impressora e ela começa a reportar.
 - **Ignorar**: não é tua ou não a queres aqui.
 
-![As impressoras encontradas na rede, com os botões de adicionar e ignorar](/blog/media/2026-09-08-impresoras-red-local-agente/05-encontradas.png)
+![Uma impressora detetada pelo agente, com os botões Ignorar e Adicionar, e por cima Procurar agora e Adicionar por IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-encontradas-pt.png)
 
 Se acabaste de ligar uma máquina e não queres esperar, carrega em **Procurar
-agora**. Algumas marcas pedem uma **palavra-passe** ao adicionar a impressora;
-vemos isso mais abaixo.
+agora**. Se uma impressora te vai pedir um código, a própria linha avisa-te antes
+(«vai pedir o código de acesso»), para o teres à mão.
 
 ## Se alguma não aparecer, adiciona-a tu
 
@@ -111,10 +133,49 @@ vemos isso mais abaixo.
 - **O agente corre em Windows ou Mac.** Aí o Docker corre numa máquina virtual.
 
 Não perdes nada com isso: adiciona-la tu e funciona exatamente igual, com câmara e
-com comandos, se essa máquina os tiver. Carrega em **Adicionar por IP** e indica o
-tipo de impressora, o seu endereço na tua rede e, se a pedir, a sua palavra-passe.
+com comandos, se essa máquina os tiver. Carrega em **Adicionar por IP**. São três
+passos.
 
-![O formulário para adicionar uma impressora pelo seu IP](/blog/media/2026-09-08-impresoras-red-local-agente/06-anadir-por-ip.png "62%")
+### 1. Escolhe a marca
+
+Escolhe a marca da tua impressora. As que ainda estão em testes têm a etiqueta
+**beta**. Se tens dúvidas se o teu modelo serve, em baixo tens **Ver impressoras
+compatíveis**; e se a tua impressora não estiver lá, diz-nos no Discord.
+
+![O primeiro passo de Adicionar impressora por IP: as marcas que podes ligar](/blog/media/2026-09-08-impresoras-red-local-agente/08-anadir-marca-pt.png)
+
+### 2. Escreve os dados dela
+
+Só o indispensável:
+
+- **Que agente a liga?**, se tiveres mais do que um. Só podes escolher um que
+  esteja online.
+- **IP da impressora**. Vê-a no ecrã da impressora (Definições → Rede) ou no teu
+  router.
+- **O código da impressora**, se essa marca o pedir. O campo chama-se como lhe
+  chama o fabricante: numa Bambu, **Código de acesso LAN**.
+- **Nome**, se lhe quiseres dar um teu. É opcional.
+
+O **modelo e o número de série não os escreves**: é o agente que os pergunta à
+impressora. Os campos obrigatórios têm um **asterisco vermelho** e ficam
+contornados a vermelho enquanto estão vazios. No fim, o quadro **Lembra-te**
+diz-te o que tens de preparar nessa marca antes de ligar.
+
+![O segundo passo: o agente, o IP, o código de acesso LAN obrigatório e o quadro Lembra-te](/blog/media/2026-09-08-impresoras-red-local-agente/09-anadir-datos-pt.png)
+
+### 3. Liga
+
+Carrega em **Ligar** e vês como avança: o agente recebe o pedido, procura a
+impressora nesse endereço e liga-se a ela. No fim, vais ver **«Ligada. Já está na
+tua lista de impressoras.»**
+
+![O terceiro passo: a impressora ligada e já na lista](/blog/media/2026-09-08-impresoras-red-local-agente/10-anadir-conexion-pt.png)
+
+Se alguma coisa correr mal, dizemos-te **em palavras simples**: o que se está a
+passar e o que verificar (nada responde nesse IP, a impressora recusa o
+código…). Com **Voltar** corriges o dado e tentas outra vez. A mensagem original
+da impressora fica recolhida em **Ver detalhe técnico**: se nos escreveres,
+envia-nos esse texto e chegamos mais depressa à solução.
 
 :::info 💡 Reserva-lhe o IP no router
 Se o router mudar o endereço de uma impressora, voltamos a encontrá-la sozinhos,
@@ -124,21 +185,25 @@ falha. É uma configuração do router, não do BolloPrint.
 
 ## O que cada marca te pede
 
-É aqui que surgem mais dúvidas. Em resumo:
+É aqui que surgem mais dúvidas. É o mesmo que te lembra o passo 2, em resumo:
 
 | Marca | O que tens de fazer na máquina | Câmara | Podes pausar e cancelar? |
 |---|---|---|---|
-| **Bambu Lab** | Ativar o **Modo LAN** no ecrã dela e usar o **código de acesso** que te mostra | Sim | Sim, se também ativares o **Modo programador** |
-| **Prusa** (MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Usar a **palavra-passe** que a própria impressora mostra | Ainda não | Sim |
-| **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | Normalmente nada: costuma ligar-se sem palavra-passe | Sim, se tiveres webcam no teu Klipper | Sim |
-| **Elegoo de resina** (Mars, Saturn, Jupiter) | Nada, não pede palavra-passe | Nos modelos que a trazem | Sim |
-| **Elegoo Centauri Carbon 2** | Só se lhe puseste um código no ecrã | Sim | Ainda não |
-| **FlashForge** (Adventurer 5M, 5M Pro, AD5X, Creator 5) | Ativar **LAN Only** e usar o código do ecrã | Sim | Ainda não |
+| **Bambu Lab** | Ativar o **Modo LAN** no ecrã dela (Definições → Rede) e usar o **código de acesso LAN** que te mostra | Sim | Sim, se também ativares o **Modo programador** |
+| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Ativar o **PrusaLink** e usar a **palavra-passe** que mostra (não é a do Prusa Connect) | Ainda não | Sim |
+| **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) e **outras de resina (ChituBox)** | Nada, não pedem palavra-passe | Nos modelos que a trazem | Sim |
+| **Elegoo Centauri Carbon 2** | Nada; só se lhe puseste um código no ecrã, escreve-o | Sim | Ainda não |
+| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Ativar o **Modo LAN** (Definições → Rede). Com ele, a impressora deixa de usar a nuvem e a app da Anycubic | Ainda não | Ainda não |
+| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Ativar o **LAN Only** e usar o código de verificação do menu de rede | Sim | Ainda não |
+| **Snapmaker** (U1) | Nada | Sim | Sim |
+| **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | Normalmente nada: só se puseste uma chave de API no Moonraker | Sim, se tiveres webcam no teu Klipper | Sim |
 
 :::warning ⚠️ Bambu Lab: o código de acesso muda
-Sempre que ativas ou desativas o Modo LAN, a Bambu **gera um código novo**. Se
-uma Bambu que funcionava bem deixa de repente de ligar, em nove de cada dez vezes
-é por isto: vê outra vez o código no ecrã dela e atualiza-o no BolloPrint.
+Sempre que ativas ou desativas o Modo LAN ou o Modo programador, a Bambu **gera um
+código novo**. Se uma Bambu que funcionava bem deixa de repente de ligar, em nove
+de cada dez vezes é por isto: vê outra vez o código no ecrã dela e atualiza-o no
+BolloPrint. E tem em conta que o **Modo programador** a desliga da Bambu Cloud: a
+partir daí só a vês através do agente.
 :::
 
 :::info 💡 Não encontras o teu modelo na tabela?
@@ -151,8 +216,9 @@ compatível, mesmo que a marca não apareça em nenhuma lista.
 
 Com o agente a funcionar, tens:
 
-- **Quase todas as marcas**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
-  Voron… A nuvem não o oferece, porque só existe para a Bambu Lab.
+- **Quase todas as marcas**: Bambu Lab, Prusa, Elegoo, Anycubic, FlashForge,
+  Snapmaker e tudo o que tem Klipper. A nuvem não o oferece, porque só existe para
+  a Bambu Lab.
 - **Câmara**: em direto enquanto tens a página aberta, uma foto quando quiseres e
   uma foto final guardada no histórico de cada impressão. Não é videovigilância:
   não se grava nada.
@@ -179,13 +245,20 @@ doméstico normal.
 ### É preciso um agente por impressora?
 
 Não. **Um só leva a frota inteira.** Só faz sentido ter vários se tiveres dois
-espaços ou duas redes separadas.
+espaços ou duas redes separadas. Nesse caso, ao **Adicionar por IP** pergunta-te
+qual a liga.
 
 ### O que acontece se desligar o computador ou sair uma versão nova?
 
 Quando o voltares a ligar, o agente volta sozinho. Também se atualiza sozinho:
-quando sai uma versão nova, descarrega-a e reinicia com ela. Só terás de fazer
-alguma coisa se te avisarmos no ecrã.
+quando sai uma versão nova, descarrega-a e reinicia com ela, sem teres de mexer no
+manifesto. Só terás de fazer alguma coisa se te avisarmos no ecrã.
+
+### Porque é que não consigo carregar em «Adicionar por IP»?
+
+Porque nenhum dos teus agentes está ligado, e o texto por baixo do botão diz-to.
+Se ainda não o instalaste, usa **Instalar** na linha dele; se já funcionava,
+confirma que o computador está ligado e com internet.
 
 :::info 💡 Precisas de ajuda?
 Escreve-nos a partir da [página de contacto](/contact) ou abre um tópico no

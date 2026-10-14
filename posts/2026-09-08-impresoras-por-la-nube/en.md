@@ -3,6 +3,7 @@ slug: connect-bambu-lab-printers-cloud
 title: "Connect your Bambu Lab printers to BolloPrint in five minutes"
 description: Nothing to install and no password. You type your Bambu Lab account email, confirm a code and your printers show up on their own, with what they're printing and their whole history.
 date: 2026-10-12
+updated: 2026-10-14
 tags: [tutorials]
 cover: 01-portada.webp
 ---
@@ -32,7 +33,7 @@ And the part you'll notice most at the end of the month: **every print gets
 logged**, with its duration, its material and its cost. You don't have to write
 anything down.
 
-![A printer's card while it's printing, with the progress and the temperatures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
+![A printer's card while it's printing, with the progress and the temperatures](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora-en.png "42%")
 
 ## What you need
 
@@ -93,7 +94,7 @@ Once it's accepted, you'll see **Account verified and connected**.
 You don't have to add them one by one: **every printer on that account shows up
 on its own** in the **Printers** tab, each with its name and serial number.
 
-![The printer list with the Bambu machines that have just appeared](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas.png)
+![The printer list with the Bambu machines that have just appeared](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas-en.png)
 
 At the top you'll see a counter like `3 / 6 active`: these are the printers your
 plan includes. Use the switch on each row to activate or deactivate whichever
@@ -161,8 +162,8 @@ printers, and it only exists for Bambu Lab. If you need more, the option is the
 talks to the printers over your own network. One is enough for the whole fleet,
 and it gives you:
 
-- **almost every brand**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
-  Voron…;
+- **almost every brand**: Prusa, Elegoo, Anycubic, FlashForge, Snapmaker and
+  anything running Klipper (QIDI, Sovol, Voron…);
 - **camera**, live and with a final photo saved for every print;
 - **pause, resume and cancel** from BolloPrint, without walking over to the
   machine;
@@ -171,7 +172,8 @@ and it gives you:
 
 :::info 💡 To send commands to a Bambu
 The printer has to be in **LAN Mode** and in **Developer Mode**. Both are turned on
-from its screen.
+from its screen, and the second one disconnects it from Bambu Cloud: from then on
+you'll see it only through the agent.
 :::
 
 We explain it step by step in

@@ -3,6 +3,7 @@ slug: connect-bambu-lab-printers-cloud
 title: "Liga as tuas impressoras Bambu Lab ao BolloPrint em cinco minutos"
 description: Sem instalar nada e sem palavra-passe. Escreves o email da tua conta Bambu Lab, confirmas um código e as tuas impressoras aparecem sozinhas, com o que estão a imprimir e todo o seu histórico.
 date: 2026-10-12
+updated: 2026-10-14
 tags: [tutoriais]
 cover: 01-portada.webp
 ---
@@ -30,7 +31,7 @@ Em tempo real e sem mexer em nada:
 E o que mais se nota ao fim do mês: **cada impressão fica registada**, com a sua
 duração, o seu material e o seu custo. Não tens de apontar nada.
 
-![A ficha de uma impressora a imprimir, com o progresso e as temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
+![A ficha de uma impressora a imprimir, com o progresso e as temperaturas](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora-pt.png "42%")
 
 ## O que precisas
 
@@ -91,7 +92,7 @@ Não é preciso registá-las uma a uma: **todas as impressoras dessa conta apare
 sozinhas** no separador **Impressoras**, cada uma com o seu nome e o seu número
 de série.
 
-![A lista de impressoras com as máquinas da Bambu acabadas de aparecer](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas.png)
+![A lista de impressoras com as máquinas da Bambu acabadas de aparecer](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas-pt.png)
 
 Em cima vais ver um contador do tipo `3 / 6 ativas`: são as impressoras que o
 teu plano inclui. Com o interruptor de cada linha ativas ou desativas as que
@@ -159,8 +160,8 @@ impressoras, e só existe para a Bambu Lab. Se precisares de mais, a opção é 
 e que comunica com as impressoras pela tua própria rede. Um chega para toda a
 frota, e dá-te:
 
-- **quase todas as marcas**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
-  Voron…;
+- **quase todas as marcas**: Prusa, Elegoo, Anycubic, FlashForge, Snapmaker e
+  todas as que têm Klipper (QIDI, Sovol, Voron…);
 - **câmara**, em direto e com uma foto final guardada em cada impressão;
 - **pausar, retomar e cancelar** a partir do BolloPrint, sem ires até à máquina;
 - **resistência às falhas de internet**: continua a ler as tuas impressoras e
@@ -168,7 +169,8 @@ frota, e dá-te:
 
 :::info 💡 Para enviar ordens a uma Bambu
 A impressora tem de estar em **Modo LAN** e em **Modo programador**. Os dois
-ativam-se no ecrã dela.
+ativam-se no ecrã dela, e o segundo desliga-a da Bambu Cloud: a partir daí só a
+vês através do agente.
 :::
 
 Explicamos tudo passo a passo em

@@ -3,6 +3,7 @@ slug: connect-bambu-lab-printers-cloud
 title: "Collega le tue stampanti Bambu Lab a BolloPrint in cinque minuti"
 description: Senza installare niente e senza password. Scrivi l'email del tuo account Bambu Lab, confermi un codice e le tue stampanti compaiono da sole, con quello che stanno stampando e tutto il loro storico.
 date: 2026-10-12
+updated: 2026-10-14
 tags: [tutorial]
 cover: 01-portada.webp
 ---
@@ -30,7 +31,7 @@ In tempo reale e senza toccare niente:
 E quello che si nota di più a fine mese: **ogni stampa viene registrata**, con la
 sua durata, il suo materiale e il suo costo. Non devi annotare niente.
 
-![La scheda di una stampante in stampa, con l'avanzamento e le temperature](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
+![La scheda di una stampante in stampa, con l'avanzamento e le temperature](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora-it.png "42%")
 
 ## Cosa ti serve
 
@@ -91,7 +92,7 @@ Non serve registrarle una a una: **tutte le stampanti di quell'account compaiono
 da sole** nella scheda **Stampanti**, ognuna con il suo nome e il suo numero di
 serie.
 
-![L'elenco delle stampanti con le macchine Bambu appena comparse](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas.png)
+![L'elenco delle stampanti con le macchine Bambu appena comparse](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas-it.png)
 
 In alto vedrai un contatore come `3 / 6 attive`: sono le stampanti incluse nel
 tuo piano. Con l'interruttore di ogni riga attivi o disattivi quelle che vuoi.
@@ -157,8 +158,8 @@ l'**agente locale**: un piccolo programma che installi su un computer del tuo
 laboratorio e che comunica con le stampanti tramite la tua rete. Ne basta uno per
 tutto il parco macchine, e ti offre:
 
-- **quasi tutte le marche**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
-  Voron…;
+- **quasi tutte le marche**: Prusa, Elegoo, Anycubic, FlashForge, Snapmaker e
+  tutte quelle con Klipper (QIDI, Sovol, Voron…);
 - la **telecamera**, in diretta e con una foto finale salvata a ogni stampa;
 - **mettere in pausa, riprendere e annullare** da BolloPrint, senza andare fino
   alla macchina;
@@ -167,7 +168,8 @@ tutto il parco macchine, e ti offre:
 
 :::info 💡 Per mandare comandi a una Bambu
 La stampante deve essere in **Modalità LAN** e in **Modalità sviluppatore**.
-Entrambe si attivano dal suo schermo.
+Entrambe si attivano dal suo schermo, e la seconda la scollega da Bambu Cloud: da
+quel momento la vedrai solo tramite l'agente.
 :::
 
 Lo spieghiamo passo passo in

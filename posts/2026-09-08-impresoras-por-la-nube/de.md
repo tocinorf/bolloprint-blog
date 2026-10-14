@@ -3,6 +3,7 @@ slug: connect-bambu-lab-printers-cloud
 title: "Verbinde deine Bambu-Lab-Drucker in fünf Minuten mit BolloPrint"
 description: Ohne etwas zu installieren und ohne Passwort. Du gibst die E-Mail deines Bambu-Lab-Kontos ein, bestätigst einen Code, und deine Drucker erscheinen von selbst, mit dem, was sie gerade drucken, und ihrem ganzen Verlauf.
 date: 2026-10-12
+updated: 2026-10-14
 tags: [anleitungen]
 cover: 01-portada.webp
 ---
@@ -31,7 +32,7 @@ In Echtzeit und ohne etwas anzufassen:
 Und was du am Monatsende am deutlichsten merkst: **Jeder Druck wird
 protokolliert**, mit Dauer, Material und Kosten. Du musst nichts aufschreiben.
 
-![Die Detailseite eines Druckers, der gerade druckt, mit Fortschritt und Temperaturen](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora.png "42%")
+![Die Detailseite eines Druckers, der gerade druckt, mit Fortschritt und Temperaturen](/blog/media/2026-09-08-impresoras-por-la-nube/06-ficha-impresora-de.png "42%")
 
 ## Was du brauchst
 
@@ -92,7 +93,7 @@ Sobald er angenommen ist, siehst du **Konto verifiziert und verbunden**.
 Du musst sie nicht einzeln anlegen: **Alle Drucker dieses Kontos erscheinen von
 selbst** im Reiter **Drucker**, jeder mit seinem Namen und seiner Seriennummer.
 
-![Die Druckerliste mit den gerade aufgetauchten Bambu-Maschinen](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas.png)
+![Die Druckerliste mit den gerade aufgetauchten Bambu-Maschinen](/blog/media/2026-09-08-impresoras-por-la-nube/05-impresoras-aparecidas-de.png)
 
 Oben siehst du einen Zähler wie `3 / 6 aktiv`: Das sind die Drucker, die dein
 Plan umfasst. Mit dem Schalter in jeder Zeile aktivierst oder deaktivierst du die
@@ -164,8 +165,8 @@ steuern, und es gibt sie nur für Bambu Lab. Wenn du mehr brauchst, ist der
 deiner Werkstatt installierst und das über dein eigenes Netzwerk mit den Druckern
 spricht. Einer reicht für die ganze Flotte, und er bietet dir:
 
-- **fast alle Marken**: Prusa, Elegoo, Klipper, QIDI, Sovol, FlashForge,
-  Voron …;
+- **fast alle Marken**: Prusa, Elegoo, Anycubic, FlashForge, Snapmaker und
+  alles, was mit Klipper läuft (QIDI, Sovol, Voron …);
 - **Kamera**, live und mit einem Abschlussfoto, das bei jedem Druck gespeichert
   wird;
 - **Pausieren, Fortsetzen und Abbrechen** direkt aus BolloPrint, ohne zur
@@ -175,7 +176,8 @@ spricht. Einer reicht für die ganze Flotte, und er bietet dir:
 
 :::info 💡 Um einem Bambu Befehle zu schicken
 Der Drucker muss im **LAN-Modus** und im **Entwicklermodus** sein. Beides schaltest
-du an seinem Display ein.
+du an seinem Display ein. Der Entwicklermodus trennt ihn von Bambu Cloud: Ab dann
+siehst du ihn nur noch über den Agenten.
 :::
 
 Schritt für Schritt erklären wir das in

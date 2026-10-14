@@ -1,7 +1,7 @@
 ---
 slug: connect-bambu-lab-printers-cloud
 title: "Collega le tue stampanti Bambu Lab a BolloPrint in cinque minuti"
-description: Senza installare niente. Colleghi il tuo account Bambu Lab, confermi un codice e le tue stampanti compaiono da sole, con quello che stanno stampando e tutto il loro storico.
+description: Senza installare niente e senza password. Scrivi l'email del tuo account Bambu Lab, confermi un codice e le tue stampanti compaiono da sole, con quello che stanno stampando e tutto il loro storico.
 date: 2026-10-12
 tags: [tutorial]
 cover: 01-portada.webp
@@ -38,14 +38,8 @@ Prima di iniziare, tieni a portata di mano queste tre cose:
 
 - L'accesso a BolloPrint come **Proprietario** o **Admin**. Con un altro ruolo
   questa schermata non compare.
-- L'**email e la password** del tuo account Bambu Lab.
-- La **casella email** di quell'account aperta: Bambu ti manderà un codice.
-
-:::warning ⚠️ Se entri in Bambu con Google, Apple o Facebook
-BolloPrint ha bisogno dell'**email e della password** dell'account. Se non hai
-mai impostato una password perché usi sempre «Continua con Google», creala prima
-sul sito di Bambu Lab e poi torna qui.
-:::
+- L'**email** del tuo account Bambu Lab. La password non serve.
+- Quella **casella email** aperta: Bambu ti manderà un codice.
 
 ## Apri la schermata delle stampanti
 
@@ -59,32 +53,35 @@ schede:
 
 Apri **Bambu Cloud**.
 
-![La schermata Impostazioni → Stampanti con le sue tre schede](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
+![La schermata Impostazioni → Stampanti con le sue tre schede](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas-it.png)
 
-## Scrivi l'email e la password di Bambu
+## Scrivi l'email del tuo account Bambu
 
-Usa quelle del tuo account Bambu Lab (quell'email, non un'altra tua) e premi
-**Connetti con BambuLab**.
+Usa quella del tuo account Bambu Lab (quell'email, non un'altra tua) e premi
+**Invia codice**.
 
-![Il modulo di Bambu Cloud, con l'email dell'account inserita e la password ancora da scrivere](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![Il modulo di Bambu Cloud, con l'email dell'account inserita e il pulsante Invia codice](/blog/media/2026-09-08-impresoras-por-la-nube/03-correo-it.png)
 
-:::info 💡 La tua password non viene salvata
-Resta **solo nel tuo browser**, e solo finché non finisci la verifica.
+:::info 💡 Non ti chiediamo la password
+BolloPrint **non la vede né la salva mai**: per collegarti basta il codice che
+Bambu ti manda via email.
 :::
 
 ## Conferma il codice dell'email
 
-Bambu ti manderà un **codice di 6 cifre** da `noreply@bambulab.com`. Se non lo
-vedi, **controlla la cartella dello spam**: spesso finisce lì. Inseriscilo nella
-stessa schermata e premi **Verifica e connetti**.
+Bambu ti manderà un **codice di 6 cifre** da `noreply@bambulab.com` (l'email
+arriva in inglese). Se non lo vedi, **controlla la cartella dello spam**: spesso
+finisce lì. Inseriscilo nella stessa schermata e premi **Verifica e connetti**.
 
-![Il campo del codice di 6 cifre e il pulsante Verifica e connetti](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
+![Il campo del codice di 6 cifre e il pulsante Verifica e connetti](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-it.png)
 
-Due dettagli ti risparmiano un secondo tentativo:
+Tre dettagli ti risparmiano un secondo tentativo:
 
-- Il codice **scade in circa 5 minuti**. Se è scaduto, premi **Rinvia codice**.
+- Il codice **scade dopo 10 minuti** e vale solo l'ultimo. Se è scaduto, premi
+  **Rinvia codice**.
 - Puoi **incollarlo così come arriva**: spazi e trattini vengono rimossi
   automaticamente.
+- Se hai sbagliato email, premi **Cambia email**.
 
 Quando lo accetta, vedrai **Account verificato e connesso**.
 
@@ -113,8 +110,9 @@ Conviene saperlo fin dall'inizio, per non cercare opzioni che non esistono:
   un'anteprima, non quello che succede dentro la macchina.
 - **Dipende da due connessioni internet**, la tua e quella di Bambu. Se una delle
   due cade, la stampante risulta scollegata anche se sta stampando normalmente.
-- **La sessione scade ogni tanto** e bisogna ricollegare l'account. Te lo
-  segnaliamo sullo schermo.
+- **La sessione con Bambu dura 90 giorni, ma si rinnova da sola**: BolloPrint
+  la rinnova prima che scada e non devi entrare di nuovo. Solo se Bambu la chiude
+  per conto suo te lo segnaliamo sullo schermo, e basta chiedere un nuovo codice.
 
 E una cosa che vale per qualsiasi tipo di connessione: **BolloPrint non manda
 lavori in stampa**. Il file continui a inviarlo dal tuo slicer; BolloPrint legge
@@ -122,23 +120,24 @@ cosa fa la macchina e lo registra.
 
 ## Problemi frequenti
 
-### Perché Bambu dice che la password è errata se è quella giusta?
-
-È il problema più comune. Il messaggio **«Account o password di Bambu Lab
-errati»** compare quasi sempre con una password appena creata e mai usata:
-l'account ha l'email ancora da verificare e Bambu non lo segnala. Entra **una
-volta** sul sito di Bambu con quell'email e quella password, completa quello che
-ti chiede e riprova.
-
 ### E se entri in Bambu con Google o Apple?
 
-Per quella via non si può. Crea una password sul sito di Bambu Lab e usa l'email
-con quella password.
+Scrivi l'email di quell'account Google o Apple: il codice arriva lì lo stesso.
+Non serve più creare una password.
 
 ### Perché dice che non esiste un account con quell'email?
 
-Se compare **«Non esiste alcun account Bambu Lab con questa email»**, l'email non
-è quella del tuo account Bambu. Controlla con quale entri nella sua app.
+Se compare **«Non esiste alcun account Bambu Lab con questa email.»**, l'email non
+è quella del tuo account Bambu: Bambu manda comunque il codice, ma quando lo
+inserisci lo rifiuta. Controlla con quale entri nella sua app e premi **Cambia
+email**.
+
+### Devo ricollegare l'account ogni tanto?
+
+No. La sessione dura 90 giorni e BolloPrint la rinnova da sola prima che scada.
+Se un giorno Bambu la chiude per conto suo, vedrai **«Sessione scaduta»** e un
+pulsante **Accedi di nuovo**: chiedi un nuovo codice e hai finito, senza
+scollegare niente.
 
 ### Cosa faccio se mi chiede la verifica in due passaggi?
 
@@ -147,8 +146,8 @@ Dovrai disattivarla nel tuo account Bambu per poterlo collegare.
 ### Cosa faccio se il codice non arriva o non viene accettato?
 
 Se non arriva, controlla la cartella dello spam e premi **Rinvia codice**. Se non
-viene accettato, molto probabilmente è scaduto: chiedine un altro e incollalo
-intero.
+viene accettato, molto probabilmente è scaduto o non è l'ultimo che hai chiesto:
+chiedine un altro e incollalo intero.
 
 ## Se ti serve di più: l'agente locale
 

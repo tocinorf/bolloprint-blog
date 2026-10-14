@@ -1,7 +1,7 @@
 ---
 slug: connect-bambu-lab-printers-cloud
 title: "Connectez vos imprimantes Bambu Lab à BolloPrint en cinq minutes"
-description: Sans rien installer. Vous connectez votre compte Bambu Lab, vous confirmez un code et vos imprimantes apparaissent toutes seules, avec ce qu'elles impriment et tout leur historique.
+description: Sans rien installer et sans mot de passe. Vous saisissez l'e-mail de votre compte Bambu Lab, vous confirmez un code et vos imprimantes apparaissent toutes seules, avec ce qu'elles impriment et tout leur historique.
 date: 2026-10-12
 tags: [tutoriels]
 cover: 01-portada.webp
@@ -32,12 +32,8 @@ Et ce qui se remarque le plus en fin de mois : **chaque impression est enregist
 Avant de commencer, gardez ces trois éléments à portée de main :
 
 - Un accès à BolloPrint en tant que **Propriétaire** ou **Admin**. Avec un autre rôle, cet écran ne s'affiche pas.
-- L'**e-mail et le mot de passe** de votre compte Bambu Lab.
-- La **boîte mail** de ce compte ouverte : Bambu va vous envoyer un code.
-
-:::warning ⚠️ Si vous vous connectez à Bambu avec Google, Apple ou Facebook
-BolloPrint a besoin de l'**e-mail et du mot de passe** du compte. Si vous n'avez jamais défini de mot de passe parce que vous utilisez toujours « Continuer avec Google », créez-en un d'abord sur le site de Bambu Lab, puis revenez.
-:::
+- L'**e-mail** de votre compte Bambu Lab. Le mot de passe n'est pas nécessaire.
+- Cette **boîte mail** ouverte : Bambu va vous envoyer un code.
 
 ## Ouvrez l'écran des imprimantes
 
@@ -49,28 +45,29 @@ Tout se passe au même endroit : **Paramètres → Imprimantes**. Vous y verrez
 
 Ouvrez **Bambu Cloud**.
 
-![L'écran Paramètres → Imprimantes avec ses trois onglets](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
+![L'écran Paramètres → Imprimantes avec ses trois onglets](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas-fr.png)
 
-## Saisissez l'e-mail et le mot de passe Bambu
+## Saisissez l'e-mail de votre compte Bambu
 
-Utilisez ceux de votre compte Bambu Lab (cet e-mail-là, pas un autre des vôtres), puis cliquez sur **Se connecter à BambuLab**.
+Utilisez celui de votre compte Bambu Lab (cet e-mail-là, pas un autre des vôtres), puis cliquez sur **Envoyer le code**.
 
-![Le formulaire Bambu Cloud, avec l'e-mail du compte saisi et le mot de passe encore à saisir](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![Le formulaire Bambu Cloud, avec l'e-mail du compte saisi et le bouton Envoyer le code](/blog/media/2026-09-08-impresoras-por-la-nube/03-correo-fr.png)
 
-:::info 💡 Votre mot de passe n'est pas enregistré
-Il reste **uniquement dans votre navigateur**, et seulement jusqu'à la fin de la vérification.
+:::info 💡 Nous ne vous demandons pas votre mot de passe
+BolloPrint **ne le voit jamais et ne l'enregistre pas** : pour vous connecter, il suffit du code que Bambu envoie à votre adresse e-mail.
 :::
 
 ## Confirmez le code reçu par e-mail
 
-Bambu vous enverra un **code à 6 chiffres** depuis `noreply@bambulab.com`. Si vous ne le voyez pas, **regardez dans le dossier des spams** : il y atterrit souvent. Saisissez-le sur ce même écran et cliquez sur **Vérifier et connecter**.
+Bambu vous enverra un **code à 6 chiffres** depuis `noreply@bambulab.com` (l'e-mail est rédigé en anglais). Si vous ne le voyez pas, **regardez dans le dossier des spams** : il y atterrit souvent. Saisissez-le sur ce même écran et cliquez sur **Vérifier et connecter**.
 
-![Le champ du code à 6 chiffres et le bouton Vérifier et connecter](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
+![Le champ du code à 6 chiffres et le bouton Vérifier et connecter](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-fr.png)
 
-Deux détails vous éviteront une deuxième tentative :
+Trois détails vous éviteront une deuxième tentative :
 
-- Le code **expire au bout d'environ 5 minutes**. S'il a expiré, cliquez sur **Renvoyer le code**.
+- Le code **expire au bout de 10 minutes** et seul le dernier est valable. S'il a expiré, cliquez sur **Renvoyer le code**.
 - Vous pouvez le **coller tel qu'il arrive** : les espaces et les tirets sont supprimés automatiquement.
+- Si vous vous êtes trompé d'e-mail, cliquez sur **Changer d'email**.
 
 Une fois le code accepté, vous verrez **Compte vérifié et connecté**.
 
@@ -89,23 +86,23 @@ Mieux vaut le savoir dès le départ, pour ne pas chercher des options qui n'exi
 - **C'est en lecture seule.** Via le cloud, impossible de mettre en pause, de reprendre ou d'annuler depuis BolloPrint : Bambu n'accepte ces ordres que via votre réseau local, avec l'imprimante dans un mode précis. Nous y revenons à la fin.
 - **Pas de caméra.** Vous voyez en revanche l'image du tranchage du travail, qui est un aperçu, pas ce qui se passe à l'intérieur de la machine.
 - **Cela dépend de deux connexions internet**, la vôtre et celle de Bambu. Si l'une des deux tombe, l'imprimante apparaît déconnectée alors qu'elle imprime normalement.
-- **La session expire de temps en temps** et il faut reconnecter le compte. Nous vous prévenons à l'écran.
+- **La session avec Bambu dure 90 jours, mais elle se renouvelle toute seule** : BolloPrint la renouvelle avant qu'elle n'expire et vous n'avez pas à vous reconnecter. Ce n'est que si Bambu la ferme de lui-même que nous vous prévenons à l'écran, et il suffit alors de demander un nouveau code.
 
 Et un point qui vaut pour tous les modes de connexion : **BolloPrint n'envoie pas de travaux à imprimer**. Vous continuez à envoyer le fichier depuis votre trancheur ; BolloPrint lit ce que fait la machine et l'enregistre.
 
 ## Problèmes fréquents
 
-### Pourquoi Bambu indique-t-il un mot de passe incorrect alors que c'est le bon ?
-
-C'est le problème le plus courant. Le message **« Compte ou mot de passe Bambu Lab incorrect »** apparaît presque toujours avec un mot de passe tout juste créé et encore jamais utilisé : la vérification de l'e-mail du compte est en attente, et Bambu ne l'indique pas. Connectez-vous **une fois** sur le site de Bambu avec cet e-mail et ce mot de passe, faites ce qui vous est demandé, puis réessayez.
-
 ### Et si vous vous connectez à Bambu avec Google ou Apple ?
 
-Cette méthode ne fonctionne pas ici. Créez un mot de passe sur le site de Bambu Lab et utilisez l'e-mail avec ce mot de passe.
+Saisissez l'e-mail de ce compte Google ou Apple : le code y arrive de la même façon. Il n'est plus nécessaire de créer un mot de passe.
 
 ### Pourquoi est-il indiqué qu'aucun compte n'existe avec cet e-mail ?
 
-Si vous voyez **« Aucun compte Bambu Lab n'existe avec cet email »**, ce n'est pas l'e-mail de votre compte Bambu. Vérifiez avec lequel vous vous connectez dans son application.
+Si vous voyez **« Aucun compte Bambu Lab n'existe avec cet email. »**, ce n'est pas l'e-mail de votre compte Bambu : Bambu envoie quand même le code, mais le refuse quand vous le saisissez. Vérifiez avec lequel vous vous connectez dans son application et cliquez sur **Changer d'email**.
+
+### Faut-il reconnecter le compte de temps en temps ?
+
+Non. La session dure 90 jours et BolloPrint la renouvelle tout seul avant qu'elle n'expire. Si un jour Bambu la ferme de lui-même, vous verrez **« Session expirée »** et un bouton **Se reconnecter** : vous demandez un nouveau code et c'est tout, sans rien dissocier.
 
 ### Que faire si une vérification en deux étapes est demandée ?
 
@@ -113,7 +110,7 @@ Vous devrez la désactiver dans votre compte Bambu pour pouvoir le connecter.
 
 ### Que faire si le code n'arrive pas ou s'il est refusé ?
 
-S'il n'arrive pas, regardez dans le dossier des spams et cliquez sur **Renvoyer le code**. S'il est refusé, il a très probablement expiré : demandez-en un autre et collez-le en entier.
+S'il n'arrive pas, regardez dans le dossier des spams et cliquez sur **Renvoyer le code**. S'il est refusé, il a très probablement expiré ou ce n'est pas le dernier que vous avez demandé : demandez-en un autre et collez-le en entier.
 
 ## Pour aller plus loin : l'agent local
 

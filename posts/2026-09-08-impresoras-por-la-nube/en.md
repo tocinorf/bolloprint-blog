@@ -1,7 +1,7 @@
 ---
 slug: connect-bambu-lab-printers-cloud
 title: "Connect your Bambu Lab printers to BolloPrint in five minutes"
-description: Nothing to install. You connect your Bambu Lab account, confirm a code and your printers show up on their own, with what they're printing and their whole history.
+description: Nothing to install and no password. You type your Bambu Lab account email, confirm a code and your printers show up on their own, with what they're printing and their whole history.
 date: 2026-10-12
 tags: [tutorials]
 cover: 01-portada.webp
@@ -40,14 +40,8 @@ Before you start, have these three things to hand:
 
 - Access to BolloPrint as an **Owner** or **Admin**. With any other role, this
   screen doesn't appear.
-- The **email and password** for your Bambu Lab account.
-- That account's **inbox** open: Bambu will send you a code.
-
-:::warning ⚠️ If you sign in to Bambu with Google, Apple or Facebook
-BolloPrint needs the account's **email and password**. If you've never set a
-password because you always use "Continue with Google", create one first on the
-Bambu Lab website and then come back.
-:::
+- The **email** for your Bambu Lab account. You don't need the password.
+- That **inbox** open: Bambu will send you a code.
 
 ## Open the printers screen
 
@@ -61,32 +55,36 @@ three tabs:
 
 Open **Bambu Cloud**.
 
-![The Settings → Printers screen with its three tabs](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
+![The Settings → Printers screen with its three tabs](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas-en.png)
 
-## Enter your Bambu email and password
+## Enter your Bambu account email
 
-Use the ones for your Bambu Lab account (that email, not another one of yours)
-and click **Connect to Bambu Lab**.
+Use the one for your Bambu Lab account (that email, not another one of yours)
+and click **Send code**.
 
-![The Bambu Cloud form, with the account email typed in and the password still to go](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![The Bambu Cloud form, with the account email typed in and the Send code button](/blog/media/2026-09-08-impresoras-por-la-nube/03-correo-en.png)
 
-:::info 💡 Your password isn't stored
-It stays **only in your browser**, and only until you've finished verifying.
+:::info 💡 We don't ask for your password
+BolloPrint **never sees or stores it**: to connect, all you need is the code
+Bambu sends to your email.
 :::
 
 ## Confirm the code from the email
 
-Bambu will send you a **6-digit code** from `noreply@bambulab.com`. If you can't
-see it, **check your spam folder**: it often ends up there. Enter it on the same
+Bambu will send you a **6-digit code** from `noreply@bambulab.com` (the email
+arrives in English). If you can't see it, **check your spam folder**: it often
+ends up there. Enter it on the same
 screen and click **Verify and connect**.
 
-![The 6-digit code field and the Verify and connect button](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
+![The 6-digit code field and the Verify and connect button](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-en.png)
 
-Two details will save you a second attempt:
+Three details will save you a second attempt:
 
-- The code **expires in about 5 minutes**. If it runs out, click **Resend code**.
+- The code **expires after 10 minutes** and only the latest one works. If it
+  runs out, click **Resend code**.
 - You can **paste it exactly as it arrives**: any spaces or dashes are removed
   automatically.
+- If you typed the wrong email, click **Change email**.
 
 Once it's accepted, you'll see **Account verified and connected**.
 
@@ -116,8 +114,9 @@ don't exist:
   not what's happening inside the machine.
 - **It depends on two internet connections**, yours and Bambu's. If either one
   fails, the printer shows as disconnected even when it's printing normally.
-- **The session expires from time to time** and you have to connect the account
-  again. We'll let you know on screen.
+- **The Bambu session lasts 90 days, but it renews itself**: BolloPrint renews
+  it before it expires, so you don't have to sign in again. Only if Bambu closes
+  it on its own do we let you know on screen, and all it takes is a new code.
 
 And one thing that applies to every connection method: **BolloPrint doesn't send
 jobs to print**. You still send the file from your slicer; BolloPrint reads what
@@ -125,23 +124,24 @@ the machine is doing and logs it.
 
 ## Common problems
 
-### Why does Bambu say the password is incorrect when it's the right one?
-
-This is the most common problem. **"Incorrect Bambu Lab account or password"**
-almost always appears with a newly created password that hasn't been used yet:
-the account's email is still pending verification and Bambu doesn't say so. Sign
-in **once** on the Bambu website with that email and password, complete whatever
-it asks for and try again.
-
 ### What if I sign in to Bambu with Google or Apple?
 
-That route doesn't work here. Create a password on the Bambu Lab website and use
-the email with that password.
+Type the email of that Google or Apple account: the code arrives there just the
+same. You no longer need to create a password.
 
 ### Why does it say there's no account with that email?
 
-If you see **"There's no Bambu Lab account with that email"**, the email isn't
-the one on your Bambu account. Check which one you use to sign in to their app.
+If you see **"There's no Bambu Lab account with that email."**, the email isn't
+the one on your Bambu account: Bambu still sends the code, but rejects it when you
+enter it. Check which one you use to sign in to their app and click **Change
+email**.
+
+### Do I have to reconnect the account every so often?
+
+No. The session lasts 90 days and BolloPrint renews it by itself before it
+expires. If Bambu ever closes it on its own, you'll see **"Session expired"** and
+a **Sign in again** button: request a new code and you're done, without unlinking
+anything.
 
 ### What if it asks for two-step verification?
 
@@ -150,8 +150,8 @@ You'll need to turn it off in your Bambu account to be able to connect it.
 ### What if the code doesn't arrive or isn't accepted?
 
 If it doesn't arrive, check your spam folder and click **Resend code**. If it
-isn't accepted, it has most likely expired: request another one and paste it in
-whole.
+isn't accepted, it has most likely expired or it isn't the latest one you
+requested: request another one and paste it in whole.
 
 ## If you need more: the local agent
 

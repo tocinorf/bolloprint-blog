@@ -1,7 +1,7 @@
 ---
 slug: connect-bambu-lab-printers-cloud
 title: "Liga as tuas impressoras Bambu Lab ao BolloPrint em cinco minutos"
-description: Sem instalar nada. Ligas a tua conta Bambu Lab, confirmas um código e as tuas impressoras aparecem sozinhas, com o que estão a imprimir e todo o seu histórico.
+description: Sem instalar nada e sem palavra-passe. Escreves o email da tua conta Bambu Lab, confirmas um código e as tuas impressoras aparecem sozinhas, com o que estão a imprimir e todo o seu histórico.
 date: 2026-10-12
 tags: [tutoriais]
 cover: 01-portada.webp
@@ -38,14 +38,8 @@ Antes de começares, tem à mão estas três coisas:
 
 - Acesso ao BolloPrint como **Proprietário** ou **Admin**. Com outro papel, este
   ecrã não aparece.
-- O **email e a palavra-passe** da tua conta Bambu Lab.
-- O **email** dessa conta aberto: a Bambu vai enviar-te um código.
-
-:::warning ⚠️ Se entras na Bambu com Google, Apple ou Facebook
-O BolloPrint precisa do **email e da palavra-passe** da conta. Se nunca definiste
-uma palavra-passe porque usas sempre «Continuar com Google», cria-a primeiro no
-site da Bambu Lab e volta depois.
-:::
+- O **email** da tua conta Bambu Lab. A palavra-passe não é precisa.
+- Esse **email** aberto: a Bambu vai enviar-te um código.
 
 ## Abre o ecrã das impressoras
 
@@ -59,33 +53,35 @@ separadores:
 
 Abre **Bambu Cloud**.
 
-![O ecrã Configurações → Impressoras com os seus três separadores](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas.png)
+![O ecrã Configurações → Impressoras com os seus três separadores](/blog/media/2026-09-08-impresoras-por-la-nube/02-tres-pestanas-pt.png)
 
-## Escreve o email e a palavra-passe da Bambu
+## Escreve o email da tua conta Bambu
 
-Usa os da tua conta Bambu Lab (esse email, não outro teu) e carrega em **Ligar à
-BambuLab**.
+Usa o da tua conta Bambu Lab (esse email, não outro teu) e carrega em **Enviar
+código**.
 
-![O formulário da Bambu Cloud, com o email da conta escrito e a palavra-passe ainda por pôr](/blog/media/2026-09-08-impresoras-por-la-nube/03-email-password.png)
+![O formulário da Bambu Cloud, com o email da conta escrito e o botão Enviar código](/blog/media/2026-09-08-impresoras-por-la-nube/03-correo-pt.png)
 
-:::info 💡 A tua palavra-passe não fica guardada
-Fica **só no teu navegador**, e só até acabares a verificação.
+:::info 💡 Não te pedimos a palavra-passe
+O BolloPrint **nunca a vê nem a guarda**: para ligar, basta o código que a Bambu
+te envia por email.
 :::
 
 ## Confirma o código do email
 
 A Bambu vai enviar-te um **código de 6 dígitos** a partir de
-`noreply@bambulab.com`. Se não o vires, **verifica a pasta de spam**: costuma ir
+`noreply@bambulab.com` (o email chega em inglês). Se não o vires, **verifica a pasta de spam**: costuma ir
 lá parar. Escreve-o no mesmo ecrã e carrega em **Verificar e ligar**.
 
-![O campo do código de 6 dígitos e o botão Verificar e ligar](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-verificacion.png)
+![O campo do código de 6 dígitos e o botão Verificar e ligar](/blog/media/2026-09-08-impresoras-por-la-nube/04-codigo-pt.png)
 
-Dois pormenores poupam-te uma segunda tentativa:
+Três pormenores poupam-te uma segunda tentativa:
 
-- O código **expira ao fim de uns 5 minutos**. Se o prazo passar, carrega em
-  **Reenviar código**.
+- O código **expira ao fim de 10 minutos** e só vale o último. Se o prazo
+  passar, carrega em **Reenviar código**.
 - Podes **colá-lo tal como chega**: os espaços ou hífenes são removidos
   automaticamente.
+- Se te enganaste no email, carrega em **Mudar de email**.
 
 Quando for aceite, vais ver **Conta verificada e ligada**.
 
@@ -115,8 +111,10 @@ Convém sabê-lo desde o início, para não procurares opções que não existem
 - **Depende de duas ligações à internet**, a tua e a da Bambu. Se qualquer uma
   falhar, a impressora aparece desligada, mesmo que esteja a imprimir
   normalmente.
-- **A sessão expira de vez em quando** e é preciso voltar a ligar a conta.
-  Avisamos-te no ecrã.
+- **A sessão com a Bambu dura 90 dias, mas renova-se sozinha**: o BolloPrint
+  renova-a antes de expirar e não tens de voltar a entrar. Só se a Bambu a
+  fechar por iniciativa própria te avisamos no ecrã, e basta pedir um código
+  novo.
 
 E algo que vale para qualquer forma de ligação: **o BolloPrint não envia
 trabalhos para imprimir**. O ficheiro continuas a enviá-lo a partir do teu
@@ -124,23 +122,24 @@ fatiador; o BolloPrint lê o que a máquina faz e regista-o.
 
 ## Problemas frequentes
 
-### Porque é que a Bambu diz que a palavra-passe está errada se é a certa?
-
-É o problema mais habitual. A mensagem **«Conta ou palavra-passe da Bambu Lab
-incorretas»** aparece quase sempre com uma palavra-passe acabada de criar que
-ainda não foi usada: a conta tem o email por verificar e a Bambu não o indica.
-Entra **uma vez** no site da Bambu com esse email e essa palavra-passe, completa
-o que te for pedido e tenta de novo.
-
 ### E se entrares na Bambu com Google ou Apple?
 
-Por essa via não é possível. Cria uma palavra-passe no site da Bambu Lab e usa o
-email com essa palavra-passe.
+Escreve o email dessa conta Google ou Apple: o código chega lá na mesma. Já não
+é preciso criar uma palavra-passe.
 
 ### Porque é que diz que não existe uma conta com esse email?
 
-Se aparecer **«Não existe nenhuma conta da Bambu Lab com esse email»**, o email
-não é o da tua conta Bambu. Confirma com qual entras na app deles.
+Se aparecer **«Não existe nenhuma conta da Bambu Lab com esse email.»**, o email
+não é o da tua conta Bambu: a Bambu envia o código na mesma, mas rejeita-o quando
+o escreves. Confirma com qual entras na app deles e carrega em **Mudar de
+email**.
+
+### Tenho de voltar a ligar a conta de tempos a tempos?
+
+Não. A sessão dura 90 dias e o BolloPrint renova-a sozinho antes de expirar. Se
+alguma vez a Bambu a fechar por iniciativa própria, vais ver **«Sessão
+expirada»** e um botão **Voltar a iniciar sessão**: pedes um código novo e
+pronto, sem desvincular nada.
 
 ### O que faço se me pedir verificação em dois passos?
 
@@ -149,7 +148,8 @@ Vais ter de a desativar na tua conta Bambu para a poderes ligar.
 ### O que faço se o código não chegar ou não for aceite?
 
 Se não chegar, verifica a pasta de spam e carrega em **Reenviar código**. Se não
-for aceite, o mais provável é que tenha expirado: pede outro e cola-o inteiro.
+for aceite, o mais provável é que tenha expirado ou que não seja o último que
+pediste: pede outro e cola-o inteiro.
 
 ## Se precisares de mais: o agente local
 

@@ -105,10 +105,6 @@ Si vous voyez **« Aucun compte Bambu Lab n'existe avec cet email. »**, ce n'
 
 Non. La session dure 90 jours et BolloPrint la renouvelle tout seul avant qu'elle n'expire. Si un jour Bambu la ferme de lui-même, vous verrez **« Session expirée »** et un bouton **Se reconnecter** : vous demandez un nouveau code et c'est tout, sans rien dissocier.
 
-### Que faire si une vérification en deux étapes est demandée ?
-
-Vous devrez la désactiver dans votre compte Bambu pour pouvoir le connecter.
-
 ### Que faire si le code n'arrive pas ou s'il est refusé ?
 
 S'il n'arrive pas, regardez dans le dossier des spams et cliquez sur **Renvoyer le code**. S'il est refusé, il a très probablement expiré ou ce n'est pas le dernier que vous avez demandé : demandez-en un autre et collez-le en entier.

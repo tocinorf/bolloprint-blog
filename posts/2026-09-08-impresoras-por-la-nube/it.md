@@ -140,10 +140,6 @@ Se un giorno Bambu la chiude per conto suo, vedrai **«Sessione scaduta»** e un
 pulsante **Accedi di nuovo**: chiedi un nuovo codice e hai finito, senza
 scollegare niente.
 
-### Cosa faccio se mi chiede la verifica in due passaggi?
-
-Dovrai disattivarla nel tuo account Bambu per poterlo collegare.
-
 ### Cosa faccio se il codice non arriva o non viene accettato?
 
 Se non arriva, controlla la cartella dello spam e premi **Rinvia codice**. Se non

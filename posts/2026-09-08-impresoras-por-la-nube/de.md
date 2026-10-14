@@ -146,10 +146,6 @@ abläuft. Wenn Bambu sie doch einmal von sich aus beendet, siehst du **„Sitzun
 abgelaufen“** und einen Button **Erneut anmelden**: Du forderst einen neuen Code
 an, und fertig, ohne etwas zu trennen.
 
-### Was tun, wenn eine Zwei-Faktor-Authentifizierung verlangt wird?
-
-Du musst sie in deinem Bambu-Konto deaktivieren, um es verbinden zu können.
-
 ### Was tun, wenn der Code nicht ankommt oder nicht angenommen wird?
 
 Wenn er nicht ankommt, sieh im Spam-Ordner nach und klick auf **Code erneut

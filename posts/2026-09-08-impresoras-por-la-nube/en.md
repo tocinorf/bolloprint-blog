@@ -144,10 +144,6 @@ expires. If Bambu ever closes it on its own, you'll see **"Session expired"** an
 a **Sign in again** button: request a new code and you're done, without unlinking
 anything.
 
-### What if it asks for two-step verification?
-
-You'll need to turn it off in your Bambu account to be able to connect it.
-
 ### What if the code doesn't arrive or isn't accepted?
 
 If it doesn't arrive, check your spam folder and click **Resend code**. If it

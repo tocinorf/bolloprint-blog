@@ -138,10 +138,6 @@ No. La sesión dura 90 días y BolloPrint la renueva sola antes de que caduque. 
 alguna vez Bambu la cierra por su cuenta, verás **«Sesión caducada»** y un botón
 **Volver a iniciar sesión**: pides un código nuevo y listo, sin desvincular nada.
 
-### ¿Qué hago si me pide verificación en dos pasos?
-
-Tendrás que desactivarla en tu cuenta de Bambu para poder conectarla.
-
 ### ¿Qué hago si el código no llega o no lo acepta?
 
 Si no llega, revisa la carpeta de spam y pulsa **Reenviar código**. Si no lo

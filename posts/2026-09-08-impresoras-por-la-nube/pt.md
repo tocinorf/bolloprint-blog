@@ -142,10 +142,6 @@ alguma vez a Bambu a fechar por iniciativa própria, vais ver **«Sessão
 expirada»** e um botão **Voltar a iniciar sessão**: pedes um código novo e
 pronto, sem desvincular nada.
 
-### O que faço se me pedir verificação em dois passos?
-
-Vais ter de a desativar na tua conta Bambu para a poderes ligar.
-
 ### O que faço se o código não chegar ou não for aceite?
 
 Se não chegar, verifica a pasta de spam e carrega em **Reenviar código**. Se não

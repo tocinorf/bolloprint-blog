@@ -218,6 +218,10 @@ or on [our Discord](/help/soporte-por-discord). We've done this a fair few times
 already.
 :::
 
+May your numbers always add up.
+
+![Bollo, the BolloPrint mascot, with workshop goggles, deep in thought among sums written in chalk](/blog/media/2026-09-12-costes-reales/07-bollo.webp "60%")
+
 ## Related documentation
 
 - [Costs](/help/costes): the full reference for the section

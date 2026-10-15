@@ -155,6 +155,10 @@ La configuration, ce sont quatre écrans et une partie d'un après-midi. En éch
 Si vous ne savez pas par où commencer, écrivez-nous depuis la [page de contact](/contact) ou sur [notre Discord](/help/soporte-por-discord). Nous l'avons déjà fait plus d'une fois.
 :::
 
+Que vos chiffres tombent toujours juste.
+
+![Bollo, la mascotte de BolloPrint, avec des lunettes d'atelier, pensif au milieu d'opérations écrites à la craie](/blog/media/2026-09-12-costes-reales/07-bollo.webp "60%")
+
 ## Documentation associée
 
 - [Coûts](/help/costes) : la référence complète de la section

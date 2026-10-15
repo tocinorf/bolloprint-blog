@@ -225,6 +225,10 @@ Wenn du nicht weißt, wo du anfangen sollst, schreib uns über die
 haben das schon ein paar Mal gemacht.
 :::
 
+Mögen deine Zahlen immer aufgehen.
+
+![Bollo, das Maskottchen von BolloPrint, mit Werkstattbrille, nachdenklich zwischen Rechnungen in Kreide](/blog/media/2026-09-12-costes-reales/07-bollo.webp "60%")
+
 ## Verwandte Dokumentation
 
 - [Kosten](/help/costes): die vollständige Referenz zum Bereich

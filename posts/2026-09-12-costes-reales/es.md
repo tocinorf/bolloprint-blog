@@ -213,6 +213,10 @@ o en [nuestro Discord](/help/soporte-por-discord). Ya lo hemos hecho unas cuanta
 veces.
 :::
 
+Que tus números salgan siempre a cuenta.
+
+![Bollo, la mascota de BolloPrint, con gafas de taller, pensativo entre operaciones escritas con tiza](/blog/media/2026-09-12-costes-reales/07-bollo.webp "60%")
+
 ## Documentación relacionada
 
 - [Costes](/help/costes): la referencia completa de la sección

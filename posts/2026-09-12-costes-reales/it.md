@@ -214,6 +214,10 @@ sul [nostro Discord](/help/soporte-por-discord). L'abbiamo già fatto parecchie
 volte.
 :::
 
+Che i tuoi conti tornino sempre.
+
+![Bollo, la mascotte di BolloPrint, con gli occhialini da officina, pensieroso tra operazioni scritte col gesso](/blog/media/2026-09-12-costes-reales/07-bollo.webp "60%")
+
 ## Documentazione correlata
 
 - [Costi](/help/costes): il riferimento completo della sezione

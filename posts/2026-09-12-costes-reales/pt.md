@@ -210,6 +210,10 @@ Se não sabes por onde começar, escreve-nos a partir da [página de contacto](/
 ou no [nosso Discord](/help/soporte-por-discord). Já o fizemos umas quantas vezes.
 :::
 
+Que as tuas contas batam sempre certo.
+
+![O Bollo, a mascote do BolloPrint, com óculos de oficina, pensativo entre contas escritas a giz](/blog/media/2026-09-12-costes-reales/07-bollo.webp "60%")
+
 ## Documentação relacionada
 
 - [Custos](/help/costes): a referência completa da secção

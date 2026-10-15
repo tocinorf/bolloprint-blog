@@ -2,11 +2,9 @@
 slug: calculate-your-3d-printing-costs
 title: "Was ein gedrucktes Teil wirklich kostet (und wie du es einfach berechnest)"
 description: Das Teil mit 1,60 € Filament kostet dich 9,36 €. Wir zeigen dir, wie du die Ausgaben deiner Werkstatt auf deine Druckstunden verteilst, damit BolloPrint das automatisch auf jedes Teil anwendet.
-date: 2026-09-12
-updated: 2026-10-12
+date: 2026-10-15
 tags: [anleitungen]
 cover: 01-portada.webp
-draft: true
 ---
 
 Ein Teil mit 6 Stunden Druckzeit und 80 Gramm PLA. Was kostet es dich?

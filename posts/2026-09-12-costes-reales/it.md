@@ -2,11 +2,9 @@
 slug: calculate-your-3d-printing-costs
 title: "Quanto costa davvero un pezzo stampato (e come calcolarlo senza complicazioni)"
 description: Quel pezzo da 1,60 € di filamento ti costa 9,36 €. Ti mostriamo come ripartire le spese del tuo laboratorio tra le tue ore di stampa perché BolloPrint lo applichi da solo a ogni pezzo.
-date: 2026-09-12
-updated: 2026-10-12
+date: 2026-10-15
 tags: [tutorial]
 cover: 01-portada.webp
-draft: true
 ---
 
 Un pezzo da 6 ore e 80 grammi di PLA. Quanto ti costa?

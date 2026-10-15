@@ -2,11 +2,9 @@
 slug: calculate-your-3d-printing-costs
 title: "Ce que coûte vraiment une pièce imprimée (et comment le calculer simplement)"
 description: Cette pièce à 1,60 € de filament vous coûte 9,36 €. Nous vous montrons comment répartir les dépenses de votre atelier sur vos heures d'impression pour que BolloPrint l'applique tout seul à chaque pièce.
-date: 2026-09-12
-updated: 2026-10-12
+date: 2026-10-15
 tags: [tutoriels]
 cover: 01-portada.webp
-draft: true
 ---
 
 Une pièce de 6 heures et 80 grammes de PLA. Combien vous coûte-t-elle ?

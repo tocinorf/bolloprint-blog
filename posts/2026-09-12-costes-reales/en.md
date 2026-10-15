@@ -2,11 +2,9 @@
 slug: calculate-your-3d-printing-costs
 title: "What a printed piece really costs you (and how to work it out simply)"
 description: That piece with €1.60 of filament actually costs you €9.36. We show you how to spread your workshop's expenses across your print hours so that BolloPrint applies it to every piece automatically.
-date: 2026-09-12
-updated: 2026-10-12
+date: 2026-10-15
 tags: [tutorials]
 cover: 01-portada.webp
-draft: true
 ---
 
 A 6-hour piece using 80 grams of PLA. How much does it cost you?

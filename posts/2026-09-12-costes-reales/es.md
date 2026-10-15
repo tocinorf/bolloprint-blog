@@ -2,11 +2,9 @@
 slug: calculate-your-3d-printing-costs
 title: "Qué cuesta de verdad una pieza impresa (y cómo calcularlo sin complicaciones)"
 description: Esa pieza de 1,60 € de filamento te cuesta 9,36 €. Te enseñamos a repartir los gastos de tu taller entre tus horas de impresión para que BolloPrint lo aplique solo a cada pieza.
-date: 2026-09-12
-updated: 2026-10-12
+date: 2026-10-15
 tags: [tutoriales]
 cover: 01-portada.webp
-draft: true
 ---
 
 Una pieza de 6 horas y 80 gramos de PLA. ¿Cuánto te cuesta?

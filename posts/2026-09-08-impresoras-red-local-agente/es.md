@@ -191,11 +191,11 @@ Aquí es donde surgen más dudas. Es lo mismo que te recuerda el paso 2, en resu
 | Marca | Qué tienes que hacer en la máquina | Cámara | ¿Puedes pausar y cancelar? |
 |---|---|---|---|
 | **Bambu Lab** | Activar el **Modo LAN** en su pantalla (Ajustes → Red) y usar el **código de acceso LAN** que te enseña | Sí | Sí, si además activas el **Modo desarrollador** |
-| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Activar **PrusaLink** y usar la **contraseña** que muestra (no es la de Prusa Connect) | Todavía no | Sí |
+| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Activar **PrusaLink** y usar la **contraseña** que muestra (no es la de Prusa Connect) | No | Sí |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) y **otras de resina (ChituBox)** | Nada, no piden contraseña | En los modelos que la traen | Sí |
-| **Elegoo Centauri Carbon 2** | Nada; solo si le pusiste un código en su pantalla, escríbelo | Sí | Todavía no |
-| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Activar el **Modo LAN** (Ajustes → Red). Con él, la impresora deja de usar la nube y la app de Anycubic | Todavía no | Todavía no |
-| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Activar **LAN Only** y usar el código de verificación de su menú de red | Sí | Todavía no |
+| **Elegoo Centauri Carbon 2** | Nada; solo si le pusiste un código en su pantalla, escríbelo | Sí | No |
+| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Activar el **Modo LAN** (Ajustes → Red). Con él, la impresora deja de usar la nube y la app de Anycubic | No | No |
+| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Activar **LAN Only** y usar el código de verificación de su menú de red | Sí | No |
 | **Snapmaker** (U1) | Nada | Sí | Sí |
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | Normalmente nada: solo si pusiste una clave de API en Moonraker | Sí, si tienes webcam en tu Klipper | Sí |
 

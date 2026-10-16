@@ -134,11 +134,11 @@ C'est là que se posent le plus de questions. C'est ce que vous rappelle l'étap
 | Marque | Ce que vous devez faire sur la machine | Caméra | Pouvez-vous mettre en pause et annuler ? |
 |---|---|---|---|
 | **Bambu Lab** | Activer le **Mode LAN** sur son écran (Paramètres → Réseau) et utiliser le **code d'accès LAN** qu'elle affiche | Oui | Oui, si vous activez aussi le **Mode développeur** |
-| **Prusa** (bêta : MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Activer **PrusaLink** et utiliser le **mot de passe** qu'elle affiche (pas celui de Prusa Connect) | Pas encore | Oui |
+| **Prusa** (bêta : MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Activer **PrusaLink** et utiliser le **mot de passe** qu'elle affiche (pas celui de Prusa Connect) | Non | Oui |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) et **autres imprimantes résine (ChituBox)** | Rien, elles ne demandent pas de mot de passe | Sur les modèles qui en ont une | Oui |
-| **Elegoo Centauri Carbon 2** | Rien ; seulement si vous avez défini un code sur son écran, saisissez-le | Oui | Pas encore |
-| **Anycubic** (bêta : Kobra 3, Kobra S1, Kobra 4, Kobra X) | Activer le **Mode LAN** (Paramètres → Réseau). L'imprimante n'utilise alors plus le cloud ni l'application Anycubic | Pas encore | Pas encore |
-| **FlashForge** (bêta : Adventurer 5M, 5M Pro, AD5X, Creator 5) | Activer **LAN Only** et utiliser le code de vérification de son menu réseau | Oui | Pas encore |
+| **Elegoo Centauri Carbon 2** | Rien ; seulement si vous avez défini un code sur son écran, saisissez-le | Oui | Non |
+| **Anycubic** (bêta : Kobra 3, Kobra S1, Kobra 4, Kobra X) | Activer le **Mode LAN** (Paramètres → Réseau). L'imprimante n'utilise alors plus le cloud ni l'application Anycubic | Non | Non |
+| **FlashForge** (bêta : Adventurer 5M, 5M Pro, AD5X, Creator 5) | Activer **LAN Only** et utiliser le code de vérification de son menu réseau | Oui | Non |
 | **Snapmaker** (U1) | Rien | Oui | Oui |
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | En général rien : seulement si vous avez défini une clé d'API dans Moonraker | Oui, si vous avez une webcam sur votre Klipper | Oui |
 

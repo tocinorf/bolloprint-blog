@@ -42,8 +42,7 @@ empieza a pedir más horas de las que tiene el día:
   está imprimiendo y qué va con retraso, sin tener que andar preguntando.
 - **Presupuestos:** no más horas haciendo un presupuesto que a veces ni te
   aceptan… ¿Lo han aceptado? Conviértelo en un pedido con un solo clic.
-- **Integración con tus tiendas online:** conecta con Etsy (y pronto Shopify)
-  para que dejes de pasar horas subiendo datos a mano.
+- **Integración con tus tiendas online:** conecta con Etsy para que dejes de pasar horas subiendo datos a mano.
 - **Control de impresoras:** conexión con tus máquinas, sea de la marca que sea.
 - **Catálogo global de materiales:** más de 3.800 filamentos y 750 resinas (y
   subiendo) con sus especificaciones técnicas. Además, puedes anotar tus propios
@@ -61,9 +60,9 @@ Si entras aquí es para llevarte algo útil al taller:
 
 1. **Tutoriales y píldoras de funciones:** explicaremos partes de la aplicación y
    trucos para sacarle el máximo partido en tu día a día.
-2. **Desarrollo transparente:** os contaremos en qué estamos trabajando y los
-   próximos lanzamientos (como la facturación electrónica:
-   empezaremos con Verifactu para España).
+2. **Desarrollo transparente:** os contaremos en qué estamos trabajando y lo
+   que vaya saliendo (como la facturación legal, que iremos abriendo país a
+   país, poco a poco).
 3. **Guías prácticas:** consejos sobre gestión y rentabilidad para calcular
    márgenes, organizar pedidos y estructurar el taller sin volverte loco.
 4. **Casos reales:** cosas que funcionan en otros talleres y que puedes aplicar

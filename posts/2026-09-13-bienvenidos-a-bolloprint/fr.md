@@ -42,8 +42,7 @@ l'atelier réclame plus d'heures que n'en compte la journée :
   d'attente, ce qui s'imprime et ce qui est en retard, sans avoir à demander.
 - **Devis :** fini les heures passées sur un devis qui n'est parfois même pas
   accepté… Il a été accepté ? Transformez-le en commande en un seul clic.
-- **Intégration avec vos boutiques en ligne :** connectez-vous à Etsy (et bientôt
-  Shopify) pour arrêter de passer des heures à saisir des données à la main.
+- **Intégration avec vos boutiques en ligne :** connectez-vous à Etsy pour arrêter de passer des heures à saisir des données à la main.
 - **Contrôle des imprimantes :** connexion à vos machines, quelle que soit la
   marque.
 - **Catalogue mondial de matériaux :** plus de 3 800 filaments et 750 résines (et
@@ -64,8 +63,8 @@ pour l'atelier :
 1. **Tutoriels et pastilles de fonctionnalités :** nous expliquerons des parties
    de l'application et des astuces pour en tirer le meilleur au quotidien.
 2. **Développement transparent :** nous vous raconterons sur quoi nous
-   travaillons et les prochains lancements (comme la facturation électronique :
-   nous commencerons par Verifactu pour l'Espagne).
+   travaillons et ce qui sort (comme la facturation légale, que nous ouvrons
+   pays par pays, petit à petit).
 3. **Guides pratiques :** des conseils de gestion et de rentabilité pour calculer
    vos marges, organiser les commandes et structurer l'atelier sans vous
    arracher les cheveux.

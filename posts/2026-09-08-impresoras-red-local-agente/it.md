@@ -192,11 +192,11 @@ un'impostazione del router, non di BolloPrint.
 | Marca | Cosa devi fare sulla macchina | Telecamera | Puoi mettere in pausa e annullare? |
 |---|---|---|---|
 | **Bambu Lab** | Attivare la **Modalità LAN** dal suo schermo (Impostazioni → Rete) e usare il **codice di accesso LAN** che ti mostra | Sì | Sì, se attivi anche la **Modalità sviluppatore** |
-| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Attivare **PrusaLink** e usare la **password** che mostra (non è quella di Prusa Connect) | Non ancora | Sì |
+| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Attivare **PrusaLink** e usare la **password** che mostra (non è quella di Prusa Connect) | No | Sì |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) e **altre a resina (ChituBox)** | Niente, non chiedono password | Nei modelli che ce l'hanno | Sì |
-| **Elegoo Centauri Carbon 2** | Niente; solo se le hai impostato un codice dal suo schermo, scrivilo | Sì | Non ancora |
-| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Attivare la **Modalità LAN** (Impostazioni → Rete). Così la stampante smette di usare il cloud e l'app di Anycubic | Non ancora | Non ancora |
-| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Attivare **LAN Only** e usare il codice di verifica del suo menu di rete | Sì | Non ancora |
+| **Elegoo Centauri Carbon 2** | Niente; solo se le hai impostato un codice dal suo schermo, scrivilo | Sì | No |
+| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Attivare la **Modalità LAN** (Impostazioni → Rete). Così la stampante smette di usare il cloud e l'app di Anycubic | No | No |
+| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Attivare **LAN Only** e usare il codice di verifica del suo menu di rete | Sì | No |
 | **Snapmaker** (U1) | Niente | Sì | Sì |
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | Di solito niente: solo se hai impostato una chiave API in Moonraker | Sì, se hai una webcam sul tuo Klipper | Sì |
 

@@ -43,8 +43,7 @@ laboratorio inizia a chiedere più ore di quante ne abbia la giornata:
 - **Preventivi:** basta ore a preparare un preventivo che a volte non viene
   nemmeno accettato… L'hanno accettato? Trasformalo in un ordine con un solo
   clic.
-- **Integrazione con i tuoi negozi online:** collegati a Etsy (e presto Shopify)
-  e smetti di passare ore a inserire dati a mano.
+- **Integrazione con i tuoi negozi online:** collegati a Etsy e smetti di passare ore a inserire dati a mano.
 - **Controllo delle stampanti:** connessione con le tue macchine, di qualunque
   marca siano.
 - **Catalogo globale dei materiali:** oltre 3.800 filamenti e 750 resine (e in
@@ -63,9 +62,9 @@ qui è per portarti a casa qualcosa di utile per il laboratorio:
 
 1. **Tutorial e pillole sulle funzioni:** spiegheremo parti dell'applicazione e
    trucchi per sfruttarla al massimo nel tuo lavoro quotidiano.
-2. **Sviluppo trasparente:** vi racconteremo a cosa stiamo lavorando e i
-   prossimi lanci (come la fatturazione elettronica:
-   inizieremo con Verifactu per la Spagna).
+2. **Sviluppo trasparente:** vi racconteremo a cosa stiamo lavorando e cosa
+   esce (come la fatturazione legale, che apriamo paese per paese, poco a
+   poco).
 3. **Guide pratiche:** consigli di gestione e redditività per calcolare i
    margini, organizzare gli ordini e strutturare il laboratorio senza impazzire.
 4. **Casi reali:** cose che funzionano in altri laboratori e che puoi applicare

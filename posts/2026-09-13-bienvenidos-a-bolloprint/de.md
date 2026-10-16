@@ -44,7 +44,7 @@ Werkstatt mehr Stunden verlangt, als der Tag hat:
 - **Angebote:** Keine stundenlange Arbeit mehr an Angeboten, die dann manchmal
   nicht einmal angenommen werden… Angenommen? Mach mit einem Klick eine
   Bestellung daraus.
-- **Anbindung an deine Online-Shops:** Verbinde Etsy (und bald Shopify), damit
+- **Anbindung an deine Online-Shops:** Verbinde Etsy, damit
   du nicht mehr stundenlang Daten von Hand eingibst.
 - **Druckersteuerung:** Verbindung mit deinen Maschinen, egal welcher Marke.
 - **Globaler Materialkatalog:** Mehr als 3.800 Filamente und 750 Harze (Tendenz
@@ -65,8 +65,8 @@ mitnehmen:
 1. **Tutorials und Funktionshäppchen:** Wir erklären Teile der App und Tricks,
    mit denen du im Alltag das Beste aus ihr herausholst.
 2. **Transparente Entwicklung:** Wir erzählen euch, woran wir arbeiten und was
-   als Nächstes kommt (etwa die E-Rechnung: Wir starten mit
-   Verifactu für Spanien).
+   neu dazukommt (etwa die rechtsgültige Rechnung, die wir Land für Land nach
+   und nach öffnen).
 3. **Praktische Leitfäden:** Tipps zu Verwaltung und Rentabilität, um Margen zu
    berechnen, Bestellungen zu organisieren und die Werkstatt zu strukturieren,
    ohne verrückt zu werden.

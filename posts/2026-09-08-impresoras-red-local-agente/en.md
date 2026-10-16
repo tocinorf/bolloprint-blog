@@ -197,11 +197,11 @@ short:
 | Brand | What you have to do on the machine | Camera | Can you pause and cancel? |
 |---|---|---|---|
 | **Bambu Lab** | Turn on **LAN Mode** on its screen (Settings → Network) and use the **LAN access code** it shows you | Yes | Yes, if you also turn on **Developer Mode** |
-| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Turn on **PrusaLink** and use the **password** it shows (not your Prusa Connect one) | Not yet | Yes |
+| **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Turn on **PrusaLink** and use the **password** it shows (not your Prusa Connect one) | No | Yes |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) and **other resin printers (ChituBox)** | Nothing, they don't ask for a password | On the models that have one | Yes |
-| **Elegoo Centauri Carbon 2** | Nothing; only if you set a code on its screen, enter it | Yes | Not yet |
-| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Turn on **LAN Mode** (Settings → Network). With it on, the printer stops using Anycubic's cloud and app | Not yet | Not yet |
-| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Turn on **LAN Only** and use the check code from its network menu | Yes | Not yet |
+| **Elegoo Centauri Carbon 2** | Nothing; only if you set a code on its screen, enter it | Yes | No |
+| **Anycubic** (beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Turn on **LAN Mode** (Settings → Network). With it on, the printer stops using Anycubic's cloud and app | No | No |
+| **FlashForge** (beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | Turn on **LAN Only** and use the check code from its network menu | Yes | No |
 | **Snapmaker** (U1) | Nothing | Yes | Yes |
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | Usually nothing: only if you set an API key in Moonraker | Yes, if you have a webcam on your Klipper | Yes |
 

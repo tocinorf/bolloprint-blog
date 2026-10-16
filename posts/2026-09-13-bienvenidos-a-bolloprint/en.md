@@ -42,7 +42,7 @@ for more hours than the day has:
   what's running late, without having to ask around.
 - **Quotes:** no more spending hours on a quote that sometimes doesn't even get
   accepted… It got accepted? Turn it into an order with a single click.
-- **Online store integration:** connect with Etsy (and soon Shopify) so you stop
+- **Online store integration:** connect with Etsy so you stop
   spending hours entering data by hand.
 - **Printer control:** connect to your machines, whatever the brand.
 - **Global materials catalogue:** more than 3,800 filaments and 750 resins (and
@@ -60,9 +60,9 @@ come here, it's to take something useful back to the workshop:
 
 1. **Tutorials and feature bites:** we'll explain parts of the app and tricks to
    get the most out of it day to day.
-2. **Transparent development:** we'll tell you what we're working on and what's
-   launching next (like e-invoicing — we'll start with
-   Verifactu for Spain).
+2. **Transparent development:** we'll tell you what we're working on and what
+   comes out (like legal invoicing, which we are opening country by country,
+   little by little).
 3. **Practical guides:** management and profitability tips to work out margins,
    organise orders and structure your workshop without losing your mind.
 4. **Real cases:** things that work in other workshops and that you can apply to

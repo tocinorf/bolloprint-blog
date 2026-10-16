@@ -42,8 +42,7 @@ oficina começa a pedir mais horas do que o dia tem:
   está a imprimir e o que está atrasado, sem teres de andar a perguntar.
 - **Orçamentos:** acabaram-se as horas a fazer um orçamento que às vezes nem é
   aceite… Foi aceite? Converte-o numa encomenda com um só clique.
-- **Integração com as tuas lojas online:** liga-te ao Etsy (e em breve ao
-  Shopify) para deixares de passar horas a introduzir dados à mão.
+- **Integração com as tuas lojas online:** liga-te ao Etsy para deixares de passar horas a introduzir dados à mão.
 - **Controlo de impressoras:** ligação às tuas máquinas, seja qual for a marca.
 - **Catálogo global de materiais:** mais de 3.800 filamentos e 750 resinas (e a
   subir) com as respetivas especificações técnicas. Além disso, podes anotar os
@@ -62,8 +61,8 @@ encher chouriços. Se entras aqui é para levares algo útil para a oficina:
 1. **Tutoriais e pílulas de funcionalidades:** vamos explicar partes da
    aplicação e truques para tirares o máximo partido dela no dia a dia.
 2. **Desenvolvimento transparente:** vamos contar-vos em que estamos a trabalhar
-   e os próximos lançamentos (como a faturação eletrónica: vamos
-   começar pelo Verifactu para Espanha).
+   e o que vai saindo (como a faturação legal, que vamos abrindo país a país,
+   pouco a pouco).
 3. **Guias práticos:** conselhos de gestão e rentabilidade para calcular
    margens, organizar encomendas e estruturar a oficina sem enlouquecer.
 4. **Casos reais:** coisas que funcionam noutras oficinas e que podes aplicar à

@@ -3,6 +3,7 @@ slug: calculate-your-3d-printing-costs
 title: "Ce que coûte vraiment une pièce imprimée (et comment le calculer simplement)"
 description: Cette pièce à 1,60 € de filament vous coûte 9,36 €. Nous vous montrons comment répartir les dépenses de votre atelier sur vos heures d'impression pour que BolloPrint l'applique tout seul à chaque pièce.
 date: 2026-10-15
+updated: 2026-10-16
 tags: [tutoriels]
 cover: 01-portada.webp
 ---
@@ -34,12 +35,14 @@ L'idée est simple : vous additionnez **tout ce que vous coûte l'atelier chaqu
 Avec les chiffres de l'exemple :
 
 - **Heures :** trois imprimantes, dix heures par jour, vingt-cinq jours par mois → **750 heures**.
-- **Dépenses :** entre le loyer, le comptable, les logiciels et l'amortissement des machines, il part environ **516 € par mois**. Réparti : 0,69 € de l'heure. Avec l'électricité, le **coût de base** s'établit à **0,72 €**.
+- **Dépenses :** entre le loyer, le comptable, les logiciels et l'amortissement des machines, il part environ **516 € par mois**. Réparti : 0,69 € de l'heure. Avec l'électricité, les **frais fixes par heure** s'établissent à **0,72 €**.
 - **Majorations :** 5 % de maintenance, 10 % de taux d'échec et 5 % d'imprévus le portent à **0,86 € de l'heure**. Pour six heures, 5,16 €.
 
 C'est exactement le calcul que fait la section **Coûts** de BolloPrint, dans **Paramètres → Coûts**. Seuls le **Propriétaire** et les **Admins** la voient.
 
 ![La section Coûts dans les Paramètres](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
+
+Si vous débutez, la tâche **Calculez ce que vous coûte chaque pièce** des **Premiers pas**, sur la page **Accueil**, vous fait passer par ces mêmes écrans l'un après l'autre, et marque chacun en vert dès que vous l'enregistrez.
 
 ## Les heures où vous imprimez vraiment
 
@@ -55,7 +58,7 @@ Il est tentant de mettre un chiffre élevé, parce que plus il est élevé, moin
 
 ## Ce que vous coûte l'atelier
 
-Une fois les heures définies, passez aux dépenses. Dans **Coût de base**, vous les ajoutez une à une ; BolloPrint les classe par type et ne vous demande pour chacune que ce dont il a besoin :
+Une fois les heures définies, passez aux dépenses. Dans l'onglet **Frais fixes**, vous les ajoutez une à une ; BolloPrint les classe par type et ne vous demande pour chacune que ce dont il a besoin :
 
 | Type | Ce que vous indiquez |
 |---|---|
@@ -75,25 +78,25 @@ Tout en bas, vous avez le calcul tout fait, le même qu'au début :
 
 > **dépenses du mois ÷ vos heures d'impression = ce que vous coûte une heure « au net »**
 
-C'est le **coût de base par heure** : 0,72 € dans l'exemple.
+Ce sont vos **frais fixes par heure** : 0,72 € dans l'exemple.
 
-![Les dépenses de l’atelier dans Coût de base, regroupées par type, et le calcul qui donne 0,72 € de l’heure](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+![Les dépenses de l’atelier dans l’onglet Frais fixes, regroupées par type, et le calcul qui donne 0,72 € de l’heure](/blog/media/2026-09-12-costes-reales/03b-gastos-fijos.png)
 
 ## Ce qui arrive forcément
 
-Le coût de base laisse de côté ce qui arrive sans facture fixe : des buses cassent, et **de temps en temps une pièce rate et il faut la réimprimer**.
+Les frais fixes laissent de côté ce qui arrive sans facture fixe : des buses cassent, et **de temps en temps une pièce rate et il faut la réimprimer**.
 
-C'est à cela que sert le **Coût total**, qui ajoute des pourcentages au coût de base : maintenance, taux d'échec et imprévus.
+C'est à cela que sert l'onglet **Coût horaire**, qui ajoute des pourcentages aux frais fixes par heure : maintenance, taux d'échec et imprévus.
 
 Le taux d'échec est le plus important, et celui que la plupart des gens oublient. Si une pièce sur dix finit à la poubelle, **les neuf bonnes paient pour la mauvaise**. Si vous ne l'intégrez pas ici, c'est vous qui payez.
 
-Le résultat est votre **coût total par heure** : 0,86 € dans l'exemple. C'est votre vrai chiffre, et c'est celui qui s'applique à chaque pièce.
+Le résultat est votre **coût horaire** : 0,86 € dans l'exemple. C'est votre vrai chiffre, et c'est celui qui s'applique à chaque pièce.
 
 :::info 💡 La marge bénéficiaire ne va pas ici
 Ici, il n'y a que des **coûts**. Ce que vous voulez gagner se décide ensuite, dans le produit, parce que c'est une décision commerciale.
 :::
 
-![Les majorations d’entretien, de taux d’échec et d’imprévus sur le coût de base, jusqu’à 0,86 € de l’heure](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+![Les majorations d’entretien, de taux d’échec et d’imprévus sur les frais fixes par heure, jusqu’à 0,86 € de l’heure](/blog/media/2026-09-12-costes-reales/03c-coste-por-hora.png)
 
 ## Le matériau et les extras
 
@@ -141,11 +144,11 @@ Recalculer met à jour le **coût** et le prix *suggéré*. Celui que vous avez 
 
 ## Est-ce que j'achète une autre imprimante ?
 
-Une fois vos coûts configurés, vous pouvez répondre à cette question avec des chiffres. Dans le **Comparateur de ferme**, vous faites varier les imprimantes, les heures ou les jours et vous voyez ce qui arriverait à votre coût horaire. C'est une simple simulation : rien ne change dans votre configuration.
+Une fois vos coûts configurés, vous pouvez répondre à cette question avec des chiffres. Dans **Scénarios de coût**, vous faites varier les imprimantes, les heures ou les jours et vous voyez ce qui arriverait à votre coût horaire. C'est une simple simulation : rien ne change dans votre configuration.
 
 Ce qu'il montre le mieux, c'est que **la courbe cesse de baisser**. Passer d'une imprimante à cinq divise le coût horaire presque par cinq. Passer de vingt à cent ne le fait presque plus bouger, parce que certaines dépenses — comme l'électricité — se paient à chaque heure imprimée et ne se répartissent pas.
 
-![Le comparateur de ferme, avec la courbe du coût horaire](/blog/media/2026-09-12-costes-reales/05-comparador.png)
+![Les scénarios de coût, avec la courbe du coût horaire](/blog/media/2026-09-12-costes-reales/05-comparador.png)
 
 La configuration, ce sont quatre écrans et une partie d'un après-midi. En échange, chaque pièce que vous créerez portera son coût réel, et vous saurez si vous gagnez de l'argent sans faire le calcul à la main.
 

@@ -3,6 +3,7 @@ slug: calculate-your-3d-printing-costs
 title: "Quanto custa realmente uma peça impressa (e como calculá-lo sem complicações)"
 description: Essa peça de 1,60 € de filamento custa-te 9,36 €. Mostramos-te como repartir as despesas da tua oficina pelas tuas horas de impressão para que o BolloPrint o aplique sozinho a cada peça.
 date: 2026-10-15
+updated: 2026-10-16
 tags: [tutoriais]
 cover: 01-portada.webp
 ---
@@ -45,7 +46,7 @@ Com os números do exemplo:
   **750 horas**.
 - **Despesas:** entre renda, contabilista, software e a amortização das
   máquinas, vão-se uns **516 € por mês**. Repartido: 0,69 € por hora. Com a luz,
-  o **custo base** fica em **0,72 €**.
+  os **custos fixos por hora** ficam em **0,72 €**.
 - **Acréscimos:** 5 % de manutenção, 10 % de taxa de falhas e 5 % de imprevistos
   levam-no a **0,86 € por hora**. Por seis horas, 5,16 €.
 
@@ -53,6 +54,10 @@ Com os números do exemplo:
 **Configurações → Custos**. Só a veem o **Proprietário** e os **Admins**.
 
 ![A secção Custos dentro das Configurações](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
+
+Se estás a começar, a tarefa **Calcula quanto te custa cada peça** dos
+**Primeiros passos**, no **Início**, leva-te por estes mesmos ecrãs, um a seguir
+ao outro, e marca cada um a verde assim que o guardas.
 
 ## As horas em que imprimes de verdade
 
@@ -72,7 +77,7 @@ ser tu a pagá-lo ao fim do mês.
 
 ## O que te custa a oficina
 
-Definidas as horas, passa às despesas. Em **Custo base** vais acrescentando-as;
+Definidas as horas, passa às despesas. No separador **Custos fixos** vais acrescentando-as;
 o BolloPrint ordena-as por tipo e pede-te de cada uma só o que precisa:
 
 | Tipo | O que lhe pões |
@@ -97,23 +102,24 @@ Lá em baixo tens a conta feita, a mesma do início:
 
 > **despesas do mês ÷ as tuas horas de impressão = o que te custa uma hora «a limpo»**
 
-Isso é o **custo base por hora**: 0,72 € no exemplo.
+São os teus **custos fixos por hora**: 0,72 € no exemplo.
 
-![As despesas da oficina em Custo base, agrupadas por tipo, e a conta que dá 0,72 € por hora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+![As despesas da oficina no separador Custos fixos, agrupadas por tipo, e a conta que dá 0,72 € por hora](/blog/media/2026-09-12-costes-reales/03b-gastos-fijos.png)
 
 ## O que sabes que vai acontecer
 
-O custo base deixa de fora o que acontece sem fatura fixa: partem-se bicos, e
+Os custos fixos deixam de fora o que acontece sem fatura fixa: partem-se bicos, e
 **alguma peça sai mal e tem de ser repetida**.
 
-Para isso existe o **Custo total**, que soma umas percentagens ao custo base:
+Para isso existe o separador **Custo por hora**, que soma umas percentagens aos
+custos fixos por hora:
 manutenção, taxa de falhas e imprevistos.
 
 A taxa de falhas é a mais importante, e a que mais gente salta. Se em cada dez
 peças uma vai para o lixo, **as nove boas estão a pagar a má**. Se não a incluíres
 aqui, pagas tu.
 
-O resultado é o teu **custo total por hora**: 0,86 € no exemplo. Esse é o teu
+O resultado é o teu **custo por hora**: 0,86 € no exemplo. Esse é o teu
 número a sério, e é o que se aplica a cada peça.
 
 :::info 💡 A margem de lucro não vai aqui
@@ -121,7 +127,7 @@ Aqui só vão **custos**. Quanto queres ganhar decide-se depois, no produto, por
 é uma decisão comercial.
 :::
 
-![Os acréscimos de manutenção, taxa de falhas e imprevistos sobre o custo base, até 0,86 € por hora](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+![Os acréscimos de manutenção, taxa de falhas e imprevistos sobre os custos fixos por hora, até 0,86 € por hora](/blog/media/2026-09-12-costes-reales/03c-coste-por-hora.png)
 
 ## O material e os extras
 
@@ -188,8 +194,8 @@ fica como está. O que vais ver mexer-se é o indicador de **margem**.
 
 ## Compro outra impressora?
 
-Com os teus custos configurados, podes responder a esta pergunta com números. No
-**Comparador de farm** mexes nas impressoras, nas horas ou nos dias e vês o que
+Com os teus custos configurados, podes responder a esta pergunta com números. Em
+**Cenários de custo** mexes nas impressoras, nas horas ou nos dias e vês o que
 aconteceria ao teu custo por hora. Só simula: não muda nada da tua configuração.
 
 O que mostra melhor é que **a curva deixa de descer**. Passar de uma impressora
@@ -197,7 +203,7 @@ para cinco divide o custo por hora quase por cinco. Passar de vinte para cem qua
 não o mexe, porque há despesas — como a luz — que se pagam em cada hora impressa
 e não se repartem por ninguém.
 
-![O comparador de farm, com a curva do custo por hora](/blog/media/2026-09-12-costes-reales/05-comparador.png)
+![Os cenários de custo, com a curva do custo por hora](/blog/media/2026-09-12-costes-reales/05-comparador.png)
 
 Configurá-lo são quatro ecrãs e um bocado de uma tarde. Em troca, cada peça que
 criares vai levar o seu custo real, e vais saber se estás a ganhar dinheiro sem

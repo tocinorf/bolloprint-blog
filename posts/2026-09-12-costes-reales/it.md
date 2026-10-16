@@ -3,6 +3,7 @@ slug: calculate-your-3d-printing-costs
 title: "Quanto costa davvero un pezzo stampato (e come calcolarlo senza complicazioni)"
 description: Quel pezzo da 1,60 € di filamento ti costa 9,36 €. Ti mostriamo come ripartire le spese del tuo laboratorio tra le tue ore di stampa perché BolloPrint lo applichi da solo a ogni pezzo.
 date: 2026-10-15
+updated: 2026-10-16
 tags: [tutorial]
 cover: 01-portada.webp
 ---
@@ -44,8 +45,8 @@ Con i numeri dell'esempio:
 - **Ore:** tre stampanti, dieci ore al giorno, venticinque giorni al mese →
   **750 ore**.
 - **Spese:** tra affitto, commercialista, software e ammortamento delle macchine
-  se ne vanno circa **516 € al mese**. Ripartiti: 0,69 € l'ora. Con la luce, il
-  **costo base** arriva a **0,72 €**.
+  se ne vanno circa **516 € al mese**. Ripartiti: 0,69 € l'ora. Con la luce, i
+  **costi fissi orari** arrivano a **0,72 €**.
 - **Maggiorazioni:** un 5% di manutenzione, un 10% di tasso di fallimento e un 5%
   di imprevisti lo portano a **0,86 € l'ora**. Per sei ore, 5,16 €.
 
@@ -53,6 +54,10 @@ Con i numeri dell'esempio:
 **Impostazioni → Costi**. La vedono solo il **Proprietario** e gli **Admin**.
 
 ![La sezione Costi dentro Impostazioni](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
+
+Se hai appena iniziato, l'attività **Calcola quanto ti costa ogni pezzo** dei
+**Primi passi**, nella **Home**, ti accompagna in queste stesse schermate, una
+dopo l'altra, e segna in verde ognuna appena la salvi.
 
 ## Le ore in cui stampi davvero
 
@@ -73,7 +78,7 @@ tu a fine mese.
 
 ## Quanto ti costa il laboratorio
 
-Definite le ore, passa alle spese. In **Costo base** le aggiungi una alla volta;
+Definite le ore, passa alle spese. Nella scheda **Costi fissi** le aggiungi una alla volta;
 BolloPrint le ordina per tipo e di ognuna ti chiede solo quello che serve:
 
 | Tipo | Cosa ci metti |
@@ -98,23 +103,24 @@ In fondo trovi il conto già fatto, lo stesso dell'inizio:
 
 > **spese del mese ÷ le tue ore di stampa = quanto ti costa un'ora «in pulito»**
 
-Questo è il **costo base orario**: 0,72 € nell'esempio.
+Questi sono i tuoi **costi fissi orari**: 0,72 € nell'esempio.
 
-![Le spese del laboratorio in Costo base, raggruppate per tipo, e il conto che dà 0,72 € l’ora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+![Le spese del laboratorio nella scheda Costi fissi, raggruppate per tipo, e il conto che dà 0,72 € l’ora](/blog/media/2026-09-12-costes-reales/03b-gastos-fijos.png)
 
 ## Quello che sai che succederà
 
-Il costo base lascia fuori ciò che capita senza una fattura fissa: si rompono
+I costi fissi lasciano fuori ciò che capita senza una fattura fissa: si rompono
 ugelli, e **qualche pezzo viene male e va ristampato**.
 
-Per questo c'è **Costo totale**, che aggiunge alcune percentuali al costo base:
+Per questo c'è la scheda **Costo orario**, che aggiunge alcune percentuali ai
+costi fissi orari:
 manutenzione, tasso di fallimento e imprevisti.
 
 Il tasso di fallimento è il più importante, e quello che più persone saltano. Se
 su dieci pezzi uno finisce nel cestino, **i nove buoni stanno pagando quello
 cattivo**. Se non lo includi qui, lo paghi tu.
 
-Il risultato è il tuo **costo totale per ora**: 0,86 € nell'esempio. Questo è il
+Il risultato è il tuo **costo orario**: 0,86 € nell'esempio. Questo è il
 tuo numero vero, ed è quello che si applica a ogni pezzo.
 
 :::info 💡 Il margine di profitto non va qui
@@ -122,7 +128,7 @@ Qui vanno solo i **costi**. Quanto vuoi guadagnare si decide dopo, nel prodotto,
 perché è una decisione commerciale.
 :::
 
-![Le maggiorazioni di manutenzione, tasso di fallimento e imprevisti sul costo base, fino a 0,86 € l’ora](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+![Le maggiorazioni di manutenzione, tasso di fallimento e imprevisti sui costi fissi orari, fino a 0,86 € l’ora](/blog/media/2026-09-12-costes-reales/03c-coste-por-hora.png)
 
 ## Il materiale e gli extra
 
@@ -191,7 +197,7 @@ tu a mano resta com'è. Quello che vedrai muoversi è l'indicatore del **margine
 ## Mi compro un'altra stampante?
 
 Con i tuoi costi configurati, puoi rispondere a questa domanda con i numeri. In
-**Comparatore di farm** cambi le stampanti, le ore o i giorni e vedi cosa
+**Scenari di costo** cambi le stampanti, le ore o i giorni e vedi cosa
 succederebbe al tuo costo orario. Simula e basta: non cambia niente della tua
 configurazione.
 
@@ -200,7 +206,7 @@ stampante a cinque divide il costo orario quasi per cinque. Passare da venti a
 cento lo sposta appena, perché ci sono spese —come la luce— che si pagano a ogni
 ora stampata e non si ripartiscono tra nessuno.
 
-![Il comparatore di farm, con la curva del costo orario](/blog/media/2026-09-12-costes-reales/05-comparador.png)
+![Gli scenari di costo, con la curva del costo orario](/blog/media/2026-09-12-costes-reales/05-comparador.png)
 
 Configurarlo richiede quattro schermate e un po' di tempo in un pomeriggio. In
 cambio, ogni pezzo che crei porterà con sé il suo costo reale, e saprai se stai

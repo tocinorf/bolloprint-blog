@@ -3,6 +3,7 @@ slug: calculate-your-3d-printing-costs
 title: "Was ein gedrucktes Teil wirklich kostet (und wie du es einfach berechnest)"
 description: Das Teil mit 1,60 € Filament kostet dich 9,36 €. Wir zeigen dir, wie du die Ausgaben deiner Werkstatt auf deine Druckstunden verteilst, damit BolloPrint das automatisch auf jedes Teil anwendet.
 date: 2026-10-15
+updated: 2026-10-16
 tags: [anleitungen]
 cover: 01-portada.webp
 ---
@@ -47,7 +48,7 @@ Mit den Zahlen aus dem Beispiel:
   **750 Stunden**.
 - **Ausgaben:** Für Miete, Steuerberatung, Software und die Abschreibung der
   Maschinen gehen rund **516 € im Monat** drauf. Verteilt: 0,69 € pro Stunde.
-  Mit dem Strom liegen die **Basiskosten** bei **0,72 €**.
+  Mit dem Strom liegen die **Fixkosten pro Stunde** bei **0,72 €**.
 - **Zuschläge:** 5 % Wartung, 10 % Fehldruckquote und 5 % Puffer bringen sie auf
   **0,86 € pro Stunde**. Mal sechs Stunden: 5,16 €.
 
@@ -55,6 +56,11 @@ Genau diese Rechnung macht der Bereich **Kosten** in BolloPrint, unter
 **Einstellungen → Kosten**. Sehen können ihn nur der **Inhaber** und die **Admins**.
 
 ![Der Bereich Kosten in den Einstellungen](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
+
+Wenn du gerade anfängst, führt dich die Aufgabe **Berechne, was dich jedes Teil
+kostet** in den **Ersten Schritten** auf der Seite **Start** durch genau diese
+Bildschirme, einen nach dem anderen, und hakt jeden grün ab, sobald du ihn
+speicherst.
 
 ## Die Stunden, die du wirklich druckst
 
@@ -76,7 +82,7 @@ verteilst, trägst du am Monatsende selbst.
 
 ## Was dich die Werkstatt kostet
 
-Wenn die Stunden stehen, geht es an die Ausgaben. Unter **Basiskosten** trägst du
+Wenn die Stunden stehen, geht es an die Ausgaben. Im Tab **Fixkosten** trägst du
 sie nach und nach ein; BolloPrint sortiert sie nach Typ und fragt bei jedem nur
 nach dem, was es braucht:
 
@@ -102,23 +108,23 @@ Ganz unten steht die fertige Rechnung, dieselbe wie am Anfang:
 
 > **Ausgaben im Monat ÷ deine Druckstunden = was dich eine Stunde „netto“ kostet**
 
-Das sind die **Basiskosten pro Stunde**: 0,72 € im Beispiel.
+Das sind deine **Fixkosten pro Stunde**: 0,72 € im Beispiel.
 
-![Die Ausgaben der Werkstatt unter Basiskosten, nach Art gruppiert, und die Rechnung, die 0,72 € pro Stunde ergibt](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+![Die Ausgaben der Werkstatt im Tab Fixkosten, nach Art gruppiert, und die Rechnung, die 0,72 € pro Stunde ergibt](/blog/media/2026-09-12-costes-reales/03b-gastos-fijos.png)
 
 ## Was sowieso passiert
 
-Die Basiskosten lassen außen vor, was ohne feste Rechnung passiert: Düsen gehen
+Die Fixkosten lassen außen vor, was ohne feste Rechnung passiert: Düsen gehen
 kaputt, und **manches Teil geht schief und muss neu gedruckt werden**.
 
-Dafür gibt es die **Gesamtkosten**, die ein paar Prozentsätze auf die
-Basiskosten aufschlagen: Wartung, Fehldruckquote und Puffer.
+Dafür gibt es den Tab **Stundenkosten**, der ein paar Prozentsätze auf die
+Fixkosten pro Stunde aufschlägt: Wartung, Fehldruckquote und Puffer.
 
 Die Fehldruckquote ist die wichtigste, und die, die die meisten auslassen. Wenn
 von zehn Teilen eins im Müll landet, **bezahlen die neun guten für das
 schlechte**. Trägst du sie hier nicht ein, zahlst du selbst.
 
-Das Ergebnis sind deine **Gesamtkosten pro Stunde**: 0,86 € im Beispiel. Das ist
+Das Ergebnis sind deine **Stundenkosten**: 0,86 € im Beispiel. Das ist
 deine echte Zahl, und die wird auf jedes Teil angewendet.
 
 :::info 💡 Die Gewinnmarge gehört nicht hierher
@@ -126,7 +132,7 @@ Hier stehen nur **Kosten**. Wie viel du verdienen willst, entscheidest du späte
 im Produkt, denn das ist eine kaufmännische Entscheidung.
 :::
 
-![Die Zuschläge für Wartung, Fehlerquote und Puffer auf die Basiskosten, bis 0,86 € pro Stunde](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+![Die Zuschläge für Wartung, Fehlerquote und Puffer auf die Fixkosten pro Stunde, bis 0,86 € pro Stunde](/blog/media/2026-09-12-costes-reales/03c-coste-por-hora.png)
 
 ## Material und Extras
 

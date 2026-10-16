@@ -3,6 +3,7 @@ slug: calculate-your-3d-printing-costs
 title: "Qué cuesta de verdad una pieza impresa (y cómo calcularlo sin complicaciones)"
 description: Esa pieza de 1,60 € de filamento te cuesta 9,36 €. Te enseñamos a repartir los gastos de tu taller entre tus horas de impresión para que BolloPrint lo aplique solo a cada pieza.
 date: 2026-10-15
+updated: 2026-10-16
 tags: [tutoriales]
 cover: 01-portada.webp
 ---
@@ -45,7 +46,7 @@ Con los números del ejemplo:
   **750 horas**.
 - **Gastos:** entre alquiler, gestoría, software y la amortización de las
   máquinas se van unos **516 € al mes**. Repartido: 0,69 € la hora. Con la luz,
-  el **coste base** queda en **0,72 €**.
+  los **gastos fijos por hora** quedan en **0,72 €**.
 - **Recargos:** un 5 % de mantenimiento, un 10 % de tasa de fallo y un 5 % de
   imprevistos lo llevan a **0,86 € la hora**. Por seis horas, 5,16 €.
 
@@ -54,10 +55,14 @@ Esa es exactamente la cuenta que hace la sección **Costes** de BolloPrint, en
 
 ![La sección Costes dentro de Configuración](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
 
+Si acabas de empezar, la tarea **Calcula lo que te cuesta cada pieza** de
+**Primeros pasos**, en el **Inicio**, te lleva por estas mismas pantallas, una
+detrás de otra, y marca en verde cada una en cuanto la guardas.
+
 ## Las horas que imprimes de verdad
 
 Empieza por las horas: es el número que más gente calcula mal y el que más
-cambia el resultado. Está en **Coste horas → Horas de impresión**, y son tres
+cambia el resultado. Está en **Coste por hora → Horas de impresión**, y son tres
 campos:
 
 **Impresoras × Horas al día × Días al mes**
@@ -73,7 +78,7 @@ pagas tú a fin de mes.
 
 ## Lo que te cuesta el taller
 
-Con las horas definidas, toca anotar los gastos. En **Coste base** los vas
+Con las horas definidas, toca anotar los gastos. En la pestaña **Gastos fijos** los vas
 añadiendo; BolloPrint los ordena por tipo y de cada uno te pide solo lo que
 necesita:
 
@@ -99,23 +104,23 @@ Abajo del todo tienes la cuenta hecha, la misma del principio:
 
 > **gastos del mes ÷ tus horas de impresión = lo que te cuesta una hora «en limpio»**
 
-Ese es el **coste base por hora**: 0,72 € en el ejemplo.
+Son tus **gastos fijos por hora**: 0,72 € en el ejemplo.
 
-![Los gastos del taller en Coste base, agrupados por tipo, y la cuenta que da 0,72 € la hora](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+![Los gastos del taller en la pestaña Gastos fijos, agrupados por tipo, y la cuenta que da 0,72 € la hora](/blog/media/2026-09-12-costes-reales/03b-gastos-fijos.png)
 
 ## Lo que sabes que va a pasar
 
-El coste base deja fuera lo que ocurre sin una factura fija: se rompen boquillas,
+Los gastos fijos dejan fuera lo que ocurre sin una factura fija: se rompen boquillas,
 y **alguna pieza sale mal y hay que repetirla**.
 
-Para eso está **Coste total**, que suma unos porcentajes al coste base:
-mantenimiento, tasa de fallo e imprevistos.
+Para eso está la pestaña **Coste por hora**, que suma unos porcentajes a los
+gastos fijos por hora: mantenimiento, tasa de fallo e imprevistos.
 
 La tasa de fallo es la más importante, y la que más gente se salta. Si de cada
 diez piezas una acaba en la basura, **las nueve buenas están pagando la mala**.
 Si no la incluyes aquí, la pagas tú.
 
-El resultado es tu **coste total por hora**: 0,86 € en el ejemplo. Ese es tu
+El resultado es tu **coste por hora**: 0,86 € en el ejemplo. Ese es tu
 número real, y es el que se aplica a cada pieza.
 
 :::info 💡 El margen de beneficio no va aquí
@@ -123,7 +128,7 @@ Aquí solo van **costes**. Cuánto quieres ganar se decide después, en el produ
 porque es una decisión comercial.
 :::
 
-![Los recargos de mantenimiento, tasa de fallo e imprevistos sobre el coste base, hasta 0,86 € la hora](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+![Los recargos de mantenimiento, tasa de fallo e imprevistos sobre los gastos fijos por hora, hasta 0,86 € la hora](/blog/media/2026-09-12-costes-reales/03c-coste-por-hora.png)
 
 ## El material y los extras
 
@@ -191,7 +196,7 @@ mano se queda. Lo que vas a ver moverse es el indicador de **margen**.
 ## ¿Me compro otra impresora?
 
 Con tus costes configurados, puedes responder a esta pregunta con números. En
-**Comparador de granja** cambias las impresoras, las horas o los días y ves qué
+**Escenarios de coste** cambias las impresoras, las horas o los días y ves qué
 le pasaría a tu coste por hora. Solo simula: no cambia nada de tu configuración.
 
 Lo que mejor enseña es que **la curva deja de bajar**. Pasar de una impresora a
@@ -199,7 +204,7 @@ cinco divide el coste por hora casi entre cinco. Pasar de veinte a cien apenas l
 mueve, porque hay gastos —como la luz— que se pagan en cada hora impresa y no se
 reparten entre nadie.
 
-![El comparador de granja, con la curva del coste por hora](/blog/media/2026-09-12-costes-reales/05-comparador.png)
+![Los escenarios de coste, con la curva del coste por hora](/blog/media/2026-09-12-costes-reales/05-comparador.png)
 
 Configurarlo son cuatro pantallas y un rato de una tarde. A cambio, cada pieza
 que crees llevará su coste real, y sabrás si estás ganando dinero sin hacer la

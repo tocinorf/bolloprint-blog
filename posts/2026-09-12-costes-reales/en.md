@@ -3,6 +3,7 @@ slug: calculate-your-3d-printing-costs
 title: "What a printed piece really costs you (and how to work it out simply)"
 description: That piece with €1.60 of filament actually costs you €9.36. We show you how to spread your workshop's expenses across your print hours so that BolloPrint applies it to every piece automatically.
 date: 2026-10-15
+updated: 2026-10-16
 tags: [tutorials]
 cover: 01-portada.webp
 ---
@@ -47,8 +48,7 @@ With the numbers from the example:
 - **Hours:** three printers, ten hours a day, twenty-five days a month →
   **750 hours**.
 - **Expenses:** between rent, the accountant, software and the depreciation of
-  the machines, about **€516 a month** goes out. Spread out: €0.69 an hour. Add
-  electricity, and the **base cost** comes to **€0.72**.
+  the machines, about **€516 a month** goes out. Spread out: €0.69 an hour. Add electricity, and the **fixed costs per hour** come to **€0.72**.
 - **Surcharges:** 5% for maintenance, 10% for failure rate and 5% for
   contingency take it to **€0.86 an hour**. For six hours, €5.16.
 
@@ -56,6 +56,10 @@ That's exactly the sum BolloPrint's **Costs** section does, in
 **Settings → Costs**. Only the **Owner** and **Admins** can see it.
 
 ![The Costs section inside Settings](/blog/media/2026-09-12-costes-reales/02-seccion-costes.png)
+
+If you're just getting started, the **Work out what each part costs you** task in
+**First steps**, on the **Home** page, walks you through these same screens one
+after another, and ticks each one off in green as soon as you save it.
 
 ## The hours you really print
 
@@ -77,8 +81,7 @@ across your pieces comes out of your own pocket at the end of the month.
 
 ## What the workshop costs you
 
-With the hours set, it's time to enter your expenses. In **Base cost** you add
-them one by one; BolloPrint sorts them by type and only asks you for what it
+With the hours set, it's time to enter your expenses. In the **Fixed costs** tab you add them one by one; BolloPrint sorts them by type and only asks you for what it
 needs for each one:
 
 | Type | What you enter |
@@ -102,23 +105,24 @@ Right at the bottom you have the sum worked out, the same one as at the start:
 
 > **monthly expenses ÷ your print hours = what one hour costs you "before extras"**
 
-That's the **base cost per hour**: €0.72 in the example.
+Those are your **fixed costs per hour**: €0.72 in the example.
 
-![The workshop’s expenses in Base cost, grouped by type, and the sum that gives €0.72 an hour](/blog/media/2026-09-12-costes-reales/03b-coste-base.png)
+![The workshop’s expenses in the Fixed costs tab, grouped by type, and the sum that gives €0.72 an hour](/blog/media/2026-09-12-costes-reales/03b-gastos-fijos.png)
 
 ## What you know is going to happen
 
-The base cost leaves out whatever happens without a fixed bill: nozzles break,
+Fixed costs leave out whatever happens without a fixed bill: nozzles break,
 and **some pieces come out wrong and have to be reprinted**.
 
-That's what **Total cost** is for: it adds a few percentages to the base cost —
+That's what the **Hourly cost** tab is for: it adds a few percentages to the fixed
+costs per hour —
 maintenance, failure rate and contingency.
 
 The failure rate is the most important one, and the one most people skip. If one
 in every ten pieces ends up in the bin, **the nine good ones are paying for the
 bad one**. If you don't include it here, you pay for it yourself.
 
-The result is your **total cost per hour**: €0.86 in the example. That's your
+The result is your **hourly cost**: €0.86 in the example. That's your
 real number, and it's the one applied to every piece.
 
 :::info 💡 Your profit margin doesn't go here
@@ -126,7 +130,7 @@ Only **costs** go here. How much you want to earn is decided later, on the produ
 because it's a business decision.
 :::
 
-![The maintenance, failure-rate and contingency surcharges on the base cost, up to €0.86 an hour](/blog/media/2026-09-12-costes-reales/03c-coste-total.png)
+![The maintenance, failure-rate and contingency surcharges on the fixed costs per hour, up to €0.86 an hour](/blog/media/2026-09-12-costes-reales/03c-coste-por-hora.png)
 
 ## Material and extras
 

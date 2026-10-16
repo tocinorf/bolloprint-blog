@@ -3,7 +3,7 @@ slug: sell-on-etsy-with-bolloprint
 title: "Vendre sur Etsy depuis BolloPrint : comment commencer à gagner du temps en automatisant vos ventes"
 description: Connectez votre boutique, synchronisez le catalogue dans les deux sens et recevez les commandes déjà prêtes dans Production. Guide rapide pour tout mettre en route dès aujourd'hui.
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 tags: [tutoriels]
 draft: false
 ---
@@ -24,7 +24,7 @@ De retour sur BolloPrint, vous verrez un indicateur vert qui confirme que votre 
 
 ## Synchronisez votre catalogue : publier et importer
 
-Une fois votre boutique connectée, rendez-vous dans la section **Marketplaces** du menu latéral pour gérer vos produits en toute simplicité :
+Une fois votre boutique connectée, rendez-vous dans **Marketplaces**, dans le groupe **Ventes** du menu latéral, pour gérer vos produits en toute simplicité :
 
 - **Si vous vendez déjà sur Etsy :** dans l'onglet **Importer**, choisissez vos annonces existantes pour les récupérer dans BolloPrint en un clic, descriptions, variantes et photos comprises.
 - **Si vous créez vos produits dans BolloPrint :** dans l'onglet **Publier**, transformez vos produits et leurs variantes en annonces Etsy. Vous pouvez les laisser en brouillon pour les relire ou les publier directement.

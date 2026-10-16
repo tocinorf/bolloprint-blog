@@ -3,7 +3,7 @@ slug: sell-on-etsy-with-bolloprint
 title: "Auf Etsy verkaufen aus BolloPrint: so fängst du an, Zeit zu sparen und deine Verkäufe zu automatisieren"
 description: Verbinde deinen Shop, synchronisiere den Katalog in beide Richtungen und bekomm die Bestellungen fertig aufgesetzt in die Produktion. Schnellanleitung, um es noch heute zum Laufen zu bringen.
 date: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 tags: [anleitungen]
 draft: false
 ---
@@ -16,7 +16,7 @@ Damit dir diese Überlastung erspart bleibt, führt die Integration von Etsy und
 
 ## Verbinde deinen Etsy-Shop
 
-- Geh zu **Einstellungen → Erweiterungen → Marketplaces** und such die Etsy-Karte.
+- Geh zu **Einstellungen → Erweiterungen → Marktplätze** und such die Etsy-Karte.
 - Klick auf **„Etsy verbinden"**.
 - Melde dich mit dem Verkäuferkonto deines Shops an und autorisiere den Zugriff für die Plattform.
 
@@ -24,7 +24,7 @@ Zurück in BolloPrint siehst du eine grüne Anzeige, die bestätigt, dass dein S
 
 ## Synchronisiere deinen Katalog: veröffentlichen und importieren
 
-Sobald dein Shop verbunden ist, geh im Seitenmenü in den Bereich **Marketplaces**, um deine Produkte bequem zu verwalten:
+Sobald dein Shop verbunden ist, geh im Seitenmenü unter **Verkauf** auf **Marktplätze**, um deine Produkte bequem zu verwalten:
 
 - **Wenn du schon auf Etsy verkaufst:** Wähl im Reiter **Importieren** deine bestehenden Anzeigen aus und hol sie dir mit einem Klick nach BolloPrint — samt Beschreibungen, Varianten und Fotos.
 - **Wenn du deine Produkte in BolloPrint anlegst:** Verwandle im Reiter **Veröffentlichen** deine Produkte und ihre Varianten in Etsy-Anzeigen. Du kannst sie als Entwurf liegen lassen, um sie noch zu prüfen, oder sie direkt veröffentlichen.

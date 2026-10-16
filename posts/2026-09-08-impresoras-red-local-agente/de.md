@@ -204,11 +204,11 @@ kurz zusammengefasst:
 | Marke | Was du an der Maschine tun musst | Kamera | Kannst du pausieren und abbrechen? |
 |---|---|---|---|
 | **Bambu Lab** | Den **LAN-Modus** am Display einschalten (Einstellungen → Netzwerk) und den **LAN-Zugangscode** verwenden, den er dir anzeigt | Ja | Ja, wenn du zusätzlich den **Entwicklermodus** einschaltest |
-| **Prusa** (MK4, MK3.5, MK3.9, MINI, XL, CORE One) | **PrusaLink** einschalten und das **Passwort** verwenden, das er anzeigt (nicht das von Prusa Connect) | Noch nicht | Ja |
+| **Prusa** (Beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | **PrusaLink** einschalten und das **Passwort** verwenden, das er anzeigt (nicht das von Prusa Connect) | Noch nicht | Ja |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) und **andere Resindrucker (ChituBox)** | Nichts, sie fragen nach keinem Passwort | Bei den Modellen, die eine haben | Ja |
 | **Elegoo Centauri Carbon 2** | Nichts; nur wenn du am Display einen Code festgelegt hast, gib ihn ein | Ja | Noch nicht |
 | **Anycubic** (Beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Den **LAN-Modus** einschalten (Einstellungen → Netzwerk). Dann nutzt der Drucker die Cloud und die App von Anycubic nicht mehr | Noch nicht | Noch nicht |
-| **FlashForge** (Adventurer 5M, 5M Pro, AD5X, Creator 5) | **LAN Only** einschalten und den Prüfcode aus seinem Netzwerkmenü verwenden | Ja | Noch nicht |
+| **FlashForge** (Beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | **LAN Only** einschalten und den Prüfcode aus seinem Netzwerkmenü verwenden | Ja | Noch nicht |
 | **Snapmaker** (U1) | Nichts | Ja | Ja |
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1 …) | Meist nichts: nur wenn du in Moonraker einen API-Schlüssel gesetzt hast | Ja, wenn dein Klipper eine Webcam hat | Ja |
 

@@ -3,7 +3,7 @@ slug: welcome-to-bolloprint-3d-printing-management
 title: "Welcome to BolloPrint: why we exist and what we do here"
 description: We were born out of our own problem — a 3D printing workshop drowning in sticky notes, manual Etsy uploads and lost .stl files. Here's what we've built and what you'll find on this blog.
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-16
 tags: [news]
 cover: 01-bienvenidos.webp
 draft: false
@@ -31,7 +31,7 @@ makers.
 Every tool you need so success doesn't bury you when the workshop starts asking
 for more hours than the day has:
 
-![Workshop dashboard with active orders, the status of each order, what's printing and recent activity](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
+![The workshop's Home page: pending orders and quotes, what's left to print, the printers, order status and the upcoming orders](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
 
 - **Real cost calculation:** you'll know what each piece costs you, counting the
   filament, print hours, electricity… If you don't account for every cost,

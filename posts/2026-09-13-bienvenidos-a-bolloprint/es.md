@@ -3,7 +3,7 @@ slug: welcome-to-bolloprint-3d-printing-management
 title: "Bienvenidos a BolloPrint: por qué nacemos y qué hacemos aquí"
 description: Nacimos de un problema propio, el de un taller de impresión 3D ahogado entre notitas, subidas a mano a Etsy y archivos .stl perdidos. Esto es lo que hemos construido y lo que vas a encontrar en este blog.
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-16
 tags: [novedades]
 cover: 01-bienvenidos.webp
 draft: false
@@ -31,7 +31,7 @@ calzador. Está hecho por makers para makers.
 Pues todas las herramientas que necesitas para no morir de éxito cuando el taller
 empieza a pedir más horas de las que tiene el día:
 
-![Panel del taller con los pedidos activos, el estado de cada pedido, lo que se está imprimiendo y la actividad reciente](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
+![El Inicio del taller: los pedidos y presupuestos pendientes, lo que queda por imprimir, las impresoras, el estado de los pedidos y los próximos a entregar](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
 
 - **Cálculo de costes real:** sabrás qué te cuesta cada pieza contando el
   filamento, las horas de impresión, la electricidad… Sin tener bien en cuenta

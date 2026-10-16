@@ -3,7 +3,7 @@ slug: welcome-to-bolloprint-3d-printing-management
 title: "Benvenuti su BolloPrint: perché nasciamo e cosa facciamo qui"
 description: Siamo nati da un problema tutto nostro — un laboratorio di stampa 3D sommerso da foglietti, caricamenti manuali su Etsy e file .stl perduti. Ecco cosa abbiamo costruito e cosa troverai in questo blog.
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-16
 tags: [novita]
 cover: 01-bienvenidos.webp
 draft: false
@@ -31,7 +31,7 @@ maker per maker.
 Tutti gli strumenti che ti servono per non morire di successo quando il
 laboratorio inizia a chiedere più ore di quante ne abbia la giornata:
 
-![Dashboard del laboratorio con gli ordini attivi, lo stato di ogni ordine, le stampe in corso e l'attività recente](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
+![La Home del laboratorio: ordini e preventivi in sospeso, cosa resta da stampare, le stampanti, lo stato degli ordini e i prossimi da consegnare](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
 
 - **Calcolo dei costi reale:** saprai quanto ti costa ogni pezzo contando il
   filamento, le ore di stampa, l'elettricità… Senza tenere conto di tutti i

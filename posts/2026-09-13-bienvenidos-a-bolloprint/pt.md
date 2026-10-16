@@ -3,7 +3,7 @@ slug: welcome-to-bolloprint-3d-printing-management
 title: "Bem-vindos ao BolloPrint: porque nascemos e o que fazemos aqui"
 description: Nascemos de um problema nosso — uma oficina de impressão 3D afogada em papelinhos, carregamentos manuais no Etsy e ficheiros .stl perdidos. Eis o que construímos e o que vais encontrar neste blog.
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-16
 tags: [novidades]
 cover: 01-bienvenidos.webp
 draft: false
@@ -31,7 +31,7 @@ força. É feito por makers para makers.
 Todas as ferramentas de que precisas para não morreres de sucesso quando a
 oficina começa a pedir mais horas do que o dia tem:
 
-![Painel da oficina com as encomendas ativas, o estado de cada encomenda, o que está a imprimir e a atividade recente](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
+![O Início da oficina: as encomendas e orçamentos pendentes, o que falta imprimir, as impressoras, o estado das encomendas e as próximas a entregar](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
 
 - **Cálculo de custos real:** vais saber quanto te custa cada peça contando o
   filamento, as horas de impressão, a eletricidade… Sem ter bem em conta todos

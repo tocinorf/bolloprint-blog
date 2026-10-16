@@ -3,7 +3,7 @@ slug: welcome-to-bolloprint-3d-printing-management
 title: "Bienvenue sur BolloPrint : pourquoi nous sommes nés et ce que nous faisons ici"
 description: Nous sommes nés d'un problème bien à nous — un atelier d'impression 3D noyé sous les post-it, les mises en ligne manuelles sur Etsy et les fichiers .stl égarés. Voici ce que nous avons construit et ce que vous trouverez sur ce blog.
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-16
 tags: [nouveautes]
 cover: 01-bienvenidos.webp
 draft: false
@@ -31,7 +31,7 @@ gestion générique adapté au forceps. Il est fait par des makers, pour des mak
 Tous les outils dont vous avez besoin pour ne pas crouler sous le succès quand
 l'atelier réclame plus d'heures que n'en compte la journée :
 
-![Tableau de bord de l'atelier avec les commandes actives, l'état de chaque commande, les impressions en cours et l'activité récente](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
+![La page d'accueil de l'atelier : les commandes et devis en attente, ce qu'il reste à imprimer, les imprimantes, l'état des commandes et les prochaines à livrer](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
 
 - **Calcul des coûts réels :** vous saurez ce que vous coûte chaque pièce en
   comptant le filament, les heures d'impression, l'électricité… Sans tenir

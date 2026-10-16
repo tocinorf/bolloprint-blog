@@ -3,7 +3,7 @@ slug: welcome-to-bolloprint-3d-printing-management
 title: "Willkommen bei BolloPrint: warum es uns gibt und was wir hier machen"
 description: Entstanden sind wir aus einem eigenen Problem – einer 3D-Druck-Werkstatt, die in Zetteln, manuellen Etsy-Uploads und verlorenen .stl-Dateien unterging. Das haben wir gebaut, und das findest du in diesem Blog.
 date: 2026-09-13
-updated: 2026-09-13
+updated: 2026-10-16
 tags: [neuigkeiten]
 cover: 01-bienvenidos.webp
 draft: false
@@ -31,7 +31,7 @@ die mit Gewalt passend gemacht wurde. Sie ist von Makern für Maker.
 Alle Werkzeuge, die du brauchst, damit dich der Erfolg nicht erdrückt, wenn die
 Werkstatt mehr Stunden verlangt, als der Tag hat:
 
-![Werkstatt-Dashboard mit aktiven Bestellungen, dem Status jeder Bestellung, laufenden Drucken und den letzten Aktivitäten](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
+![Die Startseite der Werkstatt: offene Bestellungen und Angebote, was noch zu drucken ist, die Drucker, der Status der Bestellungen und die nächsten fälligen](/blog/media/2026-09-13-bienvenidos-a-bolloprint/02-panel-pedidos.png)
 
 - **Echte Kostenkalkulation:** Du weißt, was dich jedes Stück kostet – mit
   Filament, Druckstunden, Strom… Wer nicht alle Kosten berücksichtigt, verdient

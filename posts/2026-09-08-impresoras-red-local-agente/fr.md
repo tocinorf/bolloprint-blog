@@ -3,7 +3,7 @@ slug: connect-printers-local-network-agent
 title: "Connectez vos imprimantes via votre propre réseau : l'agent local, pas à pas"
 description: Bambu Lab, Prusa, Elegoo, Anycubic, FlashForge, Snapmaker, Klipper… Un petit agent sur un ordinateur de l'atelier, tout votre parc dans BolloPrint, sans toucher à la box.
 date: 2026-10-12
-updated: 2026-10-14
+updated: 2026-10-16
 tags: [tutoriels]
 cover: 01-portada.webp
 ---
@@ -96,7 +96,9 @@ Vous n'y perdez rien : vous l'ajoutez vous-même et elle fonctionne exactement 
 
 ### 1. Choisissez la marque
 
-Choisissez la marque de votre imprimante. Celles qui sont encore en test portent l'étiquette **bêta**. Si vous doutez que votre modèle soit pris en charge, vous avez **Voir les imprimantes compatibles** en bas ; et si votre imprimante n'y est pas, dites-le-nous sur Discord.
+Choisissez la marque de votre imprimante : chacune a sa carte, et celles qui ont un logo viennent en premier. Inutile de savoir comment votre machine communique : nous nous en chargeons. Si vous choisissez **Elegoo**, nous vous demandons **Quelle Elegoo avez-vous ?**, car elle a plusieurs familles. **Klipper** et **Autre imprimante résine (ChituBox)** sont à la fin, dans **Génériques**, pour une machine montée par vos soins ou une marque absente de la liste.
+
+Si vous doutez que votre modèle soit pris en charge, vous avez **Vous hésitez ? Consultez la liste des compatibles** en bas ; et si votre imprimante n'y est pas, dites-le-nous sur Discord.
 
 ![La première étape d'Ajouter une imprimante par IP : les marques que vous pouvez connecter](/blog/media/2026-09-08-impresoras-red-local-agente/08-anadir-marca-fr.png)
 

@@ -3,7 +3,7 @@ slug: connect-printers-local-network-agent
 title: "Verbinde deine Drucker über dein eigenes Netzwerk: der lokale Agent, Schritt für Schritt"
 description: Bambu Lab, Prusa, Elegoo, Anycubic, FlashForge, Snapmaker, Klipper … Ein kleiner Agent auf einem Rechner in der Werkstatt, deine ganze Flotte in BolloPrint, und am Router änderst du nichts.
 date: 2026-10-12
-updated: 2026-10-14
+updated: 2026-10-16
 tags: [anleitungen]
 cover: 01-portada.webp
 ---
@@ -143,10 +143,16 @@ hinzufügen**. Das geht in drei Schritten.
 
 ### 1. Wähl die Marke
 
-Wähl die Marke deines Druckers. Die, die noch getestet werden, tragen das Etikett
-**Beta**. Wenn du nicht sicher bist, ob dein Modell unterstützt wird, findest du
-unten **Kompatible Drucker ansehen**; und wenn dein Drucker fehlt, sag es uns auf
-Discord.
+Wähl die Marke deines Druckers: Jede hat ihre eigene Karte, und die mit Logo
+stehen vorn. Wie deine Maschine kommuniziert, musst du nicht wissen; darum
+kümmern wir uns. Wählst du **Elegoo**, fragen wir **Welchen Elegoo hast du?**,
+weil es mehrere Familien gibt. **Klipper** und **Anderer Resindrucker (ChituBox)**
+stehen am Ende unter **Allgemein**, für einen Eigenbau oder eine Marke, die nicht
+in der Liste steht.
+
+Wenn du nicht sicher bist, ob dein Modell unterstützt wird, findest du unten
+**Unsicher? Sieh dir die Liste der kompatiblen Drucker an**; und wenn dein Drucker
+fehlt, sag es uns auf Discord.
 
 ![Der erste Schritt von Drucker per IP hinzufügen: die Marken, die du verbinden kannst](/blog/media/2026-09-08-impresoras-red-local-agente/08-anadir-marca-de.png)
 
@@ -198,11 +204,11 @@ kurz zusammengefasst:
 | Marke | Was du an der Maschine tun musst | Kamera | Kannst du pausieren und abbrechen? |
 |---|---|---|---|
 | **Bambu Lab** | Den **LAN-Modus** am Display einschalten (Einstellungen → Netzwerk) und den **LAN-Zugangscode** verwenden, den er dir anzeigt | Ja | Ja, wenn du zusätzlich den **Entwicklermodus** einschaltest |
-| **Prusa** (Beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | **PrusaLink** einschalten und das **Passwort** verwenden, das er anzeigt (nicht das von Prusa Connect) | Noch nicht | Ja |
+| **Prusa** (MK4, MK3.5, MK3.9, MINI, XL, CORE One) | **PrusaLink** einschalten und das **Passwort** verwenden, das er anzeigt (nicht das von Prusa Connect) | Noch nicht | Ja |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) und **andere Resindrucker (ChituBox)** | Nichts, sie fragen nach keinem Passwort | Bei den Modellen, die eine haben | Ja |
 | **Elegoo Centauri Carbon 2** | Nichts; nur wenn du am Display einen Code festgelegt hast, gib ihn ein | Ja | Noch nicht |
 | **Anycubic** (Beta: Kobra 3, Kobra S1, Kobra 4, Kobra X) | Den **LAN-Modus** einschalten (Einstellungen → Netzwerk). Dann nutzt der Drucker die Cloud und die App von Anycubic nicht mehr | Noch nicht | Noch nicht |
-| **FlashForge** (Beta: Adventurer 5M, 5M Pro, AD5X, Creator 5) | **LAN Only** einschalten und den Prüfcode aus seinem Netzwerkmenü verwenden | Ja | Noch nicht |
+| **FlashForge** (Adventurer 5M, 5M Pro, AD5X, Creator 5) | **LAN Only** einschalten und den Prüfcode aus seinem Netzwerkmenü verwenden | Ja | Noch nicht |
 | **Snapmaker** (U1) | Nichts | Ja | Ja |
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1 …) | Meist nichts: nur wenn du in Moonraker einen API-Schlüssel gesetzt hast | Ja, wenn dein Klipper eine Webcam hat | Ja |
 

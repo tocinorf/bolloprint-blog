@@ -3,7 +3,7 @@ slug: connect-bambu-lab-printers-cloud
 title: "Connect your Bambu Lab printers to BolloPrint in five minutes"
 description: Nothing to install and no password. You type your Bambu Lab account email, confirm a code and your printers show up on their own, with what they're printing and their whole history.
 date: 2026-10-12
-updated: 2026-10-14
+updated: 2026-10-16
 tags: [tutorials]
 cover: 01-portada.webp
 ---

@@ -2,10 +2,9 @@
 slug: organize-your-3d-printing-catalog
 title: "De archivos STL a productos en tu tienda: cómo organizar tu catálogo de impresión 3D"
 description: Aprende a estructurar tus archivos STL, calcular costes por pieza y crear variantes de productos para tu tienda de impresión 3D sin complicaciones.
-date: 2026-10-15
+date: 2026-10-18
 tags: [tutoriales]
 cover: 01-portada.webp
-draft: true
 ---
 
 Si imprimes en 3D para vender, seguro que conoces esta escena: decenas de carpetas
@@ -80,18 +79,18 @@ como Etsy. La **Variante** es la opción concreta que elige el cliente.
 
 ![La variante Green, con una sola pieza: coste de 7,06 €, margen del 70 % y precio de 23,54 €](/blog/media/2026-10-15-organizar-catalogo/03-variante.png)
 
-## ¿Tienes prisa? Usa la Creación Express
+## ¿Tienes prisa? Usa la Creación rápida
 
 Si estás empezando o tienes cientos de modelos por subir, configurar Diseños, Piezas
 y Productos uno a uno lleva su tiempo.
 
-Para eso está la **Creación Express**, el botón **Crear rápido** del catálogo. En una
+Para eso está el botón **Creación rápida** del catálogo. En una
 sola pantalla subes tu archivo 3D, indicas el material, el peso, el tiempo y el
 precio, y BolloPrint crea de una vez el Diseño, la Pieza, el Producto y su Variante.
 El resultado es el mismo que si lo hicieras paso a paso, así que después puedes
 afinar lo que quieras.
 
-![El formulario de Creación Express: el archivo 3D, las fotos, el material, el peso, el tiempo, los colores, el coste y el precio](/blog/media/2026-10-15-organizar-catalogo/05-creacion-express.webp "50%")
+![El formulario de Creación rápida: el archivo 3D, las fotos, el material, el peso, el tiempo, los colores, el coste y el precio](/blog/media/2026-10-15-organizar-catalogo/05-creacion-express.webp "50%")
 
 ## Tus etiquetas pasan solas al producto
 
@@ -129,5 +128,5 @@ Que tu catálogo crezca tan ordenado como empieza.
 - [Diseños](/help/disenos): los archivos, las fotos y las etiquetas
 - [Piezas](/help/piezas): el material, el archivo laminado y el coste
 - [Productos y Variantes](/help/productos-y-variantes): el precio, el margen y las piezas de cada variante
-- [Creación Express](/help/creacion-express): todo de una vez
+- [Creación rápida](/help/creacion-rapida): todo de una vez
 - [Etiquetas](/help/etiquetas): cómo se crean y se gestionan

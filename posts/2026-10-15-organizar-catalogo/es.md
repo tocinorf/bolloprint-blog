@@ -4,7 +4,7 @@ title: "De archivos STL a productos en tu tienda: cómo organizar tu catálogo d
 description: Aprende a estructurar tus archivos STL, calcular costes por pieza y crear variantes de productos para tu tienda de impresión 3D sin complicaciones.
 date: 2026-10-15
 tags: [tutoriales]
-cover: 01-el-mapa.webp
+cover: 01-portada.webp
 draft: true
 ---
 

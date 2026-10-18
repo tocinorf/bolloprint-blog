@@ -73,6 +73,11 @@ marketplace such as Etsy. The **Variant** is the specific option the customer pi
 
 ![The Green+Orange variant, with its two pieces inside, one orange and one green, along with its cost, its margin and its price](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
+:::info 💡 A bundle can mix Designs
+A Variant can hold Pieces from different Designs: for example, an "Office pack"
+with the phone stand and the cable organiser.
+:::
+
 - **The margin works itself out.** Since each Variant knows which Pieces it's made
   of, BolloPrint compares your selling price with the real production cost and
   shows you the margin. If you change the price, the margin updates, and the other

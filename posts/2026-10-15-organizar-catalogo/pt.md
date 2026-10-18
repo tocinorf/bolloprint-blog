@@ -73,6 +73,11 @@ Etsy. A **Variante** é a opção concreta que o cliente escolhe.
 
 ![A variante Green+Orange, com as suas duas peças lá dentro, uma laranja e outra verde, e o seu custo, a sua margem e o seu preço](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
+:::info 💡 Um pack pode juntar vários Designs
+Uma Variante pode levar Peças de Designs diferentes: por exemplo, um «Pack mesa»
+com o suporte de telemóvel e o organizador de cabos.
+:::
+
 - **A margem calcula-se sozinha.** Como cada Variante sabe de que Peças é feita,
   o BolloPrint compara o teu preço de venda com o custo real de produção e
   mostra-te a margem. Se mudares o preço, a margem atualiza-se, e vice-versa.

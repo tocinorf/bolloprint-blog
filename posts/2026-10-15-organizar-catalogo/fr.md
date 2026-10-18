@@ -47,6 +47,10 @@ Le **Produit** est votre vitrine : ce que vous publiez dans votre boutique ou s
 
 ![La variante Green+Orange, avec ses deux pièces, une orange et une verte, ainsi que son coût, sa marge et son prix](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
+:::info 💡 Un pack peut mélanger plusieurs Designs
+Une Variante peut contenir des Pièces de Designs différents : par exemple, un « Pack bureau » avec le support téléphone et le range-câbles.
+:::
+
 - **La marge se calcule toute seule.** Comme chaque Variante sait de quelles Pièces elle est faite, BolloPrint compare votre prix de vente au coût réel de production et vous affiche la marge. Si vous changez le prix, la marge se met à jour, et inversement.
 
 ![La variante Green, avec une seule pièce : un coût de 7,06 €, une marge de 70 % et un prix de 23,54 €](/blog/media/2026-10-15-organizar-catalogo/03-variante.png)

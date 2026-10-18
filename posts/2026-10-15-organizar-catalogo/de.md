@@ -77,6 +77,11 @@ der Kunde auswählt.
 
 ![Die Variante Green+Orange mit ihren zwei Stücken, einem orangen und einem grünen, sowie ihren Kosten, ihrer Marge und ihrem Preis](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
+:::info 💡 Ein Set kann Designs kombinieren
+Eine Variante kann Stücke aus verschiedenen Designs enthalten: zum Beispiel ein
+„Büro-Set“ mit dem Handyhalter und dem Kabelorganizer.
+:::
+
 - **Die Marge ergibt sich von selbst.** Weil jede Variante weiß, aus welchen
   Stücken sie besteht, vergleicht BolloPrint deinen Verkaufspreis mit den echten
   Produktionskosten und zeigt dir die Marge an. Änderst du den Preis, aktualisiert

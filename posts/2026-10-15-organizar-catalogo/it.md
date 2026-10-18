@@ -76,6 +76,11 @@ cliente.
 
 ![La variante Green+Orange, con i suoi due pezzi dentro, uno arancione e uno verde, e il suo costo, il suo margine e il suo prezzo](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
+:::info 💡 Un pack può combinare più Design
+Una Variante può contenere Pezzi di Design diversi: per esempio, un «Pack ufficio»
+con il supporto telefono e l'organizer per cavi.
+:::
+
 - **Il margine si calcola da solo.** Dato che ogni Variante sa di quali Pezzi è
   fatta, BolloPrint confronta il tuo prezzo di vendita con il costo reale di
   produzione e ti mostra il margine. Se cambi il prezzo, il margine si aggiorna, e

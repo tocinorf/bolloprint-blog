@@ -77,8 +77,8 @@ cliente.
 ![La variante Green+Orange, con i suoi due pezzi dentro, uno arancione e uno verde, e il suo costo, il suo margine e il suo prezzo](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
 :::info 💡 Un pack può combinare più Design
-Una Variante può contenere Pezzi di Design diversi: per esempio, un «Pack ufficio»
-con il supporto telefono e l'organizer per cavi.
+Una Variante può contenere Pezzi di Design diversi: per esempio, un pack
+«Benvenuto in BolloPrint» con il portachiavi e la statuina di Bollo.
 :::
 
 - **Il margine si calcola da solo.** Dato che ogni Variante sa di quali Pezzi è

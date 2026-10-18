@@ -79,7 +79,7 @@ der Kunde auswählt.
 
 :::info 💡 Ein Set kann Designs kombinieren
 Eine Variante kann Stücke aus verschiedenen Designs enthalten: zum Beispiel ein
-„Büro-Set“ mit dem Handyhalter und dem Kabelorganizer.
+Set „Willkommen bei BolloPrint“ mit dem Schlüsselanhänger und der Bollo-Figur.
 :::
 
 - **Die Marge ergibt sich von selbst.** Weil jede Variante weiß, aus welchen

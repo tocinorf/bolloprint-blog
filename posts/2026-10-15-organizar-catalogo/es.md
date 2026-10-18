@@ -4,7 +4,7 @@ title: "De archivos STL a productos en tu tienda: cómo organizar tu catálogo d
 description: Aprende a estructurar tus archivos STL, calcular costes por pieza y crear variantes de productos para tu tienda de impresión 3D sin complicaciones.
 date: 2026-10-15
 tags: [tutoriales]
-cover: 01-el-mapa.webp
+cover: 01-portada.webp
 draft: true
 ---
 
@@ -38,7 +38,7 @@ El **Diseño** es el contenedor de tus archivos de origen: los STL, OBJ o proyec
   filamento, porque un mismo STL se puede imprimir a distintas escalas o con
   distintos materiales.
 
-![El detalle del diseño de un soporte para móvil, con sus dos piezas debajo: PLA negro y PETG blanco](/blog/media/2026-10-15-organizar-catalogo/02-diseno-y-piezas.png)
+![El diseño «Keyring BolloPrint», con su archivo STL, su foto, sus notas internas y sus dos piezas: de 5 cm y de 10 cm](/blog/media/2026-10-15-organizar-catalogo/02-diseno.png)
 
 ### Piezas: el objeto físico
 
@@ -72,13 +72,13 @@ como Etsy. La **Variante** es la opción concreta que elige el cliente.
   Piezas dentro. Puedes combinar materiales, tamaños, acabados o lotes como
   quieras.
 
-![Las variantes de un producto en pestañas, con una abierta: su coste, su margen, su precio y la pieza de la que está hecha](/blog/media/2026-10-15-organizar-catalogo/03-producto-y-variantes.png)
+![La variante Green+Orange, con sus dos piezas dentro, una naranja y otra verde, y su coste, su margen y su precio](/blog/media/2026-10-15-organizar-catalogo/04-variante-pack.png)
 
 - **El margen sale solo.** Como cada Variante sabe de qué Piezas está hecha,
   BolloPrint compara tu precio de venta con el coste real de producción y te
   enseña el margen. Si cambias el precio, el margen se actualiza, y al revés.
 
-![Las piezas que componen una variante de pack, cada una con su cantidad](/blog/media/2026-10-15-organizar-catalogo/05-piezas-de-la-variante.png)
+![La variante Green, con una sola pieza: coste de 7,06 €, margen del 70 % y precio de 23,54 €](/blog/media/2026-10-15-organizar-catalogo/03-variante.png)
 
 ## ¿Tienes prisa? Usa la Creación Express
 
@@ -91,7 +91,7 @@ precio, y BolloPrint crea de una vez el Diseño, la Pieza, el Producto y su Vari
 El resultado es el mismo que si lo hicieras paso a paso, así que después puedes
 afinar lo que quieras.
 
-![El formulario de Creación Express, con el archivo, el material, el color y el precio](/blog/media/2026-10-15-organizar-catalogo/08-creacion-express.png)
+![El formulario de Creación Express: el archivo 3D, las fotos, el material, el peso, el tiempo, los colores, el coste y el precio](/blog/media/2026-10-15-organizar-catalogo/05-creacion-express.webp "50%")
 
 ## Tus etiquetas pasan solas al producto
 

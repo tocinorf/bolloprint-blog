@@ -4,7 +4,7 @@ title: "De archivos STL a productos en tu tienda: cómo organizar tu catálogo d
 description: Aprende a estructurar tus archivos STL, calcular costes por pieza y crear variantes de productos para tu tienda de impresión 3D sin complicaciones.
 date: 2026-10-15
 tags: [tutoriales]
-cover: 01-portada.webp
+cover: 01-el-mapa.webp
 draft: true
 ---
 
@@ -118,6 +118,10 @@ coste de cada Pieza, lo contamos en
 
 Descubre [cómo controlar la producción de tu taller con BolloPrint](/features), tu
 software para granjas de impresión 3D.
+
+Que tu catálogo crezca tan ordenado como empieza.
+
+![Bollo, la mascota de BolloPrint, con gafas de taller, junto a su modelo 3D en malla](/blog/media/2026-10-15-organizar-catalogo/07-bollo.webp "60%")
 
 ## Documentación relacionada
 

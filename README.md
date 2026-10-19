@@ -15,17 +15,18 @@ Una carpeta por artículo, un fichero por idioma:
 posts/2026-09-15-mi-articulo/
 ├── es.md      ← el original (obligatorio)
 ├── en.md      ← muy recomendable
-└── fr.md      de.md  it.md  pt.md   (opcionales)
+└── fr.md  de.md  it.md  pt.md  pl.md   (opcionales)
 ```
 
 El nombre de la carpeta es solo un identificador interno: **no** aparece en la
-URL. Lo que sale en la URL es el `slug`, y es **el mismo en los seis idiomas, en
+URL. Lo que sale en la URL es el `slug`, y es **el mismo en los siete idiomas, en
 inglés**: lo único que cambia entre versiones es el prefijo de idioma.
 
 ```
 /blog/order-management-3d-print-farm          ← inglés, sin prefijo
 /es/blog/order-management-3d-print-farm
 /fr/blog/order-management-3d-print-farm
+/pl/blog/order-management-3d-print-farm
 ```
 
 Así cada artículo se reconoce por su dirección en cualquier idioma y es fácil
@@ -107,10 +108,13 @@ Se enlazan con **ruta absoluta**, usando el nombre de la carpeta del artículo:
 ![Lo que se ve en la captura](/blog/media/2026-09-15-mi-articulo/01-pantalla-inicial.png)
 ```
 
-**Las imágenes son las mismas en todos los idiomas** — hay una sola carpeta
-`assets/` por artículo, no una por idioma. Las capturas de producto se hacen una
-vez, con la interfaz en inglés, y valen para las seis versiones. Lo que sí
-cambia por idioma es el texto alternativo, que va en el `![...]`.
+**Hay una sola carpeta `assets/` por artículo**, no una por idioma. Las
+ilustraciones sin texto valen para todas las versiones; las capturas de producto
+se hacen una por idioma y llevan el código al final del nombre
+(`02-formulario-es.png`, `02-formulario-en.png`…). Los idiomas permitidos son
+`es`, `en`, `fr`, `de`, `it`, `pt` y `pl`. Si un idioma no tiene aún su captura
+(el polaco, de momento), su `.md` enlaza la `-en`. El texto alternativo, que va
+en el `![...]`, se traduce siempre.
 
 | Regla | Por qué |
 |---|---|

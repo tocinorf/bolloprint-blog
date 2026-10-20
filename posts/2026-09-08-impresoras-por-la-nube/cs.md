@@ -159,7 +159,7 @@ komunikuje přes vaši vlastní síť. Jeden stačí pro celou flotilu a nabíz�
   odešle, jakmile se připojení obnoví.
 
 :::info 💡 Jak posílat příkazy tiskárně Bambu
-Tiskárna musí být v **režimu LAN** a ve **vývojářském režimu**. Oba se zapínají
+Tiskárna musí být v **režimu LAN** a v **režimu pro vývojáře**. Oba se zapínají
 na jejím displeji a ten druhý ji odpojí od Bambu Cloud: od té chvíle ji uvidíte
 už jen přes agenta.
 :::

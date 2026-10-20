@@ -195,7 +195,7 @@ Tady vzniká nejvíc dotazů. Je to totéž, co připomíná krok 2, jen ve zkra
 
 | Značka | Co je potřeba udělat na stroji | Kamera | Lze pozastavit a zrušit tisk? |
 |---|---|---|---|
-| **Bambu Lab** | Zapnout **režim LAN** na jejím displeji (Nastavení → Síť) a použít **přístupový kód LAN**, který tam zobrazí | Ano | Ano, pokud navíc zapnete **vývojářský režim** |
+| **Bambu Lab** | Zapnout **režim LAN** na jejím displeji (Nastavení → Síť) a použít **přístupový kód LAN**, který tam zobrazí | Ano | Ano, pokud navíc zapnete **režim pro vývojáře** |
 | **Prusa** (beta: MK4, MK3.5, MK3.9, MINI, XL, CORE One) | Zapnout **PrusaLink** a použít zobrazené **heslo** (není to heslo k Prusa Connect) | Ne | Ano |
 | **Elegoo** (Saturn, Mars, Jupiter, Centauri Carbon) a **jiné pryskyřičné (ChituBox)** | Nic, heslo nevyžadují | U modelů, které ji mají | Ano |
 | **Elegoo Centauri Carbon 2** | Nic; jen pokud je na jejím displeji nastavený kód, zadejte ho | Ano | Ne |
@@ -205,11 +205,11 @@ Tady vzniká nejvíc dotazů. Je to totéž, co připomíná krok 2, jen ve zkra
 | **Klipper** (QIDI, Sovol, Voron, RatRig, Creality K1…) | Obvykle nic: jen pokud je v Moonrakeru nastavený klíč API | Ano, pokud má váš Klipper webkameru | Ano |
 
 :::warning ⚠️ Bambu Lab: přístupový kód se mění
-Pokaždé, když zapnete nebo vypnete režim LAN nebo vývojářský režim, Bambu
+Pokaždé, když zapnete nebo vypnete režim LAN nebo režim pro vývojáře, Bambu
 **vygeneruje nový kód**. Pokud se Bambu, která dosud fungovala bez problémů,
 najednou přestane připojovat, v devíti případech z deseti je to právě kvůli
 tomu: znovu se podívejte na kód na jejím displeji a aktualizujte ho v BolloPrint.
-A počítejte s tím, že **vývojářský režim** ji odpojí od Bambu Cloud: od té chvíle
+A počítejte s tím, že **režim pro vývojáře** ji odpojí od Bambu Cloud: od té chvíle
 ji uvidíte už jen přes agenta.
 :::
 
@@ -231,7 +231,7 @@ S běžícím agentem získáte:
   nic se nenahrává.
 - **Ovládání**: pozastavení, obnovení a zrušení tisku z BolloPrint, bez chození
   ke stroji, u tiskáren, které to umožňují (viz tabulka výše). U Bambu Lab
-  s tiskárnou v **režimu LAN** a ve **vývojářském režimu**.
+  s tiskárnou v **režimu LAN** a v **režimu pro vývojáře**.
 - **Odolnost vůči výpadkům internetu**: když vám vypadne připojení, agent **dál
   čte stav tiskáren a ukládá, co se děje**. Jakmile se připojení obnoví, všechno
   odešle a o ty hodiny historie nepřijdete.

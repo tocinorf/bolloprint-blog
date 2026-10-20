@@ -110,7 +110,7 @@ plaats van dat de limiet van je abonnement wordt overschreden.
 Het is handig om dit vanaf het begin te weten, zodat je niet zoekt naar opties die
 er niet zijn:
 
-- **Het is alleen-lezen.** Via de cloud kun je vanuit BolloPrint niet pauzeren,
+- **Het is alleen lezen.** Via de cloud kun je vanuit BolloPrint niet pauzeren,
   hervatten of annuleren: Bambu accepteert die opdrachten alleen via je lokale
   netwerk en met de printer in een bepaalde modus. Dat zien we aan het eind.
 - **Er is geen camera.** Je ziet wel de afbeelding van de slicer van de opdracht,

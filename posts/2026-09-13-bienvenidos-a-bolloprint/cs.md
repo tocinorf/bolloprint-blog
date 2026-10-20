@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Vítejte v BolloPrint, v šesti jazycích aplikace](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Vítejte v BolloPrint, v několika jazycích](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Skoro každý nástroj vzniká z vlastního problému. Ten náš vznikl, když jsme
 viděli, kolik času ztrácíme přehrabováním lístečků s objednávkami, ručním

@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Witaj w BolloPrint, w sześciu językach aplikacji](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Witaj w BolloPrint, w kilku językach](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Prawie każde narzędzie rodzi się z własnego problemu. Nasze narodziło się, gdy
 zobaczyliśmy, ile czasu tracimy na przekopywanie karteczek z zamówieniami,

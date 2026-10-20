@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Bienvenidos a BolloPrint, en los seis idiomas de la aplicación](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Bienvenidos a BolloPrint, en varios idiomas](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Casi todas las herramientas nacen de un problema propio. La nuestra nació al ver
 cuánto tiempo perdíamos revolviendo entre notitas con pedidos, subiendo todos los

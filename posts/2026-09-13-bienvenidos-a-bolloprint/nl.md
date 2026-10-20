@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Welkom bij BolloPrint, in de zes talen van de app](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Welkom bij BolloPrint, in verschillende talen](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Bijna elke tool ontstaat uit een eigen probleem. De onze ontstond toen we zagen
 hoeveel tijd we kwijt waren met graven tussen briefjes vol bestellingen, alle

@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Welcome to BolloPrint, in the app's six languages](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Welcome to BolloPrint, in several languages](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Almost every tool is born from a problem of its own. Ours was born when we
 realised how much time we were wasting digging through sticky notes full of

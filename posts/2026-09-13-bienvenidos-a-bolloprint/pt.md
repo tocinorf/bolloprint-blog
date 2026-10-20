@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Bem-vindos ao BolloPrint, nas seis línguas da aplicação](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Bem-vindos ao BolloPrint, em várias línguas](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Quase todas as ferramentas nascem de um problema próprio. A nossa nasceu quando
 percebemos quanto tempo perdíamos a remexer em papelinhos com encomendas, a

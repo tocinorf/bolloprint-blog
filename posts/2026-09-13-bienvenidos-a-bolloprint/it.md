@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Benvenuti su BolloPrint, nelle sei lingue dell'applicazione](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Benvenuti su BolloPrint, in varie lingue](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Quasi tutti gli strumenti nascono da un problema personale. Il nostro è nato
 quando ci siamo accorti di quanto tempo perdevamo a rovistare tra foglietti pieni

@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Bienvenue sur BolloPrint, dans les six langues de l'application](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Bienvenue sur BolloPrint, en plusieurs langues](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Presque tous les outils naissent d'un problème personnel. Le nôtre est né quand
 nous avons vu tout le temps que nous perdions à fouiller parmi des post-it

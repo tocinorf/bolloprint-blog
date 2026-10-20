@@ -9,7 +9,7 @@ cover: 01-bienvenidos.webp
 draft: false
 ---
 
-![Willkommen bei BolloPrint, in den sechs Sprachen der App](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
+![Willkommen bei BolloPrint, in mehreren Sprachen](/blog/media/2026-09-13-bienvenidos-a-bolloprint/01-bienvenidos.webp)
 
 Fast jedes Werkzeug entsteht aus einem eigenen Problem. Unseres entstand, als uns
 klar wurde, wie viel Zeit wir verloren: beim Wühlen in Zetteln voller Bestellungen,

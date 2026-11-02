@@ -35,7 +35,8 @@ you switch off when you leave, those hours are lost: what printed, how long it
 took, whether a print stopped at three in the morning. The NAS is on anyway.
 
 It also gets the rest for free: it's on the printers' network, which is what
-lets the agent find them on its own, and it needs very little memory.
+lets the agent find them on its own, and it's light: the NAS keeps doing
+everything else as before.
 
 :::info 💡 No, you won't touch the router
 The agent **calls out** to BolloPrint, like a browser opening a web page. It

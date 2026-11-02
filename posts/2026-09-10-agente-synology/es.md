@@ -36,7 +36,8 @@ apagas al irte, esas horas no las ves: ni qué imprimió, ni cuánto tardó, ni 
 se paró a las tres de la mañana. El NAS ya está encendido de todas formas.
 
 Lo demás viene de regalo: está en la red de las impresoras, que es lo que le
-permite encontrarlas solo, y gasta muy poca memoria.
+permite encontrarlas solo, y es ligero: el NAS sigue con todo lo demás
+como siempre.
 
 :::info 💡 No, no vas a tener que tocar el router
 El agente **llama hacia fuera**, a BolloPrint, igual que cuando abres una página

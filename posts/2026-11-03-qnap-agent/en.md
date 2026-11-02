@@ -70,17 +70,20 @@ The agent isn't in QNAP's store yet, so you get it from BolloPrint — and only
 from BolloPrint.
 
 1. Go to **Settings → Printers** and open the **Local agent** tab.
-2. Press **New agent** and choose the **QNAP** card. It carries a **Beta** label.
+2. Press **New agent** and choose the **QNAP** card, under **With a package
+   or an installer**.
 
-<!-- SCREENSHOT 01-new-agent-qnap-card-en.png: BolloPrint (English UI), Settings → Printers → Local agent → New agent, the gallery with the QNAP card and its «Beta» label highlighted. -->
+![The «New local agent» window in BolloPrint: the QNAP card among the agents you install with a package or an installer](/blog/media/2026-11-03-qnap-agent/01-new-agent-qnap-card-en.png)
 
 3. Pick the download that matches your processor: **Intel or AMD (64-bit)**,
    **ARM (64-bit)** or **ARM (32-bit)**. You get a file ending in `.qpkg`.
 
-<!-- SCREENSHOT 02-qnap-downloads-en.png: BolloPrint (English UI), the QNAP card opened: the three downloads by processor and the five install steps under «How to install it». -->
+![The QNAP card in BolloPrint: three downloads by processor and the six install steps under «How to install it»](/blog/media/2026-11-03-qnap-agent/02-qnap-downloads-en.png)
 
-Nothing is created in BolloPrint at this point. The agent will show up in your
-list once you link it.
+If you're not sure which processor yours has, the card links to QNAP's website.
+Under **How to install it** you'll find the same steps as in this post, in
+short. Nothing is created in BolloPrint at this point: the agent will show up
+in your list once you link it.
 
 ## Step 2: allow apps without QNAP's signature
 
@@ -155,11 +158,16 @@ through each brand.
 
 ## Updating it later
 
-Updating is installing the new package over the old one: download the new
-version from the same QNAP card in BolloPrint, check that the unsigned-apps
-option is still on, and use **Install Manually** again. QTS replaces the
-program and keeps its data, so the agent stays linked with its printers and
-their history. There's nothing to link again.
+Usually you don't do anything: **the agent updates itself**. When a new
+version comes out, it downloads it, checks that it's ours and restarts with
+it.
+
+Only if BolloPrint tells you that your agent needs a **manual update** do you
+install the new package over the old one: download it from the same QNAP card
+in BolloPrint (for the same processor), check that the unsigned-apps option is
+still on, and use **Install Manually** again. QTS replaces the program and
+keeps its data, so the agent stays linked with its printers and their history.
+There's nothing to link again.
 
 ## Moving it or removing it
 
@@ -167,8 +175,11 @@ their history. There's nothing to link again.
   Install it on the new device, link it, and then delete the old one in
   BolloPrint from the **⋮** menu on its row. Your printers move to the new
   agent with their whole history as soon as you add them.
-- **To remove it**, delete the agent in BolloPrint first, then open
-  **BolloPrint Agent** in App Center and press **Remove**.
+- **To remove it**, delete the agent in BolloPrint first, from the **⋮** menu
+  on its row, then open **BolloPrint Agent** in App Center and press
+  **Remove**. If you only delete it in BolloPrint, the agent stays installed
+  without a workshop and its page goes back to offering **Link with
+  BolloPrint**.
 
 ## If something doesn't work
 

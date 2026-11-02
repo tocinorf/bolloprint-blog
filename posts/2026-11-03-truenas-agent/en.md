@@ -25,6 +25,11 @@ reference page, with troubleshooting, is
 [Agent on TrueNAS](/help/agente-en-truenas) in the user guide.
 :::
 
+:::warning Beta
+The TrueNAS agent is in **beta**: it works, but a step or two may still change.
+If something on your screen doesn't match, tell us.
+:::
+
 ## What you need
 
 - **TrueNAS 24.10 or later** (Community Edition). Older versions don't have

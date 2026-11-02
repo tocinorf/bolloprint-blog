@@ -72,7 +72,7 @@ Then your PC has **Smart App Control** turned on. It blocks unsigned programs
 and doesn't allow exceptions. We don't recommend turning it off. Put the agent
 on **another always-on device on the same network** instead (a NAS, a
 Raspberry Pi, another PC): the options are in
-[Deploy the agent](/help/desplegar-el-agente).
+[The local agent](/help/el-agente-local).
 :::
 
 ## 3. Click through the installer

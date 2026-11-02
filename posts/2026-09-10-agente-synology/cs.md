@@ -71,7 +71,7 @@ Pro každý typ procesoru je tu jedno tlačítko ke stažení:
 **Intel nebo AMD (64 bitů)**, **ARM (64 bitů)** a **ARM (32 bitů)**. Klikněte na
 to svoje. Stáhne se soubor s příponou `.spk`, což je balíček DSM.
 
-<!-- SCREENSHOT: 01-new-agent-synology.png — BolloPrint (English UI, light mode) Settings → Printers → Local agent → New agent → Synology: the Synology card with the Beta chip, the three download buttons (Intel or AMD (64-bit), ARM (64-bit), ARM (32-bit)) and the «How to install it» steps. -->
+![Nový agent → Synology v BolloPrint: tři tlačítka ke stažení, jedno pro každý typ procesoru, a pod nimi tři kroky instalace](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
 Všimněte si, co na té obrazovce **není**: žádný kód, žádný klíč, nic k
 vytvoření. Agent vznikne, až ho propojíte, v kroku 3.
@@ -133,7 +133,7 @@ V BolloPrint, v **Nastavení → Tiskárny → Místní agent**: agent tam je s 
 vašeho NAS a logem Synology, ve stavu **Online**. Právě na tom záleží: celý
 okruh funguje.
 
-<!-- SCREENSHOT: 06-agent-online.png — BolloPrint (English UI) Settings → Printers → Local agent: the list of agents with the Synology one (NAS name, Synology logo) Online and its version; ideally the «Printers on the local network» section below showing what it found. -->
+![Agent Synology ve stavu Online v Nastavení → Tiskárny → Místní agent a pod ním tiskárny nalezené v místní síti](/blog/media/2026-09-10-agente-synology/06-agent-online.png)
 
 Zhruba do minuty začne hledat tiskárny ve vaší síti. Zobrazí se v sekci
 **Tiskárny v místní síti** a odtud je přidáte; ty, které se neobjeví samy, přes

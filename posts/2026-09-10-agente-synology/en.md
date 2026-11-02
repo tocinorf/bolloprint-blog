@@ -68,9 +68,10 @@ In BolloPrint, go to **Settings → Printers → Local agent → New agent** and
 
 There's one download button per processor type: **Intel or AMD (64-bit)**,
 **ARM (64-bit)** and **ARM (32-bit)**. Click yours. You get a file ending in
-`.spk`, which is a DSM package.
+`.spk`, which is a DSM package. If you're not sure which one, the link just
+below the buttons takes you to Synology's website to check your model.
 
-<!-- SCREENSHOT: 01-new-agent-synology.png — BolloPrint (English UI, light mode) Settings → Printers → Local agent → New agent → Synology: the Synology card with the Beta chip, the three download buttons (Intel or AMD (64-bit), ARM (64-bit), ARM (32-bit)) and the «How to install it» steps. -->
+![New agent → Synology in BolloPrint: three download buttons, one per processor type, and the three install steps below](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
 Notice what's **not** on that screen: no code, no key, nothing to create. The
 agent is born when you link it, in step 3.
@@ -132,7 +133,7 @@ In BolloPrint, **Settings → Printers → Local agent**: the agent is there wit
 your NAS's name and the Synology logo, **Online**. That's the one that counts:
 the whole circuit works.
 
-<!-- SCREENSHOT: 06-agent-online.png — BolloPrint (English UI) Settings → Printers → Local agent: the list of agents with the Synology one (NAS name, Synology logo) Online and its version; ideally the «Printers on the local network» section below showing what it found. -->
+![The Synology agent Online in Settings → Printers → Local agent, with the printers it found on the local network below](/blog/media/2026-09-10-agente-synology/06-agent-online.png)
 
 Within a minute or so it starts finding printers on your network. They appear
 under **Printers on the local network**, and you add them from there; the ones that
@@ -141,11 +142,16 @@ don't show up on their own, with **Add by IP**. Brand by brand, it's all in the
 
 ## Updating it
 
-Updating is **installing the new package over the one you have**: download it
-again from the same place in BolloPrint, then **Package Center → Manual
-Install** with the new file. DSM sees it's already installed and upgrades it,
-without asking for the port again. The agent stays linked to the same workshop,
-with the same printers and all their history.
+**You almost never have to do anything:** the agent updates itself. When a new
+version comes out, it downloads it, checks that it's ours and restarts with it.
+
+Only if BolloPrint tells you the agent needs a **manual update** do you do it
+yourself, and it's **installing the new package over the one you have**:
+download it again from the same place in BolloPrint (**Local agent → New agent
+→ Synology**), then **Package Center → Manual Install** with the new file. DSM
+sees it's already installed and upgrades it, without asking for the port again.
+The agent stays linked to the same workshop, with the same printers and all
+their history. There's nothing to link again.
 
 Once the package is listed in Synology's Package Center catalogue, Package
 Center will tell you itself, and updating will be one click.
@@ -164,10 +170,15 @@ printers, and they move with their whole history.
    agent.
 2. Open each printer with **Edit** in its **⋮** menu and switch it to the new
    agent.
-3. When the old agent has no printers left, **Delete** it from its row.
+3. When the old agent has no printers left, **Delete** it from the **⋮** menu
+   of its row.
 
 To remove the agent for good: in DSM, **Package Center → BolloPrint Agent →
-Action → Uninstall**, then delete the agent in BolloPrint.
+Action → Uninstall**, then **Delete** the agent from its **⋮** menu in
+BolloPrint. Done the other way round, it works too: once you delete it in
+BolloPrint, the agent notices, forgets its link and its page offers **Link with
+BolloPrint** again. Nothing is lost either way: if you add one of its printers
+again later, it comes back with its number and its history.
 
 ## If something goes wrong
 
@@ -178,8 +189,9 @@ Action → Uninstall**, then delete the agent in BolloPrint.
 | Opening BolloPrint Agent asks you to sign in to DSM | Open it from the DSM main menu, signed in as an administrator. |
 | The page says the agent isn't responding | The package is stopped or still starting. In Package Center, **Action → Run**, and give it a few seconds. |
 | Your workshop isn't in the list when linking | You only see workshops you **own**. Ask the owner to link it. |
+| «This link request is not valid», or it has expired | Go back to the agent's page and click **Link with BolloPrint** again. |
 | It takes a while to come back after a NAS restart | Give it a few minutes: it starts with DSM and keeps retrying until the NAS has internet. |
-| It finds no printers | Same network? If not, add them by IP. If the DSM firewall is on, allow BolloPrint Agent's ports (it's in the list of applications when you create a rule). |
+| It finds no printers | Same network? If not, add them by IP. If you've just switched one on, click **Search now**. If the DSM firewall is on, allow BolloPrint Agent's ports (it's in the list of applications when you create a rule). |
 
 ## Prefer Docker?
 

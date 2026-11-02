@@ -69,9 +69,10 @@ y elige **Synology**.
 
 Hay un botón de descarga por tipo de procesador: **Intel o AMD (64 bits)**,
 **ARM (64 bits)** y **ARM (32 bits)**. Pulsa el tuyo. Se descarga un fichero que
-acaba en `.spk`: es un paquete de DSM.
+acaba en `.spk`: es un paquete de DSM. Si no sabes cuál, el enlace que hay justo
+debajo de los botones te lleva a la web de Synology para mirarlo en tu modelo.
 
-<!-- SCREENSHOT: 01-new-agent-synology.png — la misma captura que en en.md (interfaz en inglés). -->
+![Nuevo agente → Synology en BolloPrint: tres botones de descarga, uno por tipo de procesador, y debajo los tres pasos de instalación](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
 Fíjate en lo que **no** hay en esa pantalla: ni código, ni clave, nada que
 crear. El agente nace cuando lo vinculas, en el paso 3.
@@ -131,7 +132,7 @@ En BolloPrint, **Configuración → Impresoras → Agente local**: ahí está el
 con el nombre de tu NAS y el logo de Synology, **En línea**. Esa es la buena:
 significa que el circuito entero funciona.
 
-<!-- SCREENSHOT: 06-agent-online.png — la misma captura que en en.md. -->
+![El agente de Synology En línea en Configuración → Impresoras → Agente local, con las impresoras que ha encontrado en la red local debajo](/blog/media/2026-09-10-agente-synology/06-agent-online.png)
 
 En un minuto o así empieza a encontrar impresoras en tu red. Salen en
 **Impresoras por red local** y las das de alta desde ahí; las que no aparezcan
@@ -140,11 +141,16 @@ solas, con **Añadir por IP**. Marca por marca, todo está en el
 
 ## Actualizarlo
 
-Actualizar es **instalar el paquete nuevo encima del que tienes**: vuelve a
-descargarlo desde el mismo sitio en BolloPrint y, en el **Centro de paquetes →
-Instalación manual**, elige el fichero nuevo. DSM ve que ya está instalado y lo
-actualiza, sin volver a preguntar el puerto. El agente sigue vinculado al mismo
-taller, con las mismas impresoras y todo su historial.
+**Casi nunca tienes que hacer nada:** el agente se actualiza solo. Cuando sale
+una versión nueva, la descarga, comprueba que es nuestra y se reinicia con ella.
+
+Solo si BolloPrint te dice que el agente necesita una **actualización manual**
+la haces tú, y es **instalar el paquete nuevo encima del que tienes**: vuelve a
+descargarlo desde el mismo sitio en BolloPrint (**Agente local → Nuevo agente →
+Synology**) y, en el **Centro de paquetes → Instalación manual**, elige el
+fichero nuevo. DSM ve que ya está instalado y lo actualiza, sin volver a
+preguntar el puerto. El agente sigue vinculado al mismo taller, con las mismas
+impresoras y todo su historial. No hay que volver a vincular nada.
 
 Cuando el paquete esté en el catálogo del Centro de paquetes de Synology, el
 propio Centro de paquetes te avisará y actualizar será un clic.
@@ -164,10 +170,15 @@ impresoras, y se mueven con todo su historial.
    agente.
 2. Abre cada impresora con **Editar** en su menú **⋮** y cámbiala al agente
    nuevo.
-3. Cuando el antiguo se quede sin impresoras, **elimínalo** desde su fila.
+3. Cuando el antiguo se quede sin impresoras, **elimínalo** desde el menú **⋮**
+   de su fila.
 
 Para quitar el agente del todo: en DSM, **Centro de paquetes → BolloPrint Agent
-→ Acción → Desinstalar**, y luego elimina el agente en BolloPrint.
+→ Acción → Desinstalar**, y luego **elimina** el agente desde su menú **⋮** en
+BolloPrint. Al revés también vale: en cuanto lo eliminas en BolloPrint, el
+agente se da cuenta, olvida su vinculación y su página vuelve a ofrecer **Vincular
+con BolloPrint**. En ningún caso se pierde nada: si más adelante vuelves a añadir
+una de sus impresoras, vuelve con su número y su historial.
 
 ## Si algo no sale
 
@@ -178,8 +189,9 @@ Para quitar el agente del todo: en DSM, **Centro de paquetes → BolloPrint Agen
 | Al abrir BolloPrint Agent te pide iniciar sesión en DSM | Ábrelo desde el menú principal de DSM, con la sesión de un administrador. |
 | La página dice que el agente no responde | El paquete está parado o arrancando. En el Centro de paquetes, **Acción → Ejecutar**, y espera unos segundos. |
 | Al vincular no sale tu taller | Solo salen los talleres de los que eres **dueño**. Pide al dueño que lo vincule. |
+| «Este enlace de vinculación no es válido», o ha caducado | Vuelve a la página del agente y pulsa otra vez **Vincular con BolloPrint**. |
 | Tras reiniciar el NAS tarda en volver | Dale unos minutos: arranca con DSM y reintenta solo hasta que el NAS tiene internet. |
-| No encuentra ninguna impresora | ¿Misma red? Si no, añádelas por IP. Si tienes el cortafuegos de DSM activado, permite los puertos de BolloPrint Agent (sale en la lista de aplicaciones al crear una regla). |
+| No encuentra ninguna impresora | ¿Misma red? Si no, añádelas por IP. Si acabas de encender una, pulsa **Buscar ahora**. Si tienes el cortafuegos de DSM activado, permite los puertos de BolloPrint Agent (sale en la lista de aplicaciones al crear una regla). |
 
 ## ¿Prefieres Docker?
 

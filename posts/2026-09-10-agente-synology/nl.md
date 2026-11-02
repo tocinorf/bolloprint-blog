@@ -73,7 +73,7 @@ Er is een downloadknop per type processor: **Intel of AMD (64-bit)**,
 **ARM (64-bit)** en **ARM (32-bit)**. Klik op de jouwe. Je krijgt een bestand
 dat eindigt op `.spk`: dat is een DSM-pakket.
 
-<!-- SCREENSHOT: 01-new-agent-synology.png — BolloPrint (English UI, light mode) Settings → Printers → Local agent → New agent → Synology: the Synology card with the Beta chip, the three download buttons (Intel or AMD (64-bit), ARM (64-bit), ARM (32-bit)) and the «How to install it» steps. -->
+![Nieuwe agent → Synology in BolloPrint: drie downloadknoppen, één per type processor, en daaronder de drie installatiestappen](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
 Let op wat er **niet** op dat scherm staat: geen code, geen sleutel, niets om aan
 te maken. De agent ontstaat pas als je hem koppelt, in stap 3.
@@ -138,7 +138,7 @@ Ga in BolloPrint naar **Instellingen → Printers → Lokale agent**: daar staat
 agent met de naam van je NAS en het logo van Synology, **Online**. Dat is wat
 telt: het hele circuit werkt.
 
-<!-- SCREENSHOT: 06-agent-online.png — BolloPrint (English UI) Settings → Printers → Local agent: the list of agents with the Synology one (NAS name, Synology logo) Online and its version; ideally the «Printers on the local network» section below showing what it found. -->
+![De Synology-agent Online in Instellingen → Printers → Lokale agent, met daaronder de printers die hij op het lokale netwerk heeft gevonden](/blog/media/2026-09-10-agente-synology/06-agent-online.png)
 
 Binnen ongeveer een minuut begint hij printers op je netwerk te vinden. Ze
 verschijnen bij **Printers op het lokale netwerk** en van daaruit voeg je ze

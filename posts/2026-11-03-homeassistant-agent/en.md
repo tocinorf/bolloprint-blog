@@ -32,7 +32,7 @@ The Home Assistant app is in beta. If something doesn't look right, tell us from
 - **Home Assistant OS**. That's the installation type with an app store. If your
   Home Assistant runs in Docker ("Container"), it has no apps: install the agent
   with Docker instead, as explained in
-  [Deploy the agent](/help/desplegar-el-agente).
+  [Agent on Docker](/help/agente-en-docker).
 - **A 64-bit machine**: a mini-PC or PC with an Intel or AMD processor, a
   Raspberry Pi 4 or 5, or a Home Assistant Green or Yellow. A Raspberry Pi 3 or
   any 32-bit system won't do.

@@ -1,7 +1,7 @@
 ---
 slug: install-bolloprint-agent-windows
 title: "Install the BolloPrint agent on a Windows PC"
-description: Got a Windows PC in the workshop that never gets switched off? That's all the agent needs. Download the installer from BolloPrint, click through it, press Link with BolloPrint, and your printers show up. No codes, no Docker, no router changes.
+description: Got a Windows PC in the workshop that never gets switched off? That's all the agent needs. Download the installer from BolloPrint, click through it, press Link with BolloPrint, and your printers show up. Nothing to copy, no Docker, no router changes.
 date: 2026-11-03
 updated: 2026-11-03
 tags: [tutorials]
@@ -43,10 +43,13 @@ workshop when you link it.
 ## 1. Download the installer from BolloPrint
 
 In BolloPrint, go to **Settings → Printers**, open the **Local agent** tab and
-click **New agent**. Pick **Windows** and click **Download for Windows**.
+click **New agent**. Under **With a package or an installer**, pick **Windows**
+and click **Download for Windows**.
 
-<!-- SCREENSHOT: 01-download.png — BolloPrint (English UI, dark theme) Settings → Printers → Local agent → New agent → Windows: the Windows card with the Beta badge, the «Download for Windows» button and the «How to install it» steps. -->
-![The Windows option in BolloPrint's New agent window, with the Download for Windows button](/blog/media/2026-11-03-windows-agent/01-download.png "75%")
+![The Windows card in BolloPrint's New agent window: the Download for Windows button and the three How to install it steps](/blog/media/2026-11-03-windows-agent/01-download.png "75%")
+
+The card sums up what follows in three steps. There's nothing to create or fill
+in there: the agent appears in that list on its own once you link it.
 
 Always download it from there: that's where the current version lives. If your
 browser says the file isn't commonly downloaded, choose **Keep**.
@@ -134,7 +137,8 @@ list, **Online**, with the Windows logo. The agent's page on your PC now says
 ![The Windows agent online in BolloPrint, with the printers it has found](/blog/media/2026-11-03-windows-agent/08-online.png)
 
 Within a few minutes, the printers it finds on your network start appearing
-under **Printers on the local network**. Add the ones you want: the
+under **Printers on the local network** (click **Search now** if you've just
+switched one on). Add the ones you want: the
 [local network tutorial](/blog/connect-printers-local-network-agent) walks you
 through each brand.
 
@@ -172,9 +176,15 @@ then add your printers to it. They move across with their whole history. Then
 delete the old agent in BolloPrint (**⋮** → **Delete** on its row) and
 uninstall it from the old PC.
 
+To remove it from your workshop, delete it in BolloPrint (**⋮** → **Delete** on
+its row). The agent notices within seconds and its page goes back to offering
+**Link with BolloPrint**; if you link it again, it comes in as a new agent.
+
 To uninstall it, right-click the BolloPrint icon → **Uninstall…**, or go to
 Windows **Settings → Apps → Installed apps**, find **BolloPrint Agent** and
-uninstall it from there.
+uninstall it from there. That removes the program, the service, the icon and its
+firewall permission. If you're not going to use it any more, delete it in
+BolloPrint too.
 
 ## Something not working?
 

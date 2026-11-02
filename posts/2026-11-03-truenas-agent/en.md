@@ -25,11 +25,6 @@ reference page, with troubleshooting, is
 [Agent on TrueNAS](/help/agente-en-truenas) in the user guide.
 :::
 
-:::warning Beta
-The TrueNAS agent is in **beta**: it works, but a step or two may still change.
-If something on your screen doesn't match, tell us.
-:::
-
 ## What you need
 
 - **TrueNAS 24.10 or later** (Community Edition). Older versions don't have
@@ -43,17 +38,18 @@ If something on your screen doesn't match, tell us.
   internet. That's all: no open ports, no fixed IP.
 
 :::info 💡 No, you won't have to touch the router
-The agent **dials out** on port 443, exactly like a browser opening a web page.
+The agent **dials out** to BolloPrint, exactly like a browser opening a web page.
 It never accepts connections from the internet.
 :::
 
 ## 1. Copy the YAML from BolloPrint
 
 In BolloPrint, go to **Settings → Printers → Local agent → New agent** and pick
-**TrueNAS**. You'll see three short steps and, below them, a box with the
-**YAML**: the text that tells TrueNAS what to install. Click **Copy**.
+**TrueNAS** under **With a package or an installer**. You'll see four short
+steps and, below them, a box with the **YAML**: the text that tells TrueNAS what
+to install. Click **Copy**.
 
-<!-- SCREENSHOT 01-bolloprint-new-agent-truenas.png: BolloPrint (English UI), Settings → Printers → Local agent → New agent → TrueNAS — the three steps, the yellow note and the YAML box with its Copy button. -->
+![New agent → TrueNAS in BolloPrint: the four installation steps and the YAML box with its Copy button](/blog/media/2026-11-03-truenas-agent/01-bolloprint-new-agent-truenas.png)
 
 There's nothing to create and no key to keep safe: the YAML is the same for
 every workshop. The agent is born when you link it, in step 3.
@@ -159,3 +155,10 @@ If something doesn't behave as described here, the
 [Agent on TrueNAS](/help/agente-en-truenas) page in the user guide has a
 troubleshooting table: a busy port, an app that won't start, an agent that shows
 as offline.
+
+## Related documentation
+
+- [Agent on TrueNAS](/help/agente-en-truenas): the full reference, with troubleshooting
+- [The local agent](/help/el-agente-local): what it is and which printers it connects
+- [Local network printers](/help/impresoras-por-red-local): adding each brand once the agent is online
+- [Agent on Docker](/help/agente-en-docker): if you'd rather run it on any computer with Docker

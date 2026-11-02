@@ -41,8 +41,8 @@ how long it took, or whether a print stopped at three in the morning. The NAS
 is on anyway.
 
 The rest comes free: it's on the printers' network, which is what lets the
-agent find them on its own, and it uses between 10 and 20 MB of memory. On a
-NAS nobody notices.
+agent find them on its own, and it's light — it doesn't need a powerful
+machine, and it sits next to everything else your NAS already runs.
 
 :::info 💡 You won't need to touch the router
 The agent **calls out**, the same way your browser does when you open a web

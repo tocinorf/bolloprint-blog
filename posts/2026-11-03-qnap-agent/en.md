@@ -194,5 +194,5 @@ help you with the rest.
 
 - [The agent on a QNAP](/help/agente-en-qnap): the full guide, with updating and troubleshooting
 - [The local agent](/help/el-agente-local): the full reference
-- [Deploying the agent](/help/desplegar-el-agente): if you'd rather use Container Station (Docker)
+- [Agent on Docker](/help/agente-en-docker): if you'd rather use Container Station (Docker)
 - [Compatible printers](/help/impresoras-compatibles): look up your model here

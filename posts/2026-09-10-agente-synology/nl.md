@@ -71,7 +71,9 @@ en kies **Synology**.
 
 Er is een downloadknop per type processor: **Intel of AMD (64-bit)**,
 **ARM (64-bit)** en **ARM (32-bit)**. Klik op de jouwe. Je krijgt een bestand
-dat eindigt op `.spk`: dat is een DSM-pakket.
+dat eindigt op `.spk`: dat is een DSM-pakket. Weet je niet welke, dan brengt de
+link vlak onder de knoppen je naar de website van Synology om het voor je model
+na te kijken.
 
 ![Nieuwe agent → Synology in BolloPrint: drie downloadknoppen, één per type processor, en daaronder de drie installatiestappen](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
@@ -148,12 +150,18 @@ IP**. Hoe dat per merk gaat, staat allemaal in de
 
 ## Bijwerken
 
-Bijwerken is **het nieuwe pakket installeren over het pakket dat je al hebt**:
-download het opnieuw vanaf dezelfde plek in BolloPrint en kies daarna in het
+**Je hoeft bijna nooit iets te doen:** de agent werkt zichzelf bij. Komt er een
+nieuwe versie uit, dan downloadt hij die, controleert hij dat ze van ons is en
+start hij ermee opnieuw op.
+
+Alleen als BolloPrint je laat weten dat je de agent **met de hand moet
+bijwerken**, doe je het zelf, en dan is het **het nieuwe pakket installeren over
+het pakket dat je al hebt**: download het opnieuw vanaf dezelfde plek in
+BolloPrint (**Lokale agent → Nieuwe agent → Synology**) en kies daarna in het
 **Pakketcentrum → Handmatige installatie** het nieuwe bestand. DSM ziet dat het
 al geïnstalleerd is en werkt het bij, zonder opnieuw naar de poort te vragen. De
 agent blijft gekoppeld aan dezelfde werkplaats, met dezelfde printers en hun hele
-geschiedenis.
+geschiedenis. Je hoeft niets opnieuw te koppelen.
 
 Zodra het pakket in de catalogus van het Pakketcentrum van Synology staat, laat
 het Pakketcentrum je dat zelf weten en is bijwerken één klik.
@@ -173,11 +181,16 @@ de printers, en die gaan mee met hun hele geschiedenis.
    tweede agent.
 2. Open elke printer met **Bewerken** in zijn menu **⋮** en zet hem over naar de
    nieuwe agent.
-3. Heeft de oude agent geen printers meer, **verwijder** hem dan vanuit zijn
-   regel.
+3. Heeft de oude agent geen printers meer, **verwijder** hem dan via het menu
+   **⋮** van zijn regel.
 
 Wil je de agent definitief weghalen: ga in DSM naar **Pakketcentrum → BolloPrint
-Agent → Actie → Verwijderen** en verwijder daarna de agent in BolloPrint.
+Agent → Actie → Verwijderen** en **verwijder** daarna de agent via zijn menu
+**⋮** in BolloPrint. Andersom werkt het ook: zodra je hem in BolloPrint
+verwijdert, merkt de agent dat, vergeet hij zijn koppeling en biedt zijn pagina
+weer **Koppelen met BolloPrint** aan. Hoe dan ook gaat er niets verloren: voeg je
+later een van zijn printers opnieuw toe, dan komt die terug met zijn nummer en
+zijn geschiedenis.
 
 ## Als er iets misgaat
 
@@ -188,8 +201,9 @@ Agent → Actie → Verwijderen** en verwijder daarna de agent in BolloPrint.
 | Bij het openen van BolloPrint Agent moet je inloggen op DSM | Open hem vanuit het hoofdmenu van DSM, ingelogd als beheerder. |
 | Op de pagina staat dat de agent niet reageert | Het pakket staat stil of is nog aan het opstarten. Klik in het Pakketcentrum op **Actie → Uitvoeren** en wacht een paar seconden. |
 | Je werkplaats staat niet in de lijst bij het koppelen | Je ziet alleen de werkplaatsen waarvan je **eigenaar** bent. Vraag de eigenaar om hem te koppelen. |
+| ‘Dit koppelverzoek is ongeldig’, of het is verlopen | Ga terug naar de pagina van de agent en klik opnieuw op **Koppelen met BolloPrint**. |
 | Na een herstart van de NAS duurt het even voordat hij terug is | Wacht een paar minuten: hij start op met DSM en blijft het proberen tot de NAS internet heeft. |
-| Hij vindt geen printers | Zelfde netwerk? Zo niet, voeg ze dan toe via IP. Staat de firewall van DSM aan, sta dan de poorten van BolloPrint Agent toe (hij staat in de lijst met toepassingen als je een regel aanmaakt). |
+| Hij vindt geen printers | Zelfde netwerk? Zo niet, voeg ze dan toe via IP. Heb je er net een aangezet, klik dan op **Nu zoeken**. Staat de firewall van DSM aan, sta dan de poorten van BolloPrint Agent toe (hij staat in de lijst met toepassingen als je een regel aanmaakt). |
 
 ## Liever Docker?
 

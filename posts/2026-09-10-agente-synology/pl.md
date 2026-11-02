@@ -69,7 +69,8 @@ i wybierz **Synology**.
 
 Jest tam jeden przycisk pobierania dla każdego typu procesora: **Intel lub AMD
 (64-bit)**, **ARM (64-bit)** i **ARM (32-bit)**. Kliknij swój. Pobierzesz plik
-z końcówką `.spk`, czyli pakiet DSM.
+z końcówką `.spk`, czyli pakiet DSM. Jeśli nie wiesz który, link tuż pod
+przyciskami zaprowadzi cię na stronę Synology, gdzie sprawdzisz swój model.
 
 ![Nowy agent → Synology w BolloPrint: trzy przyciski pobierania, po jednym na typ procesora, a pod nimi trzy kroki instalacji](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
@@ -141,11 +142,17 @@ w [poradniku o sieci lokalnej](/blog/connect-printers-local-network-agent).
 
 ## Aktualizacja
 
-Aktualizacja to **zainstalowanie nowego pakietu na ten, który już masz**: pobierz
-go ponownie z tego samego miejsca w BolloPrint, a potem **Centrum pakietów →
-Instalacja ręczna** z nowym plikiem. DSM widzi, że pakiet jest już
-zainstalowany, i go aktualizuje, nie pytając ponownie o port. Agent pozostaje
-powiązany z tym samym warsztatem, z tymi samymi drukarkami i całą ich historią.
+**Prawie nigdy nie musisz nic robić:** agent aktualizuje się sam. Gdy wychodzi
+nowa wersja, pobiera ją, sprawdza, czy pochodzi od nas, i uruchamia się z nią
+ponownie.
+
+Tylko jeśli BolloPrint poinformuje cię, że agent wymaga **ręcznej aktualizacji**,
+robisz to sam, a polega to na **zainstalowaniu nowego pakietu na ten, który już
+masz**: pobierz go ponownie z tego samego miejsca w BolloPrint (**Agent lokalny →
+Nowy agent → Synology**), a potem **Centrum pakietów → Instalacja ręczna** z
+nowym plikiem. DSM widzi, że pakiet jest już zainstalowany, i go aktualizuje, nie
+pytając ponownie o port. Agent pozostaje powiązany z tym samym warsztatem, z tymi
+samymi drukarkami i całą ich historią. Nie trzeba niczego powiązywać od nowa.
 
 Gdy pakiet trafi do katalogu Centrum pakietów Synology, Centrum pakietów samo
 cię powiadomi, a aktualizacja będzie kwestią jednego kliknięcia.
@@ -164,10 +171,15 @@ drukarki, i to z całą swoją historią.
 1. Zainstaluj pakiet na nowym NAS-ie i go powiąż. Pojawi się jako drugi agent.
 2. Otwórz każdą drukarkę przez **Edytuj** w jej menu **⋮** i przełącz ją na
    nowego agenta.
-3. Gdy stary agent nie będzie miał już drukarek, **Usuń** go z jego wiersza.
+3. Gdy stary agent nie będzie miał już drukarek, **Usuń** go z menu **⋮** w jego
+   wierszu.
 
 Żeby usunąć agenta na dobre: w DSM **Centrum pakietów → BolloPrint Agent →
-Akcja → Odinstaluj**, a potem usuń agenta w BolloPrint.
+Akcja → Odinstaluj**, a potem **Usuń** agenta z jego menu **⋮** w BolloPrint.
+W odwrotnej kolejności też to zadziała: gdy usuniesz go w BolloPrint, agent to
+zauważy, zapomni swoje powiązanie, a jego strona znów zaproponuje **Powiąż z
+BolloPrint**. Tak czy inaczej nic nie przepada: jeśli później ponownie dodasz
+którąś z jego drukarek, wróci ona ze swoim numerem i swoją historią.
 
 ## Gdy coś nie działa
 
@@ -178,8 +190,9 @@ Akcja → Odinstaluj**, a potem usuń agenta w BolloPrint.
 | Otwarcie BolloPrint Agent prosi o zalogowanie do DSM | Otwórz go z menu głównego DSM, zalogowany jako administrator. |
 | Strona mówi, że agent nie odpowiada | Pakiet jest zatrzymany albo jeszcze się uruchamia. W Centrum pakietów kliknij **Akcja → Uruchom** i daj mu kilka sekund. |
 | Przy powiązywaniu nie ma twojego warsztatu na liście | Widzisz tylko warsztaty, których jesteś **właścicielem**. Poproś właściciela, żeby go powiązał. |
+| „To żądanie powiązania jest nieprawidłowe” albo wygasło | Wróć na stronę agenta i ponownie kliknij **Powiąż z BolloPrint**. |
 | Po restarcie NAS-a długo nie wraca | Daj mu kilka minut: uruchamia się razem z DSM i ponawia próby, dopóki NAS nie ma internetu. |
-| Nie znajduje żadnej drukarki | Ta sama sieć? Jeśli nie, dodaj je po IP. Jeśli zapora DSM jest włączona, zezwól na porty BolloPrint Agent (jest na liście aplikacji przy tworzeniu reguły). |
+| Nie znajduje żadnej drukarki | Ta sama sieć? Jeśli nie, dodaj je po IP. Jeśli któraś została właśnie włączona, kliknij **Szukaj teraz**. Jeśli zapora DSM jest włączona, zezwól na porty BolloPrint Agent (jest na liście aplikacji przy tworzeniu reguły). |
 
 ## Wolisz Dockera?
 

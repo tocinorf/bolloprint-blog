@@ -69,7 +69,9 @@ zvolte **Synology**.
 
 Pro každý typ procesoru je tu jedno tlačítko ke stažení:
 **Intel nebo AMD (64 bitů)**, **ARM (64 bitů)** a **ARM (32 bitů)**. Klikněte na
-to svoje. Stáhne se soubor s příponou `.spk`, což je balíček DSM.
+to svoje. Stáhne se soubor s příponou `.spk`, což je balíček DSM. Pokud si
+nejste jistí, který to je, odkaz hned pod tlačítky vás zavede na web Synology,
+kde si to u svého modelu ověříte.
 
 ![Nový agent → Synology v BolloPrint: tři tlačítka ke stažení, jedno pro každý typ procesoru, a pod nimi tři kroky instalace](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
 
@@ -142,11 +144,16 @@ Zhruba do minuty začne hledat tiskárny ve vaší síti. Zobrazí se v sekci
 
 ## Aktualizace
 
-Aktualizovat znamená **nainstalovat nový balíček přes ten, který už máte**:
-stáhněte ho znovu ze stejného místa v BolloPrint a pak v
-**Centrum balíčků → Ruční instalace** vyberte nový soubor. DSM pozná, že už je
-nainstalovaný, a aktualizuje ho, aniž by se znovu ptal na port. Agent zůstane
-propojený se stejnou dílnou, se stejnými tiskárnami a celou jejich historií.
+**Skoro nikdy nemusíte nic dělat:** agent se aktualizuje sám. Když vyjde nová
+verze, stáhne ji, ověří, že je od nás, a restartuje se s ní.
+
+Jen pokud vám BolloPrint oznámí, že agenta je potřeba **aktualizovat ručně**,
+uděláte to sami, a znamená to **nainstalovat nový balíček přes ten, který už
+máte**: stáhněte ho znovu ze stejného místa v BolloPrint (**Místní agent → Nový
+agent → Synology**) a pak v **Centrum balíčků → Ruční instalace** vyberte nový
+soubor. DSM pozná, že už je nainstalovaný, a aktualizuje ho, aniž by se znovu
+ptal na port. Agent zůstane propojený se stejnou dílnou, se stejnými tiskárnami a
+celou jejich historií. Nic není potřeba znovu propojovat.
 
 Jakmile bude balíček v katalogu Centra balíčků Synology, Centrum balíčků vás na
 novou verzi upozorní samo a aktualizace bude otázkou jednoho kliknutí.
@@ -165,11 +172,15 @@ celou svou historií.
 1. Nainstalujte balíček na nový NAS a propojte ho. Zobrazí se jako druhý agent.
 2. Otevřete každou tiskárnu přes **Upravit** v její nabídce **⋮** a přepněte ji
    na nového agenta.
-3. Jakmile starému agentovi nezůstane žádná tiskárna, **smažte** ho na jeho
-   řádku.
+3. Jakmile starému agentovi nezůstane žádná tiskárna, **smažte** ho z nabídky
+   **⋮** na jeho řádku.
 
 Pokud chcete agenta odebrat úplně: v DSM zvolte **Centrum balíčků → BolloPrint
-Agent → Akce → Odinstalovat** a pak agenta smažte v BolloPrint.
+Agent → Akce → Odinstalovat** a pak agenta v BolloPrint **smažte** z jeho
+nabídky **⋮**. Funguje to i obráceně: jakmile ho v BolloPrint smažete, agent to
+pozná, zapomene své propojení a jeho stránka znovu nabídne **Propojit s
+BolloPrint**. V žádném případě se nic neztratí: pokud později některou z jeho
+tiskáren znovu přidáte, vrátí se se svým číslem a svou historií.
 
 ## Když něco nefunguje
 
@@ -180,8 +191,9 @@ Agent → Akce → Odinstalovat** a pak agenta smažte v BolloPrint.
 | Při otevření BolloPrint Agent se zobrazí výzva k přihlášení do DSM | Otevřete ho z hlavní nabídky DSM, přihlášeni jako správce. |
 | Stránka hlásí, že agent neodpovídá | Balíček je zastavený nebo se ještě spouští. V Centru balíčků zvolte **Akce → Spustit** a počkejte několik sekund. |
 | Při propojování se vaše dílna v seznamu nezobrazí | Vidíte jen dílny, jejichž jste **vlastníkem**. Požádejte vlastníka, aby agenta propojil. |
+| „Tento požadavek na propojení není platný“ nebo vypršel | Vraťte se na stránku agenta a znovu klikněte na **Propojit s BolloPrint**. |
 | Po restartu NAS chvíli trvá, než se agent vrátí | Dejte mu pár minut: spouští se spolu s DSM a zkouší to znovu, dokud NAS nemá internet. |
-| Nenajde žádnou tiskárnu | Jsou ve stejné síti? Pokud ne, přidejte je podle IP. Pokud máte zapnutou bránu firewall v DSM, povolte porty BolloPrint Agent (najdete ho v seznamu aplikací při vytváření pravidla). |
+| Nenajde žádnou tiskárnu | Jsou ve stejné síti? Pokud ne, přidejte je podle IP. Pokud jste nějakou právě zapnuli, klikněte na **Hledat nyní**. Pokud máte zapnutou bránu firewall v DSM, povolte porty BolloPrint Agent (najdete ho v seznamu aplikací při vytváření pravidla). |
 
 ## Raději Docker?
 

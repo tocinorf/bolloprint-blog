@@ -185,7 +185,7 @@ Akcja → Odinstaluj**, a potem usuń agenta w BolloPrint.
 
 Jeśli na twoim NAS-ie działa już Container Manager i wolisz trzymać wszystko
 w kontenerach, agent działa też jako kontener. Kroki znajdziesz w
-[Wdrażanie agenta](/help/desplegar-el-agente). W większości warsztatów pakiet
+[Agent w Dockerze](/help/agente-en-docker). W większości warsztatów pakiet
 jest prostszy: to aplikacja DSM jak każda inna, powiązana jednym kliknięciem.
 
 ## Powiązana dokumentacja

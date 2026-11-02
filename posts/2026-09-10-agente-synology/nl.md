@@ -195,7 +195,7 @@ Agent → Actie → Verwijderen** en verwijder daarna de agent in BolloPrint.
 
 Draait Container Manager al op je NAS en houd je alles liever in containers, dan
 kan de agent ook als container draaien. De stappen staan in
-[De agent installeren](/help/desplegar-el-agente). Voor de meeste werkplaatsen
+[Agent in Docker](/help/agente-en-docker). Voor de meeste werkplaatsen
 is het pakket eenvoudiger: het is een DSM-app zoals elke andere, en je koppelt
 hem met één klik.
 

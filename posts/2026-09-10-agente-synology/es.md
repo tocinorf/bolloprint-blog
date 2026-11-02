@@ -185,7 +185,7 @@ Para quitar el agente del todo: en DSM, **Centro de paquetes → BolloPrint Agen
 
 Si tu NAS ya usa Container Manager y prefieres tenerlo todo en contenedores, el
 agente también funciona como contenedor. Los pasos están en
-[Desplegar el agente](/help/desplegar-el-agente). Para la mayoría de talleres el
+[Agente en Docker](/help/agente-en-docker). Para la mayoría de talleres el
 paquete es más sencillo: es una aplicación de DSM como cualquier otra y se
 vincula con un clic.
 

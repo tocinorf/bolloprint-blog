@@ -187,7 +187,7 @@ Agent → Akce → Odinstalovat** a pak agenta smažte v BolloPrint.
 
 Pokud na vašem NAS už běží Container Manager a chcete mít všechno v
 kontejnerech, agent běží i jako kontejner. Postup najdete v článku
-[Nasazení agenta](/help/desplegar-el-agente). Pro většinu dílen je ale balíček
+[Agent v Dockeru](/help/agente-en-docker). Pro většinu dílen je ale balíček
 jednodušší: je to aplikace DSM jako každá jiná a propojí se jedním kliknutím.
 
 ## Další čtení

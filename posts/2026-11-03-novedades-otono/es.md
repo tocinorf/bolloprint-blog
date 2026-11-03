@@ -195,7 +195,4 @@ Si quieres más detalles de cómo funciona, lo tienes todo en el [manual](/help)
 Y no paramos, seguimos trabajando cada día para hacer de BolloPrint la mejor
 herramienta para tu taller de impresión 3D.
 
-Un abrazo,\
-**El equipo de BolloPrint**
-
 ![Bollo, la mascota de BolloPrint, con gafas de taller y su cinturón de herramientas, sobre un plano](/blog/media/2026-11-03-novedades-otono/01-bollo.webp "60%")

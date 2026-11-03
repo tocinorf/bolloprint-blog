@@ -154,7 +154,7 @@ progreso.
 
 ## ✨ Y además, porque los pequeños cambios también se notan
 
-| | |
+| Dónde | Qué cambia |
 |---|---|
 | **Pantallas** | Mientras algo carga ves su forma, nunca una lista vacía falsa; si falla, un «Reintentar». Los filtros son iguales en todos los listados, también en el móvil. |
 | **Subidas** | Cada archivo enseña su progreso y se reintenta solo tras un corte de red. Los ficheros laminados pueden pesar hasta 5 GB. |
@@ -167,7 +167,7 @@ progreso.
 
 ## 📍 Dónde estamos
 
-| | |
+| Qué | Dónde y cuánto |
 |---|---|
 | 🧾 **Facturas legales en 11 países** | 🇩🇪 Alemania · 🇦🇹 Austria · 🇨🇿 Chequia · 🇨🇾 Chipre · 🇮🇪 Irlanda · 🇱🇺 Luxemburgo · 🇳🇱 Países Bajos · 🇵🇱 Polonia · 🇬🇧 Reino Unido · 🇸🇪 Suecia · 🇨🇭 Suiza |
 | 🌍 **Un taller se abre desde 53 países de Europa** | Con su moneda, sus impuestos y sus transportistas. Se paga en euros, libras, złotys o coronas checas. |

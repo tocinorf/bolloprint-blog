@@ -16,7 +16,7 @@ día a día más cómodo. Aquí tienes lo más importante.
 
 ## Empezamos por lo más interesante, lo que mejora cómo trabajas
 
-### El agente local, ahora sin saber de contenedores
+### 1. El agente local, ahora sin saber de contenedores
 
 Sabemos que usar Docker puede ser complicado. Así que ahora es más fácil. Instala
 el agente en lo que ya tienes: tu NAS, el ordenador del taller o tu Home Assistant.
@@ -39,7 +39,9 @@ Lo encuentras en **Configuración → Impresoras → Agente local → «Nuevo ag
 [Cómo instalar el agente](/help/el-agente-local)
 :::
 
-### Tus impresoras, mejor vistas y mejor contadas
+---
+
+### 2. Tus impresoras, mejor vistas y mejor contadas
 
 - **Cámara en directo** y una foto final de cada impresión en su historial.
 - **Cada impresión lo cuenta todo**: cuánto tardó frente a lo previsto, cada bobina con su hueco del AMS, y el nombre del diseño de MakerWorld con su enlace.
@@ -51,7 +53,9 @@ Lo encuentras en **Configuración → Impresoras → Agente local → «Nuevo ag
 
 [Ver las impresoras compatibles](/help/impresoras-compatibles)
 
-### Migración Smart
+---
+
+### 3. Migración Smart
 
 Trae clientes, diseños, piezas, productos, pedidos, presupuestos y stock, desde las
 carpetas y hojas de cálculo de tu ordenador. BolloPrint lee lo que traes y te
@@ -63,7 +67,9 @@ Son tres pasos: **Preparar · Entender · Migrar**. Desde el plan Pro, en Chrome
 Edge de escritorio. En Max y Business, si prefieres, lo hacemos nosotros por ti.
 :::
 
-### Facturas legales desde el pedido
+---
+
+### 4. Facturas legales desde el pedido
 
 Emite la factura de un pedido sin salir de BolloPrint: con su numeración, su
 impuesto y tu logo. Antes de emitir ves la factura **exactamente como saldrá**, y
@@ -84,7 +90,9 @@ contaremos.
 
 [Ver los países con facturación](/help/paises-con-facturacion)
 
-### Presupuestos más profesionales
+---
+
+### 5. Presupuestos más profesionales
 
 - El PDF del presupuesto tiene **forma de factura**: número, fecha, validez y, en
   los planes de pago, con tu propio logo.
@@ -95,7 +103,9 @@ contaremos.
 
 [Ver los presupuestos](/help/presupuestos)
 
-### Un Financiero totalmente nuevo
+---
+
+### 6. Un Financiero totalmente nuevo
 
 Seis pestañas donde ver tus ingresos, tus gastos, tus impuestos y tu beneficio en
 el periodo que quieras (mensual, trimestral, anual…).
@@ -110,7 +120,9 @@ que pagar en cada periodo.
 
 [Ver el Financiero](/help/financiero)
 
-### «Avisos»: los problemas de tu taller, de un vistazo
+---
+
+### 7. «Avisos»: los problemas de tu taller, de un vistazo
 
 Una impresora parada con un error, una tienda de Etsy desconectada, un cobro que no
 ha pasado, el almacenamiento casi lleno… Solo te avisamos de lo que de verdad pide
@@ -120,7 +132,9 @@ Puedes silenciar un aviso unos días o para siempre. Los rojos, los que paran al
 importante, solo se los mostramos en rojo a quien puede arreglarlo; el resto del
 equipo los ve con un «Avísale al dueño».
 
-### Exporta tu inventario, en Excel o en PDF
+---
+
+### 8. Exporta tu inventario, en Excel o en PDF
 
 Ahora puedes sacar un listado de lo que tienes en tu almacén: stock, filamentos,
 resinas, suministros…
@@ -133,7 +147,9 @@ resinas, suministros…
 En todos los planes, y siempre con todas las filas, no solo las que tienes en
 pantalla.
 
-### En tu idioma y a tu manera
+---
+
+### 9. En tu idioma y a tu manera
 
 BolloPrint ya habla **🇵🇱 polaco, 🇳🇱 neerlandés y 🇨🇿 checo**. Con estos, sumamos nueve
 idiomas en total.

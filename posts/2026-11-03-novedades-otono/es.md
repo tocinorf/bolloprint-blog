@@ -142,7 +142,7 @@ pantalla.
 
 ## 🌍 En tu idioma y a tu manera
 
-BolloPrint ya habla **polaco, neerlandés y checo**. Con estos, sumamos nueve
+BolloPrint ya habla **🇵🇱 polaco, 🇳🇱 neerlandés y 🇨🇿 checo**. Con estos, sumamos nueve
 idiomas en total.
 
 Las fechas y los importes se escriben **como en el país de tu taller**, en

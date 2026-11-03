@@ -1,7 +1,7 @@
 ---
 slug: whats-new-september-november-2026
-title: Siete semanas, más de 400 mejoras para tu taller
-description: Todo lo nuevo en BolloPrint del 14 de septiembre al 3 de noviembre de 2026, de las facturas legales y el Financiero nuevo al agente local sin contenedores.
+title: "¡BolloPrint se actualiza! Las novedades que te ayudan con tu taller de impresión 3D"
+description: "Todo lo nuevo en BolloPrint del 14 de septiembre al 3 de noviembre de 2026: desde el agente local sin contenedores a las facturas legales y el Financiero nuevo."
 date: 2026-11-03
 tags: [novedades]
 cover: 01-bollo.webp
@@ -14,9 +14,9 @@ día a día más cómodo. Aquí tienes lo más importante.
 
 ![En siete semanas: más de 400 mejoras que se notan, más de 250 cambios en pantalla, unos 190 fallos arreglados, 11 países con facturas legales, 9 idiomas en la app y 102 impresoras de 15 marcas](/blog/media/2026-11-03-novedades-otono/02-cifras-es.webp)
 
-Empezamos por **lo más interesante**, lo que mejora cómo trabajas.
+## Empezamos por lo más interesante, lo que mejora cómo trabajas
 
-## 🔌 El agente local, ahora sin saber de contenedores
+### El agente local, ahora sin saber de contenedores
 
 Sabemos que usar Docker puede ser complicado. Así que ahora es más fácil. Instala
 el agente en lo que ya tienes: tu NAS, el ordenador del taller o tu Home Assistant.
@@ -39,40 +39,31 @@ Lo encuentras en **Configuración → Impresoras → Agente local → «Nuevo ag
 [Cómo instalar el agente](/help/el-agente-local)
 :::
 
-## 🖨️ Tus impresoras, mejor vistas y mejor contadas
+### Tus impresoras, mejor vistas y mejor contadas
 
-**Cámara en directo** y una foto final de cada impresión en su historial.
-
-**Cada impresión lo cuenta todo**: cuánto tardó frente a lo previsto, cada bobina
-con su hueco del AMS, y el nombre del diseño de MakerWorld con su enlace.
-
-**Lo gastado, de verdad**: una impresión fallida o cancelada ya no se cuenta
-entera, y las de resina apuntan sus mililitros.
-
-**Bambu Lab**, por la nube sin contraseña (tu email y un código, y la sesión se
-renueva sola) y por red local con pausar, reanudar y cancelar desde BolloPrint,
-con el Modo desarrollador activado.
-
-**Añadir por IP** es ahora un asistente por marca; ya no hace falta saber qué
-«protocolo» habla tu máquina. Y el agente local se actualiza solo, nunca a mitad
-de una impresión, y cada marca de impresora mejora por su cuenta.
-
-**Anycubic** (Kobra 3, S1, 4 y X) y **Creality** con su firmware de fábrica (K1,
-K2, Ender-3 V3 y Hi) se suman, en beta.
+- **Cámara en directo** y una foto final de cada impresión en su historial.
+- **Cada impresión lo cuenta todo**: cuánto tardó frente a lo previsto, cada bobina con su hueco del AMS, y el nombre del diseño de MakerWorld con su enlace.
+- **Lo gastado, de verdad**: una impresión fallida o cancelada ya no se cuenta entera, y las de resina apuntan sus mililitros.
+- **Bambu Lab**, por la nube sin contraseña (tu email y un código, y la sesión se renueva sola) y por red local con pausar, reanudar y cancelar desde BolloPrint, con el Modo desarrollador activado.
+- **Añadir por IP** es ahora un asistente por marca; ya no hace falta saber qué «protocolo» habla tu máquina.
+- **El agente local se actualiza solo**, nunca a mitad de una impresión, y cada marca de impresora mejora por su cuenta.
+- **Anycubic** (Kobra 3, S1, 4 y X) y **Creality** con su firmware de fábrica (K1, K2, Ender-3 V3 y Hi) se suman, en beta.
 
 [Ver las impresoras compatibles](/help/impresoras-compatibles)
 
-## 📦 Migración Smart
+### Migración Smart
 
 Trae clientes, diseños, piezas, productos, pedidos, presupuestos y stock, desde las
 carpetas y hojas de cálculo de tu ordenador. BolloPrint lee lo que traes y te
 propone cómo encaja; tú lo revisas antes de que entre nada, y si te equivocas, se
 deshace.
 
+:::warning
 Son tres pasos: **Preparar · Entender · Migrar**. Desde el plan Pro, en Chrome o
 Edge de escritorio. En Max y Business, si prefieres, lo hacemos nosotros por ti.
+:::
 
-## 🧾 Facturas legales desde el pedido
+### Facturas legales desde el pedido
 
 Emite la factura de un pedido sin salir de BolloPrint: con su numeración, su
 impuesto y tu logo. Antes de emitir ves la factura **exactamente como saldrá**, y
@@ -93,7 +84,7 @@ contaremos.
 
 [Ver los países con facturación](/help/paises-con-facturacion)
 
-## 📄 Presupuestos más profesionales
+### Presupuestos más profesionales
 
 - El PDF del presupuesto tiene **forma de factura**: número, fecha, validez y, en
   los planes de pago, con tu propio logo.
@@ -102,7 +93,9 @@ contaremos.
 - Fichas de cliente **Particular o Empresa**, y unos datos fiscales más sencillos.
 - Creación automática de un **pedido al aceptar** el presupuesto.
 
-## 💰 Un Financiero totalmente nuevo
+[Ver los presupuestos](/help/presupuestos)
+
+### Un Financiero totalmente nuevo
 
 Seis pestañas donde ver tus ingresos, tus gastos, tus impuestos y tu beneficio en
 el periodo que quieras (mensual, trimestral, anual…).
@@ -117,7 +110,7 @@ que pagar en cada periodo.
 
 [Ver el Financiero](/help/financiero)
 
-## 🔔 «Avisos»: los problemas de tu taller, de un vistazo
+### «Avisos»: los problemas de tu taller, de un vistazo
 
 Una impresora parada con un error, una tienda de Etsy desconectada, un cobro que no
 ha pasado, el almacenamiento casi lleno… Solo te avisamos de lo que de verdad pide
@@ -127,7 +120,7 @@ Puedes silenciar un aviso unos días o para siempre. Los rojos, los que paran al
 importante, solo se los mostramos en rojo a quien puede arreglarlo; el resto del
 equipo los ve con un «Avísale al dueño».
 
-## 📊 Exporta tu inventario, en Excel o en PDF
+### Exporta tu inventario, en Excel o en PDF
 
 Ahora puedes sacar un listado de lo que tienes en tu almacén: stock, filamentos,
 resinas, suministros…
@@ -140,7 +133,7 @@ resinas, suministros…
 En todos los planes, y siempre con todas las filas, no solo las que tienes en
 pantalla.
 
-## 🌍 En tu idioma y a tu manera
+### En tu idioma y a tu manera
 
 BolloPrint ya habla **🇵🇱 polaco, 🇳🇱 neerlandés y 🇨🇿 checo**. Con estos, sumamos nueve
 idiomas en total.
@@ -152,7 +145,7 @@ Y hay un **Inicio nuevo** que empieza por lo urgente, con «Crear nuevo» para u
 pedido, un presupuesto o una creación rápida, y «Primeros pasos» con su barra de
 progreso.
 
-## ✨ Y además, porque los pequeños cambios también se notan
+## Y además, porque los pequeños cambios también se notan
 
 | Dónde | Qué cambia |
 |---|---|
@@ -165,7 +158,7 @@ progreso.
 | **Manual y blog** | El manual pasa de 49 a 70 páginas, en los nueve idiomas, y en el blog hay seis artículos nuevos: del agente local a qué cuesta de verdad una pieza. |
 | **El día a día** | La app aguanta mejor los picos, vuelve sola tras un corte de red, el traductor de Chrome ya no la rompe y una impresora cuyo agente se apaga a mitad ya no deja impresiones fantasma. |
 
-## 📍 Dónde estamos
+## Dónde estamos
 
 | Qué | Dónde y cuánto |
 |---|---|
@@ -174,9 +167,9 @@ progreso.
 | 🖨️ **102 modelos de impresora, de filamento y de resina** | Bambu Lab · Prusa · Elegoo · FlashForge · Anycubic · Creality · QIDI · Snapmaker · Voron · RatRig · Sovol · Artillery · Longer · Phrozen · Two Trees |
 | ✅ **10 comprobados por nosotros en máquina real** | Bambu Lab A1, A2L, P1P, P1S, P2S, X1 Carbon, X2D, H2C, H2D y H2S. |
 
-## 💬 ¿Echas algo en falta?
+## ¿Echas algo en falta?
 
-¿O hay algo que te sobra? Cuéntanoslo en
+Cuéntanoslo en
 [info@bolloprint.com](mailto:info@bolloprint.com) o en nuestro
 [canal de Discord](/help/soporte-por-discord). Lo leemos todo. Mucho de lo que ves
 aquí salió de mensajes como el tuyo.

@@ -190,7 +190,10 @@ Cuéntanoslo en
 [canal de Discord](/help/soporte-por-discord). Lo leemos todo. Mucho de lo que ves
 aquí salió de mensajes como el tuyo.
 
-Y si tienes dudas, lo tienes todo en el [manual](/help).
+Si quieres más detalles de cómo funciona, lo tienes todo en el [manual](/help).
+
+Y no paramos, seguimos trabajando cada día para hacer de BolloPrint la mejor
+herramienta para tu taller de impresión 3D.
 
 Un abrazo,\
 **El equipo de BolloPrint**

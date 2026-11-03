@@ -5,7 +5,6 @@ description: "Todo lo nuevo en BolloPrint del 14 de septiembre al 3 de noviembre
 date: 2026-11-03
 tags: [novedades]
 cover: 01-bollo.webp
-draft: true
 ---
 
 Desde mediados de septiembre hemos publicado **41 actualizaciones** de BolloPrint.

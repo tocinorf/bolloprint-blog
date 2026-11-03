@@ -4,6 +4,7 @@ title: Siete semanas, más de 400 mejoras para tu taller
 description: Todo lo nuevo en BolloPrint del 14 de septiembre al 3 de noviembre de 2026, de las facturas legales y el Financiero nuevo al agente local sin contenedores.
 date: 2026-11-03
 tags: [novedades]
+draft: true
 ---
 
 *Novedades · del 14 de septiembre al 3 de noviembre*

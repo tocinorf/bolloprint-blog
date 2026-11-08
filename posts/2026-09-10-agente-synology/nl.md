@@ -1,252 +1,221 @@
 ---
 slug: install-bolloprint-agent-synology
-title: De BolloPrint-agent installeren op een Synology
-description: Heb je al een NAS in de werkplaats, dan hoef je niet verder te zoeken naar een plek voor de agent. Twintig minuten via de interface van DSM, zonder één commando te typen en zonder aan je router te komen.
-date: 2026-09-10
-updated: 2026-09-10
+title: De BolloPrint-agent installeren op een Synology-NAS
+description: Staat er een Synology in je werkplaats, dan hoort de agent daar. Een echt DSM-pakket, geïnstalleerd vanuit het Pakketcentrum en met één klik gekoppeld. Geen Docker, geen code om te kopiëren en niets aan je router veranderen.
+date: 2026-11-02
+updated: 2026-11-02
 tags: [handleidingen]
 draft: true
 ---
 
-Heb je een Synology in de werkplaats, dan heb je al een plek voor de agent. Hij
-staat vierentwintig uur per dag aan, zit op hetzelfde netwerk als de printers en
-kan al jaren containers draaien. Een betere plek vind je moeilijk.
+Heb je een Synology in de werkplaats, dan heb je al de juiste plek voor de
+BolloPrint-agent. Hij staat dag en nacht aan, zit op hetzelfde netwerk als je
+printers en draait nu al de rest van je kleine diensten.
 
-En je hoeft niets van Docker te weten: je typt geen enkel commando. Alles gaat via
-de interface van DSM, door een tekst in een vak te plakken. Reken op twintig
-minuten, en de helft daarvan is wachten tot het downloaden klaar is.
+De agent komt als **echt DSM-pakket**: je installeert hem zoals elke andere
+Synology-app en hij verschijnt in het hoofdmenu van DSM. Geen Docker, geen
+Container Manager, geen tekst om te plakken en geen code om te kopiëren. Reken
+op tien minuten.
 
 :::info
-Dit gaat alleen over de **installatie op een Synology**. Wat de agent is, welke
-merken hij ondersteunt en hoe je elke printer toevoegt, staat in de
-[handleiding voor het lokale netwerk](/blog/connect-printers-local-network-agent) —
-ga daar verder als je hier klaar bent.
+Dit artikel gaat alleen over **de agent installeren op een Synology**. Wat de
+agent is, welke merken hij ondersteunt en hoe je elke printer toevoegt, lees je
+in de [handleiding over het lokale netwerk](/blog/connect-printers-local-network-agent).
+Ga daar verder als je hier klaar bent.
 :::
 
-![Container Manager in DSM met het project van de agent actief](/blog/media/2026-09-10-agente-synology/01-container-manager.png)
+:::warning Het pakket voor Synology is in bèta
+Het werkt, maar er kan nog een stap of twee veranderen. Klopt iets op je scherm
+niet met wat je hier leest, laat het ons dan weten.
+:::
 
 ## Waarom op de NAS en niet op je laptop
 
-Omdat de agent alleen iets doet als hij wakker is. Zet je hem op de computer die
-je uitzet als je weggaat, dan zie je die uren niet: niet wat er geprint is, niet
-hoelang het duurde en niet of een printer om drie uur 's nachts is gestopt. De NAS
-staat toch al aan.
+Omdat de agent alleen iets oplevert zolang hij wakker is. Draait hij op de
+computer die je uitzet als je weggaat, dan ben je die uren kwijt: wat er is
+geprint, hoe lang het duurde, of een print om drie uur 's nachts is gestopt. De
+NAS staat toch al aan.
 
-De rest krijg je er gratis bij: hij zit op het netwerk van de printers, waardoor
-hij ze zelf kan vinden, en hij gebruikt tussen de 10 en 20 MB geheugen. Op een NAS
-merkt niemand dat.
+De rest krijg je er gratis bij: hij zit op het netwerk van de printers, en
+daardoor vindt de agent ze zelf. En hij is licht: de NAS blijft al het andere
+doen zoals altijd.
 
 :::info 💡 Nee, je hoeft niet aan je router te komen
-De agent **belt naar buiten**, via poort 443, net als wanneer je een webpagina
-opent. Hij ontvangt nooit verbindingen vanaf internet. Dus geen poorten
-openzetten, geen vast IP-adres en geen gedoe met de firewall — en het werkt net zo
-goed achter een thuisrouter als achter een glasvezelverbinding met CGNAT.
+De agent **belt naar buiten** naar BolloPrint, zoals een browser die een
+webpagina opent. Hij neemt nooit verbindingen vanaf het internet aan: geen open
+poorten, geen vast IP-adres, geen firewallregels. Het werkt net zo goed achter
+een thuisrouter als op een glasvezellijn met CGNAT.
 :::
 
-## Wat je nodig hebt voordat je begint
+## Wat je eerst nodig hebt
 
-Vier dingen, en die kun je beter nu controleren dan halverwege:
+Controleer dit nu, en niet halverwege:
 
-- **De NAS en de printers zitten op hetzelfde netwerk.** Zitten ze in
-  verschillende VLAN's, dan werkt de agent net zo goed, maar valt het
-  automatisch zoeken weg: dan moet je elke printer met de hand via zijn IP-adres
-  toevoegen.
-- **De NAS kan via poort 443 het internet op.** Meer niet.
-- **DSM 7.2 of hoger.** Dat zie je in **Configuratiescherm → Bijwerken en
-  herstellen** (*Control Panel → Update & Restore*). Met 7.0 of 7.1 heb je hier
-  niets aan: werk DSM eerst bij.
-- **De verbindingscode van de agent**, die je krijgt door de agent aan te maken in
-  BolloPrint via **Instellingen → Printers → Lokale agent**.
+- **DSM 7 of hoger.** Dat zie je in **Configuratiescherm → Infocentrum**. Met
+  DSM 6 werkt het niet.
+- **De processor van je NAS.** Op dezelfde plek, in het **Infocentrum**. Intel of
+  AMD is 64-bit; bij ARM staat op de pagina van je model op de website van
+  Synology of het 64- of 32-bit is. Dat heb je nodig om de juiste download te
+  kiezen.
+- **Een beheerdersaccount in DSM.** Alleen beheerders kunnen pakketten
+  installeren en de pagina van de agent openen.
+- **Eigenaar zijn van je werkplaats in BolloPrint.** Bij het koppelen zie je
+  alleen de werkplaatsen waarvan je eigenaar bent.
+- **De NAS en de printers op hetzelfde netwerk.** Op gescheiden netwerken
+  (VLAN's) werkt de agent ook, maar dan voeg je elke printer toe via zijn IP.
 
-:::danger ⚠️ Start hem alleen op de NAS, probeer hem niet eerst ergens anders
-**De eerste container die met die code start, neemt de installatie in bezit.**
-Start je hem dus op je laptop “om te kijken of het werkt” en zet je hem daarna op
-de Synology, dan meldt de NAS zich als een onbekende installatie en wacht hij tot
-je hem goedkeurt.
+## 1. Download het pakket
 
-Een drama is het niet — goedkeuren is één klik — maar zo bespaar je jezelf het
-moment van “en waarom werkt het nu niet?”.
+Ga in BolloPrint naar **Instellingen → Printers → Lokale agent → Nieuwe agent**
+en kies **Synology**.
+
+Er is een downloadknop per type processor: **Intel of AMD (64-bit)**,
+**ARM (64-bit)** en **ARM (32-bit)**. Klik op de jouwe. Je krijgt een bestand
+dat eindigt op `.spk`: dat is een DSM-pakket. Weet je niet welke, dan brengt de
+link vlak onder de knoppen je naar de website van Synology om het voor je model
+na te kijken.
+
+![Nieuwe agent → Synology in BolloPrint: drie downloadknoppen, één per type processor, en daaronder de drie installatiestappen](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
+
+Let op wat er **niet** op dat scherm staat: geen code, geen sleutel, niets om aan
+te maken. De agent ontstaat pas als je hem koppelt, in stap 3.
+
+## 2. Installeer het vanuit het Pakketcentrum
+
+Open DSM in je browser en ga naar het **Pakketcentrum**. Klik rechtsboven op
+**Handmatige installatie**, daarna op **Bladeren**, kies het `.spk`-bestand dat
+je net hebt gedownload en klik op **Volgende**.
+
+<!-- SCREENSHOT: 02-manual-install.png — DSM 7 (English UI) Package Center with the «Manual Install» dialog open and bolloprint-agent-…-x64.spk selected, Next button visible. -->
+
+DSM waarschuwt je dat het pakket niet door Synology is gepubliceerd. Accepteer
+dat om verder te gaan.
+
+Daarna toont de wizard één enkele instelling: de **poort van de agentpagina**,
+met **8257** al ingevuld. Laat die zo staan, tenzij DSM zegt dat hij al in
+gebruik is; vul in dat geval **8364** in. Klik op **Volgende** en, in het
+overzicht, op **Klaar**.
+
+<!-- SCREENSHOT: 03-install-wizard.png — DSM 7 (English UI) BolloPrint Agent install wizard: the page-port field with 8257 and the text «After installing, open BolloPrint Agent from the DSM main menu and press “Link with BolloPrint”…». -->
+
+Een minuut later staat het pakket op **Actief** en verschijnt **BolloPrint
+Agent** in het hoofdmenu van DSM.
+
+:::info 💡 ‘Dit pakket is niet compatibel met je model’
+Dan heb je het pakket voor een andere processor gedownload. Ga terug naar
+BolloPrint en download het andere.
 :::
 
-:::warning 🔐 Die code is een wachtwoord
-Hij geeft toegang tot de verbindingsgegevens van de printers in de werkplaats.
-Plak hem niet in een WhatsApp-groep en laat hem niet op een screenshot staan.
+## 3. Koppel hem aan je werkplaats
+
+Dit is de stap die het oude ‘kopieer deze code en plak hem daar’ vervangt.
+
+Open het **hoofdmenu** van DSM (het pictogram linksboven) en klik op **BolloPrint
+Agent**. Hij opent in een nieuw tabblad met de eigen pagina van de agent: daar
+staat dat de agent nog bij geen enkele werkplaats hoort, met een korte **code**.
+
+![De pagina van de agent, nog niet gekoppeld, met zijn code en de knop Koppelen met BolloPrint](/blog/media/2026-09-10-agente-synology/04-agent-page.png)
+
+Klik op **Koppelen met BolloPrint**. BolloPrint gaat open (log in als dat nodig
+is) en vraagt aan welke werkplaats je de agent toevoegt. Daarna toont het je het
+**apparaat** — de naam van je NAS en ‘Synology’ — en de **code**. Controleer dat
+het **dezelfde code** is als op de pagina van de agent en klik op **Toevoegen
+aan werkplaats**.
+
+<!-- SCREENSHOT: 05-confirm.png — BolloPrint (English UI) «Add an agent to <workshop>» confirmation: Device «<NAS name> · Synology», the same code as 04-agent-page, and the «Add to workshop» button. -->
+
+Je komt terug op de pagina van de agent, waar nu **Gekoppeld aan** je werkplaats
+staat.
+
+:::warning 🔐 Bevestig alleen wat je zelf net hebt aangeklikt
+Krijg je ooit een link om ‘een agent toe te voegen’ waar je niet om hebt
+gevraagd, sluit hem dan. Een agent wordt alleen vanaf zijn eigen pagina
+gekoppeld, en op een Synology kan alleen een beheerder van je NAS die pagina
+openen.
 :::
 
-## 1. Container Manager installeren
+## 4. Controleer of het werkt
 
-Dat is de app van Synology die containers draait. Je installeert hem zoals elke
-andere app en **binnenin valt er niets in te stellen**, dus deze stap gaat snel.
+Ga in BolloPrint naar **Instellingen → Printers → Lokale agent**: daar staat de
+agent met de naam van je NAS en het logo van Synology, **Online**. Dat is wat
+telt: het hele circuit werkt.
 
-Log in op DSM (`http://IP-VAN-DE-NAS:5000`) met je beheerdersaccount, open het
-**Pakketcentrum** (*Package Center*), zoek **Container Manager** en klik op
-installeren. Een minuut of twee. Open hem daarna en wacht tot hij is opgestart:
-zodra het tabblad **Overzicht** (*Overview*) gegevens laat zien in plaats van een
-melding, is hij klaar.
+![De Synology-agent Online in Instellingen → Printers → Lokale agent, met daaronder de printers die hij op het lokale netwerk heeft gevonden](/blog/media/2026-09-10-agente-synology/06-agent-online.png)
 
-![Het Pakketcentrum van DSM met Container Manager](/blog/media/2026-09-10-agente-synology/02-centro-paquetes.png)
+Binnen ongeveer een minuut begint hij printers op je netwerk te vinden. Ze
+verschijnen bij **Printers op het lokale netwerk** en van daaruit voeg je ze
+toe; de printers die niet vanzelf verschijnen, voeg je toe met **Toevoegen via
+IP**. Hoe dat per merk gaat, staat allemaal in de
+[handleiding over het lokale netwerk](/blog/connect-printers-local-network-agent).
 
-Je ziet dat DSM zelf een gedeelde map met de naam `docker` aanmaakt. Dat is
-normaal, laat die gewoon met rust.
+## Bijwerken
 
-:::warning ⚠️ Als je Container Manager niet ziet
-Dan ondersteunt dat NAS-model geen containers. Daar is met software niets aan te
-doen: zet de agent op een andere machine in hetzelfde netwerk — een mini-pc, een
-Raspberry Pi, alles wat altijd aanstaat.
+**Je hoeft bijna nooit iets te doen:** de agent werkt zichzelf bij. Komt er een
+nieuwe versie uit, dan downloadt hij die, controleert hij dat ze van ons is en
+start hij ermee opnieuw op.
+
+Alleen als BolloPrint je laat weten dat je de agent **met de hand moet
+bijwerken**, doe je het zelf, en dan is het **het nieuwe pakket installeren over
+het pakket dat je al hebt**: download het opnieuw vanaf dezelfde plek in
+BolloPrint (**Lokale agent → Nieuwe agent → Synology**) en kies daarna in het
+**Pakketcentrum → Handmatige installatie** het nieuwe bestand. DSM ziet dat het
+al geïnstalleerd is en werkt het bij, zonder opnieuw naar de poort te vragen. De
+agent blijft gekoppeld aan dezelfde werkplaats, met dezelfde printers en hun hele
+geschiedenis. Je hoeft niets opnieuw te koppelen.
+
+Zodra het pakket in de catalogus van het Pakketcentrum van Synology staat, laat
+het Pakketcentrum je dat zelf weten en is bijwerken één klik.
+
+:::warning Niet de-installeren om bij te werken
+De-installeren wist de identiteit van de agent: wat je daarna installeert, is
+een **nieuwe** agent die je opnieuw moet koppelen. Om bij te werken installeer je
+altijd over het bestaande pakket heen.
 :::
 
-## 2. Het project aanmaken
+## Verhuizen of opnieuw beginnen
 
-In Container Manager is een **project** eigenlijk een uitgeschreven recept: je
-plakt een tekst en de NAS zorgt ervoor dat wat erin staat wordt gedownload en
-gestart. Je hoeft geen mappen te maken of bestanden te kopiëren.
+Een agent kun je niet ‘overzetten’, maar dat hoeft ook niet: wat verhuist, zijn
+de printers, en die gaan mee met hun hele geschiedenis.
 
-Ga naar **Project → Maken** (*Project → Create*).
+1. Installeer het pakket op de nieuwe NAS en koppel hem. Hij verschijnt als
+   tweede agent.
+2. Open elke printer met **Bewerken** in zijn menu **⋮** en zet hem over naar de
+   nieuwe agent.
+3. Heeft de oude agent geen printers meer, **verwijder** hem dan via het menu
+   **⋮** van zijn regel.
 
-![Container Manager, tabblad Project, knop Maken](/blog/media/2026-09-10-agente-synology/03-crear-proyecto.png)
+Wil je de agent definitief weghalen: ga in DSM naar **Pakketcentrum → BolloPrint
+Agent → Actie → Verwijderen** en **verwijder** daarna de agent via zijn menu
+**⋮** in BolloPrint. Andersom werkt het ook: zodra je hem in BolloPrint
+verwijdert, merkt de agent dat, vergeet hij zijn koppeling en biedt zijn pagina
+weer **Koppelen met BolloPrint** aan. Hoe dan ook gaat er niets verloren: voeg je
+later een van zijn printers opnieuw toe, dan komt die terug met zijn nummer en
+zijn geschiedenis.
 
-Als naam `bolloprint-agent`, in kleine letters — DSM accepteert daar geen
-hoofdletters of spaties. Klik voor het pad op **Pad instellen** (*Set Path*), ga
-naar de map `docker`, maak daarin een map met de naam `bolloprint-agent` en
-selecteer die.
-
-:::info 💡 Daar komt alleen het recept, niet je gegevens
-In die map wordt **alleen de tekst van de `docker-compose.yml`** opgeslagen. Wat
-de agent moet onthouden, staat in een intern Docker-volume dat vanzelf wordt
-aangemaakt en dat niet eens in File Station verschijnt. Zo is het beter: niets om
-aan te komen en niets wat je per ongeluk kunt verwijderen.
-:::
-
-Kies bij **Bron** (*Source*) voor het aanmaken van een `docker-compose.yml`. Je
-krijgt een leeg vak te zien, en daar komt het blok in.
-
-:::danger ⚠️ Kopieer het blok van je eigen scherm, niet dat van hier
-Je vindt het in BolloPrint, in **Instellingen → Printers → Lokale agent → Hoe
-installeren**, tabblad **Docker Compose**, met de knop om te kopiëren. Daarin
-staat de agentversie die op dat moment de juiste is; het blok hieronder is alleen
-om je te laten zien hoe het eruitziet.
-
-**En zet er vooral niet `latest` in.** Die tag bestaat niet in het register — we
-hebben het vandaag gecontroleerd: het geeft een 404 — dus het project zou blijven
-hangen op `manifest unknown` zonder ooit te starten. Dat is geen vergissing van
-iemand: het is bewust zo, want een tag die meeschuift zou een update de agent
-laten vervangen onder een vloot die draait, zonder dat de werkplaats daarover
-beslist.
-:::
-
-```yaml
-services:
-  bolloprint-agent:
-    image: ghcr.io/bolloprint/bolloprint-agent:0.4.8   # ← die op je scherm staat
-    container_name: bolloprint_agent
-    restart: unless-stopped
-    network_mode: host
-    mem_limit: 512m
-    pids_limit: 512
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
-    environment:
-      BP_AGENT_CODE: PLAK_HIER_JE_CODE
-      # BP_STATUS_PORT: 9911
-      # BP_LOG_LEVEL: debug
-    volumes:
-      - identity:/var/lib/bolloprint
-
-volumes:
-  identity:
-    name: bolloprint_agent_identity
-```
-
-Vervang `PLAK_HIER_JE_CODE` door je eigen code, helemaal en zonder losse spaties
-ervoor of erachter — het is de domste fout en de fout die het vaakst gebeurt.
-
-![De editor van de docker-compose.yml in Container Manager](/blog/media/2026-09-10-agente-synology/04-compose.png)
-
-Vier dingen in die tekst die je goed kunt weten:
-
-- **Plak hem, typ hem niet over.** De spaties aan het begin van elke regel horen
-  bij het formaat, en als er een tab tussen glipt, weigert DSM hem.
-- **`network_mode: host`** zorgt ervoor dat de agent het netwerk van de NAS ziet
-  en zelf printers vindt. Zonder dat moet alles met de hand.
-- **Het volume `identity`** is het geheugen van de agent. Daardoor vraagt hij niet
-  bij elke herstart om goedkeuring.
-- **De regels met `#` staan expres uit.** Die zet je alleen aan als er iets
-  gediagnosticeerd moet worden.
-
-Als je verdergaat, biedt DSM aan een “webportal” te publiceren. Kies **Geen**
-(*None*): de agent heeft geen pagina om te laten zien.
-
-En dat is het. DSM downloadt de image en start de container, terwijl je een live
-logboek ziet. Een paar minuten, afhankelijk van je verbinding. Blijft het project
-na afloop gestopt, selecteer het dan en kies **Actie → Starten** (*Action →
-Start*).
-
-## 3. Controleren of hij werkt
-
-Er zijn drie signalen, maar **het derde is het enige dat echt telt**. De eerste
-twee zeggen alleen dat de container is gestart, niet dat hij met iemand praat.
-
-**De container draait.** Onder **Container** (*Container*) moet
-`bolloprint_agent` als **Actief** (*Running*) staan, met een paar tientallen MB
-geheugengebruik.
-
-![De lijst met containers met bolloprint_agent actief](/blog/media/2026-09-10-agente-synology/05-contenedor.png)
-
-**Het logboek zegt wat het moet zeggen.** Dubbelklik op de container, tabblad
-**Logboek** (*Log*), en in de eerste seconden zou je dit moeten zien:
-
-```
-INFO bolloprint-agent starting version=0.4.8
-INFO installation fingerprint source=stored ...
-INFO bootstrapped agent_id=... printers=0
-INFO broker connected
-```
-
-Elke regel bevestigt iets anders, en daarom loont het om ze te bekijken:
-
-| Regel | Wat hij je vertelt |
-|---|---|
-| `source=stored` | Het identiteitsvolume is gekoppeld en er kan in geschreven worden. Staat er iets anders, reken er dan op dat je de agent moet goedkeuren elke keer dat de container opnieuw wordt aangemaakt. |
-| `bootstrapped` | De code is goed en BolloPrint heeft hem herkend. |
-| `broker connected` | De vaste verbinding is open. Vanaf hier rapporteert de agent. |
-
-![Het tabblad Logboek met de opstartregels](/blog/media/2026-09-10-agente-synology/06-registro.png)
-
-**En de agent wordt groen in BolloPrint.** In **Instellingen → Printers → Lokale
-agent** moet de kaart binnen zo'n dertig seconden op **Online** springen. Dat is
-het echte signaal: het betekent dat de hele keten werkt.
-
-![De kaart van de agent op Online in BolloPrint](/blog/media/2026-09-10-agente-synology/07-agente-online.png)
-
-## Als iets niet lukt
+## Als er iets misgaat
 
 | Wat je ziet | Wat het meestal is |
 |---|---|
-| `manifest unknown` bij het downloaden | Die versie van de image bestaat niet. Kopieer het blok opnieuw van je scherm — en kijk of je niet `latest` hebt ingevuld. |
-| Hij start en stopt vanzelf | Kijk in het logboek. Bijna altijd is de code verkeerd geplakt, met een spatie ervoor of erachter. |
-| `bootstrapped` verschijnt nooit | De NAS komt niet via poort 443 op internet, of een firewall houdt het uitgaande verkeer tegen. |
-| Hij vraagt bij elke herstart om goedkeuring | Het identiteitsvolume ontbreekt. Controleer of je de hele sectie `volumes` hebt geplakt. |
-| Hij verschijnt als installatie die op goedkeuring wacht | Die code is al op een andere machine gebruikt. Herken je het apparaat, keur het dan goed — maar let op: als je er een goedkeurt, verliest de vorige zijn toegang. |
-| Hij vindt geen enkele printer | Zitten de NAS en de printers op hetzelfde netwerk? Zo niet, dan is dat te verwachten: voeg ze toe via IP en ze werken net zo goed. |
+| De wizard zegt dat poort 8257 in gebruik is | Een andere toepassing op de NAS gebruikt hem. Vul 8364 in en ga verder. |
+| ‘Niet compatibel met je model’ | Het pakket voor een andere processor. Download het juiste. |
+| Bij het openen van BolloPrint Agent moet je inloggen op DSM | Open hem vanuit het hoofdmenu van DSM, ingelogd als beheerder. |
+| Op de pagina staat dat de agent niet reageert | Het pakket staat stil of is nog aan het opstarten. Klik in het Pakketcentrum op **Actie → Uitvoeren** en wacht een paar seconden. |
+| Je werkplaats staat niet in de lijst bij het koppelen | Je ziet alleen de werkplaatsen waarvan je **eigenaar** bent. Vraag de eigenaar om hem te koppelen. |
+| ‘Dit koppelverzoek is ongeldig’, of het is verlopen | Ga terug naar de pagina van de agent en klik opnieuw op **Koppelen met BolloPrint**. |
+| Na een herstart van de NAS duurt het even voordat hij terug is | Wacht een paar minuten: hij start op met DSM en blijft het proberen tot de NAS internet heeft. |
+| Hij vindt geen printers | Zelfde netwerk? Zo niet, voeg ze dan toe via IP. Heb je er net een aangezet, klik dan op **Nu zoeken**. Staat de firewall van DSM aan, sta dan de poorten van BolloPrint Agent toe (hij staat in de lijst met toepassingen als je een regel aanmaakt). |
 
-## Wat er nog overblijft
+## Liever Docker?
 
-Met de agent op groen ben je halverwege. Nu moet je hem de printers nog geven: de
-printers die vanzelf verschijnen, de printers die je via IP moet toevoegen en wat
-elk merk vraagt, staat allemaal in de
-[handleiding voor het lokale netwerk](/blog/connect-printers-local-network-agent).
-
-Daarna kun je hem vergeten. De container komt na elke herstart van de NAS vanzelf
-terug en heeft geen onderhoud nodig. Het enige wat je af en toe doet, is hem
-bijwerken: als BolloPrint je laat weten dat er een nieuwe versie is, kopieer je
-het blok opnieuw van het scherm en start je het project opnieuw.
+Draait Container Manager al op je NAS en houd je alles liever in containers, dan
+kan de agent ook als container draaien. De stappen staan in
+[Agent in Docker](/help/agente-en-docker). Voor de meeste werkplaatsen
+is het pakket eenvoudiger: het is een DSM-app zoals elke andere, en je koppelt
+hem met één klik.
 
 ## Verder lezen
 
-- [De lokale agent](/help/el-agente-local) — installatie, identiteit, meerdere agents en diagnose
-- [Printers op het lokale netwerk](/help/impresoras-por-red-local) — machines toevoegen
-- [Verbindingstypen](/help/tipos-de-conexion) — wat elke printerfamilie mogelijk maakt
-- [Compatibele printers](/help/impresoras-compatibles) — zoek hier je model
-- [Printers verbinden](/help/conectar-impresoras) — de twee routes en welke bij je past
+- [Agent op Synology](/help/agente-en-synology) — de volledige handleiding: installeren, bijwerken, verhuizen, de-installeren en problemen oplossen
+- [De lokale agent](/help/el-agente-local) — wat hij doet, meerdere agents, diagnose
+- [Printers via het lokale netwerk](/help/impresoras-por-red-local) — je machines toevoegen
+- [Ondersteunde printers](/help/impresoras-compatibles) — zoek je model op

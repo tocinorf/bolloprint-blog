@@ -1,243 +1,210 @@
 ---
 slug: install-bolloprint-agent-synology
-title: Instalace agenta BolloPrint na Synology
-description: Pokud už máte v dílně NAS, nemusíte dál hledat, kam agenta dát. Dvacet minut v rozhraní DSM, bez psaní jediného příkazu a bez zásahů do routeru.
-date: 2026-09-10
-updated: 2026-09-10
+title: Instalace agenta BolloPrint na NAS Synology
+description: Pokud máte v dílně Synology, právě tam agent patří. Nativní balíček DSM, který nainstalujete z Centra balíčků a propojíte jedním kliknutím. Bez Dockeru, bez kopírování kódu a bez zásahů do routeru.
+date: 2026-11-02
+updated: 2026-11-02
 tags: [návody]
 draft: true
 ---
 
-Pokud máte v dílně Synology, máte už i místo pro agenta. Běží nepřetržitě, je ve
-stejné síti jako tiskárny a kontejnery spouštět umí už roky. Těžko hledat lepší
-místo.
+Pokud máte v dílně Synology, máte už i správné místo pro agenta BolloPrint. Běží
+ve dne v noci, je ve stejné síti jako vaše tiskárny a už teď na něm běží vaše
+ostatní drobné služby.
 
-A o Dockeru nemusíte vědět vůbec nic: nenapíšete ani jeden příkaz. Všechno se dělá
-v rozhraní DSM, vložením textu do okénka. Počítejte asi s dvaceti minutami, z toho
-polovina je čekání na stahování.
+Agent se dodává jako **nativní balíček DSM**: nainstalujete ho jako kteroukoli
+jinou aplikaci Synology a objeví se v hlavní nabídce DSM. Bez Dockeru, bez
+Container Manageru, bez vkládání textu a bez kopírování kódu. Počítejte s deseti
+minutami.
 
 :::info
-Tento text se týká jen **nasazení na Synology**. Co je agent, jaké značky
-podporuje a jak přidat jednotlivé tiskárny, najdete v
-[návodu k místní síti](/blog/connect-printers-local-network-agent) —
-až tady skončíte, pokračujte tam.
+Tento článek se týká jen **instalace agenta na Synology**. Co je agent, které
+značky podporuje a jak přidat jednotlivé tiskárny, najdete v
+[návodu k místní síti](/blog/connect-printers-local-network-agent). Vraťte se k
+němu, až budete tady hotovi.
 :::
 
-![Container Manager v DSM s běžícím projektem agenta](/blog/media/2026-09-10-agente-synology/01-container-manager.png)
+:::warning Balíček pro Synology je v betě
+Funguje, ale některý krok se ještě může změnit. Pokud něco na vaší obrazovce
+neodpovídá tomu, co tu čtete, dejte nám vědět.
+:::
 
 ## Proč na NAS, a ne na notebooku
 
-Protože agent je k užitku, jen když je vzhůru. Pokud ho dáte na počítač, který při
-odchodu vypínáte, tyto hodiny neuvidíte: ani co se tisklo, ani jak dlouho to
-trvalo, ani jestli se tisk ve tři ráno zastavil. NAS je zapnutý tak jako tak.
+Protože agent je užitečný jen tehdy, když je vzhůru. Pokud běží na počítači,
+který při odchodu vypínáte, o ty hodiny přijdete: co se tisklo, jak dlouho to
+trvalo, jestli se tisk ve tři ráno nezastavil. NAS je zapnutý tak jako tak.
 
-Zbytek dostanete navíc: NAS je v síti tiskáren, a proto je agent dokáže najít sám,
-a spotřebuje 10 až 20 MB paměti. Na NAS to nikdo ani nepozná.
+A zbytek dostanete navíc: je v síti tiskáren, díky čemuž je agent dokáže najít
+sám, a je nenáročný: NAS dál dělá všechno ostatní jako dřív.
 
 :::info 💡 Ne, na router sahat nebudete
-Agent se **připojuje ven**, přes port 443, stejně jako když otevíráte webovou
-stránku. Nikdy nepřijímá připojení z internetu. Nemusíte tedy otevírat porty,
-nastavovat pevnou IP ani bojovat s firewallem — a funguje stejně za domácím
+Agent se k BolloPrint **připojuje směrem ven**, jako prohlížeč, když otevírá
+webovou stránku. Nikdy nepřijímá spojení z internetu: žádné otevřené porty,
+žádná pevná IP adresa, žádná pravidla firewallu. Funguje stejně za domácím
 routerem jako na optice s CGNAT.
 :::
 
-## Co potřebujete, než se do toho pustíte
+## Co budete potřebovat předem
 
-Čtyři věci, které je lepší zkontrolovat teď než v polovině:
+Zkontrolujte si to teď, ne v půlce:
 
-- **NAS a tiskárny ve stejné síti.** Pokud jsou v různých VLAN, agent funguje
-  stejně, ale přijde o automatické vyhledávání: každou tiskárnu bude potřeba
-  přidat ručně podle IP.
-- **Přístup NAS do internetu přes port 443.** Nic víc.
-- **DSM 7.2 nebo novější.** Zjistíte to v **Ovládací panel → Aktualizace
-  a obnovení** (*Control Panel → Update & Restore*). S DSM 7.0 nebo 7.1 vám tento
-  návod nepomůže: nejdřív DSM aktualizujte.
-- **Kód připojení agenta**, který získáte vytvořením agenta v BolloPrint
-  v **Nastavení → Tiskárny → Místní agent**.
+- **DSM 7 nebo novější.** Najdete ho v **Ovládací panel → Informační centrum**.
+  S DSM 6 to nepůjde.
+- **Procesor vašeho NAS.** Na stejném místě, v **Informačním centru**. Intel
+  nebo AMD znamená 64 bitů; u ARM zjistíte z technických údajů vašeho modelu na
+  webu Synology, zda je 64bitový, nebo 32bitový. Budete to potřebovat, abyste
+  stáhli správný soubor.
+- **Účet správce DSM.** Jen správci mohou instalovat balíčky a otevřít stránku
+  agenta.
+- **Být v BolloPrint vlastníkem své dílny.** Při propojování agenta uvidíte jen
+  dílny, jejichž jste vlastníkem.
+- **NAS a tiskárny ve stejné síti.** V oddělených sítích (VLAN) agent funguje
+  také, jen budete každou tiskárnu přidávat podle její IP adresy.
 
-:::danger ⚠️ Spusťte ho jen na NAS, nezkoušejte ho předtím jinde
-**První kontejner, který se s tímto kódem spustí, si instalaci ponechá.** Pokud ho
-tedy „na zkoušku“ spustíte na notebooku a potom ho nainstalujete na Synology, NAS
-se ohlásí jako neznámá instalace a bude čekat na vaše schválení.
+## 1. Stáhněte balíček
 
-Žádná tragédie to není — schválí se jedním kliknutím —, ale ušetříte si chvíli
-typu „a proč to teď nejde?“.
+V BolloPrint přejděte do **Nastavení → Tiskárny → Místní agent → Nový agent** a
+zvolte **Synology**.
+
+Pro každý typ procesoru je tu jedno tlačítko ke stažení:
+**Intel nebo AMD (64 bitů)**, **ARM (64 bitů)** a **ARM (32 bitů)**. Klikněte na
+to svoje. Stáhne se soubor s příponou `.spk`, což je balíček DSM. Pokud si
+nejste jistí, který to je, odkaz hned pod tlačítky vás zavede na web Synology,
+kde si to u svého modelu ověříte.
+
+![Nový agent → Synology v BolloPrint: tři tlačítka ke stažení, jedno pro každý typ procesoru, a pod nimi tři kroky instalace](/blog/media/2026-09-10-agente-synology/01-new-agent-synology.png)
+
+Všimněte si, co na té obrazovce **není**: žádný kód, žádný klíč, nic k
+vytvoření. Agent vznikne, až ho propojíte, v kroku 3.
+
+## 2. Nainstalujte ho z Centra balíčků
+
+Otevřete v prohlížeči DSM a přejděte do **Centra balíčků**. Vpravo nahoře
+klikněte na **Ruční instalace**, potom na **Procházet**, vyberte soubor `.spk`,
+který jste právě stáhli, a klikněte na **Další**.
+
+<!-- SCREENSHOT: 02-manual-install.png — DSM 7 (English UI) Package Center with the «Manual Install» dialog open and bolloprint-agent-…-x64.spk selected, Next button visible. -->
+
+DSM vás upozorní, že balíček nevydává Synology. Pro pokračování to potvrďte.
+
+Průvodce vám pak ukáže jediné nastavení: **port stránky agenta**, kde už je
+vyplněno **8257**. Nechte ho tak, pokud vám DSM neoznámí, že je obsazený; v
+takovém případě zadejte **8364**. Klikněte na **Další** a v souhrnu na
+**Hotovo**.
+
+<!-- SCREENSHOT: 03-install-wizard.png — DSM 7 (English UI) BolloPrint Agent install wizard: the page-port field with 8257 and the text «After installing, open BolloPrint Agent from the DSM main menu and press “Link with BolloPrint”…». -->
+
+Zhruba za minutu se balíček zobrazí jako **Spuštěno** a v hlavní nabídce DSM se
+objeví **BolloPrint Agent**.
+
+:::info 💡 „Tento balíček není kompatibilní s vaším modelem“
+To znamená, že jste stáhli balíček pro jiný procesor. Vraťte se do BolloPrint a
+stáhněte ten druhý.
 :::
 
-:::warning 🔐 Tento kód je heslo
-Dává přístup k údajům o připojení tiskáren v dílně. Nevkládejte ho do skupiny na
-WhatsAppu a nenechávejte ho na snímku obrazovky.
+## 3. Propojte ho se svou dílnou
+
+Tento krok nahrazuje dřívější „zkopírujte tenhle kód a vložte ho tamhle“.
+
+Otevřete **hlavní nabídku** DSM (ikona vlevo nahoře) a klikněte na
+**BolloPrint Agent**. Na nové kartě se otevře vlastní stránka agenta: stojí na
+ní, že agent zatím nepatří k žádné dílně, a zobrazuje krátký **kód**.
+
+![Stránka agenta, zatím nepropojená, s kódem a tlačítkem Propojit s BolloPrint](/blog/media/2026-09-10-agente-synology/04-agent-page.png)
+
+Klikněte na **Propojit s BolloPrint**. Otevře se BolloPrint (pokud je potřeba,
+přihlaste se) a zeptá se, do které dílny agent patří. Potom vám ukáže
+**zařízení** — název vašeho NAS a „Synology“ — a **kód**. Ověřte, že je to
+**stejný kód**, jaký ukazovala stránka agenta, a klikněte na
+**Přidat do dílny**.
+
+<!-- SCREENSHOT: 05-confirm.png — BolloPrint (English UI) «Add an agent to <workshop>» confirmation: Device «<NAS name> · Synology», the same code as 04-agent-page, and the «Add to workshop» button. -->
+
+Vrátíte se na stránku agenta, kde je teď uvedeno **Propojeno s** vaší dílnou.
+
+:::warning 🔐 Potvrzujte jen to, na co jste právě sami klikli
+Pokud vám někdy přijde odkaz k „přidání agenta“, o který jste nežádali, zavřete
+ho. Agent se propojuje jen ze své vlastní stránky a na Synology tu stránku může
+otevřít jen správce vašeho NAS.
 :::
 
-## 1. Nainstalujte Container Manager
+## 4. Ověřte, že funguje
 
-Je to aplikace Synology, která spouští kontejnery. Instaluje se jako kterákoli
-jiná a **uvnitř není co nastavovat**, takže tento krok je rychlý.
+V BolloPrint, v **Nastavení → Tiskárny → Místní agent**: agent tam je s názvem
+vašeho NAS a logem Synology, ve stavu **Online**. Právě na tom záleží: celý
+okruh funguje.
 
-Přihlaste se do DSM (`http://IP-NAS:5000`) jako administrátor, otevřete **Centrum
-balíčků** (*Package Center*), vyhledejte **Container Manager** a klikněte na
-instalaci. Minuta nebo dvě. Pak ho otevřete a počkejte, až se spustí: jakmile
-karta **Přehled** (*Overview*) místo upozornění ukáže data, je hotovo.
+![Agent Synology ve stavu Online v Nastavení → Tiskárny → Místní agent a pod ním tiskárny nalezené v místní síti](/blog/media/2026-09-10-agente-synology/06-agent-online.png)
 
-![Centrum balíčků DSM s aplikací Container Manager](/blog/media/2026-09-10-agente-synology/02-centro-paquetes.png)
+Zhruba do minuty začne hledat tiskárny ve vaší síti. Zobrazí se v sekci
+**Tiskárny v místní síti** a odtud je přidáte; ty, které se neobjeví samy, přes
+**Přidat podle IP**. Postup pro jednotlivé značky najdete v
+[návodu k místní síti](/blog/connect-printers-local-network-agent).
 
-Všimnete si, že DSM samo vytvoří sdílenou složku `docker`. To je normální,
-nechte ji být.
+## Aktualizace
 
-:::warning ⚠️ Pokud se Container Manager nezobrazuje
-Znamená to, že tento model NAS kontejnery nepodporuje. Softwarově se s tím nedá
-nic dělat: nainstalujte agenta na jiný stroj ve stejné síti — mini-PC, Raspberry
-Pi, cokoli, co je stále zapnuté.
+**Skoro nikdy nemusíte nic dělat:** agent se aktualizuje sám. Když vyjde nová
+verze, stáhne ji, ověří, že je od nás, a restartuje se s ní.
+
+Jen pokud vám BolloPrint oznámí, že agenta je potřeba **aktualizovat ručně**,
+uděláte to sami, a znamená to **nainstalovat nový balíček přes ten, který už
+máte**: stáhněte ho znovu ze stejného místa v BolloPrint (**Místní agent → Nový
+agent → Synology**) a pak v **Centrum balíčků → Ruční instalace** vyberte nový
+soubor. DSM pozná, že už je nainstalovaný, a aktualizuje ho, aniž by se znovu
+ptal na port. Agent zůstane propojený se stejnou dílnou, se stejnými tiskárnami a
+celou jejich historií. Nic není potřeba znovu propojovat.
+
+Jakmile bude balíček v katalogu Centra balíčků Synology, Centrum balíčků vás na
+novou verzi upozorní samo a aktualizace bude otázkou jednoho kliknutí.
+
+:::warning Kvůli aktualizaci neodinstalovávejte
+Odinstalace smaže identitu agenta: co nainstalujete potom, je **nový** agent,
+kterého musíte znovu propojit. Při aktualizaci instalujte vždy přes stávající
+balíček.
 :::
 
-## 2. Vytvořte projekt
+## Přesun nebo začátek od nuly
 
-V Container Manageru je **projekt** v podstatě sepsaný recept: vložíte text a NAS
-se postará o stažení a spuštění toho, co v něm je. Není potřeba vytvářet složky
-ani kopírovat soubory.
+Agenta „převést“ nelze, ale ani to není potřeba: přesouvají se tiskárny, a to s
+celou svou historií.
 
-Přejděte do **Projekt → Vytvořit** (*Project → Create*).
+1. Nainstalujte balíček na nový NAS a propojte ho. Zobrazí se jako druhý agent.
+2. Otevřete každou tiskárnu přes **Upravit** v její nabídce **⋮** a přepněte ji
+   na nového agenta.
+3. Jakmile starému agentovi nezůstane žádná tiskárna, **smažte** ho z nabídky
+   **⋮** na jeho řádku.
 
-![Container Manager, karta Projekt, tlačítko Vytvořit](/blog/media/2026-09-10-agente-synology/03-crear-proyecto.png)
+Pokud chcete agenta odebrat úplně: v DSM zvolte **Centrum balíčků → BolloPrint
+Agent → Akce → Odinstalovat** a pak agenta v BolloPrint **smažte** z jeho
+nabídky **⋮**. Funguje to i obráceně: jakmile ho v BolloPrint smažete, agent to
+pozná, zapomene své propojení a jeho stránka znovu nabídne **Propojit s
+BolloPrint**. V žádném případě se nic neztratí: pokud později některou z jeho
+tiskáren znovu přidáte, vrátí se se svým číslem a svou historií.
 
-Jako název zadejte `bolloprint-agent`, malými písmeny — DSM tam velká písmena ani
-mezery nepřijme. U cesty klikněte na **Nastavit cestu** (*Set Path*), otevřete
-složku `docker`, vytvořte v ní složku `bolloprint-agent` a vyberte ji.
-
-:::info 💡 Ukládá se tam jen recept, ne vaše data
-V této složce je uložený **jen text souboru `docker-compose.yml`**. To, co si agent
-potřebuje pamatovat, je v interním svazku Dockeru, který se vytvoří sám a který se
-v File Station ani nezobrazuje. Tak je to lepší: není tam nic, na co sahat, ani nic,
-co omylem smazat.
-:::
-
-V části **Zdroj** (*Source*) zvolte vytvoření souboru `docker-compose.yml`.
-Zobrazí se prázdné okénko a do něj patří blok.
-
-:::danger ⚠️ Zkopírujte blok ze své obrazovky, ne odsud
-Najdete ho v BolloPrint, v **Nastavení → Tiskárny → Místní agent → Jak ho
-nasadit**, na kartě **Docker Compose**, s tlačítkem pro kopírování. V tom je verze
-agenta, která je v danou chvíli správná; ten níže je jen pro představu, jak to
-vypadá.
-
-**A v žádném případě nepište `latest`.** Tento štítek v registru neexistuje —
-ověřili jsme to dnes: vrací 404 —, takže projekt by uvízl na `manifest unknown`
-a vůbec by se nespustil. Nejde o ničí přehlédnutí, ale o záměr: pohyblivý štítek
-by umožnil, aby aktualizace vyměnila agenta pod běžící flotilou, aniž by o tom
-dílna rozhodla.
-:::
-
-```yaml
-services:
-  bolloprint-agent:
-    image: ghcr.io/bolloprint/bolloprint-agent:0.4.8   # ← ta, kterou ukazuje vaše obrazovka
-    container_name: bolloprint_agent
-    restart: unless-stopped
-    network_mode: host
-    mem_limit: 512m
-    pids_limit: 512
-    ulimits:
-      nofile:
-        soft: 65536
-        hard: 65536
-    environment:
-      BP_AGENT_CODE: SEM_VLOZTE_SVUJ_KOD
-      # BP_STATUS_PORT: 9911
-      # BP_LOG_LEVEL: debug
-    volumes:
-      - identity:/var/lib/bolloprint
-
-volumes:
-  identity:
-    name: bolloprint_agent_identity
-```
-
-Nahraďte `SEM_VLOZTE_SVUJ_KOD` svým kódem, celým a bez zbloudilých mezer na
-začátku nebo na konci — je to ta nejhloupější chyba a stává se nejčastěji.
-
-![Editor souboru docker-compose.yml v Container Manageru](/blog/media/2026-09-10-agente-synology/04-compose.png)
-
-Čtyři věci o tomto textu, které je dobré znát:
-
-- **Vložte ho, nepřepisujte ho.** Mezery na začátku každého řádku jsou součástí
-  formátu, a pokud se tam vloudí tabulátor, DSM ho odmítne.
-- **`network_mode: host`** zajišťuje, že agent vidí síť NAS a najde tiskárny sám.
-  Bez toho je budete přidávat všechny ručně.
-- **Svazek `identity`** je paměť agenta. Díky němu po vás agent nechce schválení
-  při každém restartu.
-- **Řádky s `#` jsou záměrně vypnuté.** Zapínají se, jen když je potřeba něco
-  diagnostikovat.
-
-V dalším kroku vám DSM nabídne zveřejnění „webového portálu“. Zvolte **Žádný**
-(*None*): agent nemá žádnou stránku, kterou by ukazoval.
-
-A je to. DSM stáhne obraz a spustí kontejner, přičemž vám ukazuje protokol
-v reálném čase. Pár minut podle vašeho připojení. Pokud projekt po dokončení
-zůstane zastavený, vyberte ho a zvolte **Akce → Spustit** (*Action → Start*).
-
-## 3. Ověřte, že běží
-
-Signály jsou tři, ale **opravdu se počítá ten třetí**. První dva vám říkají jen to,
-že se kontejner spustil, ne že s někým komunikuje.
-
-**Kontejner běží.** V části **Kontejner** (*Container*) by měl být
-`bolloprint_agent` ve stavu **Spuštěno** (*Running*) a spotřebovávat několik
-desítek MB.
-
-![Seznam kontejnerů se spuštěným bolloprint_agent](/blog/media/2026-09-10-agente-synology/05-contenedor.png)
-
-**Protokol říká, co má.** Dvakrát klikněte na kontejner, otevřete kartu
-**Protokol** (*Log*) a během prvních sekund by se mělo zobrazit tohle:
-
-```
-INFO bolloprint-agent starting version=0.4.8
-INFO installation fingerprint source=stored ...
-INFO bootstrapped agent_id=... printers=0
-INFO broker connected
-```
-
-Každý řádek potvrzuje něco jiného, a proto stojí za to se na ně podívat:
-
-| Řádek | Co vám říká |
-|---|---|
-| `source=stored` | Svazek identity je připojený a lze do něj zapisovat. Pokud je tu něco jiného, připravte se, že agenta budete schvalovat při každém novém vytvoření kontejneru. |
-| `bootstrapped` | Kód je v pořádku a BolloPrint ho rozpoznal. |
-| `broker connected` | Trvalé spojení je otevřené. Od této chvíle agent už hlásí stav. |
-
-![Karta Protokol se spouštěcími řádky](/blog/media/2026-09-10-agente-synology/06-registro.png)
-
-**A agent v BolloPrint zezelená.** V **Nastavení → Tiskárny → Místní agent** by
-měla karta asi do třiceti sekund přejít do stavu **Online**. To je ten
-rozhodující signál: znamená, že funguje celý řetězec.
-
-![Karta agenta ve stavu Online v BolloPrint](/blog/media/2026-09-10-agente-synology/07-agente-online.png)
-
-## Když něco nejde
+## Když něco nefunguje
 
 | Co vidíte | Co to obvykle znamená |
 |---|---|
-| `manifest unknown` při stahování | Tato verze obrazu neexistuje. Zkopírujte znovu blok ze své obrazovky — a zkontrolujte, že v něm není `latest`. |
-| Spustí se a sám se zastaví | Podívejte se do protokolu. Téměř vždy jde o špatně vložený kód se zbloudilou mezerou před ním nebo za ním. |
-| `bootstrapped` se nikdy neobjeví | NAS se nedostane do internetu přes port 443, nebo odchozí provoz pohlcuje firewall. |
-| Při každém restartu chce schválení | Chybí svazek identity. Zkontrolujte, že je vložená celá sekce `volumes`. |
-| Zobrazuje se jako instalace čekající na schválení | Tento kód už byl použitý na jiném stroji. Pokud zařízení znáte, schvalte ho — jen počítejte s tím, že schválením nového přijde to předchozí o přístup. |
-| Nenajde žádnou tiskárnu | Jsou NAS a tiskárny ve stejné síti? Pokud ne, je to očekávané: přidejte je podle IP a fungují stejně dobře. |
+| Průvodce hlásí, že port 8257 je obsazený | Používá ho jiná aplikace na NAS. Zadejte 8364 a pokračujte. |
+| „Není kompatibilní s vaším modelem“ | Balíček pro jiný procesor. Stáhněte ten správný. |
+| Při otevření BolloPrint Agent se zobrazí výzva k přihlášení do DSM | Otevřete ho z hlavní nabídky DSM, přihlášeni jako správce. |
+| Stránka hlásí, že agent neodpovídá | Balíček je zastavený nebo se ještě spouští. V Centru balíčků zvolte **Akce → Spustit** a počkejte několik sekund. |
+| Při propojování se vaše dílna v seznamu nezobrazí | Vidíte jen dílny, jejichž jste **vlastníkem**. Požádejte vlastníka, aby agenta propojil. |
+| „Tento požadavek na propojení není platný“ nebo vypršel | Vraťte se na stránku agenta a znovu klikněte na **Propojit s BolloPrint**. |
+| Po restartu NAS chvíli trvá, než se agent vrátí | Dejte mu pár minut: spouští se spolu s DSM a zkouší to znovu, dokud NAS nemá internet. |
+| Nenajde žádnou tiskárnu | Jsou ve stejné síti? Pokud ne, přidejte je podle IP. Pokud jste nějakou právě zapnuli, klikněte na **Hledat nyní**. Pokud máte zapnutou bránu firewall v DSM, povolte porty BolloPrint Agent (najdete ho v seznamu aplikací při vytváření pravidla). |
 
-## Co zbývá
+## Raději Docker?
 
-Se zeleným agentem máte půlku práce za sebou. Zbývá mu předat tiskárny: ty, které
-se objeví samy, ty, které je potřeba zadat podle IP, a to, co vyžaduje každá
-značka — to vše je v [návodu k místní síti](/blog/connect-printers-local-network-agent).
-
-Od té chvíle na něj můžete zapomenout. Kontejner se sám vrátí po každém restartu
-NAS a nevyžaduje údržbu. Jediné, co občas uděláte, je aktualizace: když vás
-BolloPrint upozorní na novou verzi, znovu zkopírujete blok z obrazovky a projekt
-restartujete.
+Pokud na vašem NAS už běží Container Manager a chcete mít všechno v
+kontejnerech, agent běží i jako kontejner. Postup najdete v článku
+[Agent v Dockeru](/help/agente-en-docker). Pro většinu dílen je ale balíček
+jednodušší: je to aplikace DSM jako každá jiná a propojí se jedním kliknutím.
 
 ## Další čtení
 
-- [Místní agent](/help/el-agente-local) — instalace, identita, více agentů a diagnostika
-- [Tiskárny v místní síti](/help/impresoras-por-red-local) — přidání strojů
-- [Typy připojení](/help/tipos-de-conexion) — co umožňuje která rodina tiskáren
-- [Kompatibilní tiskárny](/help/impresoras-compatibles) — tady najdete svůj model
-- [Připojení tiskáren](/help/conectar-impresoras) — dvě cesty a která se vám hodí
+- [Agent na Synology](/help/agente-en-synology) — kompletní průvodce: instalace, aktualizace, přesun, odinstalace a řešení potíží
+- [Místní agent](/help/el-agente-local) — co dělá, více agentů, diagnostika
+- [Tiskárny v místní síti](/help/impresoras-por-red-local) — přidání vašich strojů
+- [Kompatibilní tiskárny](/help/impresoras-compatibles) — vyhledejte svůj model

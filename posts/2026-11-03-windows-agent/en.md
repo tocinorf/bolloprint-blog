@@ -64,7 +64,7 @@ screen. That's expected:
 2. Click **Run anyway**.
 
 <!-- SCREENSHOT: 02-smartscreen.png — Windows 11 (English) SmartScreen «Windows protected your PC» AFTER clicking «More info»: app name bolloprint-agent-setup-….exe, publisher Unknown, and the «Run anyway» button. -->
-![Windows SmartScreen after More info, with the Run anyway button](/blog/media/2026-11-03-windows-agent/02-smartscreen.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Windows SmartScreen after More info, with the Run anyway button](/blog/media/2026-11-03-windows-agent/02-smartscreen.png "75%") -->
 
 Windows then asks whether the app may make changes to your device. Click
 **Yes**: the agent needs it to install itself as a service and to be allowed to
@@ -88,13 +88,13 @@ It's a short one:
 3. Click **Install**.
 
 <!-- SCREENSHOT: 03-port.png — the installer (English) on the «The agent's page» step, with the port field at 8257. -->
-![The installer's step for the agent's page, with the port at 8257](/blog/media/2026-11-03-windows-agent/03-port.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![The installer's step for the agent's page, with the port at 8257](/blog/media/2026-11-03-windows-agent/03-port.png "75%") -->
 
 When it's done, keep **Open the agent's page to link it** ticked and click
 **Finish**.
 
 <!-- SCREENSHOT: 04-finish.png — the installer (English) final screen with «Open the agent's page to link it» ticked and the Finish button. -->
-![The last step of the installer, with Open the agent's page to link it ticked](/blog/media/2026-11-03-windows-agent/04-finish.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![The last step of the installer, with Open the agent's page to link it ticked](/blog/media/2026-11-03-windows-agent/04-finish.png "75%") -->
 
 By now the agent is already running as a Windows service: it starts with the
 PC, keeps working when nobody is signed in, and has a small **BolloPrint icon**
@@ -112,7 +112,7 @@ BolloPrint opens. Sign in with the owner's account if you aren't already. If you
 own more than one workshop, it asks **which workshop** to add the agent to.
 
 <!-- SCREENSHOT: 06-choose-workshop.png — bolloprint.com (English) «Add an agent to your workshop» asking which workshop to add it to, with two workshops listed. Only if the account owns more than one; otherwise drop this image. -->
-![Choosing which workshop to add the agent to](/blog/media/2026-11-03-windows-agent/06-choose-workshop.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Choosing which workshop to add the agent to](/blog/media/2026-11-03-windows-agent/06-choose-workshop.png "75%") -->
 
 Then you see the confirmation: your PC's name and a **code**. Check it's the
 same code as on the agent's page, give the agent a name you'll recognise (where
@@ -120,7 +120,7 @@ it is, like "Office", works better than "Agent 1") and click **Add to
 workshop**.
 
 <!-- SCREENSHOT: 07-confirm.png — BolloPrint (English UI) «Add an agent to <workshop>»: Device (the PC's name), Code (matching the one in 05), the agent's name field and the «Add to workshop» button. -->
-![Confirming in BolloPrint: the PC, the matching code and the agent's name](/blog/media/2026-11-03-windows-agent/07-confirm.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Confirming in BolloPrint: the PC, the matching code and the agent's name](/blog/media/2026-11-03-windows-agent/07-confirm.png "75%") -->
 
 :::warning 🔐 Only if you pressed the button yourself
 Only confirm if you've just clicked **Link with BolloPrint** on your own PC. If
@@ -134,7 +134,7 @@ list, **Online**, with the Windows logo. The agent's page on your PC now says
 **Linked to** and your workshop's name.
 
 <!-- SCREENSHOT: 08-online.png — BolloPrint (English UI, dark theme) Settings → Printers → Local agent with the Windows agent Online (Windows logo, version) and, below, Printers on the local network with printers it has found. -->
-![The Windows agent online in BolloPrint, with the printers it has found](/blog/media/2026-11-03-windows-agent/08-online.png)
+<!-- PENDING (uncomment when the screenshot exists): ![The Windows agent online in BolloPrint, with the printers it has found](/blog/media/2026-11-03-windows-agent/08-online.png) -->
 
 Within a few minutes, the printers it finds on your network start appearing
 under **Printers on the local network** (click **Search now** if you've just
@@ -149,7 +149,7 @@ page; right-click it to see whether the agent is running, to uninstall it, or
 to hide the icon.
 
 <!-- SCREENSHOT: 09-tray.png — the Windows 11 taskbar (English) with the BolloPrint icon's right-click menu open: «Open the agent's page», «The agent is running», «Uninstall…», «Hide this icon». -->
-![The BolloPrint icon's menu in the Windows taskbar](/blog/media/2026-11-03-windows-agent/09-tray.png "50%")
+<!-- PENDING (uncomment when the screenshot exists): ![The BolloPrint icon's menu in the Windows taskbar](/blog/media/2026-11-03-windows-agent/09-tray.png "50%") -->
 
 Hiding the icon doesn't stop anything: the agent keeps working, and the icon
 comes back the next time you sign in. You'll also find **BolloPrint agent** in
@@ -203,3 +203,7 @@ BolloPrint too.
 
 Everything else, step by step, is in the guide
 [**Agent on Windows**](/help/agente-en-windows).
+
+Enjoy having your printers in view, with the workshop PC as the bridge.
+
+![Bollo, the BolloPrint mascot, next to the Windows logo](/blog/media/2026-11-03-windows-agent/10-bollo.webp "60%")

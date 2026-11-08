@@ -201,6 +201,10 @@ Write to us from the [contact page](/contact) or open a thread on
 help you with the rest.
 :::
 
+Enjoy having your printers in view, with your QNAP as the bridge.
+
+![Bollo, the BolloPrint mascot, next to the QNAP logo](/blog/media/2026-11-03-qnap-agent/10-bollo.webp "60%")
+
 ## Related documentation
 
 - [The agent on a QNAP](/help/agente-en-qnap): the full guide, with updating and troubleshooting

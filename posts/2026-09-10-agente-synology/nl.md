@@ -213,6 +213,10 @@ kan de agent ook als container draaien. De stappen staan in
 is het pakket eenvoudiger: het is een DSM-app zoals elke andere, en je koppelt
 hem met één klik.
 
+Veel plezier met je printers altijd in beeld, met je Synology als brug.
+
+![Bollo, de mascotte van BolloPrint, naast het logo van Synology](/blog/media/2026-09-10-agente-synology/10-bollo.webp "60%")
+
 ## Verder lezen
 
 - [Agent op Synology](/help/agente-en-synology) — de volledige handleiding: installeren, bijwerken, verhuizen, de-installeren en problemen oplossen

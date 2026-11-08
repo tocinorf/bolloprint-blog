@@ -208,6 +208,10 @@ Escríbenos desde la [página de contacto](/contact) o abre un hilo en
 ayudamos con el resto.
 :::
 
+Que disfrutes de tener tus impresoras a la vista, con tu QNAP haciendo de puente.
+
+![Bollo, la mascota de BolloPrint, junto al logo de QNAP](/blog/media/2026-11-03-qnap-agent/10-bollo.webp "60%")
+
 ## Documentación relacionada
 
 - [Agente en QNAP](/help/agente-en-qnap): la guía completa, con la actualización y los problemas habituales

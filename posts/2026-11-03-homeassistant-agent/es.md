@@ -61,7 +61,7 @@ Tu Home Assistant te pregunta si quieres añadir el repositorio de aplicaciones
 de BolloPrint (`github.com/bolloprint/agent-home-assistant`). Pulsa **Añadir**.
 
 <!-- SCREENSHOT: 03-add-repository.png — Home Assistant (English UI) dialog «Add app repository?» showing the BolloPrint repository URL and the Add button. -->
-![Home Assistant pidiendo añadir el repositorio de aplicaciones de BolloPrint](/blog/media/2026-11-03-homeassistant-agent/03-add-repository.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Home Assistant pidiendo añadir el repositorio de aplicaciones de BolloPrint](/blog/media/2026-11-03-homeassistant-agent/03-add-repository.png "75%") -->
 
 :::info ¿Prefieres hacerlo a mano?
 En Home Assistant, ve a **Configuración → Aplicaciones → Tienda de
@@ -78,13 +78,13 @@ sección de BolloPrint: es la del perro de BolloPrint. Ábrela y pulsa
 **Instalar**. Home Assistant prepara la app él mismo; tarda uno o dos minutos.
 
 <!-- SCREENSHOT: 04-install.png — Home Assistant (English UI) app page of BolloPrint Agent, not installed yet, with the Install button. -->
-![La app BolloPrint Agent en Home Assistant, lista para instalar](/blog/media/2026-11-03-homeassistant-agent/04-install.png)
+<!-- PENDING (uncomment when the screenshot exists): ![La app BolloPrint Agent en Home Assistant, lista para instalar](/blog/media/2026-11-03-homeassistant-agent/04-install.png) -->
 
 Después pulsa **Iniciar** y deja activado **Iniciar en el arranque**, para que el
 agente vuelva solo cada vez que se reinicie Home Assistant.
 
 <!-- SCREENSHOT: 05-started.png — Home Assistant (English UI) app page of BolloPrint Agent, running, with Start on boot on and the Open Web UI button. -->
-![La app en marcha, con Iniciar en el arranque activado y el botón Open Web UI](/blog/media/2026-11-03-homeassistant-agent/05-started.png)
+<!-- PENDING (uncomment when the screenshot exists): ![La app en marcha, con Iniciar en el arranque activado y el botón Open Web UI](/blog/media/2026-11-03-homeassistant-agent/05-started.png) -->
 
 ## 3. Vincúlalo con tu taller
 
@@ -93,7 +93,7 @@ Se abre la página del agente en una pestaña nueva: dice que todavía no
 pertenece a ningún taller y enseña un código corto.
 
 <!-- SCREENSHOT: 06-agent-page.png — the agent's page at http://<home-assistant>:8257 in English: «This agent doesn't belong to any workshop yet», the code and the Link with BolloPrint button. -->
-![La página del agente, con su código y el botón Vincular con BolloPrint](/blog/media/2026-11-03-homeassistant-agent/06-agent-page.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![La página del agente, con su código y el botón Vincular con BolloPrint](/blog/media/2026-11-03-homeassistant-agent/06-agent-page.png "75%") -->
 
 Pulsa **Vincular con BolloPrint**. Te lleva a BolloPrint (entra con tu cuenta si
 te lo pide):
@@ -104,7 +104,7 @@ te lo pide):
    confirma.
 
 <!-- SCREENSHOT: 07-confirm.png — BolloPrint (English UI) link confirmation page: workshop, matching code, agent name, Confirm button. -->
-![Confirmando la vinculación en BolloPrint: el taller, el código y el nombre del agente](/blog/media/2026-11-03-homeassistant-agent/07-confirm.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Confirmando la vinculación en BolloPrint: el taller, el código y el nombre del agente](/blog/media/2026-11-03-homeassistant-agent/07-confirm.png "75%") -->
 
 Vuelves a la página del agente, que ahora dice que está vinculado a tu taller.
 En BolloPrint, en **Configuración → Impresoras → Agente local**, el agente sale
@@ -176,3 +176,7 @@ hace el agente y, si se para, por qué. Los tropiezos más habituales:
 
 Todo lo demás, paso a paso, está en la guía
 [**Agente en Home Assistant**](/help/agente-en-home-assistant).
+
+Que disfrutes de tener tus impresoras a la vista, con Home Assistant haciendo de puente.
+
+![Bollo, la mascota de BolloPrint, junto al logo de Home Assistant](/blog/media/2026-11-03-homeassistant-agent/10-bollo.webp "60%")

@@ -95,7 +95,7 @@ docker compose up -d
 pega el manifiesto en el **Web editor** y pulsa **Deploy the stack**.
 
 <!-- SCREENSHOT: 04-portainer.png — Portainer (English UI, dark theme if possible), Stacks → Add stack: name «bolloprint-agent», the manifest pasted into the Web editor with its keys covered, and the Deploy the stack button visible. -->
-![La pantalla Add stack de Portainer con el manifiesto del agente pegado en el editor web](/blog/media/2026-11-03-docker-agent/04-portainer.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![La pantalla Add stack de Portainer con el manifiesto del agente pegado en el editor web](/blog/media/2026-11-03-docker-agent/04-portainer.png "75%") -->
 
 **El gestor de contenedores de tu NAS.** Si tu NAS trae el suyo (el **Container
 Manager** de Synology, por ejemplo), crea un **proyecto** nuevo y pega el

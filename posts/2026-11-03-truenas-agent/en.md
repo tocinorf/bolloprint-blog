@@ -161,6 +161,10 @@ If something doesn't behave as described here, the
 troubleshooting table: a busy port, an app that won't start, an agent that shows
 as offline.
 
+Enjoy having your printers in view, with your TrueNAS as the bridge.
+
+![Bollo, the BolloPrint mascot, next to the TrueNAS logo](/blog/media/2026-11-03-truenas-agent/10-bollo.webp "60%")
+
 ## Related documentation
 
 - [Agent on TrueNAS](/help/agente-en-truenas): the full reference, with troubleshooting

@@ -93,14 +93,14 @@ kubectl logs deployment/bolloprint-agent --tail 50
 ```
 
 <!-- SCREENSHOT: 03-kubectl.png — a terminal (dark) showing `kubectl apply -f bolloprint-agent.yaml` creating secret/deployment(/persistentvolumeclaim) and `kubectl get pods -l app=bolloprint-agent` with the pod Running. Needs a real cluster (k3s is enough). -->
-![kubectl applying the manifest and the agent's pod Running](/blog/media/2026-11-03-kubernetes-agent/03-kubectl.png)
+<!-- PENDING (uncomment when the screenshot exists): ![kubectl applying the manifest and the agent's pod Running](/blog/media/2026-11-03-kubernetes-agent/03-kubectl.png) -->
 
 A pod stuck in **Pending** is nearly always the persistent volume with no default
 StorageClass. Copy the manifest again without the box ticked, or create the
 StorageClass.
 
 <!-- SCREENSHOT: 04-online.png — BolloPrint (English UI, dark theme), Settings → Printers → Local agent: an agent with the Kubernetes logo Online, with the node's name and its version. Needs that real cluster connected to the dev workshop. -->
-![The Kubernetes agent Online in BolloPrint](/blog/media/2026-11-03-kubernetes-agent/04-online.png)
+<!-- PENDING (uncomment when the screenshot exists): ![The Kubernetes agent Online in BolloPrint](/blog/media/2026-11-03-kubernetes-agent/04-online.png) -->
 
 From here, your printers show up by themselves, ready to **Add**: the rest is in
 [connect your printers over your own network](/blog/connect-printers-local-network-agent).

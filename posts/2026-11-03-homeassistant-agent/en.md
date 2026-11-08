@@ -59,7 +59,7 @@ Your Home Assistant asks whether you want to add BolloPrint's app repository
 (`github.com/bolloprint/agent-home-assistant`). Click **Add**.
 
 <!-- SCREENSHOT: 03-add-repository.png — Home Assistant (English UI) dialog «Add app repository?» showing the BolloPrint repository URL and the Add button. -->
-![Home Assistant asking to add the BolloPrint app repository](/blog/media/2026-11-03-homeassistant-agent/03-add-repository.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Home Assistant asking to add the BolloPrint app repository](/blog/media/2026-11-03-homeassistant-agent/03-add-repository.png "75%") -->
 
 :::info Prefer to do it by hand?
 In Home Assistant go to **Settings → Apps → App store**, open the **⋮** menu
@@ -75,13 +75,13 @@ section: it's the one with the BolloPrint dog. Open it and click **Install**.
 Home Assistant prepares the app itself, which takes a minute or two.
 
 <!-- SCREENSHOT: 04-install.png — Home Assistant (English UI) app page of BolloPrint Agent, not installed yet, with the Install button. -->
-![The BolloPrint Agent app in Home Assistant, ready to install](/blog/media/2026-11-03-homeassistant-agent/04-install.png)
+<!-- PENDING (uncomment when the screenshot exists): ![The BolloPrint Agent app in Home Assistant, ready to install](/blog/media/2026-11-03-homeassistant-agent/04-install.png) -->
 
 Then click **Start**, and leave **Start on boot** switched on so the agent comes
 back by itself every time Home Assistant restarts.
 
 <!-- SCREENSHOT: 05-started.png — Home Assistant (English UI) app page of BolloPrint Agent, running, with Start on boot on and the Open Web UI button. -->
-![The app running, with Start on boot switched on and the Open Web UI button](/blog/media/2026-11-03-homeassistant-agent/05-started.png)
+<!-- PENDING (uncomment when the screenshot exists): ![The app running, with Start on boot switched on and the Open Web UI button](/blog/media/2026-11-03-homeassistant-agent/05-started.png) -->
 
 ## 3. Link it with your workshop
 
@@ -89,7 +89,7 @@ Click **Open Web UI** on the app page. The agent's own page opens in a new tab.
 It says the agent doesn't belong to any workshop yet, and shows a short code.
 
 <!-- SCREENSHOT: 06-agent-page.png — the agent's page at http://<home-assistant>:8257 in English: «This agent doesn't belong to any workshop yet», the code and the Link with BolloPrint button. -->
-![The agent's page, with its code and the Link with BolloPrint button](/blog/media/2026-11-03-homeassistant-agent/06-agent-page.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![The agent's page, with its code and the Link with BolloPrint button](/blog/media/2026-11-03-homeassistant-agent/06-agent-page.png "75%") -->
 
 Click **Link with BolloPrint**. You land in BolloPrint (sign in if it asks):
 
@@ -98,7 +98,7 @@ Click **Link with BolloPrint**. You land in BolloPrint (sign in if it asks):
 3. Check the name it suggests for the agent, change it if you like, and confirm.
 
 <!-- SCREENSHOT: 07-confirm.png — BolloPrint (English UI) link confirmation page: workshop, matching code, agent name, Confirm button. -->
-![Confirming the link in BolloPrint: the workshop, the code and the agent's name](/blog/media/2026-11-03-homeassistant-agent/07-confirm.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Confirming the link in BolloPrint: the workshop, the code and the agent's name](/blog/media/2026-11-03-homeassistant-agent/07-confirm.png "75%") -->
 
 You're sent back to the agent's page, which now says it's linked to your
 workshop. In BolloPrint, under **Settings → Printers → Local agent**, the agent
@@ -169,3 +169,7 @@ what the agent is doing and, if it stops, why. The most common snags:
 
 Everything else, step by step, is in the guide
 [**Agent on Home Assistant**](/help/agente-en-home-assistant).
+
+Enjoy having your printers in view, with Home Assistant as the bridge.
+
+![Bollo, the BolloPrint mascot, next to the Home Assistant logo](/blog/media/2026-11-03-homeassistant-agent/10-bollo.webp "60%")

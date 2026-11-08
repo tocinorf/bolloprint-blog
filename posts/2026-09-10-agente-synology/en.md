@@ -200,6 +200,10 @@ containers, the agent also runs as a container. The steps are in
 [Agent on Docker](/help/agente-en-docker). For most workshops, the
 package is simpler: it's a DSM app like any other, and it's linked in one click.
 
+Enjoy having your printers in view, with your Synology as the bridge.
+
+![Bollo, the BolloPrint mascot, next to the Synology logo](/blog/media/2026-09-10-agente-synology/10-bollo.webp "60%")
+
 ## Further reading
 
 - [Agent on Synology](/help/agente-en-synology) — the full guide: install, update, move, uninstall and troubleshooting

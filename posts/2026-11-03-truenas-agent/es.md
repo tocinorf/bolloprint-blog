@@ -163,6 +163,10 @@ Si algo no se comporta como cuenta este artículo, la página
 que hacer: un puerto ocupado, una app que no arranca, un agente que sale
 desconectado.
 
+Que disfrutes de tener tus impresoras a la vista, con tu TrueNAS haciendo de puente.
+
+![Bollo, la mascota de BolloPrint, junto al logo de TrueNAS](/blog/media/2026-11-03-truenas-agent/10-bollo.webp "60%")
+
 ## Documentación relacionada
 
 - [Agente en TrueNAS](/help/agente-en-truenas): la referencia completa, con lo que hacer si algo falla

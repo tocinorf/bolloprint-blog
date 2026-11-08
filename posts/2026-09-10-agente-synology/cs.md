@@ -202,6 +202,10 @@ kontejnerech, agent běží i jako kontejner. Postup najdete v článku
 [Agent v Dockeru](/help/agente-en-docker). Pro většinu dílen je ale balíček
 jednodušší: je to aplikace DSM jako každá jiná a propojí se jedním kliknutím.
 
+Ať se vám líbí mít tiskárny stále na očích, se Synology jako prostředníkem.
+
+![Bollo, maskot BolloPrint, vedle loga Synology](/blog/media/2026-09-10-agente-synology/10-bollo.webp "60%")
+
 ## Další čtení
 
 - [Agent na Synology](/help/agente-en-synology) — kompletní průvodce: instalace, aktualizace, přesun, odinstalace a řešení potíží

@@ -201,6 +201,10 @@ agente también funciona como contenedor. Los pasos están en
 paquete es más sencillo: es una aplicación de DSM como cualquier otra y se
 vincula con un clic.
 
+Que disfrutes de tener tus impresoras a la vista, con tu Synology haciendo de puente.
+
+![Bollo, la mascota de BolloPrint, junto al logo de Synology](/blog/media/2026-09-10-agente-synology/10-bollo.webp "60%")
+
 ## Para seguir leyendo
 
 - [Agente en Synology](/help/agente-en-synology) — la guía completa: instalar, actualizar, mover, desinstalar y qué hacer si algo falla

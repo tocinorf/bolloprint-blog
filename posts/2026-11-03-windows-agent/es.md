@@ -65,7 +65,7 @@ protegió su PC**. Es lo esperado:
 2. Pulsa **Ejecutar de todas formas**.
 
 <!-- SCREENSHOT: 02-smartscreen.png — Windows 11 (English) SmartScreen «Windows protected your PC» AFTER clicking «More info»: app name bolloprint-agent-setup-….exe, publisher Unknown, and the «Run anyway» button. -->
-![Windows SmartScreen después de Más información, con el botón Ejecutar de todas formas](/blog/media/2026-11-03-windows-agent/02-smartscreen.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Windows SmartScreen después de Más información, con el botón Ejecutar de todas formas](/blog/media/2026-11-03-windows-agent/02-smartscreen.png "75%") -->
 
 Después Windows pregunta si permites que la aplicación haga cambios en el
 equipo. Pulsa **Sí**: el agente lo necesita para instalarse como servicio y
@@ -89,13 +89,13 @@ Es cortito:
 3. Pulsa **Instalar**.
 
 <!-- SCREENSHOT: 03-port.png — the installer (English) on the «The agent's page» step, with the port field at 8257. -->
-![El paso del asistente para la página del agente, con el puerto en 8257](/blog/media/2026-11-03-windows-agent/03-port.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![El paso del asistente para la página del agente, con el puerto en 8257](/blog/media/2026-11-03-windows-agent/03-port.png "75%") -->
 
 Cuando termine, deja marcada la casilla **Abrir la página del agente para
 vincularlo** y pulsa **Finalizar**.
 
 <!-- SCREENSHOT: 04-finish.png — the installer (English) final screen with «Open the agent's page to link it» ticked and the Finish button. -->
-![El último paso del asistente, con Abrir la página del agente para vincularlo marcada](/blog/media/2026-11-03-windows-agent/04-finish.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![El último paso del asistente, con Abrir la página del agente para vincularlo marcada](/blog/media/2026-11-03-windows-agent/04-finish.png "75%") -->
 
 A estas alturas el agente ya funciona como servicio de Windows: arranca con el
 PC, sigue trabajando aunque nadie haya iniciado sesión y tiene un pequeño
@@ -114,7 +114,7 @@ abierta. Si eres dueño de más de un taller, te pregunta **¿A qué taller lo
 añades?**
 
 <!-- SCREENSHOT: 06-choose-workshop.png — bolloprint.com (English) «Add an agent to your workshop» asking which workshop to add it to, with two workshops listed. Only if the account owns more than one; otherwise drop this image. -->
-![Elegir a qué taller se añade el agente](/blog/media/2026-11-03-windows-agent/06-choose-workshop.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Elegir a qué taller se añade el agente](/blog/media/2026-11-03-windows-agent/06-choose-workshop.png "75%") -->
 
 Luego ves la confirmación: el nombre de tu PC y un **código**. Comprueba que es
 el mismo código que el de la página del agente, ponle al agente un nombre que
@@ -122,7 +122,7 @@ reconozcas (mejor dónde está, como «Oficina», que «Agente 1») y pulsa **A�
 al taller**.
 
 <!-- SCREENSHOT: 07-confirm.png — BolloPrint (English UI) «Add an agent to <workshop>»: Device (the PC's name), Code (matching the one in 05), the agent's name field and the «Add to workshop» button. -->
-![Confirmar en BolloPrint: el PC, el código que coincide y el nombre del agente](/blog/media/2026-11-03-windows-agent/07-confirm.png "75%")
+<!-- PENDING (uncomment when the screenshot exists): ![Confirmar en BolloPrint: el PC, el código que coincide y el nombre del agente](/blog/media/2026-11-03-windows-agent/07-confirm.png "75%") -->
 
 :::warning 🔐 Solo si has pulsado tú el botón
 Confirma únicamente si acabas de pulsar **Vincular con BolloPrint** en tu
@@ -137,7 +137,7 @@ la lista, **En línea**, con el logo de Windows. La página del agente, en tu PC
 dice ahora **Vinculado a** y el nombre de tu taller.
 
 <!-- SCREENSHOT: 08-online.png — BolloPrint (English UI, dark theme) Settings → Printers → Local agent with the Windows agent Online (Windows logo, version) and, below, Printers on the local network with printers it has found. -->
-![El agente de Windows En línea en BolloPrint, con las impresoras que ha encontrado](/blog/media/2026-11-03-windows-agent/08-online.png)
+<!-- PENDING (uncomment when the screenshot exists): ![El agente de Windows En línea en BolloPrint, con las impresoras que ha encontrado](/blog/media/2026-11-03-windows-agent/08-online.png) -->
 
 En unos minutos, las impresoras que encuentra en tu red empiezan a salir en
 **Impresoras por red local** (pulsa **Buscar ahora** si acabas de encender
@@ -152,7 +152,7 @@ agente; con el botón derecho ves si el agente está en marcha, puedes
 desinstalarlo o esconder el icono.
 
 <!-- SCREENSHOT: 09-tray.png — the Windows 11 taskbar (English) with the BolloPrint icon's right-click menu open: «Open the agent's page», «The agent is running», «Uninstall…», «Hide this icon». -->
-![El menú del icono de BolloPrint en la barra de tareas de Windows](/blog/media/2026-11-03-windows-agent/09-tray.png "50%")
+<!-- PENDING (uncomment when the screenshot exists): ![El menú del icono de BolloPrint en la barra de tareas de Windows](/blog/media/2026-11-03-windows-agent/09-tray.png "50%") -->
 
 Ocultar el icono no para nada: el agente sigue funcionando y el icono vuelve la
 próxima vez que inicies sesión. También tienes **Agente de BolloPrint** en el
@@ -209,3 +209,7 @@ elimínalo también en BolloPrint.
 
 Todo lo demás, paso a paso, está en la guía
 [**Agente en Windows**](/help/agente-en-windows).
+
+Que disfrutes de tener tus impresoras a la vista, con el PC del taller haciendo de puente.
+
+![Bollo, la mascota de BolloPrint, junto al logo de Windows](/blog/media/2026-11-03-windows-agent/10-bollo.webp "60%")

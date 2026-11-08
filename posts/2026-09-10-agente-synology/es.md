@@ -1,15 +1,15 @@
 ---
 slug: install-bolloprint-agent-synology
-title: Instalar el agente de BolloPrint en un Synology
-description: Si tienes un Synology en el taller, ahí va el agente. Un paquete de DSM que se instala desde el Centro de paquetes y se vincula con un clic. Sin Docker, sin códigos que copiar y sin tocar el router.
+title: Instalar el agente de BolloPrint en una Synology
+description: Si tienes una Synology en el taller, ahí va el agente. Un paquete de DSM que se instala desde el Centro de paquetes y se vincula con un clic. Sin Docker, sin códigos que copiar y sin tocar el router.
 date: 2026-11-02
 updated: 2026-11-02
 tags: [tutoriales]
 draft: true
 ---
 
-Si tienes un Synology en el taller, ya tienes dónde poner el agente de
-BolloPrint. Está encendido día y noche, está en la misma red que las impresoras
+Si tienes una Synology en el taller, ya tienes dónde poner el agente de
+BolloPrint. Está encendida día y noche, está en la misma red que las impresoras
 y ya hace funcionar el resto de tus pequeños servicios.
 
 El agente viene como **paquete de DSM**: se instala como cualquier otra
@@ -18,7 +18,7 @@ Container Manager, sin textos que pegar y sin códigos que copiar. Calcula diez
 minutos.
 
 :::info
-Esto va solo de **instalar el agente en un Synology**. Qué es el agente, qué
+Esto va solo de **instalar el agente en una Synology**. Qué es el agente, qué
 marcas admite y cómo das de alta cada impresora está en el
 [tutorial de red local](/blog/connect-printers-local-network-agent). Cuando
 termines aquí, sigue por ahí.
@@ -122,7 +122,7 @@ Vuelves a la página del agente, que ahora dice **Vinculado a** tu taller.
 
 :::warning 🔐 Confirma solo lo que acabas de pulsar tú
 Si alguna vez te llega un enlace para «añadir un agente» que no has pedido,
-ciérralo. Un agente solo se vincula desde su propia página, y en un Synology esa
+ciérralo. Un agente solo se vincula desde su propia página, y en una Synology esa
 página solo la abre un administrador de tu NAS.
 :::
 

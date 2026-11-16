@@ -29,8 +29,6 @@ Suministros**.
 Todo se añade igual a pedidos, presupuestos y al punto de venta, y se etiqueta como
 cualquier producto.
 
-![La pestaña Filamentos de Productos, con las bobinas del inventario a la venta, su precio y su stock](/blog/media/2026-11-16-novedades-ferias/02-material-a-la-venta-es.webp)
-
 [Ver los servicios](/help/servicios) · [Ver el material a la venta](/help/material-a-la-venta)
 
 ---
@@ -47,10 +45,6 @@ suministros…).
 - Si cobras en efectivo, anota cuánto te dan y **BolloPrint te calcula el cambio**.
 - Si vendes algo que no tienes en el catálogo, puedes hacer una **«Venta libre»**.
 - Haz un **«Resumen del día»** para cerrar la jornada.
-
-![El punto de venta con una venta a medias: los productos a la izquierda y la venta actual con su total a la derecha](/blog/media/2026-11-16-novedades-ferias/03-punto-de-venta-es.webp)
-
-![La ventana Cobrar: forma de pago, lo que te dan y el cambio](/blog/media/2026-11-16-novedades-ferias/04-cobrar-efectivo-es.webp "50%")
 
 :::warning
 El punto de venta **apunta** cómo te han pagado, pero no cobra por ti: la tarjeta
@@ -70,8 +64,6 @@ a mano y lo que se quedó en casa: **«4 aquí · 5 en el taller»**.
 Al cerrar el evento ves **cuánto te ha dejado**: lo vendido, los gastos, el
 beneficio y lo que no volvió. Lo que no hayas vendido **vuelve automáticamente al
 stock**.
-
-![Un evento cerrado: lo vendido, el coste, los gastos, lo que no vuelve y el beneficio](/blog/media/2026-11-16-novedades-ferias/05-evento-cerrado-es.webp)
 
 :::info
 Lo activas en **Configuración → Extensiones → Complementos**. Va de la mano del
@@ -108,8 +100,6 @@ tiendas online te lo preguntan al abrirlos.
 Y en **Inventario** hay una pestaña nueva, **«Historial»**: consulta qué cambió,
 cuándo, por qué y quién lo hizo.
 
-![La pestaña Historial de Inventario, con cada cambio del stock, su motivo y quién lo hizo](/blog/media/2026-11-16-novedades-ferias/06-historial-inventario-es.webp)
-
 ---
 
 ### 6. La tarjeta SD de tu impresora, desde BolloPrint
@@ -122,8 +112,6 @@ disponible una pestaña **«Historial»** en **Impresoras**.
 
 Hoy funciona con las **Bambu Lab**, las impresoras con **Klipper**, la **Snapmaker
 U1** y la **Elegoo Saturn 4 Ultra 16K**, conectadas por el agente local.
-
-![La ventana Almacenamiento de una impresora, con sus impresiones, grabaciones y archivos para descargar](/blog/media/2026-11-16-novedades-ferias/07-tarjeta-sd-es.webp)
 
 [Ver la memoria de la impresora](/help/la-memoria-de-la-impresora)
 
@@ -139,8 +127,6 @@ En el Financiero, el nuevo **Diario de caja** te enseña lo cobrado cada día y 
 mes, por forma de pago o por origen de venta. Se exporta a **Excel o PDF**, listo
 para tu gestoría. Disponible en los planes **Pro** y **Max**.
 
-![El Diario de caja del mes, con lo cobrado cada día en efectivo, tarjeta, Bizum y transferencia](/blog/media/2026-11-16-novedades-ferias/08-diario-de-caja-es.webp)
-
 ---
 
 ### 8. Un Financiero más claro
@@ -149,8 +135,6 @@ para tu gestoría. Disponible en los planes **Pro** y **Max**.
 - **Movimientos** tiene filtros y totales, y puedes mirar **un solo día**.
 - **Ventas** cabe en una tarjeta: qué vendes (productos 3D, servicios y material),
   tus orígenes de venta con su comisión y tus mejores clientes.
-
-![La pestaña Ventas del Financiero, con lo que vendes, cuánto supone cada cosa y su beneficio](/blog/media/2026-11-16-novedades-ferias/09-financiero-ventas-es.webp)
 
 :::info
 **Resumen** y **Movimientos** están disponibles en todos los planes. A **Ventas**,

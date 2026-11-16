@@ -29,6 +29,8 @@ Suministros**.
 Todo se añade igual a pedidos, presupuestos y al punto de venta, y se etiqueta como
 cualquier producto.
 
+![Productos, pestaña Filamentos: las bobinas a la venta con su precio, su margen y su stock](/blog/media/2026-11-16-novedades-ferias/02-productos-material-en.webp)
+
 [Ver los servicios](/help/servicios) · [Ver el material a la venta](/help/material-a-la-venta)
 
 ---
@@ -45,6 +47,10 @@ suministros…).
 - Si cobras en efectivo, anota cuánto te dan y **BolloPrint te calcula el cambio**.
 - Si vendes algo que no tienes en el catálogo, puedes hacer una **«Venta libre»**.
 - Haz un **«Resumen del día»** para cerrar la jornada.
+
+![El punto de venta con una venta a medias y un descuento del 15 %](/blog/media/2026-11-16-novedades-ferias/03-punto-de-venta-en.webp)
+
+![Cobrar en efectivo: lo que te dan y el cambio que tienes que devolver](/blog/media/2026-11-16-novedades-ferias/04-cobrar-en.webp)
 
 :::warning
 El punto de venta **apunta** cómo te han pagado, pero no cobra por ti: la tarjeta
@@ -65,6 +71,8 @@ Al cerrar el evento ves **cuánto te ha dejado**: lo vendido, los gastos, el
 beneficio y lo que no volvió. Lo que no hayas vendido **vuelve automáticamente al
 stock**.
 
+![Cerrar un evento: beneficio, lo vendido, los gastos, lo que no vuelve, lo más vendido y lo que vuelve al stock](/blog/media/2026-11-16-novedades-ferias/05-cerrar-evento-en.webp)
+
 :::info
 Lo activas en **Configuración → Extensiones → Complementos**. Va de la mano del
 punto de venta: al activar Eventos se activan los dos. Disponible en los planes
@@ -83,6 +91,8 @@ tipo de material. Sin hojas de cálculo aparte.
 Cuando te convence, desde el mismo resultado creas un **presupuesto**, un
 **producto** o un **diseño**.
 
+![La calculadora con un archivo subido: materiales, coste por unidad, margen y precio final](/blog/media/2026-11-16-novedades-ferias/06-calculadora-en.webp)
+
 :::info
 Es un complemento de **todos los planes, también Hobby**.
 [Ver la calculadora](/help/calculadora)
@@ -100,6 +110,8 @@ activarlos, todo está como lo dejaste.
 Y ahí también verás los complementos que estamos preparando, en **«Próximamente»**.
 Si alguno te interesa, pulsa **«Me interesa»**: nos ayuda a decidir qué hacemos antes.
 
+![Configuración, Complementos: punto de venta, eventos y calculadora activados, y los que vienen con su botón «Me interesa»](/blog/media/2026-11-16-novedades-ferias/07-complementos-en.webp "70%")
+
 :::info
 Los tienes en **Configuración → Extensiones → Complementos**. Los activan el
 Propietario o un Administrador.
@@ -114,6 +126,8 @@ Al crear, cancelar o modificar un pedido o un evento, BolloPrint te enseña **qu
 sale del inventario** (piezas y material) y te pregunta si lo coges de tu stock o lo
 imprimes. Los productos 3D descuentan sus piezas. Los pedidos que llegan de tus
 tiendas online te lo preguntan al abrirlos.
+
+![Al crear un pedido: qué sale del stock, qué hay que imprimir y si lo quitas del stock o no](/blog/media/2026-11-16-novedades-ferias/08-stock-pedido-en.webp "70%")
 
 Y en **Inventario** hay una pestaña nueva, **«Historial»**: consulta qué cambió,
 cuándo, por qué y quién lo hizo.
@@ -145,6 +159,8 @@ En el Financiero, el nuevo **Diario de caja** te enseña lo cobrado cada día y 
 mes, por forma de pago o por origen de venta. Se exporta a **Excel o PDF**, listo
 para tu gestoría. Disponible en los planes **Pro** y **Max**.
 
+![El Diario de caja del día, con lo cobrado por forma de pago y cada cobro](/blog/media/2026-11-16-novedades-ferias/09-diario-de-caja-en.webp)
+
 ---
 
 ### 9. Un Financiero más claro
@@ -153,6 +169,8 @@ para tu gestoría. Disponible en los planes **Pro** y **Max**.
 - **Movimientos** tiene filtros y totales, y puedes mirar **un solo día**.
 - **Ventas** cabe en una tarjeta: qué vendes (productos 3D, servicios y material),
   tus orígenes de venta con su comisión y tus mejores clientes.
+
+![Financiero, pestaña Ventas: lo que vendes, cuánto supone cada cosa y su beneficio](/blog/media/2026-11-16-novedades-ferias/10-financiero-ventas-en.webp)
 
 :::info
 **Resumen** y **Movimientos** están disponibles en todos los planes. A **Ventas**,

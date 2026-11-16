@@ -90,7 +90,25 @@ Es un complemento de **todos los planes, también Hobby**.
 
 ---
 
-### 5. El stock se mueve solo con tus pedidos
+### 5. Complementos: activa solo lo que necesitas
+
+El punto de venta, los eventos y la calculadora son **complementos**: no vienen
+encendidos, los activas tú cuando te hacen falta y tu menú se queda limpio mientras
+tanto. Si un día no los usas, los desactivas y **no se borra nada**: al volver a
+activarlos, todo está como lo dejaste.
+
+Y ahí también verás los complementos que estamos preparando, en **«Próximamente»**.
+Si alguno te interesa, pulsa **«Me interesa»**: nos ayuda a decidir qué hacemos antes.
+
+:::info
+Los tienes en **Configuración → Extensiones → Complementos**. Los activan el
+Propietario o un Administrador.
+[Ver los complementos](/help/complementos)
+:::
+
+---
+
+### 6. El stock se mueve solo con tus pedidos
 
 Al crear, cancelar o modificar un pedido o un evento, BolloPrint te enseña **qué
 sale del inventario** (piezas y material) y te pregunta si lo coges de tu stock o lo
@@ -102,7 +120,7 @@ cuándo, por qué y quién lo hizo.
 
 ---
 
-### 6. La tarjeta SD de tu impresora, desde BolloPrint
+### 7. La tarjeta SD de tu impresora, desde BolloPrint
 
 En la ficha de la impresora, el botón **«Almacenamiento»** te enseña lo que guarda
 la máquina en su tarjeta SD, su USB o su memoria: cada impresión con su
@@ -117,7 +135,7 @@ U1** y la **Elegoo Saturn 4 Ultra 16K**, conectadas por el agente local.
 
 ---
 
-### 7. Cobros en el pedido y un Diario de caja
+### 8. Cobros en el pedido y un Diario de caja
 
 Cada pedido apunta **cuánto se ha cobrado, cuándo y cómo**. Admite pagos parciales
 (una señal, por ejemplo) y tiene un botón **«Cobrar el resto»**. Y si marcas una
@@ -129,7 +147,7 @@ para tu gestoría. Disponible en los planes **Pro** y **Max**.
 
 ---
 
-### 8. Un Financiero más claro
+### 9. Un Financiero más claro
 
 - Todas las cifras **incluyen impuestos y envío**, igual que en tus pedidos.
 - **Movimientos** tiene filtros y totales, y puedes mirar **un solo día**.

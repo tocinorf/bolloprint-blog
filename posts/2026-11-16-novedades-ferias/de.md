@@ -5,7 +5,6 @@ description: "Die wichtigsten Verbesserungen aus der zweiten Novemberwoche 2026:
 date: 2026-11-16
 tags: [neuigkeiten]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Erst vor ein paar Wochen haben wir dir die Neuerungen vom Herbstanfang vorgestellt,

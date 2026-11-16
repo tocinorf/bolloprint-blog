@@ -5,7 +5,6 @@ description: "Las mejoras más destacadas de la segunda semana de noviembre de 2
 date: 2026-11-16
 tags: [novedades]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Hace solo unas semanas te contábamos las novedades de principios de otoño, y no

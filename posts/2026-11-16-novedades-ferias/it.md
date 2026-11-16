@@ -5,7 +5,6 @@ description: "I miglioramenti più importanti della seconda settimana di novembr
 date: 2026-11-16
 tags: [novita]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Solo poche settimane fa ti raccontavamo le novità di inizio autunno, e non ci siamo

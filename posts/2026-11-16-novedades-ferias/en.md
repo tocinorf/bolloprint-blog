@@ -5,7 +5,6 @@ description: "The biggest improvements from the second week of November 2026: po
 date: 2026-11-16
 tags: [news]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Only a few weeks ago we told you what was new at the start of autumn, and we

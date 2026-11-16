@@ -5,7 +5,6 @@ description: "De belangrijkste verbeteringen uit de tweede week van november 202
 date: 2026-11-16
 tags: [nieuws]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Pas een paar weken geleden vertelden we je over het nieuws van begin herfst, en we

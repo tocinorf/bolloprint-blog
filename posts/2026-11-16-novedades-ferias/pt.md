@@ -5,7 +5,6 @@ description: "As melhorias mais importantes da segunda semana de novembro de 202
 date: 2026-11-16
 tags: [novidades]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Há poucas semanas contámos-te as novidades do início do outono, e não parámos. Desta

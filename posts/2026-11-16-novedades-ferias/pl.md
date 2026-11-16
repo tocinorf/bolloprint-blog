@@ -5,7 +5,6 @@ description: "Najważniejsze ulepszenia z drugiego tygodnia listopada 2026: punk
 date: 2026-11-16
 tags: [nowości]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Zaledwie kilka tygodni temu opowiadaliśmy o nowościach z początku jesieni i od tamtej

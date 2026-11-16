@@ -5,7 +5,6 @@ description: "Les améliorations phares de la deuxième semaine de novembre 2026
 date: 2026-11-16
 tags: [nouveautes]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Il y a quelques semaines à peine, nous vous présentions les nouveautés du début de

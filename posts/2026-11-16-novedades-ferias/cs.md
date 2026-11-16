@@ -5,7 +5,6 @@ description: "Nejdůležitější vylepšení z druhého listopadového týdne 2
 date: 2026-11-16
 tags: [novinky]
 cover: 01-bollo-feria.jpg
-draft: true
 ---
 
 Teprve před pár týdny jsme vám představili novinky z počátku podzimu a od té doby jsme

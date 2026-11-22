@@ -131,8 +131,7 @@ situación.
 Además de tus productos 3D, ahora puedes añadir **filamento, resina y
 suministros** a tus pedidos y presupuestos, y venderlos desde el punto de venta.
 ¿Un cliente te compra una bobina? Sale de tu inventario como cualquier otra
-venta. Te lo contamos con más detalle en
-[Material a la venta](/help/material-a-la-venta).
+venta.
 
 ### Lo que vendes sale del stock
 

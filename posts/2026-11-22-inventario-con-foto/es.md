@@ -4,7 +4,7 @@ title: "Sube tu inventario con una foto: así se añaden bobinas y resinas en Bo
 description: Haz fotos a las etiquetas de tus bobinas y botes de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona y cómo se mueve después el stock con tus pedidos, el punto de venta y los eventos.
 date: 2026-11-22
 tags: [tutoriales]
-cover: 01-portada.jpg
+cover: 03-camara-movil-en.jpg
 draft: true
 ---
 
@@ -45,7 +45,7 @@ llegar, en una sola revisión. Y no tienes que hacerlas una a una: si en la foto
 aparecen varios filamentos o resinas y se ven bien, BolloPrint identifica cada
 uno por separado.
 
-![La cámara de «Añadir con foto» en el móvil, apuntando a un bote de resina, tres cajas de filamento y una bobina en la misma foto, con cuatro fotos ya hechas de 50](/blog/media/2026-11-22-inventario-con-foto/03-camara-movil-en.jpg "40%")
+![La cámara de «Añadir con foto» en el móvil, apuntando a un bote de resina, tres cajas de filamento y una bobina en la misma foto, con cuatro fotos ya hechas de 50](/blog/media/2026-11-22-inventario-con-foto/03-camara-movil-en-marco.webp "40%")
 
 Un truco: puedes hacer las fotos con el móvil en el almacén y revisarlas después
 en el ordenador. La revisión se guarda sola y la sigues en el dispositivo que
@@ -65,7 +65,7 @@ falta que esperes con la ventana abierta: abajo verás «Subiendo fotos de
 etiquetas · 2 de 6» y puedes seguir trabajando en otra parte de la app. Si se va
 la conexión, las fotos pendientes se suben solas cuando vuelve.
 
-![La revisión en el móvil mientras BolloPrint sigue leyendo: materiales seguros, no seguros y uno pedido al catálogo con su número de caso, y abajo los botones Revisar (2) y Añadir 3](/blog/media/2026-11-22-inventario-con-foto/04-revisar-en-el-movil-en.jpg "40%")
+![La revisión en el móvil mientras BolloPrint sigue leyendo: materiales seguros, no seguros y uno pedido al catálogo con su número de caso, y abajo los botones Revisar (2) y Añadir 3](/blog/media/2026-11-22-inventario-con-foto/04-revisar-en-el-movil-en-marco.webp "40%")
 
 ### 3. Revisa solo lo que hace falta
 

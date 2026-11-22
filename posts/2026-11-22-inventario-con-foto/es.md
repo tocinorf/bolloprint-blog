@@ -44,7 +44,7 @@ llegar, en una sola revisión. Y no tienes que hacerlas una a una: si en la foto
 aparecen varios filamentos o resinas y se ven bien, BolloPrint identifica cada
 uno por separado.
 
-![La cámara de «Añadir con foto» en el móvil, apuntando a tres cajas de filamento, una bobina y un bote de resina en la misma foto](/blog/media/2026-11-22-inventario-con-foto/03-camara-en.jpg "40%")
+![La cámara de «Añadir con foto» en el móvil, apuntando a un bote de resina, tres cajas de filamento y una bobina en la misma foto, con cuatro fotos ya hechas de 50](/blog/media/2026-11-22-inventario-con-foto/03-camara-movil-en.jpg "40%")
 
 Un truco: puedes hacer las fotos con el móvil en el almacén y revisarlas después
 en el ordenador. La revisión se guarda sola y la sigues en el dispositivo que
@@ -64,7 +64,7 @@ falta que esperes con la ventana abierta: abajo verás «Subiendo fotos de
 etiquetas · 2 de 6» y puedes seguir trabajando en otra parte de la app. Si se va
 la conexión, las fotos pendientes se suben solas cuando vuelve.
 
-![La revisión en el móvil: cada material leído con su marca y su peso, unos marcados como seguros y otros como no seguros, y abajo los botones Revisar (5) y Añadir 7](/blog/media/2026-11-22-inventario-con-foto/04-revision-movil-en.jpg "40%")
+![La revisión en el móvil mientras BolloPrint sigue leyendo: materiales seguros, no seguros y uno pedido al catálogo con su número de caso, y abajo los botones Revisar (2) y Añadir 3](/blog/media/2026-11-22-inventario-con-foto/04-revisar-en-el-movil-en.jpg "40%")
 
 ### 3. Revisa solo lo que hace falta
 

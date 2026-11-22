@@ -1,38 +1,38 @@
 ---
 slug: filament-inventory-from-a-photo
-title: "Tu inventario de filamento con una foto: así se añaden bobinas y resinas en BolloPrint"
+title: "Sube tu inventario con una foto: así se añaden bobinas y resinas en BolloPrint"
 description: Haz fotos a las etiquetas de tus bobinas y frascos de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona y cómo se mueve después el stock con tus pedidos, el punto de venta y los eventos.
 date: 2026-11-22
 tags: [tutoriales]
 draft: true
 ---
 
-Llega el pedido de filamento: diez bobinas, cuatro marcas, seis colores. Toca
-darlas de alta en el inventario, una a una: buscar la marca, el material, el
-color, el peso… Y si no lo haces en ese momento, a la semana ya no sabes cuántas
-bobinas de PETG negro te quedan.
+Llegaron varios pedidos a la vez: quince bobinas de filamento, cuatro botes de
+resina, tres marcas, ocho colores. Toca darlas de alta en el inventario, una a
+una: buscar la marca, el material, el color, el peso… Y si no lo haces en ese
+momento, a la semana ya no sabes cuántas bobinas de PETG negro te quedan.
 
-Por eso en BolloPrint ahora puedes **añadir filamentos y resinas con una foto de
-su etiqueta**. Haces las fotos, BolloPrint las lee y tú solo confirmas lo que no
-esté claro. En esta guía te contamos cómo funciona paso a paso y, ya que estamos,
-cómo se mueve después ese stock cuando vendes.
+En esta guía te contamos cómo funciona paso a paso y te explicamos además cómo
+se mueve ese stock cuando vendes.
 
 ## Primero, qué guarda tu inventario
 
 En **Inventario** BolloPrint separa dos cosas:
 
-- **El material**: tus bobinas de **Filamento**, tus frascos de **Resina** y los
-  **Suministros** (cajas, imanes, argollas de llavero…). Es lo que compras.
 - **El Stock**: las **piezas ya impresas** que tienes guardadas, listas para
   montar un producto o venderlas.
+- **El material**: tus bobinas de **Filamento**, tus frascos de **Resina** y los
+  **Suministros** (cajas, imanes, argollas de llavero…). Es lo que compras,
+  ¡aunque también puedes venderlo!
 
-«Añadir con foto» sirve para el material: filamentos y resinas.
+«Añadir con foto» solo sirve para filamentos y resinas.
 
 ## Añadir con foto, paso a paso
 
 ### 1. Haz las fotos
 
-En **Inventario → Filamento** (o **Resina**) pulsa **Añadir con foto**.
+Entra en tu **Inventario**, en la pestaña **Filamento** o **Resina**, y pulsa
+**Añadir con foto**.
 
 - **En el ordenador**, arrastra las fotos a la ventana o haz clic en ella para
   elegirlas.
@@ -40,8 +40,13 @@ En **Inventario → Filamento** (o **Resina**) pulsa **Añadir con foto**.
   galería** si ya las tienes hechas.
 
 Puedes hacer **hasta 50 fotos de una vez**: todas las bobinas que acaban de
-llegar, en una sola revisión. Arriba de la cámara te recordamos qué tiene que
-salir en la foto: la **marca**, la **referencia**, el **color** y el **peso**.
+llegar, en una sola revisión. Y no tienes que hacerlas una a una: si en la foto
+aparecen varios filamentos o resinas y se ven bien, BolloPrint identifica cada
+uno por separado.
+
+Un truco: puedes hacer las fotos con el móvil en el almacén y revisarlas después
+en el ordenador. La revisión se guarda sola y la sigues en el dispositivo que
+quieras.
 
 :::info 💡 Fotos nítidas a la primera
 Si la foto sale movida, BolloPrint te lo dice al momento para que la repitas.
@@ -49,10 +54,6 @@ Hay **linterna** para los rincones oscuros del taller y, si tu móvil enfoca mej
 con su propia cámara, el botón **Usar la cámara del móvil** la abre y las fotos
 van al mismo montón.
 :::
-
-Un truco: puedes hacer las fotos con el móvil en el almacén y revisarlas después
-en el ordenador. La revisión se guarda sola y la sigues en el dispositivo que
-quieras.
 
 ### 2. BolloPrint lee las etiquetas
 
@@ -63,12 +64,13 @@ la conexión, las fotos pendientes se suben solas cuando vuelve.
 
 ### 3. Revisa solo lo que hace falta
 
-Cuando terminan, se abre **Revisar las fotos**. Cada foto sale con su estado:
+Cuando termina, BolloPrint te enseña lo que tiene claro y lo que no. Ahora toca
+**Revisar las fotos**. Cada foto sale con su estado:
 
 - **Seguro**: BolloPrint sabe qué material es. No tienes que hacer nada.
 - **No seguro**: ha encontrado varios candidatos y te pregunta **¿Cuál de estos
-  es?** Por ejemplo, cuando el mismo filamento se vende en bobinas de 1 kg y de
-  250 g y en la etiqueta no se ve el peso.
+  es?** Por ejemplo, cuando la misma resina se vende en botes de 1 kilo o de 2
+  kilos y en la etiqueta no se ve el peso.
 - **Falta la marca**: se lee el material, pero no el fabricante. Lo eliges de la
   lista.
 - **Foto sin datos**: no se lee lo suficiente. Puedes **Cambiar foto** o buscar el
@@ -83,7 +85,7 @@ ajustas la cantidad con **+** y **−** sin hacer tres fotos.
 
 ¿No es el que sale? **Buscar otro** abre el catálogo de materiales. La búsqueda
 es tolerante: «PLA+ 2.0», «pla 2.0» y «PLA+2.0» encuentran lo mismo, y puedes
-escribir el color en tu idioma («blanco», «seda»…).
+escribir el color en tu idioma («verde», «naranja»…).
 
 ### 4. Añade todo de una vez
 
@@ -95,37 +97,39 @@ resto y dejarlo fuera.
 ### ¿Y si tu filamento no está en el catálogo?
 
 Puede pasar con una marca pequeña o un color recién salido. Si BolloPrint sabe
-qué es pero aún no está en el catálogo de materiales, te lo dice y pide que lo
-añadan, con la foto y un número de caso. **No tienes que hacer nada.** Y si no lo
-reconoce, desde la propia foto puedes **Pedir que lo añadan**.
+qué es pero aún no está en el catálogo de materiales, te avisa y abre
+automáticamente un caso a nuestro soporte para que lo añadan. **No tienes que
+hacer nada.** Si no lo reconoce, desde la propia foto siempre nos puedes pedir
+que se añada.
 
 :::info 🔒 Planes Pro y Max
 «Añadir con foto» está en los planes **Pro** y **Max**. Las fotos de las
 etiquetas no ocupan espacio de tu plan: se borran al terminar la revisión.
 :::
 
-## Y después, ¿cómo se mueve el stock?
+## Y en el día a día, ¿cómo se mueve el stock?
 
 Tener el inventario al día está bien, pero lo que de verdad ahorra trabajo es
 que se mantenga al día solo. Esto es lo que hace BolloPrint con tu stock en cada
 situación.
 
-### También puedes vender material
+### Ahora también puedes vender tu material
 
-En pedidos, presupuestos y el punto de venta puedes añadir, además de tus
-productos 3D, **filamento, resina y suministros** como líneas del pedido. ¿Un
-cliente te pide una bobina? Sale de tu inventario como cualquier otra venta.
+Además de tus productos 3D, ahora puedes añadir **filamento, resina y
+suministros** a tus pedidos y presupuestos, y venderlos desde el punto de venta.
+¿Un cliente te compra una bobina? Sale de tu inventario como cualquier otra
+venta.
 
 ### Lo que vendes sale del stock
 
-Al guardar un pedido, BolloPrint calcula qué sale del inventario:
+Cuando guardas un pedido, BolloPrint revisa tu inventario para ver qué tienes y
+qué no, y te pregunta qué quieres hacer:
 
-- Las **líneas de material** quitan sus bobinas, frascos o suministros.
-- Los **productos 3D** quitan las **piezas** de las que están hechos. Si un
-  producto lleva tres piezas y vendes dos, salen seis piezas del Stock.
-
-Antes de tocar nada, te lo enseña como una resta, **Tienes − Se quitan = Te
-quedan**, y eliges **Quitar del stock** o **No quitar del stock**.
+- Los **materiales** que vendas (bobinas, frascos o suministros) se descuentan
+  automáticamente.
+- Con los **productos 3D** que vendes y tienes en tu inventario, puedes elegir
+  **Quitar del stock** o **No quitar del stock**. Si un producto está formado por
+  varias piezas, se descuentan todas del Stock.
 
 Si no hay suficiente, BolloPrint quita lo que hay (nunca deja el stock en
 negativo) y te dice qué falta: una pieza **hay que imprimirla** y un material
@@ -154,10 +158,9 @@ vendes sale del stock y, si anulas la venta, vuelve.
 
 ### Lo que te llevas a un evento
 
-Si vas a un mercado o un evento maker, en **Eventos** preparas **qué te llevas**:
-piezas del Stock y material del inventario. Al guardarlo, eso sale del stock y
-queda «en el evento». Lo que no tengas en el Stock se da por impreso para la
-ocasión.
+Si vas a un mercado o un evento maker, al crear un evento en **Eventos** defines
+**qué te llevas**: piezas del Stock y material del inventario. Al guardarlo, deja
+de contar en tu stock y queda guardado en el stock del evento.
 
 - Lo que **vendes en el evento** con el punto de venta se descuenta de lo que te
   has llevado, no otra vez de tu inventario.
@@ -167,7 +170,7 @@ ocasión.
 - El cierre también te dice si **has vendido productos que no te habías
   llevado**, por ejemplo un encargo que entregarás después.
 
-:::info 💡 ¿Ya lo has impreso todo a propósito para el evento?
+:::info 💡 ¿Lo has impreso a propósito para el evento?
 Elige **No tocar el Stock**: lo que te lleves no se quita del inventario, y lo
 que sobre se suma al cerrar.
 :::

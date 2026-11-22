@@ -4,6 +4,7 @@ title: "Sube tu inventario con una foto: así se añaden bobinas y resinas en Bo
 description: Haz fotos a las etiquetas de tus bobinas y botes de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona y cómo se mueve después el stock con tus pedidos, el punto de venta y los eventos.
 date: 2026-11-22
 tags: [tutoriales]
+cover: 03-camara-movil-en.jpg
 draft: true
 ---
 

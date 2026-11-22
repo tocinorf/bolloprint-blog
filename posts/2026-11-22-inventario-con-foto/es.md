@@ -107,6 +107,10 @@ que se añada.
 etiquetas no ocupan espacio de tu plan: se borran al terminar la revisión.
 :::
 
+¿Quieres todos los detalles? Qué hacer con cada estado, cómo funciona la cámara o
+qué pasa si se corta la conexión: lo tienes en la ayuda de
+[Añadir con foto](/help/inventario#añadir-con-foto).
+
 ## Y en el día a día, ¿cómo se mueve el stock?
 
 Tener el inventario al día está bien, pero lo que de verdad ahorra trabajo es
@@ -118,18 +122,19 @@ situación.
 Además de tus productos 3D, ahora puedes añadir **filamento, resina y
 suministros** a tus pedidos y presupuestos, y venderlos desde el punto de venta.
 ¿Un cliente te compra una bobina? Sale de tu inventario como cualquier otra
-venta.
+venta. Te lo contamos con más detalle en
+[Material a la venta](/help/material-a-la-venta).
 
 ### Lo que vendes sale del stock
 
 Cuando guardas un pedido, BolloPrint revisa tu inventario para ver qué tienes y
-qué no, y te pregunta qué quieres hacer:
+qué no, y te enseña lo que sale:
 
-- Los **materiales** que vendas (bobinas, frascos o suministros) se descuentan
-  automáticamente.
-- Con los **productos 3D** que vendes y tienes en tu inventario, puedes elegir
-  **Quitar del stock** o **No quitar del stock**. Si un producto está formado por
-  varias piezas, se descuentan todas del Stock.
+- Los **materiales** que vendes: bobinas, frascos o suministros.
+- Las **piezas** de los productos 3D que vendes. Si un producto está formado por
+  varias piezas, salen todas del Stock.
+
+Y tú eliges **Quitar del stock** o **No quitar del stock**.
 
 Si no hay suficiente, BolloPrint quita lo que hay (nunca deja el stock en
 negativo) y te dice qué falta: una pieza **hay que imprimirla** y un material
@@ -144,23 +149,29 @@ Además:
 - El stock **nunca cambia el estado del pedido**: marcarlo «Listo para enviar»
   lo decides tú, porque aún puede faltar empaquetarlo.
 
+Todos los casos, en la ayuda:
+[Lo que vendes sale del stock](/help/inventario#lo-que-vendes-sale-del-stock).
+
 ### Pedidos de Etsy y otros marketplaces
 
 Un pedido que llega solo de tu tienda no tiene a nadie a quien preguntar, así que
 entra como **stock por decidir**. La primera vez que lo abres, BolloPrint te
 pregunta qué hacer con el stock. Y si el comprador lo cancela en el marketplace,
-lo que se había quitado vuelve solo.
+lo que se había quitado vuelve solo. Más en
+[Stock por decidir](/help/detalles-de-un-pedido#stock-por-decidir).
 
 ### En el punto de venta
 
 En el **Punto de venta** no hay preguntas: cobrar ya es la decisión. Lo que
-vendes sale del stock y, si anulas la venta, vuelve.
+vendes sale del stock y, si anulas la venta, vuelve. Más en
+[Punto de venta](/help/punto-de-venta).
 
 ### Lo que te llevas a un evento
 
 Si vas a un mercado o un evento maker, al crear un evento en **Eventos** defines
 **qué te llevas**: piezas del Stock y material del inventario. Al guardarlo, deja
-de contar en tu stock y queda guardado en el stock del evento.
+de contar en tu stock y queda guardado en el stock del evento. Lo que no tengas
+en el Stock se da por impreso para la ocasión.
 
 - Lo que **vendes en el evento** con el punto de venta se descuenta de lo que te
   has llevado, no otra vez de tu inventario.
@@ -175,12 +186,17 @@ Elige **No tocar el Stock**: lo que te lleves no se quita del inventario, y lo
 que sobre se suma al cerrar.
 :::
 
+Paso a paso, en la ayuda de Eventos:
+[Qué te llevas](/help/eventos#qué-te-llevas) y
+[Cerrar el evento](/help/eventos#cerrar-el-evento).
+
 ### Todo queda apuntado en el Historial
 
 Cada cambio del inventario queda en **Inventario → Historial**: cuándo, qué, por
 qué (un pedido, el punto de venta, un evento, un cambio a mano), cuánto y quién
 lo hizo. Desde el menú **⋯** de cada fila, **Ver historial** te enseña solo lo
-de ese material o esa pieza.
+de ese material o esa pieza. Más en la ayuda del
+[Historial](/help/inventario#historial).
 
 Las compras se apuntan a mano, con el **+** de la fila o con «Añadir con foto».
 Un gasto del **Financiero** no cambia el inventario: así no se suma dos veces la
@@ -197,8 +213,11 @@ Si te preguntas cuánto te cuesta de verdad cada pieza con ese filamento, lo
 contamos en
 [qué cuesta de verdad una pieza impresa](/blog/calculate-your-3d-printing-costs).
 
+![Bollo, la mascota de BolloPrint, con sus gafas de taller, rodeado de bobinas de filamento y botes de resina](/blog/media/2026-11-22-inventario-con-foto/11-bollo.jpg "60%")
+
 ## Documentación relacionada
 
+- [Añadir con foto](/help/inventario#añadir-con-foto): las fotos, la revisión y cada estado, en detalle
 - [Inventario](/help/inventario): filamento, resina, suministros y Stock
 - [Material a la venta](/help/material-a-la-venta): vender bobinas y suministros
 - [Detalles de un pedido](/help/detalles-de-un-pedido): las líneas y el stock

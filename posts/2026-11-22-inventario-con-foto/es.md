@@ -1,7 +1,7 @@
 ---
 slug: filament-inventory-from-a-photo
 title: "Sube tu inventario con una foto: así se añaden bobinas y resinas en BolloPrint"
-description: Haz fotos a las etiquetas de tus bobinas y frascos de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona y cómo se mueve después el stock con tus pedidos, el punto de venta y los eventos.
+description: Haz fotos a las etiquetas de tus bobinas y botes de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona y cómo se mueve después el stock con tus pedidos, el punto de venta y los eventos.
 date: 2026-11-22
 tags: [tutoriales]
 draft: true
@@ -21,7 +21,7 @@ En **Inventario** BolloPrint separa dos cosas:
 
 - **El Stock**: las **piezas ya impresas** que tienes guardadas, listas para
   montar un producto o venderlas.
-- **El material**: tus bobinas de **Filamento**, tus frascos de **Resina** y los
+- **El material**: tus bobinas de **Filamento**, tus botes de **Resina** y los
   **Suministros** (cajas, imanes, argollas de llavero…). Es lo que compras,
   ¡aunque también puedes venderlo!
 
@@ -138,7 +138,7 @@ venta. Te lo contamos con más detalle en
 Cuando guardas un pedido, BolloPrint revisa tu inventario para ver qué tienes y
 qué no, y te enseña lo que sale:
 
-- Los **materiales** que vendes: bobinas, frascos o suministros.
+- Los **materiales** que vendes: bobinas, botes o suministros.
 - Las **piezas** de los productos 3D que vendes. Si un producto está formado por
   varias piezas, salen todas del Stock.
 

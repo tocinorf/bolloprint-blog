@@ -44,6 +44,8 @@ llegar, en una sola revisión. Y no tienes que hacerlas una a una: si en la foto
 aparecen varios filamentos o resinas y se ven bien, BolloPrint identifica cada
 uno por separado.
 
+![La cámara de «Añadir con foto» en el móvil, apuntando a tres cajas de filamento, una bobina y un bote de resina en la misma foto](/blog/media/2026-11-22-inventario-con-foto/03-camara-en.jpg "40%")
+
 Un truco: puedes hacer las fotos con el móvil en el almacén y revisarlas después
 en el ordenador. La revisión se guarda sola y la sigues en el dispositivo que
 quieras.
@@ -62,6 +64,8 @@ falta que esperes con la ventana abierta: abajo verás «Subiendo fotos de
 etiquetas · 2 de 6» y puedes seguir trabajando en otra parte de la app. Si se va
 la conexión, las fotos pendientes se suben solas cuando vuelve.
 
+![La revisión en el móvil: cada material leído con su marca y su peso, unos marcados como seguros y otros como no seguros, y abajo los botones Revisar (5) y Añadir 7](/blog/media/2026-11-22-inventario-con-foto/04-revision-movil-en.jpg "40%")
+
 ### 3. Revisa solo lo que hace falta
 
 Cuando termina, BolloPrint te enseña lo que tiene claro y lo que no. Ahora toca
@@ -78,10 +82,14 @@ Cuando termina, BolloPrint te enseña lo que tiene claro y lo que no. Ahora toca
 - **Repetida**: dos fotos de la misma etiqueta. BolloPrint te dice cuál es la
   otra y la descartas.
 
+![Revisar las fotos en el ordenador: doce materiales leídos de pocas fotos, con los filtros Todas, Seguras, Por revisar y Hechas, las unidades de cada uno y los botones Revisar (5) y Añadir 7](/blog/media/2026-11-22-inventario-con-foto/05-revisar-las-fotos-en.png)
+
 Con **Revisar** vas pasando solo por las dudosas; las seguras se quedan en la
 lista. En cada material ves lo que se ha leído de la etiqueta y cuántas unidades
 vas a sumar: «En tu inventario: 2 → 3». Si has comprado tres bobinas iguales,
 ajustas la cantidad con **+** y **−** sin hacer tres fotos.
+
+![¿Cuál de estos es?: la foto con la caja de filamento marcada en rojo, lo que se lee de la etiqueta y tres colores posibles del mismo PLA para elegir, con sus unidades](/blog/media/2026-11-22-inventario-con-foto/06-cual-de-estos-es-en.png)
 
 ¿No es el que sale? **Buscar otro** abre el catálogo de materiales. La búsqueda
 es tolerante: «PLA+ 2.0», «pla 2.0» y «PLA+2.0» encuentran lo mismo, y puedes
@@ -136,6 +144,8 @@ qué no, y te enseña lo que sale:
 
 Y tú eliges **Quitar del stock** o **No quitar del stock**.
 
+![Al crear un pedido, lo que sale del stock: una bobina de ABS naranja y un llavero, cada uno como una resta (tienes, se quitan, te quedan), una pieza que hay que imprimir porque no queda, y las opciones Quitar del stock y No quitar del stock](/blog/media/2026-11-22-inventario-con-foto/08-stock-del-pedido-en.png "80%")
+
 Si no hay suficiente, BolloPrint quita lo que hay (nunca deja el stock en
 negativo) y te dice qué falta: una pieza **hay que imprimirla** y un material
 **hay que comprarlo**. No te bloquea nada. Y si una línea sale entera del Stock,
@@ -180,6 +190,8 @@ en el Stock se da por impreso para la ocasión.
   del evento**, a su coste.
 - El cierre también te dice si **has vendido productos que no te habías
   llevado**, por ejemplo un encargo que entregarás después.
+
+![Qué te llevas en un evento cerrado: de cada pieza, cuántas te llevaste, cuántas vendiste, cuántas volvieron y cuántas no volvieron](/blog/media/2026-11-22-inventario-con-foto/09-que-te-llevas-en.png)
 
 :::info 💡 ¿Lo has impreso a propósito para el evento?
 Elige **No tocar el Stock**: lo que te lleves no se quita del inventario, y lo

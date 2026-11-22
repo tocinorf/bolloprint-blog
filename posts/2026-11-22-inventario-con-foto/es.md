@@ -69,8 +69,8 @@ la conexión, las fotos pendientes se suben solas cuando vuelve.
 ### 3. Revisa solo lo que hace falta
 
 Cuando termina, BolloPrint te enseña lo que tiene claro y lo que no. Ahora toca
-**Revisar las fotos**. Puedes revisarlas directamente en el móvil o dejarlo para
-luego y hacerlo en el ordenador. Cada foto sale con su estado:
+**Revisar las fotos** en el móvil o más tarde en tu ordenador. Cada foto sale con
+su estado:
 
 - **Seguro**: BolloPrint sabe qué material es. No tienes que hacer nada.
 - **No seguro**: ha encontrado varios candidatos y te pregunta **¿Cuál de estos

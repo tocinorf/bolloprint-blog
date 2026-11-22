@@ -90,7 +90,7 @@ lista. En cada material ves lo que se ha leído de la etiqueta y cuántas unidad
 vas a sumar: «En tu inventario: 2 → 3». Si has comprado tres bobinas iguales,
 ajustas la cantidad con **+** y **−** sin hacer tres fotos.
 
-![¿Cuál de estos es?: la foto con la caja de filamento marcada en rojo, lo que se lee de la etiqueta y tres colores posibles del mismo PLA para elegir, con sus unidades](/blog/media/2026-11-22-inventario-con-foto/06-cual-de-estos-es-en.png)
+![¿Cuál de estos es?: la foto con la caja de filamento marcada en rojo, lo que se lee de la etiqueta y tres colores posibles del mismo PLA para elegir, con sus unidades](/blog/media/2026-11-22-inventario-con-foto/06-cual-de-estos-es-en.png "70%")
 
 ¿No es el que sale? **Buscar otro** abre el catálogo de materiales. La búsqueda
 es tolerante: «PLA+ 2.0», «pla 2.0» y «PLA+2.0» encuentran lo mismo, y puedes

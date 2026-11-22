@@ -159,16 +159,12 @@ Además:
 - El stock **nunca cambia el estado del pedido**: marcarlo «Listo para enviar»
   lo decides tú, porque aún puede faltar empaquetarlo.
 
-Todos los casos, en la ayuda:
-[Lo que vendes sale del stock](/help/inventario#lo-que-vendes-sale-del-stock).
-
 ### Pedidos de Etsy y otros marketplaces
 
 Un pedido que llega solo de tu tienda no tiene a nadie a quien preguntar, así que
 entra como **stock por decidir**. La primera vez que lo abres, BolloPrint te
 pregunta qué hacer con el stock. Y si el comprador lo cancela en el marketplace,
-lo que se había quitado vuelve solo. Más en
-[Stock por decidir](/help/detalles-de-un-pedido#stock-por-decidir).
+lo que se había quitado vuelve solo.
 
 ### En el punto de venta
 

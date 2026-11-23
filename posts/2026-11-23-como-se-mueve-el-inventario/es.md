@@ -34,8 +34,8 @@ venta.
 
 ## Lo que vendes sale del stock
 
-Cuando guardas un pedido, BolloPrint revisa tu inventario para ver qué tienes y
-qué no, y te enseña lo que sale:
+Cuando guardas un pedido o aceptas un presupuesto, BolloPrint revisa tu
+inventario para ver qué tienes y qué no, y te enseña lo que sale:
 
 - Los **materiales** que vendes: bobinas, botes o suministros.
 - Las **piezas** de los productos 3D que vendes. Si un producto está formado por

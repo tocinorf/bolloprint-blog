@@ -53,8 +53,8 @@ quieras.
 
 :::info 💡 Fotos nítidas a la primera
 Si la foto sale movida, BolloPrint te lo dice al momento para que la repitas.
-Hay **linterna** para los rincones oscuros del taller y, si tu móvil enfoca mejor
-con su propia cámara, el botón **Usar la cámara del móvil** la abre y las fotos
+Hay **linterna** para los rincones oscuros del taller. Si lo prefieres, puedes
+abrir la propia aplicación de la cámara de tu móvil, echas la foto y las fotos
 van al mismo montón.
 :::
 
@@ -77,7 +77,7 @@ un estado.
 
 Con **Revisar** vas pasando solo por las dudosas; las seguras se quedan en la
 lista. En las que BolloPrint no tiene claras, eliges entre las opciones que te
-propone. Y si ninguna es la buena, con **Buscar otro** lo buscas a mano en el
+propone. Y si ninguna es la correcta, con **Buscar otro** lo buscas a mano en el
 catálogo. La búsqueda es tolerante: «PLA+ 2.0», «pla 2.0» y «PLA+2.0» encuentran
 lo mismo, y puedes escribir el color en tu idioma («verde», «naranja»…).
 

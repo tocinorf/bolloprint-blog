@@ -74,8 +74,10 @@ vendes sale del stock y, si anulas la venta, vuelve. Más en
 ## Lo que te llevas a un evento
 
 Si vas a un mercado o un evento maker, al crear un evento en **Eventos** defines
-**qué te llevas**: piezas del Stock y material del inventario. Al guardarlo, deja
-de contar en tu stock y queda guardado en el stock del evento. Lo que no tengas
+**qué te llevas**: piezas del Stock y material del inventario. Al guardarlo,
+BolloPrint te enseña lo que sale del Stock y lo que hay que imprimir, igual que
+en un pedido. Lo que te llevas deja de contar en tu stock y queda guardado en el
+stock del evento. Lo que no tengas
 en el Stock se da por impreso para la ocasión.
 
 - Lo que **vendes en el evento** con el punto de venta se descuenta de lo que te

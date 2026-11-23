@@ -52,8 +52,7 @@ se marca como **impresa**, porque ya no hay que imprimirla.
 
 Además:
 
-- Un **presupuesto** no toca el stock hasta que lo aceptas. Al aceptarlo, te
-  pregunta igual que un pedido.
+- Un **presupuesto** no toca el stock hasta que lo aceptas.
 - Si **cancelas** un pedido, vuelve al stock solo lo que había salido de él.
 - El stock **nunca cambia el estado del pedido**: marcarlo «Listo para enviar»
   lo decides tú, porque aún puede faltar empaquetarlo.

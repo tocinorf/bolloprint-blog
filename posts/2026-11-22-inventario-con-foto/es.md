@@ -119,7 +119,7 @@ bobinas. En un par de minutos tienes el inventario al día.
 
 Y a partir de ahí, tus pedidos, tu punto de venta y tus eventos lo mantienen al
 día por ti: te lo contamos en
-[así se mueve tu inventario](/blog/how-your-inventory-keeps-itself-up-to-date).
+[así se ajusta solo tu inventario](/blog/how-your-inventory-keeps-itself-up-to-date).
 
 Si te preguntas cuánto te cuesta de verdad cada pieza con ese filamento, lo
 contamos en

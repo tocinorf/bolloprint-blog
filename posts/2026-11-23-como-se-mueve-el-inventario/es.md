@@ -1,6 +1,6 @@
 ---
 slug: how-your-inventory-keeps-itself-up-to-date
-title: "Así se mueve tu inventario en BolloPrint: pedidos, punto de venta y eventos"
+title: "Stock automático: así se ajusta solo tu inventario con las ventas"
 description: Vendes una bobina, un llavero o te vas a un evento maker, y tu inventario se mantiene al día solo. Te contamos qué hace BolloPrint con tu stock en cada situación.
 date: 2026-11-23
 tags: [tutoriales]

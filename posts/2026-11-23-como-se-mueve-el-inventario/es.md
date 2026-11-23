@@ -2,7 +2,7 @@
 slug: how-your-inventory-keeps-itself-up-to-date
 title: "Stock automático: así se ajusta solo tu inventario con las ventas"
 description: Vendes una figura, una bobina de filamento o te vas a un evento maker, y tu inventario se mantiene al día solo. Te contamos qué hace BolloPrint con tu stock en cada situación.
-date: 2026-11-23
+date: 2026-11-22
 tags: [tutoriales]
 cover: 08-stock-del-pedido-en.png
 draft: true

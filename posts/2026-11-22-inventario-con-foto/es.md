@@ -5,7 +5,6 @@ description: Haz fotos a las etiquetas de tus bobinas y botes de resina y BolloP
 date: 2026-11-23
 tags: [tutoriales]
 cover: 03-camara-etiquetas-en-marco.webp
-draft: true
 ---
 
 Llegaron varios pedidos a la vez: quince bobinas de filamento, cuatro botes de

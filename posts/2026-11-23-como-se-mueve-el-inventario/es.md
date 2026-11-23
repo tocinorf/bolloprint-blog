@@ -1,7 +1,7 @@
 ---
 slug: how-your-inventory-keeps-itself-up-to-date
 title: "Stock automático: así se ajusta solo tu inventario con las ventas"
-description: Vendes una bobina, un llavero o te vas a un evento maker, y tu inventario se mantiene al día solo. Te contamos qué hace BolloPrint con tu stock en cada situación.
+description: Vendes una figura, una bobina de filamento o te vas a un evento maker, y tu inventario se mantiene al día solo. Te contamos qué hace BolloPrint con tu stock en cada situación.
 date: 2026-11-23
 tags: [tutoriales]
 cover: 08-stock-del-pedido-en.png
@@ -9,9 +9,9 @@ draft: true
 ---
 
 Tener el inventario al día está bien, pero lo que de verdad ahorra trabajo es
-que se mantenga al día solo. Vendes un llavero, cobras una bobina en un mercado,
-te llevas media estantería a un evento… y al volver no quieres pasarte la tarde
-contando qué queda.
+que se mantenga al día solo. Vendes una figura que tenías ya impresa, cobras una
+bobina de filamento en un mercado, te llevas dos cajas llenas a un evento… y al
+volver no quieres pasarte la tarde contando qué queda.
 
 En esta guía te contamos qué hace BolloPrint con tu stock en cada situación.
 
@@ -22,12 +22,12 @@ En **Inventario** BolloPrint separa dos cosas:
 - **El Stock**: las **piezas ya impresas** que tienes guardadas, listas para
   montar un producto o venderlas.
 - **El material**: tus bobinas de **Filamento**, tus botes de **Resina** y los
-  **Suministros** (cajas, imanes, argollas de llavero…). Es lo que compras,
+  **Suministros** (cajas, imanes, insertos…). Es lo que compras,
   ¡aunque también puedes venderlo!
 
-## Ahora también puedes vender tu material
+## ¡También puedes vender tu material!
 
-Además de tus productos 3D, ahora puedes añadir **filamento, resina y
+Además de tus productos 3D, puedes añadir **filamento, resina y
 suministros** a tus pedidos y presupuestos, y venderlos desde el punto de venta.
 ¿Un cliente te compra una bobina? Sale de tu inventario como cualquier otra
 venta.

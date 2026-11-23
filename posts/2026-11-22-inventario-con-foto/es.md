@@ -4,7 +4,7 @@ title: "Gestiona el inventario con la cámara de tu móvil: así se añaden fila
 description: Haz fotos a las etiquetas de tus bobinas y botes de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona, paso a paso.
 date: 2026-11-22
 tags: [tutoriales]
-cover: 03-camara-movil-en.jpg
+cover: 03-camara-etiquetas-en-marco.webp
 draft: true
 ---
 

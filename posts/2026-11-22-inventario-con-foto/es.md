@@ -1,6 +1,6 @@
 ---
 slug: filament-inventory-from-a-photo
-title: "Sube tu inventario con una foto: así se añaden bobinas y resinas en BolloPrint"
+title: "Gestiona el inventario con la cámara de tu móvil: así se añaden filamentos y resinas en BolloPrint"
 description: Haz fotos a las etiquetas de tus bobinas y botes de resina y BolloPrint los añade a tu inventario. Te contamos cómo funciona, paso a paso.
 date: 2026-11-22
 tags: [tutoriales]
@@ -23,7 +23,7 @@ En **Inventario** BolloPrint separa dos cosas:
 - **El Stock**: las **piezas ya impresas** que tienes guardadas, listas para
   montar un producto o venderlas.
 - **El material**: tus bobinas de **Filamento**, tus botes de **Resina** y los
-  **Suministros** (cajas, imanes, argollas de llavero…). Es lo que compras,
+  **Suministros** (cajas, imanes, insertos…). Es lo que compras,
   ¡aunque también puedes venderlo!
 
 «Añadir con foto» solo sirve para filamentos y resinas.
@@ -41,11 +41,11 @@ Entra en tu **Inventario**, en la pestaña **Filamento** o **Resina**, y pulsa
   galería** si ya las tienes hechas.
 
 Puedes hacer **hasta 50 fotos de una vez**: todas las bobinas que acaban de
-llegar, en una sola revisión. Y no tienes que hacerlas una a una: si en la foto
-aparecen varios filamentos o resinas y se ven bien, BolloPrint identifica cada
-uno por separado.
+llegar, en una sola revisión. Intenta que en cada foto se vea la etiqueta con la
+mayor información posible: nombre, código de barras, número de serie, marca…
+Cuanta más información, más fácil será identificarlo.
 
-![La cámara de «Añadir con foto» en el móvil, apuntando a un bote de resina, tres cajas de filamento y una bobina en la misma foto, con cuatro fotos ya hechas de 50](/blog/media/2026-11-22-inventario-con-foto/03-camara-movil-en-marco.webp "40%")
+![Dos fotos con la cámara de «Añadir con foto» en el móvil: la etiqueta de una caja de filamento Bambu Lab PLA Basic Gold y la de un bote de resina Anycubic ABS-Like Clear de 1 kg, cada una centrada en el encuadre](/blog/media/2026-11-22-inventario-con-foto/03-camara-etiquetas-en-marco.webp "80%")
 
 Un truco: puedes hacer las fotos con el móvil en el almacén y revisarlas después
 en el ordenador. La revisión se guarda sola y la sigues en el dispositivo que
@@ -71,31 +71,21 @@ la conexión, las fotos pendientes se suben solas cuando vuelve.
 
 Cuando termina, BolloPrint te enseña lo que tiene claro y lo que no. Ahora toca
 **Revisar las fotos** en el móvil o más tarde en tu ordenador. Cada foto sale con
-su estado:
+un estado.
 
-- **Seguro**: BolloPrint sabe qué material es. No tienes que hacer nada.
-- **No seguro**: ha encontrado varios candidatos y te pregunta **¿Cuál de estos
-  es?** Por ejemplo, cuando la misma resina se vende en botes de 1 kilo o de 2
-  kilos y en la etiqueta no se ve el peso.
-- **Falta la marca**: se lee el material, pero no el fabricante. Lo eliges de la
-  lista.
-- **Foto sin datos**: no se lee lo suficiente. Puedes **Cambiar foto** o buscar el
-  material con lo que se haya leído.
-- **Repetida**: dos fotos de la misma etiqueta. BolloPrint te dice cuál es la
-  otra y la descartas.
-
-![Revisar las fotos en el ordenador: doce materiales leídos de pocas fotos, con los filtros Todas, Seguras, Por revisar y Hechas, las unidades de cada uno y los botones Revisar (5) y Añadir 7](/blog/media/2026-11-22-inventario-con-foto/05-revisar-las-fotos-en.png)
+![Revisar las fotos en el ordenador: once materiales leídos de las fotos, con los filtros Todas, Seguras, Por revisar y Hechas, uno pedido al catálogo con su número de caso, las unidades de cada uno y los botones Revisar (5) y Añadir 5](/blog/media/2026-11-22-inventario-con-foto/05-revisar-las-fotos-caso-en.png)
 
 Con **Revisar** vas pasando solo por las dudosas; las seguras se quedan en la
-lista. En cada material ves lo que se ha leído de la etiqueta y cuántas unidades
-vas a sumar: «En tu inventario: 2 → 3». Si has comprado tres bobinas iguales,
-ajustas la cantidad con **+** y **−** sin hacer tres fotos.
+lista. En las que BolloPrint no tiene claras, eliges entre las opciones que te
+propone. Y si ninguna es la buena, con **Buscar otro** lo buscas a mano en el
+catálogo. La búsqueda es tolerante: «PLA+ 2.0», «pla 2.0» y «PLA+2.0» encuentran
+lo mismo, y puedes escribir el color en tu idioma («verde», «naranja»…).
 
 ![¿Cuál de estos es?: la foto con la caja de filamento marcada en rojo, lo que se lee de la etiqueta y tres colores posibles del mismo PLA para elegir, con sus unidades](/blog/media/2026-11-22-inventario-con-foto/06-cual-de-estos-es-en.png "70%")
 
-¿No es el que sale? **Buscar otro** abre el catálogo de materiales. La búsqueda
-es tolerante: «PLA+ 2.0», «pla 2.0» y «PLA+2.0» encuentran lo mismo, y puedes
-escribir el color en tu idioma («verde», «naranja»…).
+En cada material ves lo que se ha leído de la etiqueta y cuántas unidades vas a
+sumar. Si has comprado tres bobinas iguales, ajustas la cantidad con **+** y
+**−** sin necesidad de hacer tres fotos.
 
 ### 4. Añade todo de una vez
 

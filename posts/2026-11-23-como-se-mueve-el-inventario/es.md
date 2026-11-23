@@ -119,6 +119,8 @@ las etiquetas: te lo contamos en
 partir de ahí, tus pedidos, tu punto de venta y tus eventos lo mantienen al día
 por ti.
 
+![Bollo, la mascota de BolloPrint, con sus gafas de taller, entre cajas, bobinas de filamento, botes de resina y estanterías con piezas impresas](/blog/media/2026-11-23-como-se-mueve-el-inventario/11-bollo.jpg "60%")
+
 ## Documentación relacionada
 
 - [Inventario](/help/inventario): filamento, resina, suministros y Stock
